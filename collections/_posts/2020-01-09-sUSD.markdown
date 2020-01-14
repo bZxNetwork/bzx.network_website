@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Synthetix’s sUSD listed on Fulcrum and Torque"
-date:   2020-01-09 10:12:46 -0700
+date:   2020-01-14 01:12:46 -0700
 cover: /images/blog/susd.png
 author: Sawinyh
 metadescription: "sUSD available for lending on Fulcrum and borrowing on Torque"
@@ -15,20 +15,17 @@ Our poll back in November 2019 showed overwhelming support for sUSD to become av
 
 ## What is sUSD
 
-sUSD is a token that allows the holder to collect a share of the trading fees generated from trading Synths on the [Synthetix Exchange](https://synthetix.exchange/).
+sUSD is the synthetic USD stablecoin enabled by the Synthetix Protocol, for which it is also the base currency. sUSD can be used for trading on [Synthetix.Exchange](https://synthetix.exchange), the protocol’s dApp for decentralized derivatives trading.
 
-Synthetix is a platform for creating synthetic assets that relies on two types of tokens to operate: the native SNX token and synthetic assets referred to as Synths.
 
 ![](/images/blog/susd/image3.png)
 
+### How Synthetix Works
 
-SNX holders stake their tokens to create Synths, which can then be traded on the Synthetix Exchange. Trading Synths on the Synthetix Exchange comes with a 0.30% or 0.50% fee that gets deposited to a pool and distributed to SNX holders.
+Synthetix is a protocol for issuing and trading synthetic assets that relies on two types of tokens to operate: the native SNX token, which serves as collateral, and synthetic assets, referred to as Synths.
 
-Staking SNX offers two forms of staking rewards: from trading on the Synthetix Exchange and inflation of the SNX token.
+SNX holders stake their tokens to create Synths, which can then be traded on Synthetix.Exchange. Trading Synths on Synthetix.Exchange comes with a 0.30% -0.50% fee that gets deposited to a pool and distributed to SNX holders. The protocol uses a peer-to-contract trading mechanism which enables ‘infinite liquidity’ and no slippage, providing a seamless experience for traders.
 
-To earn rewards from trading fees, users must stake SNX tokens and mint sUSD. Users can then claim SNX as an inflationary reward and sUSD for trading fees based on the amount of sUSD the user has minted.
-
-sUSD and SNX rewards can be claimed weekly for up to two consecutive weeks from the “Fees” screen in [Mintr](https://mintr.synthetix.io/) by users with a Collateralisation Ratio above 750%.
 
 ## Lend sUSD with Fulcrum
 
@@ -46,4 +43,4 @@ Individuals looking to borrow sUSD can now do so using Torque, our decentralized
 
 In addition to lending and borrowing, sUSD will soon be available for margin trading on the Fulcrum platform.
 
-To learn more about sUSD and what you can do with it, please check out our article: [“Now that I've minted sUSD, what can I do with it?”](https://help.synthetix.io/hc/en-us/articles/360019943674-Now-that-I-ve-minted-sUSD-what-can-I-do-with-it-)
+To learn more about Synthetix, check out their [litepaper](https://www.synthetix.io/uploads/synthetix_litepaper.pdf) or join their community on [Discord](https://discordapp.com/invite/AEdUHzt).
