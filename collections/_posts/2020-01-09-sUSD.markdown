@@ -1,0 +1,46 @@
+---
+layout: post
+title:  "Synthetix’s sUSD listed on Fulcrum and Torque"
+date:   2020-01-14 01:12:46 -0700
+cover: /images/blog/susd.png
+author: Sawinyh
+metadescription: "sUSD available for lending on Fulcrum and borrowing on Torque"
+intro: "sUSD available for lending on Fulcrum and borrowing on Torque"
+---
+The community spoke and bZx has delivered!
+
+Our poll back in November 2019 showed overwhelming support for sUSD to become available for lending on [Fulcrum](https://fulcrum.trade/) and borrowing on [Torque](https://torque.loans/).
+
+![](/images/blog/susd/image1.png)
+
+## What is sUSD
+
+sUSD is the synthetic USD stablecoin enabled by the Synthetix Protocol, for which it is also the base currency. sUSD can be used for trading on [Synthetix.Exchange](https://synthetix.exchange), the protocol’s dApp for decentralized derivatives trading.
+
+
+![](/images/blog/susd/image3.png)
+
+### How Synthetix Works
+
+Synthetix is a protocol for issuing and trading synthetic assets that relies on two types of tokens to operate: the native SNX token, which serves as collateral, and synthetic assets, referred to as Synths.
+
+SNX holders stake their tokens to create Synths, which can then be traded on Synthetix.Exchange. Trading Synths on Synthetix.Exchange comes with a 0.30% -0.50% fee that gets deposited to a pool and distributed to SNX holders. The protocol uses a peer-to-contract trading mechanism which enables ‘infinite liquidity’ and no slippage, providing a seamless experience for traders.
+
+
+## Lend sUSD with Fulcrum
+
+Fulcrum users will now notice sUSD among the assets available for lending on the platform.
+
+![](/images/blog/susd/image4.png)
+
+Fulcrum is bZx Network’s non-custodial margin trading platform. The dApp allows users to lend cryptocurrency for interest and trade both short and leveraged positions of digital assets up to 4x with no open fees.
+
+## Borrow sUSD with Torque
+
+Individuals looking to borrow sUSD can now do so using Torque, our decentralized borrowing platform offering fixed-rate, indefinite-term loans.
+
+![](/images/blog/susd/image2.png)
+
+In addition to lending and borrowing, sUSD will soon be available for margin trading on the Fulcrum platform.
+
+To learn more about Synthetix, check out their [litepaper](https://www.synthetix.io/uploads/synthetix_litepaper.pdf) or join their community on [Discord](https://discordapp.com/invite/AEdUHzt).
