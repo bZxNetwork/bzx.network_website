@@ -2,7 +2,7 @@
 layout: post
 title:  "Introducing the bZxDAO"
 date:   2020-01-16 01:12:46 -0700
-cover: /images/blog/bzxDAO-og.png
+cover: /images/blog/bZxDAO.png
 author: Kistner
 metadescription: "We believe in a bold vision of radical decentralization that allows a project to transform into an unstoppable and self-perpetuating  set of economic incentive structures  outside the jurisdiction of any central party."
 intro: "Over the last two and a half years of building bZx, we have seen numerous attempts at implementing governance. "
