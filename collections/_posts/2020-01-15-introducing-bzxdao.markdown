@@ -112,9 +112,9 @@ The executive will rationally accept a bribe if:
 
 $$B_V> \Delta T_V+ \Delta C_V$$
 
-B_V is the value of the bribe 
-\Delta T_V is the resulting change in value of the tokens held by the executive 
-\Delta C_V is the resulting change in value of the discounted future cash flow derived from the protocol
+$B_V$ is the value of the bribe 
+$\Delta T_V$ is the resulting change in value of the tokens held by the executive 
+$\Delta C_V$ is the resulting change in value of the discounted future cash flow derived from the protocol
 
 An executive will be more resistant to accepting a bribe from the legislature the larger their existing stake in the token and the larger their stake in deriving revenues from the protocol.
 
@@ -122,7 +122,7 @@ The value of BZRX tokens play an important role in the security of the protocol.
 
 $$TVL_{t+3} > \frac{2}{3}T_V$$
 
-TVL_{t+3} is the Total Value Locked 3 days after a malicious proposal passes
-T_V is the value of all BZRX tokens 
+$TVL_{t+3}$ is the Total Value Locked 3 days after a malicious proposal passes
+$T_V$ is the value of all BZRX tokens 
 
 If an attacker derives an income stream from the protocol independent of the token, the discounted value of these future cash flows should be added to the value of the tokens staked when calculating the cost of an attack. This means that participation by legislators or executives with a business built on the protocol increases the security of the protocol governance by reducing their incentive to cooperate with an attack.  
