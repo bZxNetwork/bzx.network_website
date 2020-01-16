@@ -55,7 +55,7 @@ Lastly, a major risk of having a few large stakeholders along with linear voting
 Representative democracy is often deployed to counter a lack of voter enthusiasm and expertise. If representatives are incentivized, and they are able to vote on their own compensation, then this opens the door to cartels and rent-seeking. There are two possible equilibria for a set of representatives: the Nash equilibrium and the Cournot equilibrium. Under the Nash Equilibrium, each potential representative competes with each other, leading to a situation where no rent is extracted and the representative offers their service at the marginal cost of doing so. The alternative is the Cournot equilibrium, where representatives cooperate with each other to extract rent. Since cooperation is the most profitable long term strategy for representatives to pursue, this equilibrium can arise spontaneously without explicit coordination during infinitely iterated games.
 
 ![](/images/blog/dao-image2.png)
-_[Credit to Vitalik Buterin](https://vitalik.ca/general/2018/03/28/plutocracy.html)_
+<p align=center>_[Credit to Vitalik Buterin](https://vitalik.ca/general/2018/03/28/plutocracy.html)_</p>
 
 # The Structure of bZxDAO
 
