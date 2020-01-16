@@ -11,7 +11,7 @@ intro: "Over the last two and a half years of building bZx, we have seen numerou
 
 Over the last two and a half years of building bZx, we have seen numerous attempts at implementing governance. Even more commonly, we have seen projects decline to do so. Governance is not just regarded as hard, it is regarded as potentially impossible. For any protocol with substantial locked value, the stakes are high. If governance is not implemented properly, all value within the protocol could be siphoned by an attacker.
 
-We believe in a bold vision of radical decentralization that allows a project to transform into an unstoppable and self-perpetuating  set of economic incentive structures  outside the jurisdiction of any central party. This article will explore what that looks like and what that means.
+We believe in a bold vision of radical decentralization that allows a project to transform into an unstoppable and self-perpetuating  set of economic incentive structures outside the jurisdiction of any central party. This article will explore what that looks like and what that means.
 
 ## Properties of Decentralized Governance
 
