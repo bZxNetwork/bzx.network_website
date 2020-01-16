@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Introducing the bZxDAO"
-date:   2020-01-15 01:12:46 -0700
-cover: /images/blog/bZxDAO.png
+date:   2020-01-16 01:12:46 -0700
+cover: /images/blog/bzxDAO-og.png
 author: Kistner
 metadescription: "We believe in a bold vision of radical decentralization that allows a project to transform into an unstoppable and self-perpetuating  set of economic incentive structures  outside the jurisdiction of any central party."
 intro: "Over the last two and a half years of building bZx, we have seen numerous attempts at implementing governance. "
@@ -124,7 +124,7 @@ The value of BZRX tokens play an important role in the security of the protocol.
 $$TVL_{t+3} > \frac{2}{3}T_V$$
 
 $$TVL_{t+3}$$ is the Total Value Locked 3 days after a malicious proposal passes\
-$$T_V$$ is the value of all BZRX tokens 
+$$T_V$$ is the value of all BZRX tokens
 
 
 If an attacker derives an income stream from the protocol independent of the token, the discounted value of these future cash flows should be added to the value of the tokens staked when calculating the cost of an attack. This means that participation by legislators or executives with a business built on the protocol increases the security of the protocol governance by reducing their incentive to cooperate with an attack.  
