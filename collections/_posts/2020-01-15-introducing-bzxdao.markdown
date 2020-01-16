@@ -54,7 +54,7 @@ Lastly, a major risk of having a few large stakeholders along with linear voting
 
 Representative democracy is often deployed to counter a lack of voter enthusiasm and expertise. If representatives are incentivized, and they are able to vote on their own compensation, then this opens the door to cartels and rent-seeking. There are two possible equilibria for a set of representatives: the Nash equilibrium and the Cournot equilibrium. Under the Nash Equilibrium, each potential representative competes with each other, leading to a situation where no rent is extracted and the representative offers their service at the marginal cost of doing so. The alternative is the Cournot equilibrium, where representatives cooperate with each other to extract rent. Since cooperation is the most profitable long term strategy for representatives to pursue, this equilibrium can arise spontaneously without explicit coordination during infinitely iterated games.
 
-![](/images/blog/dao_graph.png)
+![](/images/blog/dao-image2.png)
 <p align=center><a href="https://vitalik.ca/general/2018/03/28/plutocracy.html">Credit to Vitalik Buterin</a></p>
 
 # The Structure of bZxDAO
@@ -62,8 +62,6 @@ Representative democracy is often deployed to counter a lack of voter enthusiasm
 ## The Trias Politicas
 
 There is a rich history of experiments in governance going back hundreds of years in the form of liberal democracy. These experiments show that the most enduring and stable governance structures have both checks and balances. Instead of reinventing the wheel, we have reinterpreted it in the context of the blockchain. As with most systems of governance in the real world, the DAO has three main branches: the legislative, the executive, and the judicial.
-
-![](/images/blog/bzxDAO-3.png)
 
 **The Legislative** is a variant of liquid democracy with representatives elected by token holders staking BZRX. The three representatives with the highest number of tokens staked to their address become the legislature. At any point, token holders can change the representative(s) to whom their tokens are staked, but they cannot directly vote on proposals. Proposals passed by this branch must pass by a majority vote.
 
