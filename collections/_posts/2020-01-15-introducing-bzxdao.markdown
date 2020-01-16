@@ -7,7 +7,7 @@ author: Kistner
 metadescription: "We believe in a bold vision of radical decentralization that allows a project to transform into an unstoppable and self-perpetuating  set of economic incentive structures  outside the jurisdiction of any central party."
 intro: "Over the last two and a half years of building bZx, we have seen numerous attempts at implementing governance. "
 ---
->Thanks to Peter Zeitz of 0x for providing valuable feedback, Tom Bean for scoping the technical feasibility of the proposal, & Alessio Delmonti of Dexwalllet for proposing extended staking periods to guard against attackers voting with borrowed tokens.
+*Thanks to Peter Zeitz of 0x for providing valuable feedback, Tom Bean for scoping the technical feasibility of the proposal, & Alessio Delmonti of Dexwalllet for proposing extended staking periods to guard against attackers voting with borrowed tokens.*
 
 Over the last two and a half years of building bZx, we have seen numerous attempts at implementing governance. Even more commonly, we have seen projects decline to do so. Governance is not just regarded as hard, it is regarded as potentially impossible. For any protocol with substantial locked value, the stakes are high. If governance is not implemented properly, all value within the protocol could be siphoned by an attacker.
 
