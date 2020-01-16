@@ -102,7 +102,7 @@ It is not possible to stop lending protocols from listing the BZRX token, nor is
 
 ### Plutocracy
 
-The issue of plutocracy is effectively addressed by quadratic voting. As the tokens become unlocked and voting is weighted linearly, it becomes possible for a few large parties to collude with 66.67% of the tokens to loot the DAO. There are two safeguards against this. First, the executive branch can simply veto any malicious proposal to loot the DAO even if someone comes to own over two-thirds of the tokens. Second, if the executive branch collaborates with the attackers, any changes passed by both branches will be required to pass through a two day time lock, allowing protocol users to evacuate their funds. Undertaking such an action will have the effect of hurting the BZRX token price, serving as a deterrent to seizing funds.
+As the tokens become unlocked and voting is weighted linearly, it becomes possible for a few large parties to collude with 66.67% of the tokens to loot the DAO. There are two safeguards against this. First, the executive branch can simply veto any malicious proposal to loot the DAO even if someone comes to own over two-thirds of the tokens. Second, if the executive branch collaborates with the attackers, any changes passed by both branches will be required to pass through a two day time lock, allowing protocol users to evacuate their funds. Undertaking such an action will have the effect of hurting the BZRX token price, serving as a deterrent to seizing funds.
 
 ### Cartels and Bribes
 
