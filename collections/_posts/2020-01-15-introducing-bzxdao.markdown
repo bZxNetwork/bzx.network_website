@@ -110,7 +110,7 @@ The role of the executive is to disrupt rent-seeking cartels from establishing a
 
 The executive will rationally accept a bribe if:
 
-![](/images/blog/bribe-forl2.png)
+$$B_V>\DeltaT_V+\DeltaC_V$$
 
 An executive will be more resistant to accepting a bribe from the legislature the larger their existing stake in the token and the larger their stake in deriving revenues from the protocol.
 
