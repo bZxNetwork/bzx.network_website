@@ -110,12 +110,12 @@ The role of the executive is to disrupt rent-seeking cartels from establishing a
 
 The executive will rationally accept a bribe if:
 
-$$B_V>\DeltaT_V+\DeltaC_V$$
+$$B_V> \Delta T_V+ \Delta C_V$$
 
 An executive will be more resistant to accepting a bribe from the legislature the larger their existing stake in the token and the larger their stake in deriving revenues from the protocol.
 
 The value of BZRX tokens play an important role in the security of the protocol. It is important that DAO participants are forced to maintain exposure to the price action of the tokens after each vote. After every vote ratified by both the legislature and the executive, the staking period of every participant is extended by 24 hours. The system is secure if the value of the tokens held by all attackers exceeds the value held by the protocol. Since two thirds of the tokens are required to pass a malicious proposal, this means that the system is secure against a rogue executive so long as:
 
-![](/images/blog/bribe-forl3.png)
+$$TVL_{t+3} > \frac{2}{3}T_V$$
 
 If an attacker derives an income stream from the protocol independent of the token, the discounted value of these future cash flows should be added to the value of the tokens staked when calculating the cost of an attack. This means that participation by legislators or executives with a business built on the protocol increases the security of the protocol governance by reducing their incentive to cooperate with an attack.  
