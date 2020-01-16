@@ -63,6 +63,8 @@ Representative democracy is often deployed to counter a lack of voter enthusiasm
 
 There is a rich history of experiments in governance going back hundreds of years in the form of liberal democracy. These experiments show that the most enduring and stable governance structures have both checks and balances. Instead of reinventing the wheel, we have reinterpreted it in the context of the blockchain. As with most systems of governance in the real world, the DAO has three main branches: the legislative, the executive, and the judicial.
 
+![](/images/blog/bzxDAO-3.png)
+
 **The Legislative** is a variant of liquid democracy with representatives elected by token holders staking BZRX. The three representatives with the highest number of tokens staked to their address become the legislature. At any point, token holders can change the representative(s) to whom their tokens are staked, but they cannot directly vote on proposals. Proposals passed by this branch must pass by a majority vote.
 
 The legislative branch approves upgrades to the protocol and sets the critical parameters:
