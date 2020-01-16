@@ -110,7 +110,7 @@ The role of the executive is to disrupt rent-seeking cartels from establishing a
 
 The executive will rationally accept a bribe if:
 
-$B_V> \Delta T_V+ \Delta C_V$$
+$$B_V> \Delta T_V+ \Delta C_V$$
 
 $$B_V$$ is the value of the bribe\
 $$\Delta T_V$$ is the resulting change in value of the tokens held by the executive\
