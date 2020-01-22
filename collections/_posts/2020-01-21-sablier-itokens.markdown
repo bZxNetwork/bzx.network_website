@@ -21,7 +21,7 @@ Sablier bills itself as “The protocol for real-time finance on the Ethereum bl
 
 ![](/images/blog/stream-screen-capture.b287ed09.png)
 
-Developed by Paul Berg and Razvan Apostu, the dApp enables payments to be streamed out over a given period of time.
+Developed by Paul Berg and Razvan Apostu, the dApp enables payments to be streamed out over a given period of time. Think of how you can stream movies on Netflix - it's the same here, but you can stream money.
 
 To stream a payment, the user selects the token to stream, sets the number of tokens to stream, and then designates a recipient and how long it should take the funds to stream.
 
