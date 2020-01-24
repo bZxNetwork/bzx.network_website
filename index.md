@@ -249,8 +249,9 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
         <div class="d-flex j-content-sb j-md-content-sa j-sm-content-center j-xs-content-center f-wrap px-50 px-xs-40">
             <div class="mw-px-280 mb-xs-40">
                 {% include svg/minimal-risk.svg %}
-                <h3 class="fs-24 fs-sm-20 lh-160 mb-15">Minimal Risk</h3>
-                <p class="fs-14 fs-sm-10 lh-160">Whether you’re a lender or borrower, you stay in control of your keys. Never worry about exchanges getting hacked or stealing your funds. bZx smart contracts  passed a <a class="color-tertiary" href="https://github.com/mattdf/audits/blob/master/bZx/bzx-audit.pdf">successful audit</a> by ZK Labs.</p>
+                <h3 class="fs-24 fs-sm-20 lh-160 mb-15">Minimized Risk</h3>
+                <p class="fs-14 fs-sm-10 lh-160">Whether you’re a lender or borrower, you stay in control of your keys. Never worry about opaque centralized exchanges getting hacked or stealing your funds. You can read our audit by ZK Labs <a class="color-tertiary" href="https://github.com/mattdf/audits/blob/master/bZx/bzx-audit.pdf">here.</a> </p>
+
             </div>
             <div class="mw-px-280 mb-xs-40">
                 {% include svg/passive-income.svg %}
