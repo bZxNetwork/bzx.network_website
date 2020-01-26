@@ -51,7 +51,7 @@ Website: [torque.loans](https://torque.loans/)
 
 ## Getting In Touch
 
-If you have any questions, please [visit us on Telegram](https://t.me/b0xNet) and feel free to send a private message to  Tom Bean (@tcb101) with any code-related inquiries.
+If you have any questions, please [visit us on Telegram](https://t.me/b0xNet) and feel free to send a private message to  Tom Bean (@TOMbZx) with any code-related inquiries.
 
 Hackers interested in learning more about Fulcrum, Torque, and the bZx Protocol can refer to the following resources:
 
