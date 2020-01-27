@@ -19,11 +19,11 @@ iTokens are tokenized loans representing shares in a decentralized lending pool.
 
 ![](/images/blog/IMG_6693.jpg)
 
-Launched on January 23, 2020, DeFi Exchange allows users to onboard to DeFi with tools like Eudoo wire transfer and then buy, sell, and interact with various DeFi products.
+Launched on January 23, 2020, DeFi Exchange allows users to onboard to DeFi with tools like Eidoo wire transfer and then buy, sell, and interact with various DeFi products.
 
 As Eidoo’s VP of Engineering Emiliano Bonassi explains:
 
-> “We designed the DeFi Exchange to segregate and highlight all the DeFi platforms; we aim to be the DeFi gateway.”
+> “We designed the DeFi Exchange to gather and highlight all the DeFi platforms; we aim to be the DeFi gateway.”
 
 In addition to launching iTokens, Eidoo plans to add support for pTokens, Link, ETH, REP, BAT, KNC, and sUSD.
 
