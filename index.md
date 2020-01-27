@@ -443,71 +443,26 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
 <section class="text-center pt-55 pt-xs-30 overflow-x" id="history-section">
     <div class="container container-xl pb-xs-55">
     <h2 id="history" class="fs-32 fs-sm-24 lh-140 fw-700 text-center mb-50 mb-xs-40 color-primary">History</h2>
-        <div id="2019" class="tabcontent active">
-          <div class="container-tabs d-flex j-content-sb">
-              <div class="item-tabs mb-60 mb-xs-50">
-                  <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">June, 2019</h4>
-                  <p class="fs-14 fs-sm-11 lh-160 color-primary mb-xs-15">Fulcrum Launches With Over $750,000 in Liquidity</p>
-              </div>
-              <div class="item-tabs mb-60 mb-xs-50">
-                  <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">August, 2019</h4>
-                  <p class="fs-14 fs-sm-11 lh-160 color-primary mb-xs-15">Fulcrum jumps up to the #3 biggest dApp on Kyber</p>
-              </div>
-              <div class="item-tabs mb-60 mb-xs-50">
-                  <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">September, 2019</h4>
-                  <p class="fs-14 fs-sm-11 lh-160 color-primary mb-xs-15">Over 8000 ETH locked in bZx protocol</p>
-              </div>
-          </div>
-          <div class="container-tabs d-flex j-content-center">
-              <div class="item-tabs mb-90 mb-xs-50 px-25">
-                  <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">October, 2019</h4>
-                  <p class="fs-14 fs-sm-11 lh-160 color-primary">bZx Team hosted DeFi Drinks event during Devcon 5 at Osaka, JP</p>
-              </div>
-              <div class="item-tabs mb-90 mb-xs-50 px-25">
-                  <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">October, 2019</h4>
-                  <p class="fs-14 fs-sm-11 lh-160 color-primary">Torque Is Live: The Most Powerful Decentralized Borrowing Platform on Ethereum</p>
-              </div>
-          </div>
-        </div>
-        <div id="2018" class="tabcontent">
-            <div class="container-tabs d-flex j-content-sb">
-                <div class="item-tabs mb-60 mb-xs-50">
-                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">Late jan-early feb, 2018</h4>
-                    <p class="fs-14 fs-sm-11 lh-160 color-primary mb-xs-15">bZx sponsors ETHDenver, attracting initial attention.</p>
+        {% for year in site.data.history %}
+            <div id="{{ year.year }}" class="tabcontent {%if site.data.history.last.year == year.year%} active {%endif%}">
+                <div class="container-tabs d-flex j-content-sb">
+                    {% for event in year.events.firstLevel %}
+                    <div class="item-tabs mb-60 mb-xs-50">
+                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">{{event.date}}</h4>
+                    <p class="fs-14 fs-sm-11 lh-160 color-primary mb-xs-15">{{event.description}}</p>
+                    </div>
+                    {% endfor %}
                 </div>
-                <div class="item-tabs mb-60 mb-xs-50">
-                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">Feb 11, 2018</h4>
-                    <p class="fs-14 fs-sm-11 lh-160 color-primary mb-xs-15">bZx officially releases the whitepaper after five months of concurrent coding development. bZx officially announces. “Welcome to bZx” published on Medium.</p>
-                </div>
-                <div class="item-tabs mb-60 mb-xs-50">
-                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">April 20, 2018</h4>
-                    <p class="fs-14 fs-sm-11 lh-160 color-primary mb-xs-15">bZx protocol debuts its fully functional smart contracts onto the Ropsten Testnet.</p>
+                <div class="container-tabs d-flex j-content-center">
+                    {% for event in year.events.secondLevel %}
+                    <div class="item-tabs mb-90 mb-xs-50 px-25">
+                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">{{event.date}}</h4>
+                    <p class="fs-14 fs-sm-11 lh-160 color-primary">{{event.description}}</p>
+                    </div>
+                    {% endfor %}
                 </div>
             </div>
-            <div class="container-tabs d-flex j-content-center">
-                <div class="item-tabs mb-90 mb-xs-50 px-25">
-                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">April 24, 2018</h4>
-                    <p class="fs-14 fs-sm-11 lh-160 color-primary">bZx portal and bZx.js library initial release.</p>
-                </div>
-                <div class="item-tabs mb-90 mb-xs-50 px-25">
-                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">May 11, 2018</h4>
-                    <p class="fs-14 fs-sm-11 lh-160 color-primary">Security audits begin on the bZx protocol contracts.</p>
-                </div>
-            </div>
-        </div>
-        <div id="2017" class="tabcontent">
-            <div class="container-tabs d-flex j-content-sb"></div>
-            <div class="container-tabs d-flex j-content-center">
-                <div class="item-tabs mb-90 mb-xs-50 px-25">
-                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">August 5, 2017</h4>
-                    <p class="fs- fs-sm-11 lh-160 color-primary mb-xs-15">Tom Bean and Kyle J Kistner conceive bZx after several months of brainstorming and exploratory efforts.</p>
-                </div>
-                <div class="item-tabs mb-90 mb-xs-50 px-25">
-                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">September 29, 2017</h4>
-                    <p class="fs-14 fs-sm-11 lh-160 color-primary mb-xs-15">First Github commit in the protocol contracts code repository.</p>
-                </div>
-            </div>
-        </div>
+        {% endfor %}
         <div class="mb-r-25 hidden-xs">
             {% include svg/basket1.svg  %}
             {% include svg/basket2.svg  %}
