@@ -1,10 +1,11 @@
-<svg width="252" height="66" viewBox="0 0 99 99" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="49.5" cy="49.5" r="49.5" fill="url(#paint0_linear)"/>
-<path d="M64.4843 25.3804L53.2457 43.593H67.4318L35.9356 73.7468L48.8708 52.7384H34.9356L51.8204 25.3824" fill="white"/>
-<defs>
-<linearGradient id="paint0_linear" x1="49.5" y1="0" x2="49.5" y2="99" gradientUnits="userSpaceOnUse">
-<stop offset="0.234377" stop-color="#6615DC"/>
-<stop offset="1" stop-color="#F9334B"/>
-</linearGradient>
-</defs>
+<svg width="252" height="66" viewBox="0 0 99 99" fill="none" 
+    xmlns="http://www.w3.org/2000/svg">
+    <circle cx="49.5" cy="49.5" r="49.5" fill="url(#defizap-gradient)"/>
+    <path d="M64.4843 25.3804L53.2457 43.593H67.4318L35.9356 73.7468L48.8708 52.7384H34.9356L51.8204 25.3824" fill="white"/>
+    <defs>
+        <linearGradient id="defizap-gradient" x1="49.5" y1="0" x2="49.5" y2="99" gradientUnits="userSpaceOnUse">
+            <stop offset="0.234377" stop-color="#6615DC"/>
+            <stop offset="1" stop-color="#F9334B"/>
+        </linearGradient>
+    </defs>
 </svg>
