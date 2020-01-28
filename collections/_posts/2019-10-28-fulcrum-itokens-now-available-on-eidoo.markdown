@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "iTokens go mobile on Eidoo’s DeFi Exchange"
+title:  "iTokens Go Mobile On Eidoo’s DeFi Exchange"
 date:   2020-01-27 01:12:46 -0700
 cover: /images/blog/1_ClfGfUOcNULRf1pWw0E8Ig.png
 author: Sawinyh
