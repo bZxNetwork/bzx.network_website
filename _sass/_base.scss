@@ -132,9 +132,36 @@ a {
     height: auto;
   }
 }
-
+.baskets{
+  position: relative;
+  span.basket{
+    width: 54px;
+    
+    transform: translate(-50%, 0);
+    &:nth-child(5n-4){
+      position: absolute;
+      left: 0px;
+    }
+    &:nth-child(5n-3){
+      position: absolute;
+      left: 50px;
+    }
+    &:nth-child(5n-2){
+      position: absolute;
+      left: 100px;
+    }
+    &:nth-child(5n-1){
+      position: absolute;
+      left: 150px;
+    }
+    &:nth-child(5n){
+      position: absolute;
+      left: 200px;
+    }
+  }
+}
 .basket-right {
-  transform: matrix(1, 0, 0, 1, 1400, -10);
+  transform: matrix(1, 0, 0, 1, 10000, -10);
 }
 .test-ani {
   position: absolute;

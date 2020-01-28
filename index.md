@@ -463,19 +463,20 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
                 </div>
             </div>
         {% endfor %}
-        <div class="mb-r-25 hidden-xs">
-            {% include svg/basket1.svg  %}
-            {% include svg/basket2.svg  %}
-            {% include svg/basket3.svg  %}
-            {% include svg/basket4.svg  %}
-            {% include svg/basket5.svg  %}
-            {% include svg/basket6.svg  %}
-            {% include svg/basket7.svg  %}
-            {% include svg/basket8.svg  %}
-            {% include svg/basket9.svg  %}
-            {% include svg/basket10.svg %}
-            {% include svg/basket11.svg %}
-            {% include svg/basket12.svg %}
+        <div class="mb-r-25 hidden-xs baskets">
+            {% assign index = 0%}
+        {% for year in site.data.history %}
+        {% assign yearEvents = year.events.firstLevel | concat: year.events.secondLevel %}
+
+            {% for event in yearEvents %}
+            {% assign index = index | plus: 1 %}
+
+                <span class="basket basket-{{index}} basket-{{year.year}}">
+                    {% include svg/basket1.svg  %}
+                </span>
+            {% endfor %}
+
+        {% endfor %}
         </div>
     </div>
     <div>
@@ -488,9 +489,9 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
     </div>
     <div class="tab">
         <div class="buttons-tabs">
-            <button class="tablinks active" data-year="2019" id="button2019">2019</button>
-            <button class="tablinks" data-year="2018"  id="button2018">2018</button>
-            <button class="tablinks" data-year="2017" id="button2017">2017</button>
+                {% for year in site.data.history %}
+            <button class="tablinks {%if site.data.history.last.year == year.year%} active {%endif%}" data-year="{{year.year}}" id="button{{year.year}}">{{year.year}}</button>
+        {% endfor %}
         </div>
     </div>
 </section>

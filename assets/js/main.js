@@ -64,18 +64,22 @@ $(document).ready(function () {
     })
 
     $(".buttons-tabs .tablinks").on("click", function (e) {
+
       var year = $(e.currentTarget).data("year");
       var i, tabcontent, tablinks;
       tabcontent = document.getElementsByClassName("tabcontent");
       for (i = 0; i < tabcontent.length; i++) {
         tabcontent[i].style.display = "none";
+        tabcontent[i].className = tabcontent[i].className.replace(" active", "");
       }
       tablinks = document.getElementsByClassName("tablinks");
       for (i = 0; i < tablinks.length; i++) {
         tablinks[i].className = tablinks[i].className.replace(" active", "");
       }
       document.getElementById(year).style.display = "block";
+      document.getElementById(year).className += " active";
       e.currentTarget.className += " active";
+      getHistoryItemsOffset();
 
     });
   })
