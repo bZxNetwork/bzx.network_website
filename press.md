@@ -17,4 +17,4 @@ h1title: Press about bZx
 - Podcast: [Chain Reaction - bZx's Kyle Kistner: Exploring The Protocol for Tokenized Margin Trading and Lending](https://podcasts.apple.com/us/podcast/bzxs-kyle-kistner-exploring-protocol-for-tokenized/id1438148082?i=1000458022043)
 - Binance Research: [DeFi #3 - 2020: The Borderless State of DeFi](https://research.binance.com/analysis/defi-3-2020-borderless-state-of-defi)
 - Podcast: [We Are Decentralization Maximalists - Kyle Kistner - bZx](https://www.endofthechain.com/kyle-kistner-bzx/)
-- [Intro to Torque | Fixed Rate Decentralized Crypto Loans](https://www.youtube.com/watch?v=mMSvn2uLc8A&feature=emb_logo) by Chris Blec on DeFi
+- [Intro to Torque](https://www.youtube.com/watch?v=mMSvn2uLc8A&feature=emb_logo) by Chris Blec on DeFi
