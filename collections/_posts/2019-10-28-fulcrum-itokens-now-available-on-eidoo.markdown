@@ -1,29 +1,38 @@
 ---
 layout: post
-title:  "Fulcrum iTOKENS Now Available On Eidoo"
-date:   2019-10-27 20:12:46 -0700
+title:  "iTokens Go Mobile On Eidoo’s DeFi Exchange"
+date:   2020-01-27 01:12:46 -0700
 cover: /images/blog/1_ClfGfUOcNULRf1pWw0E8Ig.png
-canonical: https://medium.com/bzxnetwork/fulcrum-itokens-now-available-on-eidoo-2407d76ca9fa
 author: Sawinyh
 metadescription: "We are happy to announce that iTokens are now available on Eidoo. This provides a beautiful and easy-to-use mobile interface for earning interest on your existing digital assets"
 intro: "We are happy to announce that iTokens are now available on Eidoo. This provides a beautiful and easy-to-use mobile interface for earning interest on your existing digital assets"
 ---
-We are happy to announce that iTokens are now available on [Eidoo](https://eidoo.io/). This provides a beautiful and easy-to-use mobile interface for earning interest on your existing digital assets. Eidoo is among the first three interfaces to provide this unique and powerful functionality.
-
-![](/images/blog/1_Jmjfx1VAXrnvXaoUxmOPsA.gif)
-
-## Why Use Eidoo?
-Eidoo offers a seamless mobile-native experience for earning interest on your existing digital assets, as well as the opportunity to enter in Fulcrum using a wire transfer (fiat-on ramp) to buy DAI or exchange them in the atomic swap selling ETH. More than that, it is a one-stop-shop for trading, lending, and interacting with the most powerful DeFi primitives from a single polished interface.
+bZx’s interest-bearing iTokens are now available on [Eidoo’s DeFi Exchange.](https://eidoo.io/) Eidoo’s DeFi Exchange provides a mobile-first experience for trading, lending, and interacting with DeFi tokens with applications for [Android](https://play.google.com/store/apps/details?id=io.eidoo.wallet.prodnet&referrer=utm_source%3DFB1), [Apple](https://itunes.apple.com/app/apple-store/id1279896253?pt=118755967&ct=FB1&mt=8), and [desktop](https://eidoo.io/desktop-download).
 
 ## What are iTokens?
+
 ![](/images/itokens.png)
 
-iTokens, such as iDAI or iUSDC, are interest accumulating tokens that continuously go up in value as you hold them. They represent a share in a lending pool that grows in size as borrowers pay interest into them. This innovative concept was first introduced to the community by bZx in a [joint post with MakerDAO](https://medium.com/bzxnetwork/bzx-makerdao-9db74678e16e) in July of 2018. Later, the technical specifications were laid out in [the article](https://medium.com/bzxnetwork/introducing-fulcrum-tokenized-margin-made-dead-simple-e65ccc82393f) announcing Fulcrum in March of 2019. iTokens can be traded, used as collateral, composed by developers into structured products, or sent to cold storage for safety.
+iTokens are tokenized loans representing shares in a decentralized lending pool. Minted using the Fulcrum platform, lenders can earn interest by minting iTokens like iDAI and iUSDC that automatically accumulate interest. Borrowers pay the interest to borrow assets from the lending pool to trade long and short positions with up to 4x leverage. The concept was first introduced by bZx in a [joint post with MakerDAO](https://medium.com/bzxnetwork/bzx-makerdao-9db74678e16e) published in July of 2018 with technical specifications articulated in an [article announcing Fulcrum](/blog/introducing-fulcrum-tokenized-margin-made-dead-simple) in March 2019.
 
-## What is bZx?
+## Eidoo brings DeFi to your fingertips
 
-bZx is the margin lending and trading protocol on which Fulcrum and Torque are built. [Fulcrum](http://fulcrum.trade/) is a margin lending and trading platform with tokenized loans (iTokens) and tokenized positions (pTokens) that uses algorithmic lending pools to determine interest rates through supply and demand. [Torque](http://torque.loans/) is a borrowing platform that allows ETH and ERC20s to be used as collateral for borrowing a wide variety of assets at fixed interest rates for indefinite terms. Torque can be accessed through any wallet through its ENS system, or through any web3 wallet via its [web interface](https://torque.loans/).
+![](/images/blog/IMG_6693.jpg)
 
-## How to use iTokens on Eidoo
+Launched on January 23, 2020, DeFi Exchange allows users to onboard to DeFi with tools like Eidoo wire transfer and then buy, sell, and interact with various DeFi products.
 
-Click [this link](https://eidoo.page.link/idai-dai-swap) to access the Eidoo link and start earning interest on your assets today.
+As Eidoo’s VP of Engineering Emiliano Bonassi explains:
+
+> “We designed the DeFi Exchange to gather and highlight all the DeFi platforms; we aim to be the DeFi gateway.”
+
+In addition to launching iTokens, Eidoo plans to add support for pTokens, Link, ETH, REP, BAT, KNC, and sUSD.
+
+Fulcrum pTokens are tokenized, variable-rate loans enabling traders to borrow assets and build leveraged long and short positions and is currently the only platform with support for Link, KNC, and sUSD.
+
+
+## How to get started
+
+The DeFi Exchange can be accessed by downloading Eidoo:
+- for [Android](https://play.google.com/store/apps/details?id=io.eidoo.wallet.prodnet&referrer=utm_source%3DFB1)
+- for [Apple](https://itunes.apple.com/app/apple-store/id1279896253?pt=118755967&ct=FB1&mt=8)
+- or for [desktop](https://eidoo.io/desktop-download).
