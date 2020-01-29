@@ -9,6 +9,7 @@
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+    max-width: 80%;
     @media (max-width: 767px) {
       justify-content: center;
     }
