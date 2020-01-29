@@ -52,6 +52,7 @@ $(document).ready(function () {
       closeOnClickOutside: true
     });
 
+
     $(".container-team").on("click", ".tooltip .header .close", function (e) {
       if (tooltip._isOpen) {
         tooltip.hide();
@@ -62,22 +63,30 @@ $(document).ready(function () {
       e.preventDefault();
 
     })
+  });
 
-    $(".buttons-tabs .tablinks").on("click", function (e) {
-      var year = $(e.currentTarget).data("year");
-      var i, tabcontent, tablinks;
-      tabcontent = document.getElementsByClassName("tabcontent");
+
+  Array.from(document.querySelectorAll(".buttons-tabs .tablinks")).forEach(elem => {
+    elem.addEventListener("click", function (e) {
+      if (!window.isHistoryAnimationFinished) return; //
+
+      var newYear = e.currentTarget.dataset.year;
+      var i;
+      var prevnewYear = parseInt(document.querySelector(".tablinks.active").dataset.year);
+      var tabcontent = document.getElementsByClassName("tabcontent");
       for (i = 0; i < tabcontent.length; i++) {
         tabcontent[i].style.display = "none";
+        tabcontent[i].className = tabcontent[i].className.replace(" active", "");
       }
-      tablinks = document.getElementsByClassName("tablinks");
+      var tablinks = document.getElementsByClassName("tablinks");
       for (i = 0; i < tablinks.length; i++) {
         tablinks[i].className = tablinks[i].className.replace(" active", "");
       }
-      document.getElementById(year).style.display = "block";
+      document.getElementById(newYear).style.display = "block";
+      document.getElementById(newYear).className += " active";
       e.currentTarget.className += " active";
-
+      if (targetHistory && window.innerWidth > 1109)
+        invokeHistoryAnimation(prevnewYear, newYear);
     });
-  })
-
+  });
 });

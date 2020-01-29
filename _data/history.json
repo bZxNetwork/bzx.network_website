@@ -1,0 +1,75 @@
+[
+    {
+        "year": "2020",
+        "events": [
+            {
+                "date": "January, 2020",
+                "description": "bZx protocol reached $7.5MM TVL"
+            }
+        ]
+    },
+    {
+        "year": "2019",
+        "events": [
+            {
+                "date": "October, 2019",
+                "description": "Torque Is Live: The Most Powerful Decentralized Borrowing Platform on Ethereum"
+            },
+            {
+                "date": "October, 2019",
+                "description": "bZx Team hosted DeFi Drinks event during Devcon 5 at Osaka, JP"
+            },
+            {
+                "date": "September, 2019",
+                "description": "Over 8000 ETH locked in bZx protocol"
+            },
+            {
+                "date": "August, 2019",
+                "description": "Fulcrum jumps up to the #3 biggest dApp on Kyber"
+            },
+            {
+                "date": "June, 2019",
+                "description": "Fulcrum Launches With Over $750,000 in Liquidity"
+            }
+        ]
+    },
+    {
+        "year": "2018",
+        "events": [
+            {
+                "date": "May 11, 2018",
+                "description": "Security audits begin on the bZx protocol contracts."
+            },
+            {
+                "date": "April 24, 2018",
+                "description": "bZx portal and bZx.js library initial release."
+            },
+
+            {
+                "date": "April 20, 2018",
+                "description": "bZx protocol debuts its fully functional smart contracts onto the Ropsten Testnet."
+            },
+            {
+                "date": "Feb 11, 2018",
+                "description": "bZx officially releases the whitepaper after five months of concurrent coding development. bZx officially announces. “Welcome to bZx” published on Medium."
+            },
+            {
+                "date": "Late jan-early feb, 2018",
+                "description": "bZx sponsors ETHDenver, attracting initial attention."
+            }
+        ]
+    },
+    {
+        "year": "2017",
+        "events": [
+            {
+                "date": "September 29, 2017",
+                "description": "First Github commit in the protocol contracts code repository."
+            },
+            {
+                "date": "August 5, 2017",
+                "description": "Tom Bean and Kyle J Kistner conceive bZx after several months of brainstorming and exploratory efforts."
+            }
+        ]
+    }
+]
