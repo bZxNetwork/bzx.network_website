@@ -1,14 +1,19 @@
 .tab {
   background-color: #cbe2ff;
   border-top: 2px solid $primary-color;
+  display: flex;
   padding: 27px 0 39px 0;
   .buttons-tabs {
     background-color: #ffffff;
     border-radius: 5px;
-    max-width: 322px;
     margin: auto;
     display: flex;
+    flex-wrap: wrap;
+    @media (max-width: 767px) {
+      justify-content: center;
+    }
     justify-content: space-between;
+    
     padding: 0 3px 0 2px;
     button {
       border: none;

@@ -28,6 +28,10 @@ body {
   }
 }
 
+.not-visible{
+  visibility: hidden;
+}
+
 .z-index-2 {
   z-index: 2;
 }
@@ -134,6 +138,7 @@ a {
 }
 .baskets{
   position: relative;
+  margin-bottom: 32px;
   span.basket{
     width: 54px;
     

@@ -446,12 +446,35 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
         {% for year in site.data.history %}
             <div id="{{ year.year }}" class="tabcontent {%if site.data.history.last.year == year.year%} active {%endif%}">
                 <div class="container-tabs d-flex j-content-sb">
-                    {% for event in year.events.firstLevel %}
-                    <div class="item-tabs mb-60 mb-xs-50">
-                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">{{event.date}}</h4>
-                    <p class="fs-14 fs-sm-11 lh-160 color-primary mb-xs-15">{{event.description}}</p>
-                    </div>
-                    {% endfor %}
+                    {%if year.events.firstLevel.size == 1%}
+                        <div class="item-tabs mb-90 mb-xs-50 px-25 not-visible"></div>
+                         {% for event in year.events.firstLevel %}
+                            <div class="item-tabs mb-60 mb-xs-50">
+                                <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">{{event.date}}</h4>
+                                <p class="fs-14 fs-sm-11 lh-160 color-primary mb-xs-15">{{event.description}}</p>
+                            </div>
+                        {% endfor %}
+                        <div class="item-tabs mb-90 mb-xs-50 px-25 not-visible"></div>
+                    {% endif %}
+                    {%if year.events.firstLevel.size == 2%}
+                         {% for event in year.events.firstLevel %}
+                            {%if forloop.index == 2%}
+                                <div class="item-tabs mb-90 mb-xs-50 px-25 not-visible"></div>
+                            {% endif %}
+                            <div class="item-tabs mb-60 mb-xs-50">
+                                <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">{{event.date}}</h4>
+                                <p class="fs-14 fs-sm-11 lh-160 color-primary mb-xs-15">{{event.description}}</p>
+                            </div>
+                        {% endfor %}
+                    {% endif %}
+                    {%if year.events.firstLevel.size == 3%}
+                        {% for event in year.events.firstLevel %}
+                        <div class="item-tabs mb-60 mb-xs-50">
+                        <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">{{event.date}}</h4>
+                        <p class="fs-14 fs-sm-11 lh-160 color-primary mb-xs-15">{{event.description}}</p>
+                        </div>
+                        {% endfor %}
+                    {% endif %}
                 </div>
                 <div class="container-tabs d-flex j-content-center">
                     {% for event in year.events.secondLevel %}
@@ -460,22 +483,24 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
                     <p class="fs-14 fs-sm-11 lh-160 color-primary">{{event.description}}</p>
                     </div>
                     {% endfor %}
+                    {%if year.events.secondLevel.size == 1%}
+                        <div class="item-tabs mb-90 mb-xs-50 px-25 not-visible"></div>
+                    {% endif %}
                 </div>
             </div>
         {% endfor %}
-        <div class="mb-r-25 hidden-xs baskets">
+        <div class="hidden-xs baskets">
             {% assign index = 0%}
         {% for year in site.data.history %}
         {% assign yearEvents = year.events.firstLevel | concat: year.events.secondLevel %}
-
             {% for event in yearEvents %}
             {% assign index = index | plus: 1 %}
-
                 <span class="basket basket-{{index}} basket-{{year.year}}">
-                    {% include svg/basket1.svg  %}
+                 {% assign svgNumber = index | modulo: 3 | plus: 1 %}
+                 {% assign svgName = svgNumber | prepend: "svg/basket" | append: ".svg"  %}
+                    {% include {{svgName}}  %}
                 </span>
             {% endfor %}
-
         {% endfor %}
         </div>
     </div>

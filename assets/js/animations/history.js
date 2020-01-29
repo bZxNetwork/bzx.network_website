@@ -29,7 +29,7 @@ var distance = {
 }
 
 const getHistoryItemsOffset = () => {
-    var offsetLeft = Array.from(document.querySelectorAll(".active .item-tabs")).map(item => (item.getBoundingClientRect().left + (item.offsetWidth / 2)));
+    var offsetLeft = Array.from(document.querySelectorAll(".active .item-tabs:not(.not-visible)")).map(item => (item.getBoundingClientRect().left + (item.offsetWidth / 2)));
     var straightOffsetLeft = [];
     if (offsetLeft.length === 5) straightOffsetLeft = [offsetLeft[0], offsetLeft[3], offsetLeft[1], offsetLeft[4], offsetLeft[2]];
     if (offsetLeft.length === 4) straightOffsetLeft = [offsetLeft[0], offsetLeft[3], offsetLeft[1], offsetLeft[2]];
