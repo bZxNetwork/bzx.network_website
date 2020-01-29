@@ -52,6 +52,7 @@ $(document).ready(function () {
       closeOnClickOutside: true
     });
 
+
     $(".container-team").on("click", ".tooltip .header .close", function (e) {
       if (tooltip._isOpen) {
         tooltip.hide();
@@ -62,11 +63,16 @@ $(document).ready(function () {
       e.preventDefault();
 
     })
+  });
 
-    $(".buttons-tabs .tablinks").on("click", function (e) {
+
+  Array.from(document.querySelectorAll(".buttons-tabs .tablinks")).forEach(elem => {
+    elem.addEventListener("click", function (e) {
+      if (!window.isAnimationFinished) return;
 
       var year = $(e.currentTarget).data("year");
       var i, tabcontent, tablinks;
+      var prevYear = parseInt(document.querySelector(".tablinks.active").dataset.year);
       tabcontent = document.getElementsByClassName("tabcontent");
       for (i = 0; i < tabcontent.length; i++) {
         tabcontent[i].style.display = "none";
@@ -80,8 +86,10 @@ $(document).ready(function () {
       document.getElementById(year).className += " active";
       e.currentTarget.className += " active";
       getHistoryItemsOffset();
+      if (targetHistory && window.innerWidth > 1109)
+        updateHistoryAnimation(prevYear, year);
+
 
     });
-  })
-
+  });
 });

@@ -14,6 +14,12 @@ let basket12 = $('.basket-12 svg');
 let baskets2019 = document.querySelectorAll(".basket-2019 svg");
 let baskets2018 = document.querySelectorAll(".basket-2018 svg");
 let baskets2017 = document.querySelectorAll(".basket-2017 svg");
+
+const getBaskets = (year) => { return document.querySelectorAll(`.basket-${year} svg`); };
+
+window.isAnimationFinished = true;
+
+
 var distance = {
     0: 0,
     1: 144,
@@ -91,8 +97,15 @@ function forwardBaskets(svgSet) {
         var basketTween = TweenLite
             .to(basket, (1 - index * 0.2), {
                 x: 0,
-                delay: index * 0.2,
-                ease: Power0.easeNone
+                delay: index === 0 ? 0 : -1 +index * 0.2,
+                ease: Power0.easeNone,
+                onComplete: () => {
+                    if (index == svgSet.length - 1) {
+                        // clearFirstParams();
+                        // clearParams(svgSet);
+                        isAnimationFinished = true;
+                    }
+                }
             });
         timeline.add(basketTween);
         return basketTween;
@@ -108,10 +121,11 @@ function backBaskets(svgSet) {
                 delay: 0 - index * 0.2,
                 ease: Power0.easeNone,
                 onComplete: () => {
-                    if (index == svgSet.length - 1)
+                    if (index == svgSet.length - 1) {
                         // clearFirstParams();
                         clearParams(svgSet);
-
+                        // isAnimationFinished = true;
+                    }
                 }
             });
         timeline.add(basketTween);
@@ -245,83 +259,94 @@ var observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
         if (entry.intersectionRatio > 0 && count) {
             count = false;
-            currentlyButton = 1;
-            forwardBaskets(baskets2019);
+            var year = parseInt(document.querySelector(".buttons-tabs .tablinks.active").dataset.year);
+
+            forwardBaskets(getBaskets(year));
+            isAnimationFinished = false;
+
         }
     });
 }, options);
 
+
+
 if (targetHistory && window.innerWidth > 1109) {
     observer.observe(targetHistory);
     getHistoryItemsOffset();
+    function updateHistoryAnimation(prevYear, newYear) {
+        isAnimationFinished = false;
+        var prevBaskets = getBaskets(prevYear);
+        var newBaskets = getBaskets(newYear);
+        backBaskets(prevBaskets)
+        forwardBaskets(newBaskets)
+    };
+    // $('#button2017').click(function () {
+    //     // clearFirstParams();
+    //     // clearSecondParams();
+    //     // clearThirdParams();
+    //     switch (currentlyButton) {
+    //         case 1:
+    //             backBaskets(baskets2019)
+    //             forwardBaskets(baskets2017)
+    //             // backFirst();
+    //             // forwardThird();
+    //             break;
+    //         case 2:
+    //             backBaskets(baskets2018)
+    //             forwardBaskets(baskets2017)
+    //             // backSecond();
+    //             // forwardThird()
+    //             break;
 
-    $('#button2017').click(function () {
-        // clearFirstParams();
-        // clearSecondParams();
-        // clearThirdParams();
-        switch (currentlyButton) {
-            case 1:
-                backBaskets(baskets2019)
-                forwardBaskets(baskets2017)
-                // backFirst();
-                // forwardThird();
-                break;
-            case 2:
-                backBaskets(baskets2018)
-                forwardBaskets(baskets2017)
-                // backSecond();
-                // forwardThird()
-                break;
+    //         default:
+    //     }
+    //     currentlyButton = 3;
+    // });
+    // $('#button2018').click(function () {
+    //     // clearFirstParams();
+    //     // clearSecondParams();
+    //     // clearThirdParams();
+    //     switch (currentlyButton) {
+    //         case 3:
+    //             backBaskets(baskets2017)
+    //             forwardBaskets(baskets2018)
 
-            default:
-        }
-        currentlyButton = 3;
-    });
-    $('#button2018').click(function () {
-        // clearFirstParams();
-        // clearSecondParams();
-        // clearThirdParams();
-        switch (currentlyButton) {
-            case 3:
-                backBaskets(baskets2017)
-                forwardBaskets(baskets2018)
+    //             // backThird();
+    //             // forwardSecond();
+    //             break;
+    //         case 1:
+    //             backBaskets(baskets2019)
+    //             forwardBaskets(baskets2018)
 
-                // backThird();
-                // forwardSecond();
-                break;
-            case 1:
-                backBaskets(baskets2019)
-                forwardBaskets(baskets2018)
+    //             // backFirst();
+    //             // forwardSecond();
+    //             break;
+    //         default:
+    //     }
+    //     currentlyButton = 2;
+    // });
+    // $('#button2019').click(function () {
+    //     // clearFirstParams();
+    //     // clearSecondParams();
+    //     // clearThirdParams();
+    //     switch (currentlyButton) {
+    //         case 2:
+    //             backBaskets(baskets2018)
+    //             forwardBaskets(baskets2019)
 
-                // backFirst();
-                // forwardSecond();
-                break;
-            default:
-        }
-        currentlyButton = 2;
-    });
-    $('#button2019').click(function () {
-        // clearFirstParams();
-        // clearSecondParams();
-        // clearThirdParams();
-        switch (currentlyButton) {
-            case 2:
-                backBaskets(baskets2018)
-                forwardBaskets(baskets2019)
+    //             // backSecond();
+    //             // forwardFirst();
+    //             break;
+    //         case 3:
+    //             backBaskets(baskets2017)
+    //             forwardBaskets(baskets2019)
 
-                // backSecond();
-                // forwardFirst();
-                break;
-            case 3:
-                backBaskets(baskets2017)
-                forwardBaskets(baskets2019)
+    //             // backThird();
+    //             // forwardFirst();
+    //             break;
+    //         default:
 
-                // backThird();
-                // forwardFirst();
-                break;
-            default:
-
-        }
-        currentlyButton = 1;
-    })
+    //     }
+    //     currentlyButton = 1;
+    // })
 }
