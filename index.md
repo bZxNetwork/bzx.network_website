@@ -444,102 +444,72 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
     <div class="container container-xl pb-xs-55">
     <h2 id="history" class="fs-32 fs-sm-24 lh-140 fw-700 text-center mb-50 mb-xs-40 color-primary">History</h2>
         {% for year in site.data.history %}
-            {% assign yearIndex = forloop.index%}
             {% assign nextYearIndex = forloop.index%}
-            {% assign itemsLeft = 4 %}
-            {% assign currentYearItems = 0 %}
-            {% assign nextYearUsedItems = 0 %}
             <div id="{{ year.year }}" class="tabcontent {%if site.data.history.first.year == year.year%} active {%endif%}">
                 <div class="container-tabs d-flex j-content-sb">
-                    {% if site.data.history[nextYearIndex]%}
-                        {% for i in (0..2) %}
-                            {%if year.events[i] %}
-                                {% assign itemsLeft = itemsLeft | minus: 1 %}
-                                {% assign currentYearItems = currentYearItems | plus: 1 %}
-                                <div class="item-tabs mb-90 mb-xs-50 px-25">
-                                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">{{year.events[i].date}}</h4>
-                                    <p class="fs-14 fs-sm-11 lh-160 color-primary">{{year.events[i].description}}</p>
-                                </div>
-                                {% continue %}
-                            {% endif %}
-                            {% break %}
-                        {% endfor %}
-                        {% assign range = itemsLeft | minus: 2%}
-                        {% for j in (0..range)%}
-                            {% assign itemsLeft = itemsLeft | minus: 1 %}
-                            {% assign nextYearUsedItems = nextYearUsedItems | plus: 1 %}
-                            <div class="item-tabs mb-90 mb-xs-50 px-25 left-{{itemsLeft}}">
-                                <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">{{site.data.history[nextYearIndex].events[j].date}}</h4>
-                                <p class="fs-14 fs-sm-11 lh-160 color-primary">{{site.data.history[nextYearIndex].events[j].description}}</p>
-                            </div>
-                        {% endfor %}
+                    {% if site.data.history[nextYearIndex] and year.events.size < 5%}
+                        {% assign events = year.events | concat: site.data.history[nextYearIndex].events %}
+                            {% for i in (0..2) %}
+                                    <div class="item-tabs mb-90 mb-xs-50 px-25">
+                                        <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">{{events[i].date}}</h4>
+                                        <p class="fs-14 fs-sm-11 lh-160 color-primary">{{events[i].description}}</p>
+                                    </div>
+                            {% endfor %}
                     {% else %}
                         {%if year.events.size == 5 %}
-                            {% for i in (2..4) reversed %}
-                                {%if year.events[i] %}
-                                    <div class="item-tabs mb-90 mb-xs-50 px-25">
-                                        <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">{{year.events[i].date}}</h4>
-                                        <p class="fs-14 fs-sm-11 lh-160 color-primary">{{year.events[i].description}}</p>
-                                    </div>
-                                    {% continue %}
-                                {% endif %}
+                                {% for i in (2..4) reversed %}
+                                    {%if year.events[i] %}
+                                        <div class="item-tabs mb-90 mb-xs-50 px-25">
+                                            <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">{{year.events[i].date}}</h4>
+                                            <p class="fs-14 fs-sm-11 lh-160 color-primary">{{year.events[i].description}}</p>
+                                        </div>
+                                        {% continue %}
+                                    {% endif %}
+                                    <div class="item-tabs mb-90 mb-xs-50 px-25 not-visible"></div>
+                                {% endfor %}
+                            {% endif %}
+                            {%if year.events.size == 4 %}
+                                {% for i in (2..3) reversed %}
+                                    {%if year.events[i] %}
+                                        <div class="item-tabs mb-90 mb-xs-50 px-25">
+                                            <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">{{year.events[i].date}}</h4>
+                                            <p class="fs-14 fs-sm-11 lh-160 color-primary">{{year.events[i].description}}</p>
+                                        </div>
+                                        {% continue %}
+                                    {% endif %}
+                                {% endfor %}
                                 <div class="item-tabs mb-90 mb-xs-50 px-25 not-visible"></div>
-                            {% endfor %}
-                        {% endif %}
-                        {%if year.events.size == 4 %}
-                            {% for i in (2..3) reversed %}
-                                {%if year.events[i] %}
-                                    <div class="item-tabs mb-90 mb-xs-50 px-25">
-                                        <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">{{year.events[i].date}}</h4>
-                                        <p class="fs-14 fs-sm-11 lh-160 color-primary">{{year.events[i].description}}</p>
-                                    </div>
-                                    {% continue %}
-                                {% endif %}
-                            {% endfor %}
-                            <div class="item-tabs mb-90 mb-xs-50 px-25 not-visible"></div>
-                        {% endif %}
+                            {% endif %}
                     {% endif %}
                 </div>
                 <div class="container-tabs d-flex j-content-center">
-                    {% if site.data.history[nextYearIndex]%}
+                    {% if site.data.history[nextYearIndex] and year.events.size < 5%}
+                        {% assign events = year.events | concat: site.data.history[nextYearIndex].events %}
                         {% for i in (3..4) %}
-                            {%if year.events[i] %}
-                                {% assign itemsLeft = itemsLeft | minus: 1 %}
-                                {% assign currentYearItems = currentYearItems | plus: 1 %}
-                                <div class="item-tabs mb-90 mb-xs-50 px-25">
-                                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">{{year.events[i].date}}</h4>
-                                    <p class="fs-14 fs-sm-11 lh-160 color-primary">{{year.events[i].description}}</p>
-                                </div>
-                                {% continue %}
-                            {% endif %}
-                        {% endfor %}
-                        {% assign range = nextYearUsedItems | minus: 1%}
-                        {% for j in (0..itemsLeft)%}
-                            {% assign index = nextYearUsedItems | plus: j %}
-                            <div class="item-tabs mb-90 mb-xs-50 px-25">
-                                <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">{{site.data.history[nextYearIndex].events[index].date}}</h4>
-                                <p class="fs-14 fs-sm-11 lh-160 color-primary">{{site.data.history[nextYearIndex].events[index].description}}</p>
-                            </div>
-                        {% endfor %}
+                                    <div class="item-tabs mb-90 mb-xs-50 px-25">
+                                        <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">{{events[i].date}}</h4>
+                                        <p class="fs-14 fs-sm-11 lh-160 color-primary">{{events[i].description}}</p>
+                                    </div>
+                            {% endfor %}
                     {% else %}
-                        {%if year.events.size == 3 %}
-                            {% for i in (0..2) reversed %}
-                                    <div class="item-tabs mb-90 mb-xs-50 px-25">
-                                        <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">{{year.events[i].date}}</h4>
-                                        <p class="fs-14 fs-sm-11 lh-160 color-primary">{{year.events[i].description}}</p>
-                                    </div>
-                            {% endfor %}
-                        {% else  %}
-                            {% for i in (0..1) reversed %}
-                                {%if year.events[i] %}
-                                    <div class="item-tabs mb-90 mb-xs-50 px-25">
-                                        <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">{{year.events[i].date}}</h4>
-                                        <p class="fs-14 fs-sm-11 lh-160 color-primary">{{year.events[i].description}}</p>
-                                    </div>
-                                    {% continue %}
-                                {% endif %}
-                            {% endfor %}
-                        {% endif %}
+                            {%if year.events.size == 3 %}
+                                {% for i in (0..2) reversed %}
+                                        <div class="item-tabs mb-90 mb-xs-50 px-25">
+                                            <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">{{year.events[i].date}}</h4>
+                                            <p class="fs-14 fs-sm-11 lh-160 color-primary">{{year.events[i].description}}</p>
+                                        </div>
+                                {% endfor %}
+                            {% else  %}
+                                {% for i in (0..1) reversed %}
+                                    {%if year.events[i] %}
+                                        <div class="item-tabs mb-90 mb-xs-50 px-25">
+                                            <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">{{year.events[i].date}}</h4>
+                                            <p class="fs-14 fs-sm-11 lh-160 color-primary">{{year.events[i].description}}</p>
+                                        </div>
+                                        {% continue %}
+                                    {% endif %}
+                                {% endfor %}
+                            {% endif %}
                     {% endif %}
                 </div>
             </div>
