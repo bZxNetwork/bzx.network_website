@@ -457,7 +457,7 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
                             {% endfor %}
                     {% else %}
                         {%if year.events.size == 5 %}
-                                {% for i in (2..4) reversed %}
+                                {% for i in (0..2)%}
                                     {%if year.events[i] %}
                                         <div class="item-tabs mb-90 mb-xs-50 px-25">
                                             <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">{{year.events[i].date}}</h4>
@@ -469,7 +469,7 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
                                 {% endfor %}
                             {% endif %}
                             {%if year.events.size == 4 %}
-                                {% for i in (2..3) reversed %}
+                                {% for i in (0..1)%}
                                     {%if year.events[i] %}
                                         <div class="item-tabs mb-90 mb-xs-50 px-25">
                                             <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">{{year.events[i].date}}</h4>
@@ -493,14 +493,34 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
                             {% endfor %}
                     {% else %}
                             {%if year.events.size == 3 %}
-                                {% for i in (0..2) reversed %}
+                                {% for i in (0..2)%}
                                         <div class="item-tabs mb-90 mb-xs-50 px-25">
                                             <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">{{year.events[i].date}}</h4>
                                             <p class="fs-14 fs-sm-11 lh-160 color-primary">{{year.events[i].description}}</p>
                                         </div>
                                 {% endfor %}
-                            {% else  %}
-                                {% for i in (0..1) reversed %}
+                            {% elsif year.events.size == 2 %}
+                                {% for i in (0..1)%}
+                                    {%if year.events[i] %}
+                                        <div class="item-tabs mb-90 mb-xs-50 px-25">
+                                            <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">{{year.events[i].date}}</h4>
+                                            <p class="fs-14 fs-sm-11 lh-160 color-primary">{{year.events[i].description}}</p>
+                                        </div>
+                                        {% continue %}
+                                    {% endif %}
+                                {% endfor %}
+                            {% elsif year.events.size == 4 %}
+                                {% for i in (2..3)%}
+                                    {%if year.events[i] %}
+                                        <div class="item-tabs mb-90 mb-xs-50 px-25">
+                                            <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">{{year.events[i].date}}</h4>
+                                            <p class="fs-14 fs-sm-11 lh-160 color-primary">{{year.events[i].description}}</p>
+                                        </div>
+                                        {% continue %}
+                                    {% endif %}
+                                {% endfor %}
+                            {% else %}
+                                {% for i in (3..4)%}
                                     {%if year.events[i] %}
                                         <div class="item-tabs mb-90 mb-xs-50 px-25">
                                             <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">{{year.events[i].date}}</h4>
