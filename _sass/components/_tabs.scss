@@ -67,6 +67,9 @@
     }
     .item-tabs {
       position: relative;
+      p{
+        justify-content: center;
+      }
       @media (min-width: 768px) {
         width: calc(100% / 3 - 20px);
       }
@@ -138,7 +141,6 @@
         @media (min-width: 768px) {
           p {
             min-height: 68px;
-            justify-content: center;
             display: flex;
             align-items: center;
           }
