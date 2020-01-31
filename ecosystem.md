@@ -51,6 +51,8 @@ This page designed as a community-driven resource where people can learn what pr
 
 [Frontier](https://frontierwallet.com/) - Frontier natively integrates various DeFi Protocols and Wallets making it super easy for users to Track, View and Manage positions across DeFi protocols in real-time without having to give away private keys on Mobile.
 
+[DefiSnap](https://www.defisnap.io/#/fulcrum) - Dashboard to find DeFi protocols, supporting Fulcrum pTokens and iTokens. 
+
 ## Derivatives
 
 [DeFiZap](https://defizap.com/) - Get instant exposure across multiple DeFi protocols based on your investment goals.
