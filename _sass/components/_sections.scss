@@ -473,3 +473,200 @@ section.bg-wave {
     left: 0;
   }
 }
+
+.table-ptokens {
+  margin-bottom: 60px;
+  display: block;
+  thead { 
+    display: block;
+    tr{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      font-size: 14px;
+      font-weight: 200;
+      line-height: 1.8;
+      color: #828282;
+      td {
+        padding: 15px 0 15px 15px;
+        @media(max-width: 1199px){
+          padding: 15px 0;
+        }
+        @media (max-width: 767px) {
+          display: none;
+        }
+        &.thead-ticker{
+          width: calc(100% / 12);
+          @media (max-width: 1199px) {
+            width: 20%;
+          }
+        }
+        &.thead-address {
+          width: calc(100% / 12 * 5);
+          @media (max-width: 1199px) {
+            width: 60%;
+          }
+        }
+        &.thead-description {
+          width: calc(100% / 12 * 5);
+          @media (max-width: 1199px) {
+            display: none;
+          }
+        }
+        &.thead-icon {
+          width: calc(100% / 12);
+          @media (max-width: 1199px) {
+            width: 20%;
+          }
+        }
+      }
+    }
+  }
+  tbody {
+    border-top: 2px solid #33dfcc;
+    display: block;
+    tr {
+      border-bottom: 1px solid #cbe2ff;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      .ticker, .icon, .address, .description{
+        position: relative;
+        &:before{
+          position: absolute;
+          left: 0;
+          font-size: 14px;
+          font-weight: 200;
+          color: #828282;
+        }
+      }
+
+      .ticker{
+        width: calc(100% / 12);
+        @media (max-width: 1199px) {
+          width: 20%;
+        }
+        @media(max-width: 767px){
+          padding-left: 100px;
+          width: 100%;
+          &:before{
+            content: 'Ticker';
+          }
+        }
+      }
+      .icon {
+        svg {
+          max-width: 40px;
+          @media(max-width: 767px){
+            max-width: 30px;
+          }
+        }
+      }
+      .address {
+        width: calc(100% / 12 * 5);
+        @media (max-width: 1199px) {
+          width: 60%;
+        }
+        @media(max-width: 767px){
+          padding-left: 100px;
+          width: 100%;
+          word-wrap: break-word;
+          &:before{
+            content: 'Address';
+          }
+        }
+      }
+      .description {
+        width: calc(100% / 12 * 5);
+        @media(max-width: 1199px){
+          padding-left: 20%;
+          width: 100%;
+          order: 2;
+          &:before{
+            content: 'Description';
+          }
+        }
+        @media(max-width: 767px){
+          padding-left: 100px;
+        }
+      }
+      .icon {
+        width: calc(100% / 12);
+        @media (max-width: 1199px) {
+          width: 20%;
+        }
+        @media(max-width: 767px){
+          padding-left: 100px;
+          width: 100%;
+          order: 2;
+          &:before{
+            content: 'Icon';
+          }
+        }
+      }
+      td {
+        color: #000085;
+        line-height: 1.6;
+        @media(min-width: 1200px){
+          font-size: 16px;
+          padding: 15px 0 15px 15px;
+        }
+        @media(max-width: 1199px){
+          padding: 15px 0;
+        }
+        @media (max-width: 767px){
+          font-size: 14px;
+          padding: 0 0 25px 15px;
+          &:first-child{
+            padding-top: 25px;
+          }
+        }
+      }
+    }
+  }
+
+}
+.buttons-tabs-ptokens{
+  background-color: #DCEBFF;
+  border-radius: 5px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 262px;
+  justify-content: space-between;
+  padding: 0 3px 0 2px;
+  button{
+    font-family: 'Muli', sans-serif;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 600;
+    color: #003cda;
+    padding: 7px 29px;
+    cursor: pointer;
+    outline: none;
+    transform-style: preserve-3d;
+    position: relative;
+    width: 50%;
+    &.active{
+      background: #276bfb;
+      border: 1px solid #000085;
+      border-radius: 4px;
+      color: #ffffff;
+      transform: translateY(-4px);
+      &:after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 20px;
+        background-color: #5b88ff;
+        border: 1px solid #000085;
+        border-radius: 4px;
+        transform: translateZ(-1px);
+        bottom: -4px;
+        left: -1px;
+      }
+    }
+  }
+}
