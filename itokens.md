@@ -1,5 +1,5 @@
 ---
-layout: homepage
+layout: itokens
 permalink: itokens
 metadescription: "iTokens, such as iDAI or iUSDC, are interest accumulating tokens that continuously go up in value as you hold them. They represent a share in a lending pool that grows in size as borrowers pay interest into them."
 featured-image: /images/ogp-itokens.png
@@ -21,28 +21,35 @@ h1title: What are iTokens?
     <p>The redemption mechanics outlined above primarily govern edge cases. It is most likely that loan utilization will not stay near 100% for any substantial period of time. This is because of the interest rate mechanics at work for lending and borrowing. When loan utilization is near 100%, the interest rate will be high, attracting loan interest. This will create liquidity for lenders wanting to exit their iToken positions.</p>
 </div>
 <div class="container container-xl">
-    <!--div class="buttons-tabs-ptokens">        
-        <button class="tablinks active" data-year="" id="">Mainnet</button>            
-        <button class="tablinks " data-year="" id="">Testnet</button>            
-    </div-->
-    <table class="table-ptokens">
-        <thead>
-            <tr>
-                <td class="thead-ticker">Ticker</td>
-                <td class="thead-address">Adress</td>
-                <td class="thead-description">Description</td>
-                <td class="thead-icon">Icon</td>
-            </tr>
-        </thead>
-        <tbody>
-            {% for ticker in site.data.ptokens%}
+    <div class="buttons-tabs-ptokens">       
+        <button class="tablinks-ptokens active" data-ptokens="mainnet">Mainnet</button>            
+        <button class="tablinks-ptokens" data-ptokens="kovan">Kovan</button>            
+        <button class="tablinks-ptokens" data-ptokens="ropsten">Ropsten</button>            
+        <button class="tablinks-ptokens" data-ptokens="rinkeby">Rinkeby</button>            
+    </div>
+    <div id="mainnet" class="tabcontent-ptokens active">    
+        <table class="table-ptokens">
+            <thead>
                 <tr>
-                    <td class="ticker">{{ticker.ticker}}</td>
-                    <td class="address">{{ticker.address}}</td>
-                    <td class="description">{{ticker.description}}</td>
-                    <td class="icon">{% include svg/ptokens/{{ticker.ticker}}.svg %}</td>
+                    <td class="thead-ticker">Ticker</td>
+                    <td class="thead-address">Adress</td>
+                    <td class="thead-description">Description</td>
+                    <td class="thead-icon">Icon</td>
                 </tr>
-            {% endfor %}
-        </tbody>
-    </table>
+            </thead>
+            <tbody>
+                {% for ticker in site.data.ptokens%}
+                    <tr>
+                        <td class="ticker">{{ticker.ticker}}</td>
+                        <td class="address">{{ticker.address}}</td>
+                        <td class="description">{{ticker.description}}</td>
+                        <td class="icon">{% include svg/ptokens/{{ticker.ticker}}.svg %}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <div id="kovan" class="tabcontent-ptokens">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+    <div id="ropsten" class="tabcontent-ptokens">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+    <div id="rinkeby" class="tabcontent-ptokens">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
 </div>
