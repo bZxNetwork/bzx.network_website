@@ -103,3 +103,29 @@
         }
     }
 }
+
+.ptoken{
+    .grid{
+        grid-template-columns: repeat(7, 1fr);
+        grid-column-gap: 85px;    
+        @media screen and (max-width: 991px) {
+            grid-column-gap: 60px;
+        }   
+        @media screen and (max-width: 767px) {
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-column-gap: 110px;
+        }
+        @media screen and (max-width: 575px){
+            grid-column-gap: 30px;
+        } 
+        &-wrapper {
+            max-width: 90px;
+            svg {
+                width: 100%;
+                max-width: 100px;
+                height: auto;
+            }
+        }
+    }
+}
