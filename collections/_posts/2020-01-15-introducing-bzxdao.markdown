@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-math
 title:  "Introducing the bZxDAO"
 date:   2020-01-16 01:12:46 -0700
 cover: /images/blog/bZxDAO.png
