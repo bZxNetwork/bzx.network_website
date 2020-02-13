@@ -71,6 +71,8 @@ This can be leveraged creatively to provide novel user experiences and workflows
 
 ## The Prizes
 
+### Build The Best Product (up to $6,000)
+
 We are offering a $5,000 bounty to the team that builds the most creative, powerful product on top of the protocol. If your project is a finalist in the Hackathon, we will add an additional $1,000.
 
 What we’re looking for:
