@@ -169,7 +169,7 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
                 <div class="circle bottom left"></div>
                 <div class="circle top right"></div>
                 <div class="circle bottom right z-index-2"></div>
-                <a href="https://mydefi.org/">
+                <a href="https://idle.finance/">
                 {% include svg/idle.svg %}
                 <p>Maximize your lending returns</p>
                 </a>
