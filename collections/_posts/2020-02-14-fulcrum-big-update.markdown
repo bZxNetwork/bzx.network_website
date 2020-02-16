@@ -19,6 +19,8 @@ Fulcrum is a powerful DeFi platform enabling tokenized lending and margin tradin
 
 The platform’s new look incorporates a mobile-friendly interface with charts powered by TradingView and a clear, accessible design.
 
+![](/images/blog/Trade.png)
+
 These updates make it easier for both crypto-native audiences and newcomers to make use of the platform’s unique and powerful features.
 
 We’re also excited to announce that 5x leverage is now available on both long and short positions for all assets.* Trade ETH, WBTC, LINK, ZRX, and KNC with just a few simple clicks.
@@ -33,7 +35,7 @@ USDT is a fiat-backed stablecoin whose value is pegged to the U.S. dollar and To
 
 ### Where to get started
 
-Less than a year after its launch in March 2019, the total value locked (TVL) in Fulcrum currently stands at $13 million.
+Less than a year after its launch in March 2019, the total value locked (TVL) in Fulcrum currently stands at $16 million.
 
 The platform has quickly expanded to meet the needs of users and we look forward to continuing our mission to build the most decentralized lending solution possible.
 
