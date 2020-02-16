@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Introducing Fulcrum’s elevated trading experience"
-date:   2020-02-13 01:12:46 -0700
+date:   2020-02-16 01:12:46 -0700
 cover: /images/blog/fulcrum-update.png
 author: Kistner
 metadescription: "bZx is excited to share a number of updates we’ve been working on to improve the Fulcrum website and user experience"
