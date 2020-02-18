@@ -34,8 +34,12 @@ There have been a number of questions about whether pauses and administrator key
 
 We present: Now and DAO.
 
-![](/images/blog/Post-Mortem_-_Google_Docs.png)
-
+| **Now**     | **DAO**     |
+| :------------- | :------------- |
+| Team is contacted about the issue and pauses the contract.      | Executive is contacted about the issue and pauses the contract.       |
+|  Team analyzes the issue and devise fix. | Executives speak to Representatives, analyze the issue and devise a fix. |
+| Fix is pushed through timelock 	 | Reps signal votes, executive confirms, and patch is sent through timelock |
+| Solution is implemented | Solution is implemented |
 
 The core of the debate here is whether we should be ruled by machines or by economics. When you have an immutable contract that can’t be upgraded, you are ruled by machines. When the power to exist is distributed among representative stakeholders, you are ruled by economics. Both are valid methods of implementing decentralization. Unfortunately, many commentators have exhibited some degree of confusion, seeming to believe that upgradability precludes decentralization.  
 
