@@ -48,7 +48,7 @@ The core of the debate here is whether we should be ruled by machines or by econ
 - The attacker swapped the 112 wBTC borrowed from Compound to 6871 ETH on Uniswap, resulting in a profit.
 - The flash loan of 10,000 ETH from dYdX was paid back from the proceeds.
 
-The total profit from this sequence of events was 1193 ETH, currently worth $298,250 @ $250/ETH. For a complete transaction-by-transaction analysis of the attack, we recommend reading the [latest Peckshield analysis](https://medium.com/@peckshield/bzx-hack-full-disclosure-with-detailed-profit-analysis-e6b1fa9b18fc).  
+The total profit from this sequence of events was 1193 ETH, currently worth $298,250 @ $250/ETH. For a complete call-by-call analysis of the attack, we recommend reading the [latest Peckshield analysis](https://medium.com/@peckshield/bzx-hack-full-disclosure-with-detailed-profit-analysis-e6b1fa9b18fc).  
 
 ## The Impact
 
