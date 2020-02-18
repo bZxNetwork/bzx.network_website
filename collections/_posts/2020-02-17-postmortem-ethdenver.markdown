@@ -7,7 +7,7 @@ author: Kistner
 metadescription: "This report is to issue a comprehensive accounting of the events and our response. TL;DR: No users have lost funds or will lose funds. Funds are SAFU"
 intro: "This report is to issue a comprehensive accounting of the events and our response."
 ---
-TL;DR: No users have lost funds or will lose funds. Funds are SAFU.
+### TL;DR: No users have lost funds or will lose funds. Funds are SAFU.
 
 This report is to issue a comprehensive accounting of the events and our response.
 
