@@ -34,12 +34,7 @@ There have been a number of questions about whether pauses and administrator key
 
 We present: Now and DAO.
 
-| **Now**     | **DAO**     |
-| :------------- | :------------- |
-| Team is contacted about the issue and pauses the contract.      | Executive is contacted about the issue and pauses the contract.       |
-|  Team analyzes the issue and devise fix. | Executives speak to Representatives, analyze the issue and devise a fix. |
-| Fix is pushed through timelock 	 | Reps signal votes, executive confirms, and patch is sent through timelock |
-| Solution is implemented | Solution is implemented |
+![](/images/blog/Post-Mortem_-_Google_Docs.png)
 
 
 The core of the debate here is whether we should be ruled by machines or by economics. When you have an immutable contract that can’t be upgraded, you are ruled by machines. When the power to exist is distributed among representative stakeholders, you are ruled by economics. Both are valid methods of implementing decentralization. Unfortunately, many commentators have exhibited some degree of confusion, seeming to believe that upgradability precludes decentralization.  
@@ -57,7 +52,7 @@ The total profit from this sequence of events was 1193 ETH, currently worth $298
 
 ## The Impact
 
-This has resulted in an undercollateralized loan on the platform. Note that this is not yet a loss, but has the potential to become a loss. This is not semantics, and it’s critical to understanding our options going forward. According to our calculations, the collateral currently residing in our vault is enough to service interest payments at market rates on the loan for hundreds of years if nothing is done. However, there is an element of volatility risk since the collateral is in wBTC, the interest is denominated in ETH, and interest is only converted into ETH every 28 days. If we assume a borrow rate of .2% APY (supply rates on other lending protocol are around .02 - .05%) then it requires 9.396 ETH per year to service the debt.
+This has resulted in an undercollateralized loan on the platform. Note that this is not yet a loss, but has the potential to become a loss. This is not semantics, and it’s critical to understanding our options going forward. According to our calculations, the collateral currently residing in our vault is enough to service interest payments at market rates on the loan for hundreds of years if nothing is done. However, there is an element of volatility risk since the collateral is in wBTC, the interest is denominated in ETH, and interest is only converted into ETH every 28 days. If we assume a borrow rate of .2% APY (supply rates on other lending protocols are around .02 - .05%) then it requires 9.396 ETH per year to service the debt.
 
 The wBTC can currently be converted to 1902.26 ETH at current prices at the time of writing. This means that the debt can be serviced with the current collateral for the next 202 years. When the collateral runs out in the year 2222, there will be a 4698.02 ETH loss that will be socialized across the entire lending pool. If we used the administrator key to liquidate the wBTC into ETH, we could eliminate the impact of market volatility and guarantee that the debt would settle on this date. For even the most reasonably conservative discount rates, the net present value of this negative cash flow approaches zero.
 
