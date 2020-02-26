@@ -58,7 +58,6 @@ h1title: bZx Branding
     </div>
     <div class="container  container-md">
         <h2>iTokens Branding</h2>
-
     </div>
     <div class="itoken container container-xl text-center ">
         <div class="grid mb-30">
@@ -74,5 +73,20 @@ h1title: bZx Branding
             <div class="itoken-wrapper">{% include svg/itoken_circle_sUSD.svg %}</div>
         </div>
         <a href="/images/iTokens.zip" title="download iTokens branding kit" class="button button-secondary d-flex j-content-center m-auto">download iTokens branding kit</a>  
+    </div>
+        <div class="container  container-md">
+        <h2>pTokens Branding </h2>
+    </div>
+    <div class="ptoken container container-xl text-center ">
+        <div class="grid mb-30">
+            <div class="ptoken-wrapper">{% include svg/ptokens/dsWBTC.svg %}</div>
+            <div class="ptoken-wrapper">{% include svg/ptokens/dsWBTC2x.svg %}</div>
+            <div class="ptoken-wrapper">{% include svg/ptokens/dsWBTC3x.svg %}</div>
+            <div class="ptoken-wrapper">{% include svg/ptokens/dsWBTC4x.svg %}</div>
+            <div class="ptoken-wrapper">{% include svg/ptokens/dLWBTC2x.svg %}</div>
+            <div class="ptoken-wrapper">{% include svg/ptokens/dLWBTC3x.svg %}</div>
+            <div class="ptoken-wrapper">{% include svg/ptokens/dLWBTC4x.svg %}</div>
+        </div>
+        <a href="/images/pTokens.zip" title="download iTokens branding kit" class="button button-secondary d-flex j-content-center m-auto">download pTokens branding kit</a>  
     </div>
 </div>

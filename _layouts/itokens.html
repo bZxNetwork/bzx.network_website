@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
+
+    <meta name="description" content="{{ page.metadescription | strip_html | strip_newlines | truncate: 160 }}">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+    <link rel="manifest" href="/assets/manifest.json">
+    <link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ page.url | prepend: site.url }}" />
+    <meta property="og:description" content="{{ page.metadescription | strip_html | strip_newlines | truncate: 300 }}" />
+    <meta property="og:image" content="{{ page.featured-image | prepend: site.url }}" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@b0xNet">
+    <meta name="twitter:creator" content="@b0xNet">
+    <meta name="twitter:title" content="{{ page.title }}">
+    <meta name="twitter:description" content="{{ page.metadescription | strip_html | strip_newlines | truncate: 300 }}">
+    <meta name="twitter:image" content="{{ page.featured-image | prepend: site.url }}">
+
+    <link rel="canonical" href="{% if page.canonical %}{{ page.canonical }}{% else %}{{ page.url | prepend: site.url }}{% endif %}" />
+    <link rel="alternate" type="application/atom+xml" title="{{ site.name }}" href="{{ site.baseurl }}/feed.xml" />
+
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,600,700&display=swap" rel="stylesheet">
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5ZZRW4T');</script>
+<!-- End Google Tag Manager -->
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5ZZRW4T"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+    {% include header.html %}
+    {{ content }}
+    {% include footer.html %}
+
+</body>
+
+</html>
