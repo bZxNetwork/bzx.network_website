@@ -89,4 +89,22 @@ $(document).ready(function () {
         invokeHistoryAnimation(prevnewYear, newYear);
     });
   });
+
+  Array.from(document.querySelectorAll(".buttons-tabs-ptokens .tablinks-ptokens")).forEach(elem => {
+    elem.addEventListener("click", function (e) {
+      var pTokens = e.currentTarget.dataset.ptokens;
+      var tabcontent = document.getElementsByClassName("tabcontent-ptokens");
+      for (var i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+        tabcontent[i].className = tabcontent[i].className.replace(" active", "");
+      }
+      var tablinks = document.getElementsByClassName("tablinks-ptokens");
+      for (var i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(pTokens).style.display = "block";
+      document.getElementById(pTokens).className += " active";
+      e.currentTarget.className += " active";
+    });
+  });
 });
