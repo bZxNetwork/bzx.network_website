@@ -50,7 +50,7 @@ The components common between all DeFi lending protocols include custody, price 
 **Development:** The development of the Dharma core contracts and underwriting contracts are undertaken by Dharma itself. The underwriting contracts are open source and loan origination contracts are closed source.
 Note: Dharma has recently revealed that it plans to move to a MakerDAO style liquidation mechanism. This would greatly increase the level of decentralization.
 
-**Update:** Dharma has pivoted to become a Compound relay that offers interest rate swaps, so this description only covers Dharma Lever v1.0. 
+**Update:** Dharma has pivoted to become a Compound relay that offers interest rate swaps, so this description only covers Dharma Lever v1.0.
 
 ![](/images/blog/1_-PePqztSlwuFjK6uYeA7Pw.png)
 
@@ -130,7 +130,7 @@ Initiating Margin Calls: Margin monitoring and margin call initiation is permiss
 
 **Margin Call Liquidity:** Provision of liquidity is permissionless, decentralized, and incentivized. Liquidity is sourced from KyberSwap.
 
-**Price Feeds:** KyberSwap’s secure on-chain price feed is used for decentralized price information. Kyber aggregates information from Uniswap, Biniance, Bitfinex, Huobi, and its own internal inventory. Kyber’s prices stay within pre-defined bounds in the absence of a price update from reserve managers, mitigating the potential for price feed manipulation. The KyberSwap price feed does not have a central point of failure.
+**Price Feeds:** Chainlink’s decentralized oracle network is used for price information.
 
 **Interest Rates:** The bZx team controls the interest rate model parameters, allowing the rates to effectively be set centrally. There are plans to increase the decentralization of this by allowing token holders to set rates in the future.
 
@@ -152,9 +152,9 @@ All details for https://torque.loans are the same as for Fulcrum as they share t
 
 **Interest Rates:** dYdX sets the interest rate model parameters, giving them central control over the interest rates.
 
-**Development:** The dYdX smart contracts are centrally developed and closed source. The team reports that the contracts will be verified on Etherscan shortly. 
+**Development:** The dYdX smart contracts are centrally developed and closed source. The team reports that the contracts will be verified on Etherscan shortly.
 
-**Update:** dYdX has moved their contracts behind a two day timelock. 
+**Update:** dYdX has moved their contracts behind a two day timelock.
 
 ![](/images/blog/1_CIY85ecsmvd7pFoinVb0tQ.png)
 
@@ -165,7 +165,7 @@ Initiating Margin Calls: Anyone can initiate margin calls. The process is permis
 
 **Margin Call Liquidity:** Anyone can provide margin call liquidity through KyberNetwork. In the near future there will be ways to provide margin call liquidity through 0x or directly from the caller’s assets.
 
-**Price Feeds:** bZx uses KyberSwap’s secure, decentralized price feeds. Kyber aggregates information from Uniswap, Binance, Bitfinex, Huobi, and its own internal inventory. Kyber’s prices stay within predefined bounds in the absence of a price update from reserve managers, mitigating the potential for price feed manipulation.The KyberSwap price feed does not have a central point of failure.
+**Price Feeds:** Chainlink’s decentralized oracle network is used for price information.
 
 **Interest Rates:** Interest rates are determined by the market through an orderbook. Since each person is playing a role in setting interest rates, this is a completely decentralized mechanism for interest rate determination.
 
