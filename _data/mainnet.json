@@ -43,48 +43,6 @@
     },
     {
         "description": "amount deposited, expressed in decimals units",
-        "address": "0xd15eb3e486aadf5e77244f7732a3c5fc8fa44ec0",
-        "ticker": "LETHwBTC2x",
-        "icon": "ptokens/LETHwBTC2x"
-    },
-    {
-        "description": "amount deposited, expressed in decimals units",
-        "address": "0x6aea7b35556e951693b3ecc239f3dfa184137e41",
-        "ticker": "LETHwBTC3x",
-        "icon": "ptokens/LETHwBTC3x"
-    },
-    {
-        "description": "amount deposited, expressed in decimals units",
-        "address": "0x64453119903f1be2bc8c85b1e835d4d4ecd802c3",
-        "ticker": "LETHwBTC4x",
-        "icon": "ptokens/LETHwBTC4x"
-    },
-    {
-        "description": "amount deposited, expressed in decimals units",
-        "address": "0xd049499e86f5ed97924eb90fd5b15b9691bbc009",
-        "ticker": "sETHwBTC",
-        "icon": "ptokens/sETHwBTC"
-    },
-    {
-        "description": "amount deposited, expressed in decimals units",
-        "address": "0xe1652744e343d50a0050e233ed9bd43fe0a3070a",
-        "ticker": "sETHwBTC2x",
-        "icon": "ptokens/sETHwBTC2x"
-    },
-    {
-        "description": "amount deposited, expressed in decimals units",
-        "address": "0xdd15e1e1d9f2e311093676c1a57eeb5d1398d2ce",
-        "ticker": "sETHwBTC3x",
-        "icon": "ptokens/sETHwBTC3x"
-    },
-    {
-        "description": "amount deposited, expressed in decimals units",
-        "address": "0x2ca1ed53e4fb7aef47c660141911718e96bcaf2a",
-        "ticker": "sETHwBTC4x",
-        "icon": "ptokens/sETHwBTC4x"
-    },
-    {
-        "description": "amount deposited, expressed in decimals units",
         "address": "0x123f2b75b9a7a9da8dc483976bfd81eff9f0ea8d",
         "ticker": "dLKNC2x",
         "icon": "ptokens/dLKNC2x"
