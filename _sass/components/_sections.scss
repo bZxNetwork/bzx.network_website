@@ -635,12 +635,7 @@ section.bg-wave {
   justify-content: space-between;
   padding: 0 3px 0 2px;
   margin-bottom: 30px;
-  @media(min-width: 552px){
-    max-width: 522px;
-  }
-  @media(max-width: 551px){
-    width: 100%;
-  }
+  max-width: 262px;
   button{
     font-family: 'Muli', sans-serif;
     border: none;
@@ -654,7 +649,7 @@ section.bg-wave {
     outline: none;
     transform-style: preserve-3d;
     position: relative;
-    width: 25%;
+    width: 50%;
     &.active{
       background: #276bfb;
       border: 1px solid #000085;

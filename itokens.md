@@ -24,8 +24,6 @@ h1title: What are iTokens?
     <div class="buttons-tabs-ptokens">       
         <button class="tablinks-ptokens active" data-ptokens="mainnet">Mainnet</button>            
         <button class="tablinks-ptokens" data-ptokens="kovan">Kovan</button>            
-        <button class="tablinks-ptokens" data-ptokens="ropsten">Ropsten</button>            
-        <button class="tablinks-ptokens" data-ptokens="rinkeby">Rinkeby</button>            
     </div>
     <div id="mainnet" class="tabcontent-ptokens active">    
         <table class="table-ptokens">
@@ -38,18 +36,37 @@ h1title: What are iTokens?
                 </tr>
             </thead>
             <tbody>
-                {% for ticker in site.data.ptokens%}
+                {% for mainnet in site.data.mainnet%}
                     <tr>
-                        <td class="ticker">{{ticker.ticker}}</td>
-                        <td class="address">{{ticker.address}}</td>
-                        <td class="description">{{ticker.description}}</td>
-                        <td class="icon">{% include svg/ptokens/{{ticker.ticker}}.svg %}</td>
+                        <td class="ticker">{{mainnet.ticker}}</td>
+                        <td class="address">{{mainnet.address}}</td>
+                        <td class="description">{{mainnet.description}}</td>
+                        <td class="icon">{% include svg/{{mainnet.icon}}.svg %}</td>
                     </tr>
                 {% endfor %}
             </tbody>
         </table>
     </div>
-    <div id="kovan" class="tabcontent-ptokens">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-    <div id="ropsten" class="tabcontent-ptokens">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-    <div id="rinkeby" class="tabcontent-ptokens">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+    <div id="kovan" class="tabcontent-ptokens">
+        <table class="table-ptokens">
+            <thead>
+                <tr>
+                    <td class="thead-ticker">Ticker</td>
+                    <td class="thead-address">Adress</td>
+                    <td class="thead-description">Description</td>
+                    <td class="thead-icon">Icon</td>
+                </tr>
+            </thead>
+            <tbody>
+                {% for kovan in site.data.kovan%}
+                    <tr>
+                        <td class="ticker">{{kovan.ticker}}</td>
+                        <td class="address">{{kovan.address}}</td>
+                        <td class="description">{{kovan.description}}</td>
+                        <td class="icon">{% include svg/{{kovan.icon}}.svg %}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
 </div>
