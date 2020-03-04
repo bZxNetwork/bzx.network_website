@@ -39,7 +39,7 @@ h1title: What are pTokens?
                 {% for mainnet in site.data.ptokens[0].mainnet %}
                     <tr>
                         <td class="ticker">{{mainnet.ticker}}</td>
-                        <td class="address">{{mainnet.address}}</td>
+                        <td class="address"><a href="https://etherscan.io/address/{{ mainnet.address }}" target="_blank">{{mainnet.address}}</a></td>
                         <td class="description">{{mainnet.description}}</td>
                         <td class="icon">{% include svg/ptokens/{{mainnet.ticker}}.svg %}</td>
                     </tr>
@@ -61,7 +61,7 @@ h1title: What are pTokens?
                 {% for kovan in site.data.ptokens[1].kovan %}
                     <tr>
                         <td class="ticker">{{kovan.ticker}}</td>
-                        <td class="address">{{kovan.address}}</td>
+                        <td class="address"><a href="https://kovan.etherscan.io/address/{{ kovan.address }}" target="_blank">{{kovan.address}}</a></td>
                         <td class="description">{{kovan.description}}</td>
                         <td class="icon">{% include svg/ptokens/{{kovan.ticker}}.svg %}</td>
                     </tr>
