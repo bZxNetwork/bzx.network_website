@@ -21,6 +21,12 @@
             },
             {
                 "description": "bZx Perpetual Position Token",
+                "address": "0x3733edd72261a770f57070d93e5bfd1c9f6ae9f4",
+                "ticker": "dLETH5x",
+                "icon": "ptokens/dLETH5x"
+            },
+            {
+                "description": "bZx Perpetual Position Token",
                 "address": "0xd2a1d068baac0b06a8e2b1dc924a43d81a6da325",
                 "ticker": "dsETH",
                 "icon": "ptokens/dsETH"
@@ -45,6 +51,12 @@
             },
             {
                 "description": "bZx Perpetual Position Token",
+                "address": "0xa532a99e877c3ff152f1c8e1281b8b45dedb9f2c",
+                "ticker": "dsETH5x",
+                "icon": "ptokens/dsETH5x"
+            },
+            {
+                "description": "bZx Perpetual Position Token",
                 "address": "0x123f2b75b9a7a9da8dc483976bfd81eff9f0ea8d",
                 "ticker": "dLKNC2x",
                 "icon": "ptokens/dLKNC2x"
@@ -60,6 +72,12 @@
                 "address": "0x8846c5cad73ff19007367c1366b85e75c1885165",
                 "ticker": "dLKNC4x",
                 "icon": "ptokens/dLKNC4x"
+            },
+            {
+                "description": "bZx Perpetual Position Token",
+                "address": "0x214faee84e66b72241acc112df605873e544dbd5",
+                "ticker": "dLKNC5x",
+                "icon": "ptokens/dLKNC5x"
             },
             {
                 "description": "bZx Perpetual Position Token",
@@ -84,6 +102,12 @@
                 "address": "0xaa46973900eb6b99ce0bd6e5f804217dbd192dfb",
                 "ticker": "dsKNC4x",
                 "icon": "ptokens/dsKNC4x"
+            },
+            {
+                "description": "bZx Perpetual Position Token",
+                "address": "0xf64218f3df4f238d797acbdf9849895e0b970ea1",
+                "ticker": "dsKNC5x",
+                "icon": "ptokens/dsKNC5x"
             },
             {
                 "description": "bZx Perpetual Position Token",
@@ -147,6 +171,12 @@
             },
             {
                 "description": "bZx Perpetual Position Token",
+                "address": "0xc3212f2cc694b6f24afdbef66ea44512345b7c7c",
+                "ticker": "dLWBTC5x",
+                "icon": "ptokens/dLWBTC5x"
+            },
+            {
+                "description": "bZx Perpetual Position Token",
                 "address": "0x5590b05495bad72365d4afaa3ed5fba5d8d67af2",
                 "ticker": "dsWBTC",
                 "icon": "ptokens/dsWBTC"
@@ -171,6 +201,12 @@
             },
             {
                 "description": "bZx Perpetual Position Token",
+                "address": "0x92ecfd712c47aaf2dc600e3dcee20fa500dc996a",
+                "ticker": "dsWBTC5x",
+                "icon": "ptokens/dsWBTC5x"
+            },
+            {
+                "description": "bZx Perpetual Position Token",
                 "address": "0x0dd55d33b46151b9d2427a23ec6a9986fdd74745",
                 "ticker": "dLZRX2x",
                 "icon": "ptokens/dLZRX2x"
@@ -186,6 +222,12 @@
                 "address": "0xb9d90d2292ecaaeb616a7c709ec6d24f9fd5e286",
                 "ticker": "dLZRX4x",
                 "icon": "ptokens/dLZRX4x"
+            },
+            {
+                "description": "bZx Perpetual Position Token",
+                "address": "0xa2213efe002bc00460769a3a2f40f7d1152999c4",
+                "ticker": "dLZRX5x",
+                "icon": "ptokens/dLZRX5x"
             },
             {
                 "description": "bZx Perpetual Position Token",
@@ -210,6 +252,12 @@
                 "address": "0xd2b6c055b915cba38490b586a9e22aafcc3a15cc",
                 "ticker": "dsZRX4x",
                 "icon": "ptokens/dsZRX4x"
+            },
+            {
+                "description": "bZx Perpetual Position Token",
+                "address": "0x508b1cd933736384114f2f66264f0f513558d8d9",
+                "ticker": "dsZRX5x",
+                "icon": "ptokens/dsZRX5x"
             }
         ]
     },
