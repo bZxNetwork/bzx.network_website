@@ -2,211 +2,211 @@
     {
         "mainnet": [
             {
-                "description": "amount deposited, expressed in decimals units",
+                "description": "bZx Perpetual Position Token",
                 "address": "0xd80e558027Ee753a0b95757dC3521d0326F13DA2",
                 "ticker": "dLETH2x",
                 "icon": "ptokens/dLETH2x"
             },
             {
-                "description": "amount deposited, expressed in decimals units",
+                "description": "bZx Perpetual Position Token",
                 "address": "0x1370b716575bd7d5aee14128e231a779198e5397",
                 "ticker": "dLETH3x",
                 "icon": "ptokens/dLETH3x"
             },
             {
-                "description": "amount deposited, expressed in decimals units",
+                "description": "bZx Perpetual Position Token",
                 "address": "0xF2AD1Ee9671F63dF7c8f8Daa822DA1E6fC08b80d",
                 "ticker": "dLETH4x",
                 "icon": "ptokens/dLETH4x"
             },
             {
-                "description": "amount deposited, expressed in decimals units",
+                "description": "bZx Perpetual Position Token",
                 "address": "0xd2a1d068baac0b06a8e2b1dc924a43d81a6da325",
                 "ticker": "dsETH",
                 "icon": "ptokens/dsETH"
             },
             {
-                "description": "amount deposited, expressed in decimals units",
+                "description": "bZx Perpetual Position Token",
                 "address": "0x8fa1a491f55d93bd40ff023956261f2fb5047297",
                 "ticker": "dsETH2x",
                 "icon": "ptokens/dsETH2x"
             },
             {
-                "description": "amount deposited, expressed in decimals units",
+                "description": "bZx Perpetual Position Token",
                 "address": "0x0428488582472a47d7a20be969fdfdfb3ba1f7cb",
                 "ticker": "dsETH3x",
                 "icon": "ptokens/dsETH3x"
             },
             {
-                "description": "amount deposited, expressed in decimals units",
+                "description": "bZx Perpetual Position Token",
                 "address": "0x46bb4576993f50302bb0d5f7440aeffbabfdbb78",
                 "ticker": "dsETH4x",
                 "icon": "ptokens/dsETH4x"
             },
             {
-                "description": "amount deposited, expressed in decimals units",
+                "description": "bZx Perpetual Position Token",
                 "address": "0x123f2b75b9a7a9da8dc483976bfd81eff9f0ea8d",
                 "ticker": "dLKNC2x",
                 "icon": "ptokens/dLKNC2x"
             },
             {
-                "description": "amount deposited, expressed in decimals units",
+                "description": "bZx Perpetual Position Token",
                 "address": "0x9cf9eb6650fa6cd1d8f6f7949ab4dc24589d45b8",
                 "ticker": "dLKNC3x",
                 "icon": "ptokens/dLKNC3x"
             },
             {
-                "description": "amount deposited, expressed in decimals units",
+                "description": "bZx Perpetual Position Token",
                 "address": "0x8846c5cad73ff19007367c1366b85e75c1885165",
                 "ticker": "dLKNC4x",
                 "icon": "ptokens/dLKNC4x"
             },
             {
-                "description": "amount deposited, expressed in decimals units",
+                "description": "bZx Perpetual Position Token",
                 "address": "0xc8c8205297b0908b9d0b16aa95c8d0108d615d25",
                 "ticker": "dsKNC",
                 "icon": "ptokens/dsKNC"
             },
             {
-                "description": "amount deposited, expressed in decimals units",
+                "description": "bZx Perpetual Position Token",
                 "address": "0x1c3d23828c886e6138b725c4bce41f90ab19f10e",
                 "ticker": "dsKNC2x",
                 "icon": "ptokens/dsKNC2x"
             },
             {
-                "description": "amount deposited, expressed in decimals units",
+                "description": "bZx Perpetual Position Token",
                 "address": "0x3c961a0a2ec87247897a07e66d9d9967a317abde",
                 "ticker": "dsKNC3x",
                 "icon": "ptokens/dsKNC3x"
             },
             {
-                "description": "amount deposited, expressed in decimals units",
+                "description": "bZx Perpetual Position Token",
                 "address": "0xaa46973900eb6b99ce0bd6e5f804217dbd192dfb",
                 "ticker": "dsKNC4x",
                 "icon": "ptokens/dsKNC4x"
             },
             {
-                "description": "amount deposited, expressed in decimals units",
+                "description": "bZx Perpetual Position Token",
                 "address": "0x91f46dd6ee5f3f8ce83287897938f7858f5761e4",
                 "ticker": "dLLINK2x",
                 "icon": "ptokens/dLLINK2x"
             },
             {
-                "description": "amount deposited, expressed in decimals units",
+                "description": "bZx Perpetual Position Token",
                 "address": "0xc0f2ad96e2e946b507f903bb5ef69a08b1bdc766",
                 "ticker": "dLLINK3x",
                 "icon": "ptokens/dLLINK3x"
             },
             {
-                "description": "amount deposited, expressed in decimals units",
+                "description": "bZx Perpetual Position Token",
                 "address": "0xcc16745a1773dd95ab9ed98599b8d9b835e42e25",
                 "ticker": "dLLINK4x",
                 "icon": "ptokens/dLLINK4x"
             },
             {
-                "description": "amount deposited, expressed in decimals units",
+                "description": "bZx Perpetual Position Token",
                 "address": "0x3bf13d76a5d625fc85486f73328926a64f226acc",
                 "ticker": "dsLINK",
                 "icon": "ptokens/dsLINK"
             },
             {
-                "description": "amount deposited, expressed in decimals units",
+                "description": "bZx Perpetual Position Token",
                 "address": "0x7d7ab1db2c8766d98465a392f374eb97361289ef",
                 "ticker": "dsLINK2x",
                 "icon": "ptokens/dsLINK2x"
             },
             {
-                "description": "amount deposited, expressed in decimals units",
+                "description": "bZx Perpetual Position Token",
                 "address": "0x4a1db1005cbc5684aa51e7a4eee06db0298e70f6",
                 "ticker": "dsLINK3x",
                 "icon": "ptokens/dsLINK3x"
             },
             {
-                "description": "amount deposited, expressed in decimals units",
+                "description": "bZx Perpetual Position Token",
                 "address": "0x1f8bdad5f30effdf14c8da175349c7207bb370f8",
                 "ticker": "dsLINK4x",
                 "icon": "ptokens/dsLINK4x"
             },
             {
-                "description": "amount deposited, expressed in decimals units",
+                "description": "bZx Perpetual Position Token",
                 "address": "0xe5bd12178910c928b69cd090b18d4b981f1150dc",
                 "ticker": "dLWBTC2x",
                 "icon": "ptokens/dLWBTC2x"
             },
             {
-                "description": "amount deposited, expressed in decimals units",
+                "description": "bZx Perpetual Position Token",
                 "address": "0x038e1b56b615ff3dd20e0bd4c7e91c7ee07d3508",
                 "ticker": "dLWBTC3x",
                 "icon": "ptokens/dLWBTC3x"
             },
             {
-                "description": "amount deposited, expressed in decimals units",
+                "description": "bZx Perpetual Position Token",
                 "address": "0xdbc54c60a4dde6f95de3c78af59f9ff77e26afd2",
                 "ticker": "dLWBTC4x",
                 "icon": "ptokens/dLWBTC4x"
             },
             {
-                "description": "amount deposited, expressed in decimals units",
+                "description": "bZx Perpetual Position Token",
                 "address": "0x5590b05495bad72365d4afaa3ed5fba5d8d67af2",
                 "ticker": "dsWBTC",
                 "icon": "ptokens/dsWBTC"
             },
             {
-                "description": "amount deposited, expressed in decimals units",
+                "description": "bZx Perpetual Position Token",
                 "address": "0xe63d611b76ee1ad92df5153f3e573f7453ca0901",
                 "ticker": "dsWBTC2x",
                 "icon": "ptokens/dsWBTC2x"
             },
             {
-                "description": "amount deposited, expressed in decimals units",
+                "description": "bZx Perpetual Position Token",
                 "address": "0x7dd474dce035debf073dcb9c188584d761b1d024",
                 "ticker": "dsWBTC3x",
                 "icon": "ptokens/dsWBTC3x"
             },
             {
-                "description": "amount deposited, expressed in decimals units",
+                "description": "bZx Perpetual Position Token",
                 "address": "0x11babe4a1dee350ba5b5ad902f1d2c9822a0a98b",
                 "ticker": "dsWBTC4x",
                 "icon": "ptokens/dsWBTC4x"
             },
             {
-                "description": "amount deposited, expressed in decimals units",
+                "description": "bZx Perpetual Position Token",
                 "address": "0x0dd55d33b46151b9d2427a23ec6a9986fdd74745",
                 "ticker": "dLZRX2x",
                 "icon": "ptokens/dLZRX2x"
             },
             {
-                "description": "amount deposited, expressed in decimals units",
+                "description": "bZx Perpetual Position Token",
                 "address": "0x79c6ed6d205dd41f00f3561a1d684c1f39152a20",
                 "ticker": "dLZRX3x",
                 "icon": "ptokens/dLZRX3x"
             },
             {
-                "description": "amount deposited, expressed in decimals units",
+                "description": "bZx Perpetual Position Token",
                 "address": "0xb9d90d2292ecaaeb616a7c709ec6d24f9fd5e286",
                 "ticker": "dLZRX4x",
                 "icon": "ptokens/dLZRX4x"
             },
             {
-                "description": "amount deposited, expressed in decimals units",
+                "description": "bZx Perpetual Position Token",
                 "address": "0xb40e02f0e11081140a062f06b6692180c0199dd9",
                 "ticker": "dsZRX",
                 "icon": "ptokens/dsZRX"
             },
             {
-                "description": "amount deposited, expressed in decimals units",
+                "description": "bZx Perpetual Position Token",
                 "address": "0x8b9b98feec18b390cb82c33a55a78e81151cc6ed",
                 "ticker": "dsZRX2x",
                 "icon": "ptokens/dsZRX2x"
             },
             {
-                "description": "amount deposited, expressed in decimals units",
+                "description": "bZx Perpetual Position Token",
                 "address": "0x889badfa1afafb0e783b9f91626d71aeb1a3b113",
                 "ticker": "dsZRX3x",
                 "icon": "ptokens/dsZRX3x"
             },
             {
-                "description": "amount deposited, expressed in decimals units",
+                "description": "bZx Perpetual Position Token",
                 "address": "0xd2b6c055b915cba38490b586a9e22aafcc3a15cc",
                 "ticker": "dsZRX4x",
                 "icon": "ptokens/dsZRX4x"
