@@ -107,4 +107,21 @@ $(document).ready(function () {
       e.currentTarget.className += " active";
     });
   });
+  Array.from(document.querySelectorAll(".buttons-tabs-itokens .tablinks-itokens")).forEach(elem => {
+    elem.addEventListener("click", function (e) {
+      var iTokens = e.currentTarget.dataset.itokens;
+      var tabcontent = document.getElementsByClassName("tabcontent-itokens");
+      for (var i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+        tabcontent[i].className = tabcontent[i].className.replace(" active", "");
+      }
+      var tablinks = document.getElementsByClassName("tablinks-itokens");
+      for (var i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(iTokens).style.display = "block";
+      document.getElementById(iTokens).className += " active";
+      e.currentTarget.className += " active";
+    });
+  });
 });
