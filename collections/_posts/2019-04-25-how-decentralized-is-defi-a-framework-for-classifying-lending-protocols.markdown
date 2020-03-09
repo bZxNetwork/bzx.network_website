@@ -2,8 +2,7 @@
 layout: post
 title:  "How Decentralized is DeFi? A Framework for Classifying Lending Protocols"
 date:   2019-04-25 20:12:46 -0700
-cover: /images/blog/infographic_infographic.png
-canonical: https://medium.com/bzxnetwork/how-decentralized-is-defi-a-framework-for-classifying-lending-protocols-a34f02c14f5c
+cover: /images/blog/how-decentralized/Blog_cover_Defi_Protocol.png
 author: Kistner
 metadescription: "Presented here is a description of prominent DeFi lending protocols and a framework for understanding the degree of decentralization of each."
 intro: "Presented here is a description of prominent DeFi lending protocols and a framework for understanding the degree of decentralization of each."
@@ -17,7 +16,7 @@ Presented here is a description of prominent DeFi lending protocols and a framew
 The components common between all DeFi lending protocols include custody, price feeds, initiation of margin calls, provision of margin call liquidity, interest rate determination, and protocol development. Based on the number of these components that are decentralized a category on the decentralization continuum is assigned. This categorization system while simple is surprisingly powerful at capturing the degree of control the teams behind the protocols have over held assets.
 
 ### Categories
-![](/images/blog/infographic_infographic.png)
+![](/images/blog/how-decentralized/Defi protocols.png)
 
 **CeFi:** CeFi products are custodial, use centralized price feeds, initiate margin calls centrally, centrally determine interest rates, and centrally provide liquidity for their margin calls. Examples include SALT, BlockFi, Nexo, and Celsius.
 
@@ -35,7 +34,7 @@ The components common between all DeFi lending protocols include custody, price 
 
 ## Enumeration
 
-![](/images/blog/1_ED2C-88caAsAg3mnXOkrwg.png)
+![](/images/blog/how-decentralized/Protocols_1.png)
 
 ### Dharma
 
@@ -50,9 +49,9 @@ The components common between all DeFi lending protocols include custody, price 
 **Development:** The development of the Dharma core contracts and underwriting contracts are undertaken by Dharma itself. The underwriting contracts are open source and loan origination contracts are closed source.
 Note: Dharma has recently revealed that it plans to move to a MakerDAO style liquidation mechanism. This would greatly increase the level of decentralization.
 
-**Update:** Dharma has pivoted to become a Compound relay that offers interest rate swaps, so this description only covers Dharma Lever v1.0. 
+**Update:** Dharma has pivoted to become a Compound relay that offers interest rate swaps, so this description only covers Dharma Lever v1.0.
 
-![](/images/blog/1_-PePqztSlwuFjK6uYeA7Pw.png)
+![](/images/blog/how-decentralized/Protocols_2.png)
 
 ### Nuo
 
@@ -91,7 +90,7 @@ Initiating Margin Calls: Margin calls are initiated by the lender. They are prev
 
 **Development:** The ETHLend contracts are closed source and partially mutable. The protocol is centrally developed by the team. The core functions are not mutable, but auxiliary functionality such as single loan repayments can be built on top.
 
-![](/images/blog/1_va_X8aZg6qZuX7YqomC0Kw.png)
+![](/images/blog/how-decentralized/Protocols_3.png)
 
 ### Compound
 
@@ -121,7 +120,7 @@ Initiating Margin Calls: Margin monitoring and margin call initiation is permiss
 
 **Development:** MakerDAO contracts are centrally developed and open source. The contracts are not mutable. The release of MCD will require migration to a new contract.
 
-![](/images/blog/infographic_degree_4.png)
+![](/images/blog/how-decentralized/Protocols_4.png)
 
 ### Fulcrum
 
@@ -152,11 +151,11 @@ All details for https://torque.loans are the same as for Fulcrum as they share t
 
 **Interest Rates:** dYdX sets the interest rate model parameters, giving them central control over the interest rates.
 
-**Development:** The dYdX smart contracts are centrally developed and closed source. The team reports that the contracts will be verified on Etherscan shortly. 
+**Development:** The dYdX smart contracts are centrally developed and closed source. The team reports that the contracts will be verified on Etherscan shortly.
 
-**Update:** dYdX has moved their contracts behind a two day timelock. 
+**Update:** dYdX has moved their contracts behind a two day timelock.
 
-![](/images/blog/1_CIY85ecsmvd7pFoinVb0tQ.png)
+![](/images/blog/how-decentralized/Protocols_bzx.png)
 
 ### bZx
 
