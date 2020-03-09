@@ -1,0 +1,265 @@
+---
+layout: post
+title:  "Mea Culpa: A New Beginning"
+date:   2020-03-09 03:12:46 -0700
+cover: /images/blog/meaculpa.png
+author: Kistner
+metadescription: "This report will contain a full accounting of all major vulnerabilities found in the protocol, a description of the latest attack, and how we will mitigate security risks going forward."
+intro: "This report will contain a full accounting of all major vulnerabilities found in the protocol, a description of the latest attack, and how we will mitigate security risks going forward."
+---
+### TL;DR: We expect minimal impact on users going forward.
+
+This report will contain a full accounting of all major vulnerabilities found in the protocol, a description of the latest attack, and how we will mitigate security risks going forward.
+
+## The Oracle Manipulation Attack
+
+#### February 17th:
+
+- 8:58  MST: Tom Bean noticed a large increase in sUSD total value locked, a large increase in ETH borrowing, and received a price alert from Coinstats indicating a 150% rise in the price of sUSD.  
+- 9:04 MST: We brought the transaction to the attention of Lev Livnev, Samczsun, Victor Tran, Palkeo, and Kain Warwick, and the other whitehats we have been working in close coordination with.
+- 9:21 MST: Consensus was established on the nature of the exploit. It was an oracle manipulation attack that took advantage of the fact that sUSD had two Uniswap-like reserves, allowing the attacker to pass the spread check when manipulating the price. This allowed them to take out an ETH loan far larger than their sUSD collateral should allow.
+- 9:23 MST: We delisted all tokens on the oracle whitelist, pausing trading and borrowing on the protocol.
+
+#### Shifting Losses Away From Users
+
+Like the previous attack, the attacker left a substantial amount of collateral. In this case 1,099,841 sUSD was left as collateral. The collateral was liquidated into 4099.31 ETH, which is now streaming into the iETH pool as interest. In total, the principal owed by the attackers’ two overcollateralized loans is 11497.292543653558548193 ETH. Currently, there is 6,095.57 ETH that can be used to finance the interest payments on the principal, delaying realization of the default by the insurance fund.
+
+We will manually be refinancing the loans to lower their borrowing rates in a gradual manner. The protocol automatically refinances margin positions in a twenty eight day cycle. Given the current interest rate model for the iETH pool and utilization rate, if we did nothing the interest rate would refinance to a rate of around 1.5% APY at the time of writing this. We will suspend this process and gradually, manually lower the rate to prevent abrupt discontinuities. Our goal is to delay the realization of the loss while also ensuring the iETH pool retains free liquidity.
+
+It is our estimate that the supply rate required to keep the pool liquid will equilibrate to a rate slightly higher than the market, and that the borrow rate of the attacker’s loan will eventually fall in the range of .2% APY. The would be a yearly interest payment of 22.99 ETH. With the escrowed 6095.57 ETH currently being streamed in as interest, it will be another 265.14 years before the loan defaults. It is surprising and counterintuitive to note that this second attack actually increased our ability to service our debts. Before the second attack we were only able to service the debt for 202 years, but that figure has climbed to 265.14 years. This is because the second attack left proportionately more collateral in the protocol than the first.
+
+#### Who Loses?
+
+Funds have been lost, and yet we claim that user funds are safe. This is possible because the company and the protocol stakeholders are absorbing the losses instead of the users. The cash flows of the company and the protocol are being directed to the insurance fund, where they will wait until the debt is due. Given the current value of the insurance fund and its annualized rate of growth, it should be more than able to cover the loss at the time it needs to be realized in the year 2285 AD.
+
+We will be making changes to the way the insurance fund accrues value in order to expedite its ability to cover the loss as soon as possible. Conservatively, we will be able to increase the proportion of value capture by over an order of magnitude. The insurance fund currently receives revenues from 10% of the interest paid by borrowers. We will be introducing two additional streams of revenue: trading revenue and arbitrage. The company currently earns substantial revenue in its capacity as a Kyber affiliate. This revenue will be directed away from the company and toward the insurance fund. Lastly, traders on the protocol create arbitrage opportunities with their trades. We have developed a way for the protocol to monopolize these arbitrage opportunities. The profits from these arbitrage opportunities will be shared between the traders and the protocol. We believe that arbitrage will be the most substantial contributor to the insurance fund by a large margin.
+
+#### Centralization vs Decentralization
+
+We are reiterating that everything we are doing is what a DAO could and would do. If we had reached full decentralization of the administrator key before this incident, we would not expect the results to be any different.
+
+| **Now**     | **DAO**     |
+| :------------- | :------------- |
+| Team is contacted about the issue and pauses the contract.      | Executive is contacted about the issue and pauses the contract.       |
+|  Team analyzes the issue and devise fix. | Executives speak to Representatives, analyze the issue and devise a fix. |
+| Fix is pushed through timelock 	 | Reps signal votes, executive confirms, and patch is sent through timelock |
+| Solution is implemented | Solution is implemented |
+
+#### The Tragedy of The Traders
+
+When trading was paused during the first attack, this left many traders suspended in their positions for days. Importantly, this also paused margin calls. To understate the issue, this is a great imposition upon traders, who rely on being able to time their margin trades. Even more dire, lenders funds were potentially at risk as the margin calling system was shut off. For this reason, we felt under a great amount of pressure to bring the system online as soon as possible after the first attack. We worked closely with well known whitehats in the community like Samczsun and Lev Livnev to ensure we were taking the proper precautions in patching the security vulnerabilities and bringing the system back online. When we relaunched, we did so with the esteem of the community, immediately hitting new all time highs in value locked and trading volume. Unfortunately, the second attack was a different class than the first, this time using oracle manipulation to allow the protocol to issue a bad loan.
+
+When we paused trading on the platform a second time, this left traders yet again in a state of limbo, unable to close their loans while continuing to suffer exposure to market volatility. To these traders we give our deepest heartfelt apology. Having completely reliable uptime is one of the most critical services we provide traders. We have prided ourselves in the past on having impeccable uptime, and we plan on regaining that pride. We will create response plans and emergency functionality that provides us with the highest possible certainty that this will not be allowed to happen again. Lastly, we will be creating a program that compensates traders for their losses. More information will be released on this at a later date.
+
+#### The Attack
+
+- Attacker borrows 7500 ETH on iETH using flashBorrowToken()
+- Attacker converts 900 ETH for 155,994 sUSD on Kyber.
+- Attacker converts 3518 ETH for 943,837 sUSD using Synthetix’s exchangeEtherForSynths()
+  - Price 0.0037 sUSD/ETH (sane rate)
+- Attacker borrows 6796 ETH on bZx, sending 1,099,841 sUSD
+  - Price 0.006 sUSD/ETH (distorted rate)
+- Attacker transfers back 7500 ETH to repay the loan.
+- Attacker gets a profit of 2378 ETH.
+
+Call list:
+
+- Call iETH contract: flashBorrowToken() of 7500 ETH
+  - 7500 ETH transferred to 0x360f85F0B74326CDDfF33A812B05353BC537747B
+- Call 0x360f85F0B74326CDDfF33A812B05353BC537747B, now everything happens under that call: [oko.palkeo.com transaction view
+](https://oko.palkeo.com/0x762881b07feb63c436dee38edd4ff1f7a74c33091e534af56c9f7d49b5ecac15/#call_0_3_0)
+- Convert 540 ETH + 20 ETH * 18 = 900 ETH to sUSD on Kyber, for 155,994 sUSD
+exchangeEtherForSynths() on 6000 ETH, get 943,837 sUSD and 2482 ETH back: [oko.palkeo.com transaction view
+](https://oko.palkeo.com/0x762881b07feb63c436dee38edd4ff1f7a74c33091e534af56c9f7d49b5ecac15/#call_0_3_0_20)
+- Call iETH contract: borrowTokenFromDeposit() sending 1,099,841 sUSD: [oko.palkeo.com transaction view
+](https://oko.palkeo.com/0x762881b07feb63c436dee38edd4ff1f7a74c33091e534af56c9f7d49b5ecac15/#call_0_3_0_23_0)
+  - (bZx gets the 1099841 sUSD)
+  - Sends 6796 ETH to attacker (0x360…)
+- Transfer back 7500 ETH to iETH.
+
+## The January Vulnerability
+
+In early January, using the administrator key we published an upgrade to the protocol adding a flash loan function, which comprised 40 lines of code in total. The code was not audited. It contained a function allowing arbitrary calls, which an attacker could have taken advantage of in order to approve a token allowance to their own wallet. The function was undocumented, and we had quietly shown the code to various teams with whom we were collaborating. Shortly after posting the code, one of the teams noticed a dangerous use of arbitrary call and alerted us to the mistake. However, before alerting us, the team first executed a proof of concept of the exploit on mainnet.
+
+As is standard across the industry, we did not design the protocol with the ability to restrict lenders from withdrawing funds. As much as we would have preferred to simply pause the contracts, this was not an option.The team that discovered the vulnerability suggested that it would be prudent to empty the contracts in order to save them. However, we knew that draining Fulcrum would bring a large amount of attention and prompt copycats. If we allowed Fulcrum to be drained, rebalancers would flood in, and their funds would be stolen by copycats. Moreover, users of third party interfaces would still be entering, unaware of what was happening, potentially losing their funds in the process.
+
+Though we believed that the publishing of the exploit proof of concept greatly increased the danger of the vulnerability being found, there were other factors that we believed made it unlikely that the vulnerability would be found right away. We had two options: rescue the funds and allow users/integrators to sustain a small to moderate amount of losses, or silently put in a patch and hopefully rescue all of the funds. In our judgment, the +EV decision was to silently put in a patch.
+
+On Jan 12th [we coordinated](/images/blog/meaculpa/image1.png) a time to make a disclosure, which was slated for the end of February. On Jan 20th we were approached for a bug bounty. We had felt that publishing the exploit on mainnet before coming to us was a violation of our disclosure policies in both spirit and fact. However, in the end, we offered to pay the full bounty as described by our bounty program, and we have in fact [done so](https://gitcoin.co/townsquare?tab=activity:142742). We realized that we should always err on the side of paying bounties.
+
+We made good on [our promise](/images/blog/meaculpa/image2.png) at the end of February, just like we had finally said.
+
+### Our Responsibility
+
+Rather than simply pay the full bug bounty immediately, with extreme gratitude for finding such a serious exploit, we tried negotiating. This was a serious mistake that we need to take responsibility for. Under no circumstances should this have happened, and we sincerely apologize. We have reached out to the team to personally apologize, and we are also apologizing publicly. We have always paid our bounties punctually and in full, and we want the community to know that they can always count on this being the case. The process should be easy and welcoming. It is much better that a bug is brought to us than executed against the system.
+
+### Making Changes
+
+It’s not enough that we have learned our lesson. We must also take concrete, proactive steps to improve.
+
+- We are increasing our bug bounty rewards.
+- We are increasing the visibility of our bug bounty program.
+- We are removing any points of friction or barriers to reporting a bug such as showing identification or requiring the submission to be via email.
+- We will be delegating judgment to an independent panel to remove any conflicts of interest.
+- We will create a public record of the bug bounties we have paid.
+- We will never deploy unaudited code, no matter how minor.
+
+### Lessons Learned
+
+What are the takeaways here for us and for others? For users, it’s that you can always expect timely disclosures. For developers, it’s that we do pay our bug bounties; we will not litigate small details of the program. Lastly, there are a few lessons we personally learned.
+
+The first lesson is that it was negligent for us to silently add the flash loans to mainnet without an audit. Being willing to publish unaudited code is an abdication of the trust put in us to write secure financial software and indicates a serious issue with the underlying company culture. Every line of code should be audited, and users should be given adequate forewarning about any changes to the protocol. We will expand more on this and how we will address it.
+
+A second lesson we learned is that we should have set caps on the protocol in line with our ability to fund proper security measures. A $5,000 bounty may have been reasonable (if on the low side) when the entire protocol was less than 2MM AUM. However, by the time of this incident our AUM was already over 5MM.
+
+## How Did We Get Here? The Oracle Question.
+
+When we wrote the original whitepaper in late 2017, we envisioned that the protocol would use the median of three on-chain price feeds. However, this number of reliable on-chain price feeds did not materialize. We were committed to the idea of decentralization, and at the time we felt we needed to make things work with Kyber or we would lose our raison d'être. Kyber was still a white paper, and the nuances of the technology were far from fully understood. In the original Kyber whitepaper, the team originally believed that the DEX could be used as an authoritative source of prices:
+
+![](/images/blog/meaculpa/image3.png)
+_Section 4.3 of the original Kyber whitepaper_
+
+As time progressed, the team began to fully appreciate the properties of this cutting-edge and novel system, removing mentions of secure price feeds from the whitepaper in early 2018. Kyber’s [developer portal](https://developer.kyber.network/docs/Integrations-PriceFeedSecurity/) still provides instructions on how to best fortify the feed against manipulation, but warns that “while using Kyber as an on-chain feed for token prices is viable, note that it is susceptible to price manipulation by malicious parties”. The intent behind this information is not to blame Kyber in any capacity whatsoever, but rather to provide context about how competent people were thinking about these issues in the past.
+
+That is all to say that, in context, our initial decision to use Kyber was reasonable at the time, and continued to appear viable assuming the proper precautions were taken, though it was widely viewed by ourselves and others as not optimal. The suggested precautions were to use a price average over time or to check the spread to ensure no arbitrage prices exist. It was believed that this would make the feed robust against atomic manipulation so long as there was at least one fixed price reserve. It’s important to understand what sort of attacks we were defending against specifically to understand our reasoning behind the oracle design. There is a persistent belief that price feeds are trivial to manipulate with a large bankroll, but this isn’t quite the full story.
+
+#### Liquidation Attacks
+
+A liquidation attack, also known as ‘stop hunting’, involves an attacker with a large bankroll pushing the prices down on a market -- the less liquid the better -- in order to trigger margin calls for margin traders. This creates a series of predictable trades far below the true market price, allowing the attacker to profit from the manipulation. There are two ways of performing this attack and both have very different risk/reward profiles.
+
+The first method of performing a liquidation attack is for it to be performed atomically, within a single transaction. If it can be performed atomically it is a guaranteed risk-free arbitrage. This sort of attack can be performed with a modest bankroll, and now with flash loans, essentially for free. To prevent liquidation attacks from being performed atomically, we require that the transaction origin be the same as the message sender, preventing contracts from calling liquidate. This means that an attacker will have to stage the attack over multiple transactions.
+
+That brings us to the second method: forcing the price down over multiple transactions. For this sort of attack, the security of the oracle is directly proportional to the cost of manipulation. If the oracle relies on an illiquid spot market for its prices, it is much cheaper to attack profitably. However, this sort of attack is not an risk-free arbitrage and carries a large amount of risk. When the price is initially depressed, it can be pushed back up by arbitrage bots at the expense of the attacker, and the profit taking transaction can be [frontrun or even reordered by miners](https://arxiv.org/abs/1904.05234). While it’s possible to stage an attack like this, it is also very likely to result in significant lost funds from gas warring with arbitrage and front-running bots.
+
+We regarded this sort of attack as the main weakness of using a price feed connected to DEX liquidity. Using a time-weighted average would greatly increase the cost of staging such an attack, but for much of our tenure there was not a secure source of time-weighted DEX liquidity data. We felt the attack was risky enough that it would be unlikely to occur. We were so far correct in regards to this specific attack, but our approach contained weaknesses we did not fully appreciate.  
+
+#### Undercollateralized Loan Attacks
+
+The premise of the undercollateralized loan attack is simple. It requires manipulating the price feed so that the value put into the protocol is less than the value taken out of the protocol. There are three ways this can be done: by manipulating the price feed before entering a loan, manipulating the price feed before paying off a loan, or pushing an arbitrage price to the feed. While at first it may seem simple to make a large trade on the spot market to skew the prices, there are layers of defense that prevent the attack from being straightforward.
+
+Kyber operates using a variety of competing reserves for liquidity, some of which are permissioned and some of which are unpermissioned. We have always restricted our prices to permissioned reserves. Each reserve has a different model for calculating price and different attendant security considerations. The most common type of Kyber reserve is the Fed Price Reserve (FPR). It sets a base rate and a pricing curve which acts as a degenerated order book. While it seems like it can easily be manipulated by trading against it, this will only cause other FPRs to offer more competitive prices, foiling the manipulation. Over time, Kyber added a number of new reserve types including Automatic Price Reserves (APRs) and Uniswap, which are both constant product market makers.
+
+When we were [first contacted by samczsun](https://samczsun.com/taking-undercollateralized-loans-for-fun-and-for-profit/) about a possible vulnerability with our oracle system, he first demonstrated how arbitrage prices could be pushed through permissioned reserves for Kyber’s DAI reserve. After experimenting with a number of different solutions and penetration testing them, it was believed that the general problem could be solved by checking both sides of the spread and ensuring there were no arbitrage prices. This solution seemed to hold as long as an asset contained at least one permissioned FPR for an asset.
+
+However, after the second attack, this assumption was revisited. Samczsun demonstrated that the mere presence of Uniswap or an APR in a reserve pool made the price feed vulnerable to manipulation because an attacker could simply repeatedly trade against each fed price reserve until it stopped serving trades, allowing the attacker to manipulate the Uniswap or APR reserve with impunity. It was only at this moment where it became clear that our continued use of Kyber as a price feed was untenable.  
+
+### A New Oracle
+
+This all leads us towards a new oracle design. We will be working towards the three medianized oracle price feed model initially proposed in our whitepaper. This will be done in three steps.
+
+#### Phase 0: Chainlink
+
+In Phase 0 we will use Chainlink to provide reference prices. If there is an excessive deviation between the price quoted for a DEX trade and the Chainlink reference price, the transaction reverts. We believe that Chainlink represents one of the best decentralized oracle solutions on the market. Each critical price feed is secured by numerous independent nodes, which collectively source data from over 7 independent data aggregators. We understand that no source is infallible and that there is value in diversifying the risk across multiple oracle providers rather than relying on one.  
+
+#### Phase 1: Chainlink + Band
+
+In Phase 1 we will incorporate both Chainlink and Band protocol oracles. Band’s nodes are geographically distributed in a way that tends to favor Asia, geographically and jurisdictionally diversifying our oracle risk. This is the oracle design that will be featured in the full re-release of the protocol. We will continue to use Chainlink price feeds as a reference price. We will supplement the price feed with Band Protocol, using time-weighted price information that takes slippage and liquidity into account. If there is disagreement between the Chainlink price, the Band price, and the actual quoted rates, then the transaction reverts.
+
+This design “fails closed”. If something goes wrong, everything stops. If one of the oracles fail or becomes malicious, this has the capacity to censor the protocol, disallowing further trades, and potentially putting funds at risk by halting liquidations. In order to mitigate these risks, governance will have the emergency ability to switch to a single primary oracle for a period of time. This will allow all the benefits of using multiple oracles while severely limiting the downsides.
+
+#### Phase 3: Chainlink + Band + Uniswap v 2.0
+
+The final form of the oracle system will be to include price information from Chainlink, Band, and Uniswap v2.0. The prices will be medianized, and that median price will be used as the reference rate. The next generation of Uniswap price feeds will allow contracts to query time-weighted Uniswap prices, [making it an excellent oracle](https://medium.com/gauntlet-networks/why-is-uniswap-a-good-oracle-22d84e5b0b6c) that is expensive to manipulate a large amount over a period of time. Uniswap also has the benefit of existing purely on-chain instead of being concentrated in a few geographic regions, making it perfect for further diversifying oracle risk.
+
+### Root Cause Analysis
+
+What did we do wrong, and what can we do differently next time? We believe that the root causes are as follows:
+
+#### 1. The Slippage Attack
+
+**Proximal Cause**: A bug causing the final collateralization check to be bypassed.
+
+**Ultimate Cause**: A failure in process. We must implement defense in depth. In order to address this, all code must be unit tested, have full test coverage, be recently audited, and formally verified. We believe that the bug could have been caught at each of these steps, and that the processes around each of these must be hardened.
+
+#### 2. The Oracle Manipulation Attack
+
+**Proximal Cause**: A fundamental protocol design flaw.
+
+**Ultimate Cause**: We believe that more recent code audits of the base protocol and particularly an economic audit would have located this attack vector before it could be exploited. Moreover, by more thoroughly vetting each asset added to the platform the attack may have been delayed. Lastly, the decision to use Kyber as a price feed created an attack surface that was difficult to manage.
+
+## Metamorphosis & Rebirth
+We will not be returning online with full functionality until the protocol is reworked from the ground up with security as the priority. This project and the market has evolved a great deal since we started building more than two and a half years ago. In the process the code has accumulated a great deal of bloat, which contributes towards high security audit costs. The protocol was designed to be powerful, but it was not designed defensively. The protocol will come back svelte, with a vastly reduced attack surface.
+
+### Coding Practices
+
+Bugs are a result of process not people. We have taken a “move fast and break things” approach, iterating quickly to achieve product-market fit. This is not a viable approach when operating a decentralized financial application with real money and errors we cannot reverse. We did not strike the right balance between innovation and safety, and we apologize. We are making changes to the way we do things, opting now to move more slowly, prioritizing security above traction.
+
+### Tests
+
+Every method in the code will have extensive tests, and our contracts must have full test coverage. This should be table stakes when coding a serious financial application. It is not enough to know whether the code works in most scenarios. We need to know whether the code is robust to unexpected inputs.
+
+### Continuous Integration & Continuous Development
+
+We are adding additional hardening, analysis, auditability, and scrutiny at every stage of our CI/CD process, so that we can catch issues earlier, and be better positioned to develop our code with thorough defense in depth through the development lifecycle.
+
+### Public Review
+
+We will transition to an EIP-like system for cataloguing new features and improvements to the protocol. This will make the process of how new code gets added completely visible to the public. Features should not be added as a surprise or at the last moment. Rather, they should go through a lengthy public process so that all ecosystem participants are able to make themselves familiar with the state of the code.
+
+### Planned Releases
+
+We will begin making releases on a standardized schedule a few times each year rather than continuously iterating on our code. The only exception to this will be if there is a critical issue requiring a patch. All code alterations will be audited either at the time or directly after, depending on the severity and urgency of the patch.
+
+### Asset Risk Reports
+
+Each asset we list and have listed will have an asset risk report published. This will outline the exchanges listing the asset, the volume on those exchanges, the centralization risk of the asset, an analysis of the token contract code, and an analysis of the effects of exchange downtime/maintenance on the liquidity conditions of the asset.     
+
+### Response Plans
+
+Sometimes the unexpected happens, but this does not mean we shouldn’t prepare as much as possible. We will publish a report detailing different exigent contingencies and how the protocol will handle them in the future. For example, when it was discovered that there was a possible exploit using the arbitrary call function of the smart loan contract, we had no response and our system was not designed to facilitate a response. We will exhaust the conditions in which we believe lender and trader funds could possibly be at risk and develop tools to allow us to address this. These plans will be published and made open source on Github, allowing the community to participate and give feedback.  
+
+### Audits & Formal Verification
+
+Before we come back fully online, we will subject our new refactored code to a security audit, formal verification, and an economic audit. We believe that  full test coverage, static analysis, and formal verification could have all formed additional lines of defense against the very first attack that bypassed the safety check on collateralization. We believe that an economic audit would have been particularly valuable in preventing the second attack. We will never again publish unaudited code, no matter how few lines or trivial.
+
+### Transparency
+
+We will be making a massive push towards increased transparency. We will be working to publish a comprehensive Security Page outlining our bug bounty program, the timelock, the powers of our administrative key, the administrative key address, our pause capabilities, response plans, security audits, economic audits, and formal verification.
+
+## Final words
+
+We have learned our lesson, and we are sorry. We will be better and we will do better. To the community, we want to say that we have great love for you, and we hope to earn that love back through our actions. This project is very personal to the people working on it, made with every ounce of love we have. As we move forward, we want to remind the community of the value of warmth and compassion in keeping passionate builders building even as we are kept accountable.  
+
+### FAQ
+
+-  I am lending DAI, USDC, or other assets. Am I at risk?
+>No, the only pool that was affected was ETH, and the effects do not spill over.
+
+-   I am lending ETH. Did I lose money?
+>No, the ETH lending pool has abundant free liquidity, and you should not expect to be impacted going forward, as we will ensure the pool continues to incentivize free liquidity.
+
+- Will traders be compensated?
+> Yes, we are formulating a plan to compensate traders.
+
+- Doesn’t using the administrator key mean you are CeFi?
+> Every lending protocol has an administrator key. The difference between us and other lending protocols is that this is our *only* centralized component while the other protocols have multiple centralized components. Later this year, we are moving to a DAO structure, and will be the first fully decentralized lending protocol. Decentralization is a spectrum, and we are at the extreme end of decentralization compared to the rest of the industry. Everything we have done can and likely will be done by a DAO.
+
+- Your liabilities exceed your assets for the iETH pool. Doesn’t that make you a fractional reserve ponzi scheme?
+> Ponzi schemes do not generate economic activity; they only redistribute existing assets. In our case the debt has simply been shifted to the protocol and is therefore being collateralized by both cash flows and assets rather than just assets.
+
+- Will you deploy unaudited code again?
+> Not one line, ever.
+
+- Did you have the new changes audited before you allowed borrowers to close their positions?
+> Yes, [here is the audit report](/pdfs/CertiK_Review_Report_for_bZx_v2.pdf).
+
+-  Did you audit the flash loans?
+> Yes, [here is the audit report](/pdfs/CertiK Verification Report for bZx.pdf).
+
+- I sent you a message and you didn’t respond. Why?
+> Please send any customer service questions over Intercom on the official website. Our bandwidth has been severely constrained over the last few weeks. We apologize for any inconvenience. We are bringing on more user facing staff in order to improve the situation.
+
+- Are there any other bugs we should know about?
+> First, there was a way to take advantage of the spread check that we implemented when aiming at eliminating arbitrage prices from the Kyber price feed. This was discovered by Lev Livnev during the second attack. Second, a month before the attack there was an outage of some critical Kyber reserves following Coinbase maintenance that caused our system to mistakenly liquidate four loans, one of which was our own. Issues like this will be addressed by moving to a new oracle system.
+
+- Should Kyber have done something different to help prevent this?
+> No, Kyber is functioning precisely as intended. Any faults with how we have used their system are with us and not them.
+
+- Didn’t Samczsun warn you repeatedly about your oracle?
+> Sam brought to our attention that an order maker could get the price feed to register arbitrage prices, making it trivial to manipulate without even making a trade. At first it was believed the issue was an edge case confined to just a few assets because we only drew prices from Kyber’s permissioned reserves, but as we worked on the problem together it became clear that a more general solution was required. Once we implemented the change to detect and reject arbitrage prices, the matter was considered settled.
+
+- When are you coming back online with full functionality?
+> When we have formally verified the code and subjected it to an additional code audit as well as an economic audit.
+
+---
+**We extend a thanks to Palkeo, Lev Livnev, Samczsun, Victor Tran, Kain Warwick, and Symbolic Capital Partners for working with us through this incident and providing feedback at every step.**
