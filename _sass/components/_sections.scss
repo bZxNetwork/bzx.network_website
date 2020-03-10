@@ -1,3 +1,13 @@
+@mixin svg-tokens {
+  @media (min-width: 768px) {
+    width: 40px;
+    height: 40px;
+  }
+  @media (max-width: 767px) {
+    width: 30px;
+    height: 30px;
+  }
+}
 .wrap-integrations {
   border: 2px solid $primary-color;
   padding-top: 10px;
@@ -474,11 +484,12 @@ section.bg-wave {
   }
 }
 
-.table-ptokens {
+.table-ptokens,
+.table-itokens {
   display: block;
-  thead { 
+  thead {
     display: block;
-    tr{
+    tr {
       display: flex;
       flex-wrap: wrap;
       align-items: center;
@@ -488,13 +499,13 @@ section.bg-wave {
       color: #828282;
       td {
         padding: 15px 0 15px 15px;
-        @media(max-width: 1199px){
+        @media (max-width: 1199px) {
           padding: 15px 0;
         }
         @media (max-width: 767px) {
           display: none;
         }
-        &.thead-ticker{
+        &.thead-ticker {
           width: 12%;
           @media (max-width: 1199px) {
             width: 20%;
@@ -529,9 +540,12 @@ section.bg-wave {
       display: flex;
       flex-wrap: wrap;
       align-items: center;
-      .ticker, .icon, .address, .description{
+      .ticker,
+      .icon,
+      .address,
+      .description {
         position: relative;
-        &:before{
+        &:before {
           position: absolute;
           left: 0;
           font-size: 14px;
@@ -540,25 +554,28 @@ section.bg-wave {
         }
       }
 
-      .ticker{
+      .ticker {
         width: 12%;
         @media (max-width: 1199px) {
           width: 20%;
         }
-        @media(max-width: 767px){
+        @media (max-width: 767px) {
           padding-left: 100px;
           width: 100%;
-          &:before{
-            content: 'Ticker';
+          &:before {
+            content: "Ticker";
           }
         }
       }
       .icon {
-        svg {
-          max-width: 40px;
-          @media(max-width: 767px){
-            max-width: 30px;
+        .bg-gradient {
+          @include svg-tokens;
+          svg {
+            @include svg-tokens;
           }
+        }
+        svg {
+          @include svg-tokens;
         }
       }
       .address {
@@ -566,26 +583,29 @@ section.bg-wave {
         @media (max-width: 1199px) {
           width: 60%;
         }
-        @media(max-width: 767px){
+        @media (max-width: 767px) {
           padding-left: 100px;
           width: 100%;
           word-wrap: break-word;
-          &:before{
-            content: 'Address';
+          &:before {
+            content: "Address";
           }
+        }
+        a, a:hover, a:visited{
+          color: #276BFB;
         }
       }
       .description {
         width: 40%;
-        @media(max-width: 1199px){
+        @media (max-width: 1199px) {
           padding-left: 20%;
           width: 100%;
           order: 2;
-          &:before{
-            content: 'Description';
+          &:before {
+            content: "Description";
           }
         }
-        @media(max-width: 767px){
+        @media (max-width: 767px) {
           padding-left: 100px;
         }
       }
@@ -594,39 +614,39 @@ section.bg-wave {
         @media (max-width: 1199px) {
           width: 20%;
         }
-        @media(max-width: 767px){
+        @media (max-width: 767px) {
           padding-left: 100px;
           width: 100%;
           order: 2;
-          &:before{
-            content: 'Icon';
+          &:before {
+            content: "Icon";
           }
         }
       }
       td {
         color: #000085;
         line-height: 1.6;
-        @media(min-width: 1200px){
+        @media (min-width: 1200px) {
           font-size: 16px;
           padding: 15px 0 15px 15px;
         }
-        @media(max-width: 1199px){
+        @media (max-width: 1199px) {
           padding: 15px 0;
         }
-        @media (max-width: 767px){
+        @media (max-width: 767px) {
           font-size: 14px;
           padding: 0 0 25px 15px;
-          &:first-child{
+          &:first-child {
             padding-top: 25px;
           }
         }
       }
     }
   }
-
 }
-.buttons-tabs-ptokens{
-  background-color: #DCEBFF;
+.buttons-tabs-ptokens,
+.buttons-tabs-itokens {
+  background-color: #dcebff;
   border-radius: 5px;
   margin: auto;
   display: flex;
@@ -635,14 +655,9 @@ section.bg-wave {
   justify-content: space-between;
   padding: 0 3px 0 2px;
   margin-bottom: 30px;
-  @media(min-width: 552px){
-    max-width: 522px;
-  }
-  @media(max-width: 551px){
-    width: 100%;
-  }
-  button{
-    font-family: 'Muli', sans-serif;
+  max-width: 262px;
+  button {
+    font-family: "Muli", sans-serif;
     border: none;
     background: transparent;
     font-size: 16px;
@@ -654,14 +669,14 @@ section.bg-wave {
     outline: none;
     transform-style: preserve-3d;
     position: relative;
-    width: 25%;
-    &.active{
+    width: 50%;
+    &.active {
       background: #276bfb;
       border: 1px solid #000085;
       border-radius: 4px;
       color: #ffffff;
       transform: translateY(-4px);
-      &:after{
+      &:after {
         content: "";
         position: absolute;
         width: 100%;
@@ -677,11 +692,17 @@ section.bg-wave {
   }
 
 }
-.tabcontent-ptokens{
+.tabcontent-ptokens,
+.tabcontent-itokens {
   display: none;
   color: #000085;
-  margin-bottom: 60px;;
-  &.active{
+  margin-bottom: 60px;
+  &.active {
     display: block;
-  };
+  }
+}
+.bg-gradient {
+  border-radius: 50%;
+  display: flex;
+  background: linear-gradient(315deg, #003cda 19.25%, #33dfcc 86.5%);
 }

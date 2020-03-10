@@ -61,16 +61,16 @@ h1title: bZx Branding
     </div>
     <div class="itoken container container-xl text-center ">
         <div class="grid mb-30">
-            <div class="itoken-wrapper">{% include svg/itoken_circle_BAT.svg %}</div>
-            <div class="itoken-wrapper">{% include svg/itoken_circle_DAI.svg %}</div>
-            <div class="itoken-wrapper">{% include svg/itoken_circle_ETH.svg %}</div>
-            <div class="itoken-wrapper">{% include svg/itoken_circle_KNC.svg %}</div>
-            <div class="itoken-wrapper">{% include svg/itoken_circle_LINK.svg %}</div>
-            <div class="itoken-wrapper">{% include svg/itoken_circle_REP.svg %}</div>
-            <div class="itoken-wrapper">{% include svg/itoken_circle_USDC.svg %}</div>
-            <div class="itoken-wrapper">{% include svg/itoken_circle_WBTC.svg %}</div>
-            <div class="itoken-wrapper">{% include svg/itoken_circle_ZRX.svg %}</div>
-            <div class="itoken-wrapper">{% include svg/itoken_circle_sUSD.svg %}</div>
+            <div class="itoken-wrapper"><div class="bg-gradient">{% include svg/itokens/iBAT.svg %}</div></div>
+            <div class="itoken-wrapper"><div class="bg-gradient">{% include svg/itokens/iDAI.svg %}</div></div>
+            <div class="itoken-wrapper"><div class="bg-gradient">{% include svg/itokens/iETH.svg %}</div></div>
+            <div class="itoken-wrapper"><div class="bg-gradient">{% include svg/itokens/iKNC.svg %}</div></div>
+            <div class="itoken-wrapper"><div class="bg-gradient">{% include svg/itokens/iLINK.svg %}</div></div>
+            <div class="itoken-wrapper"><div class="bg-gradient">{% include svg/itokens/iREP.svg %}</div></div>
+            <div class="itoken-wrapper"><div class="bg-gradient">{% include svg/itokens/iUSDC.svg %}</div></div>
+            <div class="itoken-wrapper"><div class="bg-gradient">{% include svg/itokens/iWBTC.svg %}</div></div>
+            <div class="itoken-wrapper"><div class="bg-gradient">{% include svg/itokens/iZRX.svg %}</div></div>
+            <div class="itoken-wrapper"><div class="bg-gradient">{% include svg/itokens/iSUSD.svg %}</div></div>
         </div>
         <a href="/images/iTokens.zip" title="download iTokens branding kit" class="button button-secondary d-flex j-content-center m-auto">download iTokens branding kit</a>  
     </div>

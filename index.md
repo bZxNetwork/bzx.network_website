@@ -270,7 +270,7 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
 <section class="safer-section text-center bg-primary color-white p-relative overflow-xl" id="visible-insured">
     <div class="container container-md pt-55 pt-xs-0 p-relative z-index-2">
         <h3 class="fs-24 fs-sm-20 fw-700 lh-160 lh-xs-150 mb-15 color-tertiary">Everything is Tokenized</h3>
-        <p class="lh-160 mb-30">iTokens and pTokens are powerful financial primitives. iTokens are tokens that constantly increase in value from earning interest, while pTokens are tokens that represent short and leveraged positions. These iTokens and pTokens can be composed into novel financial products, used as collateral for loans, or listed on any exchanges to instantly enable margin lending and trading.</p>
+        <p class="lh-160 mb-30"><a href="/itokens" class="color-tertiary">iTokens</a> and <a href="/ptokens" class="color-tertiary">pTokens</a> are powerful financial primitives. iTokens are tokens that constantly increase in value from earning interest, while pTokens are tokens that represent short and leveraged positions. These iTokens and pTokens can be composed into novel financial products, used as collateral for loans, or listed on any exchanges to instantly enable margin lending and trading.</p>
         <a href="/blog/introducing-fulcrum-tokenized-margin-made-dead-simple" class="button button-primary button-sm d-flex j-content-center m-auto">Fulcrum Specifications</a>
         <a href="/blog/introducing-torque-borrowing-made-simple" class="button button-primary button-sm d-flex j-content-center m-auto">Torque Specifications</a>
     </div>
