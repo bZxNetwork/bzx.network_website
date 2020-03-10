@@ -147,7 +147,7 @@ However, after the second attack, this assumption was revisited. Samczsun demons
 
 This all leads us towards a new oracle design. We will be working towards the three medianized oracle price feed model initially proposed in our whitepaper. This will be done in three steps.
 
-#### Phase 1: Chainlink
+#### Phase 0: Chainlink
 
 In Phase 0 we will use Chainlink to provide reference prices. If there is an excessive deviation between the price quoted for a DEX trade and the Chainlink reference price, the transaction reverts. We believe that Chainlink represents one of the best decentralized oracle solutions on the market. Each critical price feed is secured by numerous independent nodes, which collectively source data from over 7 independent data aggregators. We understand that no source is infallible and that there is value in diversifying the risk across multiple oracle providers rather than relying on one.  
 
