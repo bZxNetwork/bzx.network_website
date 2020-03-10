@@ -147,11 +147,11 @@ However, after the second attack, this assumption was revisited. Samczsun demons
 
 This all leads us towards a new oracle design. We will be working towards the three medianized oracle price feed model initially proposed in our whitepaper. This will be done in three steps.
 
-#### Phase 0: Chainlink
+#### Phase 1: Chainlink
 
 In Phase 0 we will use Chainlink to provide reference prices. If there is an excessive deviation between the price quoted for a DEX trade and the Chainlink reference price, the transaction reverts. We believe that Chainlink represents one of the best decentralized oracle solutions on the market. Each critical price feed is secured by numerous independent nodes, which collectively source data from over 7 independent data aggregators. We understand that no source is infallible and that there is value in diversifying the risk across multiple oracle providers rather than relying on one.  
 
-#### Phase 1: Chainlink + Band
+#### Phase 2: Chainlink + Band
 
 In Phase 1 we will incorporate both Chainlink and Band protocol oracles. Band’s nodes are geographically distributed in a way that tends to favor Asia, geographically and jurisdictionally diversifying our oracle risk. This is the oracle design that will be featured in the full re-release of the protocol. We will continue to use Chainlink price feeds as a reference price. We will supplement the price feed with Band Protocol, using time-weighted price information that takes slippage and liquidity into account. If there is disagreement between the Chainlink price, the Band price, and the actual quoted rates, then the transaction reverts.
 
