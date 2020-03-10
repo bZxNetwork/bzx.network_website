@@ -129,7 +129,7 @@ Initiating Margin Calls: Margin monitoring and margin call initiation is permiss
 
 **Margin Call Liquidity:** Provision of liquidity is permissionless, decentralized, and incentivized. Liquidity is sourced from KyberSwap.
 
-**Price Feeds:** KyberSwap’s secure on-chain price feed is used for decentralized price information. Kyber aggregates information from Uniswap, Biniance, Bitfinex, Huobi, and its own internal inventory. Kyber’s prices stay within pre-defined bounds in the absence of a price update from reserve managers, mitigating the potential for price feed manipulation. The KyberSwap price feed does not have a central point of failure.
+**Price Feeds:** Chainlink’s decentralized oracle network is used for price information.
 
 **Interest Rates:** The bZx team controls the interest rate model parameters, allowing the rates to effectively be set centrally. There are plans to increase the decentralization of this by allowing token holders to set rates in the future.
 
@@ -164,7 +164,7 @@ Initiating Margin Calls: Anyone can initiate margin calls. The process is permis
 
 **Margin Call Liquidity:** Anyone can provide margin call liquidity through KyberNetwork. In the near future there will be ways to provide margin call liquidity through 0x or directly from the caller’s assets.
 
-**Price Feeds:** bZx uses KyberSwap’s secure, decentralized price feeds. Kyber aggregates information from Uniswap, Binance, Bitfinex, Huobi, and its own internal inventory. Kyber’s prices stay within predefined bounds in the absence of a price update from reserve managers, mitigating the potential for price feed manipulation.The KyberSwap price feed does not have a central point of failure.
+**Price Feeds:** Chainlink’s decentralized oracle network is used for price information.
 
 **Interest Rates:** Interest rates are determined by the market through an orderbook. Since each person is playing a role in setting interest rates, this is a completely decentralized mechanism for interest rate determination.
 
