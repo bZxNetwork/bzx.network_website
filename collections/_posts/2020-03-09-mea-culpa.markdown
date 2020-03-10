@@ -163,7 +163,7 @@ Even more tentatively and subject to additional research:
 
 #### Phase 2: Chainlink + Band + Uniswap v 2.0
 
-The final form of the oracle system will be to include price information from Chainlink, Band, and Uniswap v2.0. The prices will be medianized, and that median price will be used as the reference rate. The next generation of Uniswap price feeds will allow contracts to query [time-weighted Uniswap prices](https://medium.com/gauntlet-networks/why-is-uniswap-a-good-oracle-22d84e5b0b6c). that is expensive to manipulate a large amount over a period of time. Uniswap also has the benefit of existing purely on-chain instead of being concentrated in a few geographic regions, making it perfect for further diversifying oracle risk.
+The final form of the oracle system will be to include price information from Chainlink, Band, and Uniswap v2.0. The prices will be medianized, and that median price will be used as the reference rate. The next generation of Uniswap price feeds will allow contracts to query [time-weighted Uniswap prices](https://medium.com/gauntlet-networks/why-is-uniswap-a-good-oracle-22d84e5b0b6c); Uniswap is expensive to manipulate a large amount over a period of time. Uniswap also has the benefit of existing purely on-chain instead of being concentrated in a few geographic regions, making it perfect for further diversifying oracle risk.
 
 ### Root Cause Analysis
 
