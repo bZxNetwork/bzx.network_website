@@ -1,0 +1,35 @@
+.item-list-security {
+  padding: 80px 0;
+  color: $primary-color;
+  display: flex;
+  &:not(:last-child) {
+    border-bottom: 2px solid $tertiary-color;
+  }
+  .icon-list-security {
+    flex-basis: calc(100% / 12 * 4);
+    text-align: center;
+    margin-top: 15px;
+  }
+  .description-list-security {
+    flex-basis: calc(100% / 12 * 8);
+    h5 {
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 1.4;
+      margin-bottom: 30px;
+    }
+    p {
+      font-size: 18px;
+      line-height: 1.8;
+      font-weight: 400;
+      margin-bottom: 30px;
+    }
+    ul {
+      li {
+        color: $secondary-color;
+        margin-bottom: 15px;
+        font-weight: 600;
+      }
+    }
+  }
+}
