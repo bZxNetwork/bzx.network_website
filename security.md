@@ -11,7 +11,7 @@ title: Security Is Our Priority
         <h1 class="fs-46 fs-sm-32 fw-800 lh-120 mt-60 mb-30 fs-sm-32 color-black">Security Is Our Priority</h1>
     </div>
     <div class="container container-md">
-        <p class="fs-20 fs-sm-13 lh-160 mb-80">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In massa nec condimentum sed. Id nec mi viverra tincidunt vel. Convallis aliquam ut volutpat dui aliquam tortor, tellus ac vestibulum. </p>
+        <p class="fs-20 fs-sm-13 lh-160 mb-80 mb-sm-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In massa nec condimentum sed. Id nec mi viverra tincidunt vel. Convallis aliquam ut volutpat dui aliquam tortor, tellus ac vestibulum. </p>
     </div>
 </section>
 
@@ -89,9 +89,9 @@ title: Security Is Our Priority
 
 {% include dots.html className="security-dots" %}
 
-<section class="bg-primary color-white pt-60 pb-120">
+<section class="bg-primary color-white pt-60 pb-120 pt-sm-45 pb-sm-45">
     <div class="container container-sm text-center">
-        <h2 class="fs-32 fw-800 lh-120 mt-40 mb-30 color-white">Admin keys</h2>
+        <h2 class="fs-32 fw-800 lh-120 mb-30 mb-sm-15 color-white">Admin keys</h2>
     </div>
     <div class="container container-md">
         <p class="fs-18 fs-sm-13 lh-160 fw-200 mb-15">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In massa nec condimentum sed. Id nec mi viverra tincidunt vel. Convallis aliquam ut volutpat dui aliquam tortor, tellus ac vestibulum. Dui semper tincidunt velit lacus sed mauris ullamcorper egestas eleifend. Mauris arcu at suscipit netus feugiat. </p>
@@ -103,7 +103,7 @@ title: Security Is Our Priority
 
 <section class="bg-secondary bt-secondary bt-20 color-white pt-40 pb-120">
     <div class="container container-sm text-center">
-        <h2 class="fs-32 fw-800 lh-120 mt-40 mb-30 color-white">Risk management</h2>
+        <h2 class="fs-32 fw-800 lh-120 mb-30 mb-sm-15 color-white">Risk management</h2>
     </div>
     <div class="container container-md">
         <p class="fs-18 fs-sm-13 lh-160 fw-200 mb-15">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
