@@ -25,8 +25,8 @@ title: Security Is Our Priority
                 <h5>Audits</h5>
                 <p>Convallis aliquam ut volutpat dui aliquam tortor, tellus ac vestibulum.</p>
                 <ul>
-                    <li>02.10.2020 – Certik</li>
-                    <li>01.14.2020 – Lorem ipsum</li>
+                    <li><a href="#">02.10.2020 – Certik</a></li>
+                    <li><a href="#">01.14.2020 – Lorem ipsum</a></li>
                 </ul>
             </div>
         </div>
@@ -38,8 +38,8 @@ title: Security Is Our Priority
                 <h5>Formal verification</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In massa nec condimentum sed. Id nec mi viverra tincidunt vel. Convallis aliquam ut volutpat dui aliquam tortor, tellus ac vestibulum.</p>
                 <ul>
-                    <li>Convallis aliquam ut volutpat</li>
-                    <li>Lorem ipsum dolor sit amet</li>
+                    <li><a href="#">Convallis aliquam ut volutpat</a></li>
+                    <li><a href="#">Lorem ipsum dolor sit amet</a></li>
                 </ul>
             </div>
         </div>
@@ -51,9 +51,9 @@ title: Security Is Our Priority
                 <h5>Economic audit</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In massa nec condimentum sed. Id nec mi viverra tincidunt vel. Convallis aliquam ut volutpat dui aliquam tortor, tellus ac vestibulum.</p>
                 <ul>
-                    <li>Convallis aliquam ut volutpat</li>
-                    <li>Lorem ipsum dolor sit amet</li>
-                    <li>Dui semper tincidunt velit lacus sed mauris</li>
+                    <li><a href="#">Convallis aliquam ut volutpat</a></li>
+                    <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                    <li><a href="#">Dui semper tincidunt velit lacus sed mauris</a></li>
                 </ul>
             </div>
         </div>
@@ -65,9 +65,9 @@ title: Security Is Our Priority
                 <h5>Oracles</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In massa nec condimentum sed. Id nec mi viverra tincidunt vel.</p>
                 <ul>
-                    <li>Convallis aliquam ut volutpat</li>
-                    <li>Lorem ipsum dolor sit amet</li>
-                    <li>Dui semper tincidunt velit lacus sed mauris</li>
+                    <li><a href="#">Convallis aliquam ut volutpat</a></li>
+                    <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                    <li><a href="#">Dui semper tincidunt velit lacus sed mauris</a></li>
                 </ul>
             </div>
         </div>
@@ -79,8 +79,8 @@ title: Security Is Our Priority
                 <h5>Bug Bounty</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In massa nec condimentum sed. Id nec mi viverra tincidunt vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                 <ul>
-                    <li>Semper tincidunt velit</li>
-                    <li>Lacus sed mauris</li>
+                    <li><a href="#">Semper tincidunt velit</a></li>
+                    <li><a href="#">Lacus sed mauris</a></li>
                 </ul>
             </div>
         </div>

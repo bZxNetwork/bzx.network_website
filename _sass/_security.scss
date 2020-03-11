@@ -54,9 +54,16 @@
     }
     ul {
       li {
-        color: $secondary-color;
         margin-bottom: 15px;
-        font-weight: 600;
+        a {
+          color: $secondary-color;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 1.8;
+          &:hover {
+            color: #5b88ff;
+          }
+        }
       }
     }
   }
