@@ -17,7 +17,7 @@ title: Security Is Our Priority
 
 <section>
     <div class="container container-xl">
-        <div class="item-list-security"> 
+        <div class="item-list-security">
             <div class="icon icon-list-security">
                 {% include svg/security/icon-audits.svg %}
             </div>
@@ -25,12 +25,13 @@ title: Security Is Our Priority
                 <h5>Audits</h5>
                 <p>Convallis aliquam ut volutpat dui aliquam tortor, tellus ac vestibulum.</p>
                 <ul>
-                    <li><a href="#">02.10.2020 – Certik</a></li>
-                    <li><a href="#">01.14.2020 – Lorem ipsum</a></li>
+                    <li><a href="https://bzx.network/pdfs/CertiK%20Verification%20Report%20for%20bZx.pdf">March, 2020 – Certik Audit</a></li>
+                    <li><a href="https://bzx.network/pdfs/CertiK%20Verification%20Report%20for%20bZx.pdf">February, 2020 – Certik Flash Loans Audit</a></li>
+                    <li><a href="https://github.com/mattdf/audits/blob/master/bZx/bzx-audit.pdf">September, 2018 – ZK Labs bZx Protocol Audit</a></li>
                 </ul>
             </div>
         </div>
-        <div class="item-list-security"> 
+        <div class="item-list-security">
             <div class="icon icon-list-security">
                 {% include svg/security/icon-verification.svg %}
             </div>
@@ -43,7 +44,7 @@ title: Security Is Our Priority
                 </ul>
             </div>
         </div>
-        <div class="item-list-security"> 
+        <div class="item-list-security">
             <div class="icon icon-list-security">
                 {% include svg/security/icon-economic.svg %}
             </div>
@@ -57,7 +58,7 @@ title: Security Is Our Priority
                 </ul>
             </div>
         </div>
-        <div class="item-list-security"> 
+        <div class="item-list-security">
             <div class="icon icon-list-security">
                 {% include svg/security/icon-oracles.svg %}
             </div>
@@ -71,7 +72,7 @@ title: Security Is Our Priority
                 </ul>
             </div>
         </div>
-        <div class="item-list-security"> 
+        <div class="item-list-security">
             <div class="icon icon-list-security">
                 {% include svg/security/icon-bug.svg %}
             </div>
