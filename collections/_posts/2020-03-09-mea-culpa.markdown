@@ -159,7 +159,7 @@ The subsequent phases are tenatative and subject to additional research:
 
 This design “fails closed”. If something goes wrong, everything stops. If one of the oracles fail or becomes malicious, this has the capacity to censor the protocol, disallowing further trades, and potentially putting funds at risk by halting liquidations. In order to mitigate these risks, governance will have the emergency ability to switch to a single primary oracle for a period of time. This will allow all the benefits of using multiple oracles while severely limiting the downsides.
 
-Even more tentatively and subject to additional research: 
+Even more tentatively and subject to additional research:
 
 #### Phase 2: Chainlink + Band + Uniswap v 2.0
 
@@ -245,10 +245,10 @@ We have learned our lesson, and we are sorry. We will be better and we will do b
 > Not one line, ever.
 
 - Did you have the new changes audited before you allowed borrowers to close their positions?
-> Yes, [here is the audit report](/pdfs/CertiK_Review_Report_for_bZx_v2.pdf).
+> Yes, [here is the audit report](/pdfs/CertiK Verification Report for bZx.pdf).
 
 -  Did you audit the flash loans?
-> Yes, [here is the audit report](/pdfs/CertiK Verification Report for bZx.pdf).
+> Yes, [here is the audit report](/pdfs/CertiK_Review_Report_for_bZx_v2.pdf).
 
 - I sent you a message and you didn’t respond. Why?
 > Please send any customer service questions over Intercom on the official website. Our bandwidth has been severely constrained over the last few weeks. We apologize for any inconvenience. We are bringing on more user facing staff in order to improve the situation.
