@@ -11,7 +11,9 @@ title: Security Is Our Priority
         <h1 class="fs-46 fs-sm-32 fw-800 lh-120 mt-60 mb-30 fs-sm-32 color-black">Security Is Our Priority</h1>
     </div>
     <div class="container container-md">
-        <p class="fs-20 fs-sm-13 lh-160 mb-80 mb-sm-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In massa nec condimentum sed. Id nec mi viverra tincidunt vel. Convallis aliquam ut volutpat dui aliquam tortor, tellus ac vestibulum. </p>
+        <p class="fs-20 fs-sm-13 lh-160 mb-80 mb-sm-0">bZx is committed to ensuring the security of user funds.
+Here’s how we keep our platform safe:
+</p>
     </div>
 </section>
 
@@ -23,7 +25,7 @@ title: Security Is Our Priority
             </div>
             <div class="description description-list-security">
                 <h5>Audits</h5>
-                <p>Convallis aliquam ut volutpat dui aliquam tortor, tellus ac vestibulum.</p>
+                <p>We hire reputable security auditors to ensure our code is free from unexpected vulnerabilities.</p>
                 <ul>
                     <li><a href="https://bzx.network/pdfs/CertiK%20Verification%20Report%20for%20bZx.pdf">March, 2020 – Certik Audit</a></li>
                     <li><a href="https://bzx.network/pdfs/CertiK%20Verification%20Report%20for%20bZx.pdf">February, 2020 – Certik Flash Loans Audit</a></li>
@@ -37,7 +39,7 @@ title: Security Is Our Priority
             </div>
             <div class="description description-list-security">
                 <h5>Formal verification</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In massa nec condimentum sed. Id nec mi viverra tincidunt vel. Convallis aliquam ut volutpat dui aliquam tortor, tellus ac vestibulum.</p>
+                <p>Our smart contracts are mathematically evaluated to ensure algorithms perform as intended.</p>
                 <ul>
                     <li><a href="#">Convallis aliquam ut volutpat</a></li>
                     <li><a href="#">Lorem ipsum dolor sit amet</a></li>
@@ -50,7 +52,7 @@ title: Security Is Our Priority
             </div>
             <div class="description description-list-security">
                 <h5>Economic audit</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In massa nec condimentum sed. Id nec mi viverra tincidunt vel. Convallis aliquam ut volutpat dui aliquam tortor, tellus ac vestibulum.</p>
+                <p>We work hard to effectively align the incentives baked into cryptoeconomic systems.</p>
                 <ul>
                     <li><a href="#">Convallis aliquam ut volutpat</a></li>
                     <li><a href="#">Lorem ipsum dolor sit amet</a></li>
@@ -64,7 +66,7 @@ title: Security Is Our Priority
             </div>
             <div class="description description-list-security">
                 <h5>Oracles</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In massa nec condimentum sed. Id nec mi viverra tincidunt vel.</p>
+                <p>Our team works with industry-leading oracle providers to tackle the unique security challenges posed when working with oracles in a decentralized environment.</p>
                 <ul>
                     <li><a href="#">Convallis aliquam ut volutpat</a></li>
                     <li><a href="#">Lorem ipsum dolor sit amet</a></li>
@@ -78,7 +80,7 @@ title: Security Is Our Priority
             </div>
             <div class="description description-list-security">
                 <h5>Bug Bounty</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In massa nec condimentum sed. Id nec mi viverra tincidunt vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                <p>We value the work of white hat hackers who help us maintain the security of our platform.</p>
                 <ul>
                     <li><a href="#">Semper tincidunt velit</a></li>
                     <li><a href="#">Lacus sed mauris</a></li>
