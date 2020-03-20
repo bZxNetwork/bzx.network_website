@@ -7,6 +7,10 @@ title: Press about bZx
 h1title: Press about bZx
 ---
 
+For press & media request send us a message at: nick@bzx.network
+
+## Recent Press
+
 - [The MakerDAO-BZx Partnership And How It Could Strengthen The Crypto Ecosystem](https://www.investinblockchain.com/makerdao-bzx-partnership/)
 - Podcast: [Genesis Block Venture Capital & Fulcrum](https://www.youtube.com/watch?v=-hzNRAD5XMg)
 - Podcast: [Wyre Talks Ep 32, The Future of Margin Lending in Crypto with Tom Bean & Kyle Kistner of bZx](https://wyre-talks.simplecast.com/episodes/f4d28cbc)
