@@ -21,3 +21,4 @@ h1title: Press about bZx
 - The Block - [bZx outlines changes in development framework after DeFi lending protocol exploits](https://www.theblockcrypto.com/post/58280/bzx-outlines-changes-in-development-framework-after-defi-lending-protocol-exploits)
 - Cointelegraph - [After A High-Profile Hack, bZx Announces Its Way Forward](https://cointelegraph.com/news/after-a-high-profile-hack-bzx-announces-its-way-forward)
 - CoinDesk - [Yields of 25% to 42% Lure Lenders Back to DeFi Platform bZx](https://www.coindesk.com/yields-of-25-to-42-lure-lenders-back-to-defi-platform-bzx)
+- [Talking DeFi With bZx Co-Founder Kyle Kistner: On Fulcrum, Governance & More](https://blockonomi.com/talking-defi-bzx-cokyle-kistner/)
