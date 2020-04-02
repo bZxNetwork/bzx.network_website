@@ -4,8 +4,8 @@ title:  "The Shipping Manifest: March 2020"
 date:   2020-04-02 01:12:46 -0700
 cover: /images/blog/recap-march.png
 author: Sawinyh
-metadescription: "As we look forward to ETHDenver and the upcoming mountain retreat in Breckenridge, the bZx team reflects on a productive start for 2020"
-intro: "As we look forward to ETHDenver and the upcoming mountain retreat in Breckenridge, the bZx team reflects on a productive start for 2020"
+metadescription: "March has been a month of heads-down work for the bZx team, from deploying new code to communicating all of our latest updates to the community"
+intro: "March has been a month of heads-down work for the bZx team, from deploying new code to communicating all of our latest updates to the community"
 ---
 
 March has been a month of heads-down work for the bZx team, from deploying new code to communicating all of our latest updates to the community.
