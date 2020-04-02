@@ -21,8 +21,6 @@ The team pushed our audited changes into deployment on March 9, enabling traders
 
 bZx is now integrated with Chainlink to protect against oracle exploit attacks and all of our code has now been audited. Our initial [protocol audit](https://github.com/mattdf/audits/blob/master/bZx/bzx-audit.pdf), as well as the recent [flash loans audit](https://bzx.network/pdfs/CertiK%20Verification%20Report%20for%20bZx.pdf) and [code audit](https://bzx.network/pdfs/CertiK%20Verification%20Report%20for%20bZx.pdf), are all publicly available.
 
-In the future, we will incorporate oracles from Band protocol and Uniswap v 2.0 to diversify the risk associated with attacks against any single oracle.
-
 We also plan to launch an EIP-like system for bringing new features and improvements to the protocol and publish a schedule for planned releases and response plans for dealing with unexpected situations.
 
 
