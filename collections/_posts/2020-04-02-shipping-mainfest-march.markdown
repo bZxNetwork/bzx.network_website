@@ -19,7 +19,9 @@ Read on for the latest from bZx, updates from the bZx blog, and links to some of
 
 The team pushed our audited changes into deployment on March 9, enabling traders to close their positions without having to contact customer support.
 
-bZx is now integrated with Chainlink to protect against oracle exploit attacks and all of our code has now been audited. Our initial [protocol audit](https://github.com/mattdf/audits/blob/master/bZx/bzx-audit.pdf), as well as the recent [flash loans audit](https://bzx.network/pdfs/CertiK%20Verification%20Report%20for%20bZx.pdf) and [code audit](https://bzx.network/pdfs/CertiK%20Verification%20Report%20for%20bZx.pdf), are all publicly available.
+bZx is now integrated with Chainlink to protect against oracle exploit attacks and all of our code has now been audited. Read more in our [joint announcement](https://twitter.com/chainlink/status/1237201260803239936) with Chainlink. 
+
+Our initial [protocol audit](https://github.com/mattdf/audits/blob/master/bZx/bzx-audit.pdf), as well as the recent [flash loans audit](https://bzx.network/pdfs/CertiK%20Verification%20Report%20for%20bZx.pdf) and [code audit](https://bzx.network/pdfs/CertiK%20Verification%20Report%20for%20bZx.pdf), are all publicly available.
 
 We also plan to launch an EIP-like system for bringing new features and improvements to the protocol and publish a schedule for planned releases and response plans for dealing with unexpected situations.
 
