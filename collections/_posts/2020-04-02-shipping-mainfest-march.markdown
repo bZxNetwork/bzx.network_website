@@ -18,7 +18,7 @@ Read on for the latest from bZx, updates from the bZx blog, and links to some of
 
 We completed and published our security audits with Certik. Both the protocol and our new flash loan functionality were audited without any critical vulnerabilities found.
 
-Our initial [protocol audit](https://github.com/mattdf/audits/blob/master/bZx/bzx-audit.pdf), as well as the recent [flash loans audit](https://bzx.network/pdfs/CertiK%20Verification%20Report%20for%20bZx.pdf) and [code audit](https://bzx.network/pdfs/CertiK%20Verification%20Report%20for%20bZx.pdf), are all publicly available.
+Our initial [protocol audit](https://github.com/mattdf/audits/blob/master/bZx/bzx-audit.pdf), as well as the recent [flash loans audit](https://bzx.network/pdfs/CertiK_Review_Report_for_bZx_v2.pdf) and [code audit](https://bzx.network/pdfs/CertiK%20Verification%20Report%20for%20bZx.pdf), are all publicly available.
 
 ## bZx Updates
 
