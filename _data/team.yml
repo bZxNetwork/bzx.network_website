@@ -13,6 +13,21 @@
     linkedin: https://www.linkedin.com/in/kyleb0x
     mail: kyle@bzx.network
 
+-   name: Nick Sawinyh
+    bio: Head of Marketing
+    image: /images/team/nick-sawinyh.jpg
+    info: "Growth focused Product Manager with more than ten years of experience in the software industry, and a proven passion for developing innovative solutions that combine cutting-edge technology with a deep understanding of customers’ needs. Nick has an extensive background in both digital marketing and agile development of customer-facing web apps."
+    github: https://github.com/sneg55
+    linkedin: https://www.linkedin.com/in/sawinyh/
+    mail: nick@bzx.network
+
+-   name: Chris Brennan
+    bio: Lead Community Manager
+    image: /images/team/chris-brennan.jpg
+    info: "Chris is a people person, and as our leading CM he understands the needs of the community and strives to ensure that they will remain satisfied regardless of the situation. His years of experience with managing communities has provided him with an extensive toolkit and a well of patience beyond the comprehension of the average man."
+    linkedin: https://www.linkedin.com/in/chris-brennan-b6b945151/
+    mail: cryptalkcb@gmail.com
+
 -   name: Alex Shafranovich
     bio: DApp Full-Stack Engineer
     image: /images/team/alex-shafranovich.jpg
@@ -24,15 +39,6 @@ He is passionate about blockchain technologies and applying best practices in bo
     github: https://github.com/focuzz
     linkedin: https://www.linkedin.com/in/alex-shafranovich-812a8324
     mail: alex@bzx.network
-
-
--   name: Nick Sawinyh
-    bio: Head of Marketing
-    image: /images/team/nick-sawinyh.jpg
-    info: "Growth focused Product Manager with more than ten years of experience in the software industry, and a proven passion for developing innovative solutions that combine cutting-edge technology with a deep understanding of customers’ needs. Nick has an extensive background in both digital marketing and agile development of customer-facing web apps."
-    github: https://github.com/sneg55
-    linkedin: https://www.linkedin.com/in/sawinyh/
-    mail: nick@bzx.network
 
 -   name: Aliaksei Hiatsevich
     bio: Senior Blockchain Engineer
@@ -74,16 +80,6 @@ With solid background in user experience design, Pavel easily copes with the tas
     info: "Boris has more than 12 years of full-stack software development for a super wide range of industries. He is actively contributing to the crypto community for already 3 years, developing first-class Ethereum blockchain decentralized applications & autonomous organizations."
     linkedin: https://linkedin.com/in/bshevchenko
     github: https://github.com/bshevchenko
-
--   name: Keval Sheth
-    bio: Full Stack Developer
-    image: /images/team/keval-sheth.jpg
-    info: "Keval Sheth is a Full Stack Developer at bZx, where he manages web application platform of Torque and Fulcrum.
-
-Keval has worked with reputable companies like Microsoft and Nomura and helped in building the platform that handles millions of transaction on day to day basis. Having worked with many startups before he has good hands on experience in building product and team from ground level and taking it up to funding rounds.
-
-Keval is a chess lover and during winter you can find him skiing or skating."
-    github: http://github.com/KevalS
 
 -   name: Manish Singh
     bio: "bZx Advisor, CIO at Crossbridge Capital"
