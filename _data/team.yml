@@ -28,44 +28,23 @@
     linkedin: https://www.linkedin.com/in/chris-brennan-b6b945151/
     mail: cryptalkcb@gmail.com
 
--   name: Alex Shafranovich
-    bio: DApp Full-Stack Engineer
-    image: /images/team/alex-shafranovich.jpg
-    info: "Alex is an accomplished software engineer with 10+ years in building web applications and an extensive experience in leading development teams. As a Team Lead, he can boast of strong expertise in all the facets of project implementation—from establishing communication with the customer to testing and post-production support.
+-   name: Rodion Kharabet
+    bio: Senior Full-Stack Developer
+    image: /images/team/rodion.jpg
+    info: " "
+    github: https://github.com/Kharabet
 
-Besides development, Alex is efficient in formalizing and distributing tasks, always aware of the strengths and weaknesses of each team member.
+-   name: Diana Kovaliova
+    bio: Frontend Developer
+    image: /images/team/diana.jpg
+    info: " "
+    github: https://github.com/Diana-Kovalyova
 
-He is passionate about blockchain technologies and applying best practices in both, software development and agile project management."
-    github: https://github.com/focuzz
-    linkedin: https://www.linkedin.com/in/alex-shafranovich-812a8324
-    mail: alex@bzx.network
-
--   name: Aliaksei Hiatsevich
-    bio: Senior Blockchain Engineer
-    image: /images/team/aliaksei-hiatsevich.jpg
-    info: "Experienced senior Software Engineer with a demonstrated history of working in the computer software industry. Skilled in Blockchain, Ethereum, C/C++ and Linux.
-
-Aliaksei specializes in full-stack DApps development with a higher expertise on smart contracts development, maintenance, performance optimization and auditing.
-
-Lately, he's been working on security audits, sidechain networks (parity based), atomic swaps development, ICO/TGE/Crowdsales/Airdrops and protocol development. He has deep knowledge on several Token standards such as ERC20 and ERC721.
-
-He is passionate about speaking at conferences about Tokens and Solidity development."
-    github: https://github.com/ahiatsevich
-    linkedin: https://www.linkedin.com/in/aliaksei-hiatsevich
-    mail: aliaksei@bzx.network
-
--   name: Pavel Kosobutskiy
-    bio: Senior UI/UX Engineer
-    image: /images/team/pavel-kosobutskiy.jpg
-    info: "Experienced UI developer with proven expertise in designing dynamic prototypes, mobile and web interfaces, websites, icons, logos, flash banners, and documentation.
-
-Applying the latest guidelines and patterns, Pavel delivers intuitive and eye-catching GUIs for web-based solutions and designs stylish mobile applications for iOS, Android, and Windows Phone devices.
-
-Pavel is profoundly knowledgeable about such design and multimedia tools as Adobe Photoshop, Adobe Illustrator, Adobe Flash, Adobe Dreamweaver, and CorelDraw. He is also adept at using the following modelling tools: Axure RP, Balsamiq, and inVision.
-
-With solid background in user experience design, Pavel easily copes with the task of creating simple and convenient interfaces admired by both customers and end users. His deep understanding of functional design concepts and cutting-edge technologies enables Pavel to implement pixel-perfect, highly optimized representations of any customer ideas."
-    linkedin: https://www.linkedin.com/in/pavel-kosobutskiy-b4ab9157
-    mail: pavel@bzx.network
+-   name: Genka Omyshev
+    bio: Lead Designer
+    image: /images/team/genka.jpg
+    info: " "
+    linkedin: https://www.linkedin.com/in/omyshev/
 
 -   name: Casey Fallon
     bio: Senior Designer
@@ -73,13 +52,6 @@ With solid background in user experience design, Pavel easily copes with the tas
     info: "Casey handles branding, design, and production. An illustrator and graphic designer by training, he maintains a consistent brand and strives to promote and communicate what bZx is and does through cutting edge design influenced by both disciplines."
     linkedin: https://www.linkedin.com/in/cfallondesign
     mail: casey@bzx.network
-
--   name: Boris Shevchenko
-    bio: Full Stack Developer
-    image: /images/team/boris_shevchenko.jpg
-    info: "Boris has more than 12 years of full-stack software development for a super wide range of industries. He is actively contributing to the crypto community for already 3 years, developing first-class Ethereum blockchain decentralized applications & autonomous organizations."
-    linkedin: https://linkedin.com/in/bshevchenko
-    github: https://github.com/bshevchenko
 
 -   name: Manish Singh
     bio: "bZx Advisor, CIO at Crossbridge Capital"
