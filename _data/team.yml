@@ -33,12 +33,16 @@
     image: /images/team/rodion.jpg
     info: "Rodion is a full-stack software developer with more than 4 years of well-rounded experience. He has a solid background in both frontend and backend engineering using various tech stacks including React + Redux or pure JavaScript with Node.js  or .NET Core platfrom in pair with any SQL or NoSQL database. Rodion leading the developers team at NordicSoft where they provide various web solutions that match customers needs. Rodion with his team working on bZx since Oct 19. They already released several projects and continue working on developing full-featured DApps and implemening great user interfaces for bZx users."
     github: https://github.com/Kharabet
+    linkedin: https://www.linkedin.com/in/rodion-kharabet-8264b8154
+    mail: rodion.kharabet@gmail.com
 
 -   name: Diana Kovaliova
     bio: Frontend Developer
     image: /images/team/diana.jpg
     info: "Diana has five years of Frontend developing experience. She can create HTML based interfaces from scratch and implement functionality using various plugins of CSS, SASS technologies, and JavaScript language, according to Google’s recommendation."
     github: https://github.com/Diana-Kovalyova
+    linkedin: https://www.linkedin.com/in/diana-kovalyova/
+    mail: dianaborysivna@gmail.com
 
 -   name: Genka Omyshev
     bio: Lead Designer
