@@ -4,8 +4,8 @@ title:  "Presale Retrospective and the BZRX Token"
 date:   2020-05-06 03:12:46 -0700
 cover: /images/blog/presale.png
 author: Kistner
-metadescription: "This report will contain a full accounting of all major vulnerabilities found in the protocol, a description of the latest attack, and how we will mitigate security risks going forward."
-intro: "This report will contain a full accounting of all major vulnerabilities found in the protocol, a description of the latest attack, and how we will mitigate security risks going forward."
+metadescription: "During the course of this time, there has been considerable interest in a date for a public sale. The date for that will not be set or disclosed in this article. However, we will discuss the conditions required to have a sale."
+intro: "During the course of this time, there has been considerable interest in a date for a public sale. The date for that will not be set or disclosed in this article. However, we will discuss the conditions required to have a sale."
 ---
 The original [BZRX presale](/blog/bzx-public-presale-announcement) took place from September to October of 2018. Since then many things have happened. The protocol took off, became one of the most used in the industry, and also faced some challenges. During the course of this time, there has been considerable interest in a date for a public sale. The date for that will not be set or disclosed in this article. However, we will discuss the conditions required to have a sale.
 
