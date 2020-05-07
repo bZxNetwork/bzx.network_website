@@ -11,7 +11,11 @@ The original [BZRX presale](/blog/bzx-public-presale-announcement) took place fr
 
 ## Current Uses of the BZRX Token
 
-On the road to a fully decentralized DAO as detailed in the [bZxDAO article](/blog/introducing-bzxdao), bZx has taken an initial step of initiating an AragonDAO with a loosely coupled governance system to signal support for proposals. An article with details on how to use the AragonDAO will be published in the near future.
+On the road to a fully decentralized DAO as detailed in the [bZxDAO article](/blog/introducing-bzxdao), bZx has taken an initial step of initiating an AragonDAO with a loosely coupled governance system to signal support for proposals.
+
+![](/images/blog/2020-05-07 08.05.00.jpg)
+
+An article with details on how to use the AragonDAO will be published in the near future.
 
 ## Conditions For A Public Sale
 
