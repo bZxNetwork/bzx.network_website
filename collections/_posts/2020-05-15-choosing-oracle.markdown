@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Choosing a Reliable Solution for bZx’s Oracle"
-date:   2020-05-11 03:12:46 -0700
+date:   2020-05-15 03:12:46 -0700
 cover: /images/blog/Blog VS Chainlink.png
 author: Bean
 metadescription: "As part of a comprehensive effort to harden bZx’s security, we implemented several key protocol improvements to better protect against future attacks."
