@@ -68,9 +68,9 @@ Here’s how we keep our platform safe:
                 <h5>Oracles</h5>
                 <p>Our team works with industry-leading oracle providers to tackle the unique security challenges posed when working with oracles in a decentralized environment.</p>
                 <ul>
-                    <li><a href="#">Convallis aliquam ut volutpat</a></li>
-                    <li><a href="#">Lorem ipsum dolor sit amet</a></li>
-                    <li><a href="#">Dui semper tincidunt velit lacus sed mauris</a></li>
+                    <li><a href="/blog/choosing-oracle">Choosing a Reliable Solution for bZx’s Oracle</a></li>
+                    <li><a href="/blog/chainlink-oracles">bZx Integrates with Chainlink to Prevent Future Price Oracle Exploits</a></li>
+                    
                 </ul>
             </div>
         </div>
