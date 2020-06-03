@@ -19,6 +19,8 @@ Most notably, we want to ensure the protocol has sufficient use and liquidity as
 
 [To read all of the conditions, please see our Presale Retrospective](https://bzx.network/blog/presale-retrospective)
 
+As we mentioned, the development team has been working on a testnet for internal development purposes. The testnet is currently deployed on Kovan and the team is doing internal testing and final dev work in order to start the audits.
+
 ## bZx in the World
 
 Congratulations to the Akropolis team on launching Pensify, a simplified pension fund, as their submission to the ETHGlobal Hack Money hackathon! Pensify builds on a number of DeFi legos, including the bZx protocol, MakerDAO, Uniswap, and Portis.
