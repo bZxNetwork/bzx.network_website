@@ -100,7 +100,7 @@ Representative democracy prevents individual token holders from having to unders
 
 ### Shadow Voters
 
-It is not possible to stop lending protocols from listing the BZRX token, nor is it possible to prevent attackers from staking BZRX tokens that have been borrowed from lending protocols. The only recourse against shadow voters is to force exposure to collateral, margin calls, and interest payments. This can be accomplished by requiring an extended minimum staking period. We propose an initial staking period of one year. This imposes, as much as is feasible, significant costs on shadow voters. This also has the dual purpose of both aligning the incentives of current token holders with the long term health of the protocol and also selecting for holders with a longer time horizon.
+It is not possible to stop lending protocols from listing the BZRX token, nor is it possible to prevent attackers from staking BZRX tokens that have been borrowed from lending protocols. The only recourse against shadow voters is to force exposure to collateral, margin calls, and interest payments. This can be accomplished by weighting votes according to the time staked. We propose that after staking, voting power linearly increases for a year until it is at 100%.✝ 
 
 ### Plutocracy
 
@@ -130,3 +130,5 @@ $$T_V$$ is the value of all BZRX tokens
 
 
 If an attacker derives an income stream from the protocol independent of the token, the discounted value of these future cash flows should be added to the value of the tokens staked when calculating the cost of an attack. This means that participation by legislators or executives with a business built on the protocol increases the security of the protocol governance by reducing their incentive to cooperate with an attack.  
+
+✝ Added 6/23/2020
