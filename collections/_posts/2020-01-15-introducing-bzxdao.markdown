@@ -72,11 +72,10 @@ The legislative branch approves upgrades to the protocol and sets the critical p
 - the assets supported by the protocol,
 - the percent of interest collected from lenders,
 - the coefficients of the interest rate model,
-- the minimum staking time for token holders,
-- the rate of inflation of the BZRX token,
-- and the distribution of BZRX tokens minted via inflation.
+- the time weighting rate for the BZRX token
+- the LP tokens accepted for fee sharing rewards
 
-The tokens can be distributed to representatives, token holders, or through grants.  A consequence of there being only three representatives in a system requiring majority rule is that an attack on the DAO requires at least 2/3rds of the active voting power. To pass a resolution, votes must be signaled twice, and between each signal at least 16 hours must elapse. This prevents a representative from making even a single finalized vote without the full consent of their stakers.
+The tokens can be distributed to representatives, token holders, or through grants.  A consequence of there being only three representatives in a system requiring majority rule is that an attack on the DAO requires at least 1/2 of the active voting power. To pass a resolution, votes must be signaled twice, and between each signal at least 16 hours must elapse. This prevents a representative from making even a single finalized vote without the full consent of their stakers.
 
 **The Executive** is composed of the two leads of the core development team. The members of the executive branch will not always be part of the original core development team. Representatives may submit proposals to elect new executives. However, since this requires the vote of the executives themselves, the model resembles a Web of Trust. Much like the executive branch in traditional political systems, the executive has no power to propose or pass proposals on its own. Instead, the executive is to simply act as a check on the legislative branch, vetoing malicious proposals and attempts by representatives to form cartels. By restricting the powers of the executive to ratifying upgrade proposals and inflation reward distributions, regulatory risk is minimized. In the worst case scenario, a regulator could prevent further upgrades to the protocol by apprehending the executive administrator keys. To mitigate this risk, executives can be replaced by a unanimous vote of the legislative. Replacement of the executive does not require approval of the executive.
 
@@ -86,17 +85,17 @@ The executive has the ability to unilaterally pause the protocol for 48 hours, a
 
 ## The Economics of Staking
 
-In order to begin earning staking rewards, token holders must deposit their funds into the governance contract and stake their tokens to a representative. Doing so entitles holders to staking rewards created through minting new BZRX tokens. If all token holders are staking to representatives, the result is that all holders maintain their overall share of ownership over the protocol. However, it is unlikely that all token holders participate in staking. The result of this is that the token holders participating in governance and staking to a representative slowly increase their share of protocol ownership while those not staking are slowly diluted. Staking rewards are effectively a tax on free riders and speculators that can be used towards sustaining protocol development and/or enriching existing token holders.
+In order to begin earning fee sharing rewards, token holders must deposit their funds into the governance contract and stake their tokens to a representative. Doing so entitles holders to staking rewards created through the generation of protocol fees. 
 
 ### Aligning The Incentives of Stakeholders
 
-It is anticipated that one of the first proposals the legislature and executive will pass is the ability for BZRX holders to redeem a given percent of BZRX for a proportional amount of the insurance fund. Since the health of the insurance fund is critical to the overall health of the protocol in every respect, this ensures that token holders have an incentive to choose representatives that steward the protocol parameters judiciously. If the insurance fund becomes excessively denominated in BZRX, token holders can vote to rebalance the fund. Since in most circumstances BZRX will be worth more than its redemption value, it is unlikely that the fund comes to be excessively denominated in BZRX. In the rare event that it does,  token holders should rebalance the insurance fund when the market price of BZRX rises above the redemption price.
+It is anticipated that one of the first proposals the legislature and executive will pass is the ability for BZRX holders to redeem a given percent of BZRX for a proportional amount of the insurance fund. Since the health of the insurance fund is critical to the overall health of the protocol in every respect, this ensures that token holders have an incentive to choose representatives that steward the protocol parameters judiciously. If the insurance fund becomes excessively denominated in BZRX, token holders can vote to rebalance the fund. Since in most circumstances BZRX will be worth more than its redemption value, it is unlikely that the fund comes to be excessively denominated in BZRX. In the rare event that it does,  token holders should rebalance the insurance fund when the market price of BZRX rises above the redemption price. Additionally, BZRX provides fee sharing, providing a monetary incentive to participate.
 
 ## Solutions to Governance
 
 ### Participation
 
-Representative democracy prevents individual token holders from having to understand the minutiae of every governance proposal, reducing their decision down to the most qualified and knowledgeable representative -- likely someone with a track record of activity and visibility in the community. Staking represents both a carrot and a stick at once. Inflation dilutes free riders neglecting to participate in the governance process, serving as a stick. Those same inflation rewards function as a carrot for those actively participating in the governance process. Along an extended time horizon, protocol ownership condenses completely in the hands of those participating in governance.
+Representative democracy prevents individual token holders from having to understand the minutiae of every governance proposal, reducing their decision down to the most qualified and knowledgeable representative -- likely someone with a track record of activity and visibility in the community. Fee sharing functions as a carrot for those actively participating in the governance process. 
 
 ### Shadow Voters
 
@@ -108,7 +107,7 @@ As the tokens become unlocked and voting is weighted linearly, it becomes possib
 
 ### Cartels and Bribes
 
-The role of the executive is to disrupt rent-seeking cartels from establishing a Cournot equilibrium. The two powers of the executive are to veto protocol upgrades and inflation reward distribution proposals. If representatives pass a proposal that is cooperative rather than competitive, it is the purview of the executive to veto that proposal. One weakness of this model is that legislative cartels can collude with the executive by offering a bribe.
+The role of the executive is to disrupt rent-seeking cartels from establishing a Cournot equilibrium. The sole powers of the executive are to veto protocol upgrades. If representatives pass a proposal that is cooperative rather than competitive, it is the purview of the executive to veto that proposal. One weakness of this model is that legislative cartels can collude with the executive by offering a bribe.
 
 The executive will rationally accept a bribe if:
 
@@ -121,9 +120,9 @@ $$\Delta C_V$$ is the resulting change in value of the discounted future cash fl
 
 An executive will be more resistant to accepting a bribe from the legislature the larger their existing stake in the token and the larger their stake in deriving revenues from the protocol.
 
-The value of BZRX tokens play an important role in the security of the protocol. It is important that DAO participants are forced to maintain exposure to the price action of the tokens after each vote. After every vote ratified by both the legislature and the executive, the staking period of every participant is extended by 24 hours. The system is secure if the value of the tokens held by all attackers exceeds the value held by the protocol. Since two thirds of the tokens are required to pass a malicious proposal, this means that the system is secure against a rogue executive so long as:
+The value of BZRX tokens play an important role in the security of the protocol. It is important that DAO participants are forced to maintain exposure to the price action of the tokens after each vote. After every vote ratified by both the legislature and the executive, the staking period of every participant is extended by 24 hours. The system is secure if the value of the tokens held by all attackers exceeds the value held by the protocol. Since one half of the tokens are required to pass a malicious proposal, this means that the system is secure against a rogue executive so long as:
 
-$$TVL_{t+3} > \frac{2}{3}T_V$$
+$$TVL_{t+3} > \frac{1}{2}T_V$$
 
 $$TVL_{t+3}$$ is the Total Value Locked 3 days after a malicious proposal passes\
 $$T_V$$ is the value of all BZRX tokens
