@@ -67,7 +67,7 @@ When you stake your BZRX to a representative, BZRX exposes you to four different
 Joel Monegro presented the idea of [Proof of Liquidity](https://www.placeholder.vc/blog/2020/5/22/proof-of-liquidity), a concept that rests on the observation that staking can be harmful to the creation of mature, liquid markets because it disrupts core components of the initial bootstrapping process. This bootstrapping process starts with AMMs and culminates in organic activity around the token from a variety of trading providers including CEXs. It is important that providers of AMM liquidity are not penalized by missing out on fee sharing rewards.
 
 ![](/images/blog/Frame 10.png)
-                        _Credit: Joel Monegro, Placeholder Capital_
+                        :-:_Credit: Joel Monegro, Placeholder Capital_:-:
 
 We propose that the LP shares of the most liquid AMM pool be eligible for staking to earn fees. The address of the LP pool is a parameter that can be changed via protocol governance. Balancer LP tokens from the fee pools will be distributed to BZRX stakers proportionally to the circulating supply. The tokens outstanding during each call to `feeSweep()` will be distributed proportionally to those staking BZRX LP tokens. This means that staking LP tokens as opposed to BZRX tokens may result in earning a slightly higher share of the fees since there will be unstaked BZRX in circulation that is not within AMMs.
 
