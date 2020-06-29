@@ -93,8 +93,11 @@ The following is the projected fraction of tokens in circulation over time:
 
 ![](/images/blog/Frame 8.png)
 
+# The Unlocking
 
-## A Refresher On Governance
+This has been a long time coming. We will be unlocking the token in the coming weeks as part of the bZx 2.0 relaunch sequence. More announcements will follow soon. 
+
+# A Quick Refresher On Governance
 
 ![](/images/blog/Blog_sheme DAO.png)
 
@@ -117,7 +120,3 @@ By restricting the powers of the executive to ratifying upgrade proposals and in
 The executive has the ability to unilaterally pause the protocol for 48 hours, after which there is a 3 month refractory period before another pause can be invoked. If a serious security issue is found in the protocol, security researchers can disclose the vulnerability discretely to the executive, have the system paused, and then allow for the vulnerability to be disclosed to the legislature. If the legislature cannot mobilize a comprehensive response within that 48 hour period, the pause period can be extended through the normal governance process.
 
 **The Judicial** is the smart contract code and the EVM. Both branches can only act within the constraints of the smart contracts governing them.
-
-# The Unlocking
-
-This has been a long time coming. We will be unlocking the token in the coming weeks as part of the bZx 2.0 relaunch sequence. More announcements will follow soon. 
