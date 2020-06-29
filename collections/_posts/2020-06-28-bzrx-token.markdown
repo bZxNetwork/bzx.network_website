@@ -2,7 +2,7 @@
 layout: post
 title:  "The BZRX Token Model v3"
 date:   2020-06-28 01:12:46 -0700
-cover: /images/blog/bzrx.png
+cover: /images/blog/Blog-cover-bzrx.png
 author: Kistner
 metadescription: "We have been working to continuously improve and refine the protocol and its governance. Over the years, the BZRX token model has evolved along with the industry, presenting fresh new ideas in the process"
 intro: "We have been working to continuously improve and refine the protocol and its governance. Over the years, the BZRX token model has evolved along with the industry, presenting fresh new ideas in the process"
