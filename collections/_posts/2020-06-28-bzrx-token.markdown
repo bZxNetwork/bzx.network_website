@@ -84,7 +84,7 @@ This means that the 100MM LP tokens will receive just as many fees and be entitl
 
 Crowdsales possess a number of undesirable properties and, relatedly, a negative reputation. A crowdsale requires a large amount of coordination, considerable after-sale maintenance to ensure a liquid secondary market, and a host of potential legal/securities concerns. We have decided to take a different path. The tokens that would have been allocated to the crowdsale will be placed in a 4 year vesting contract with a 6 month cliff, starting from the time that the token is unlocked.
 
-![](/images/blog/Table 02 (2).png)
+![](/images/blog/Table 02.png)
 _* Vesting tokens have 50% voting power when they are in the vesting contract._
 
 The security fund will be used to create liquidity incentives for the iETH pool, to compensate traders for previous downtime, to pay out bug bounties to security professionals, and to align the incentives of key community members.
