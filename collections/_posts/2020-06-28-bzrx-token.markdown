@@ -97,7 +97,7 @@ The following is the projected fraction of tokens in circulation over time:
 
 This has been a long time coming. We will be unlocking the token in the coming weeks as part of the bZx 2.0 relaunch sequence. More announcements will follow soon. 
 
-# A Quick Refresher On Governance
+## A Quick Refresher On Governance
 
 ![](/images/blog/Blog_sheme DAO.png)
 
