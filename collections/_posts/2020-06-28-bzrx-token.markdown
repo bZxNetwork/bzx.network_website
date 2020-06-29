@@ -57,10 +57,10 @@ This means that anyone who executes a trade, opens a loan, or keeps a loan open,
 
 When you stake your BZRX to a representative, BZRX exposes you to four different mechanisms of value capture.
 
-1. Fee Sharing:  Staked BZRX tokens grant proportional ownership of any Balancer LP shares minted during the staking period. For example, if a single person stakes 1% of the BZRX supply but comprises 10% of staked BZRX, then they are entitled to 10% of all Balancer LP shares minted while they staked.
-2. Balancer Fees: The fees held in the Balancer pools can supply liquidity for both traders and the protocol. Those fees accrue to all participants holding shares of the fee pool. The pools are optimized to minimize impermanent loss and maximize yields.
-3. BAL Rewards: Since the fee pool will generate volume, it will also generate BAL tokens. These BAL tokens are reinvested in the Balancer pools, allowing BZRX stakers to seamlessly benefit.
-4. Insurance fund: each BZRX token can be redeemed for a proportional amount of the insurance fund not already denominated in BZRX. This gives the BZRX token a fundamental value by being both backed by current assets as well as future cash flows. The insurance fund receives half of origination fees, fees from interest payments, and fees generated via trading. The proportion of fees directed to the insurance fund can be determined by the DAO during a future governance vote.
+1. **Fee Sharing**:  Staked BZRX tokens grant proportional ownership of any Balancer LP shares minted during the staking period. For example, if a single person stakes 1% of the BZRX supply but comprises 10% of staked BZRX, then they are entitled to 10% of all Balancer LP shares minted while they staked.
+2. **Balancer Fees**: The fees held in the Balancer pools can supply liquidity for both traders and the protocol. Those fees accrue to all participants holding shares of the fee pool. The pools are optimized to minimize impermanent loss and maximize yields.
+3. **BAL Rewards**: Since the fee pool will generate volume, it will also generate BAL tokens. These BAL tokens are reinvested in the Balancer pools, allowing BZRX stakers to seamlessly benefit.
+4. **Insurance fund**: each BZRX token can be redeemed for a proportional amount of the insurance fund not already denominated in BZRX. This gives the BZRX token a fundamental value by being both backed by current assets as well as future cash flows. The insurance fund receives half of origination fees, fees from interest payments, and fees generated via trading. The proportion of fees directed to the insurance fund can be determined by the DAO during a future governance vote.
 
 ### Staking Rewards for AMMs
 
