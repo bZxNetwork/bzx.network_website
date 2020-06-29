@@ -122,4 +122,4 @@ The executive has the ability to unilaterally pause the protocol for 48 hours, a
 
 # The Unlocking
 
-We will be unlocking the token in the coming weeks as part of the bZx 2.0 relaunch sequence. More announcements will follow soon. 
+This has been a long time coming. We will be unlocking the token in the coming weeks as part of the bZx 2.0 relaunch sequence. More announcements will follow soon. 
