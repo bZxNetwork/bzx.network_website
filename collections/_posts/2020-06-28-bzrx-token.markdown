@@ -91,8 +91,6 @@ The security fund will be used to create liquidity incentives for the iETH pool,
 
 The following is the projected fraction of tokens in circulation over time:
 
-![](/images/blog/Table 01.png)
-
 ![](/images/blog/Frame 8.png)
 
 
