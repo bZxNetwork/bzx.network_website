@@ -32,7 +32,7 @@ Fees are both paid and kept in their native assets, never requiring an extra swa
 
 ![](/images/blog/Frame 9.png)
 
-Each time a protocol fee is generated, it is held in the protocol until the feeSweep() function is called, sweeping the fees into one of two Balancer pools containing the rest of the fee pool tokens. The feeSweep() function is permissionless and can be called by anyone, allowing rewards to be accessed in real-time. When fees are deposited into the Balancer pool, it automatically rebalances, emitting a token that represents ownership of the liquidity pool as a whole. Stakers receive the Balancer LP tokens minted during their staking period, proportional to their contribution to the staked supply. The rewards from fee sharing, i.e., the Balancer LP tokens, both accrue in real time and can be redeemed at any time for any other asset in the pool.
+Each time a protocol fee is generated, it is held in the protocol until the `feeSweep()` function is called, sweeping the fees into one of two Balancer pools containing the rest of the fee pool tokens. The `feeSweep()` function is permissionless and can be called by anyone, allowing rewards to be accessed in real-time. When fees are deposited into the Balancer pool, it automatically rebalances, emitting a token that represents ownership of the liquidity pool as a whole. Stakers receive the Balancer LP tokens minted during their staking period, proportional to their contribution to the staked supply. The rewards from fee sharing, i.e., the Balancer LP tokens, both accrue in real time and can be redeemed at any time for any other asset in the pool.
 
 While the assets remain in the Balancer pool they earn fees from providing liquidity to users of Balancer. In the future it could even provide liquidity to traders on Fulcrum, allowing the protocol to source liquidity internally by providing AMM liquidity with its own assets. At the time of writing this article there will be two Balancer fee token pools, a stablecoin pool with no impermanent loss and a variable fee pool that holds more volatile assets such as ETH and other ERC20s.
 
@@ -51,7 +51,7 @@ We are distributing ownership of the protocol to its users. We have allocated BZ
 - 17 % -  Each time a user pays a fee, 50% of the value of the fee is refunded to them in the form of BZRX. We will initially be funding this from the existing allocation of tokens. Initially BZRX will be allocated at a rate of .0002 ETH per BZRX. When the token is unlocked, it will be allocated at market rate as determined by a Chainlink price feed.
 - 3% - During the first three months, 0.25% of the BZRX token supply will be disbursed each week to users based on the quantity of fees generated during that week. This is intended to bootstrap activity on the protocol by compensating early adopters for the risks they bear.
 
-This means that anyone who executes a trade, opens a loan, or keeps a loan open, will begin to accrue ownership of the protocol.
+This means that anyone who executes a trade, opens a loan, or keeps a loan open, will begin to accrue ownership of the protocol. Whether we reward lenders or borrowers, we believe a virtuous cycle will take hold; the only difference is the distribution of the tokens at the end of the cycle. Whether we initiate that virtuous cycle by lowering rates, increasing yields, or doing both will not matter too much to the net level of activity on the platform. The boost in activity is going to be largely driven by the size of the subsidy rather than its distribution. Lenders are very fickle and largely commoditized. We rather maximize our influence on borrowers because it is those users that we have the best chance of getting to stick to the platform.
 
 ## How Does BZRX Capture Value?
 
@@ -69,7 +69,7 @@ Joel Monegro presented the idea of [Proof of Liquidity](https://www.placeholder.
 ![](/images/blog/Frame 10.png)
                         _Credit: Joel Monegro, Placeholder Capital_
 
-We propose that the LP shares of the most liquid AMM pool be eligible for staking to earn fees. The address of the LP pool is a parameter that can be changed via protocol governance. Balancer LP tokens from the fee pools will be distributed to BZRX stakers proportionally to the circulating supply. The tokens outstanding during each call to feeSweep() will be distributed proportionally to those staking BZRX LP tokens. This means that staking LP tokens as opposed to BZRX tokens may result in earning a slightly higher share of the fees since there will be unstaked BZRX in circulation that is not within AMMs.
+We propose that the LP shares of the most liquid AMM pool be eligible for staking to earn fees. The address of the LP pool is a parameter that can be changed via protocol governance. Balancer LP tokens from the fee pools will be distributed to BZRX stakers proportionally to the circulating supply. The tokens outstanding during each call to `feeSweep()` will be distributed proportionally to those staking BZRX LP tokens. This means that staking LP tokens as opposed to BZRX tokens may result in earning a slightly higher share of the fees since there will be unstaked BZRX in circulation that is not within AMMs.
 
 Let us work through an example:
 
@@ -117,4 +117,5 @@ The tokens can be distributed to representatives, token holders, or through gran
 By restricting the powers of the executive to ratifying upgrade proposals and inflation reward distributions, regulatory risk is minimized. In the worst case scenario, a regulator could prevent further upgrades to the protocol by apprehending the executive administrator keys. To mitigate this risk, executives can be replaced by a unanimous vote of the legislative. Replacement of the executive does not require approval of the executive.
 
 *The executive* has the ability to unilaterally pause the protocol for 48 hours, after which there is a 3 month refractory period before another pause can be invoked. If a serious security issue is found in the protocol, security researchers can disclose the vulnerability discretely to the executive, have the system paused, and then allow for the vulnerability to be disclosed to the legislature. If the legislature cannot mobilize a comprehensive response within that 48 hour period, the pause period can be extended through the normal governance process.
-The Judicial is the smart contract code and the EVM. Both branches can only act within the constraints of the smart contracts governing them.
+
+*The Judicial* is the smart contract code and the EVM. Both branches can only act within the constraints of the smart contracts governing them.
