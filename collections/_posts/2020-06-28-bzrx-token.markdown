@@ -55,7 +55,7 @@ This means that anyone who executes a trade, opens a loan, or keeps a loan open,
 
 ## How Does BZRX Capture Value?
 
-When you stake your BZRX to a representative, BZRX exposes you to five different mechanisms of value capture.
+When you stake your BZRX to a representative, BZRX exposes you to four different mechanisms of value capture.
 
 1. Fee Sharing:  Staked BZRX tokens grant proportional ownership of any Balancer LP shares minted during the staking period. For example, if a single person stakes 1% of the BZRX supply but comprises 10% of staked BZRX, then they are entitled to 10% of all Balancer LP shares minted while they staked.
 2. Balancer Fees: The fees held in the Balancer pools can supply liquidity for both traders and the protocol. Those fees accrue to all participants holding shares of the fee pool. The pools are optimized to minimize impermanent loss and maximize yields.
