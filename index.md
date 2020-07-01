@@ -645,18 +645,8 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
             </a>
         </div>
         <div class="item-partners">
-            <a href="https://ethlend.io/">
-            {% include svg/ethlend.svg %}
-            </a>
-        </div>
-        <div class="item-partners">
             <a href="https://www.sendwyre.com/">
             {% include svg/wyre.svg %}
-            </a>
-        </div>
-        <div class="item-partners">
-            <a href="https://etherisc.com/">
-            {% include svg/etherisc.svg %}
             </a>
         </div>
         <div class="item-partners">
