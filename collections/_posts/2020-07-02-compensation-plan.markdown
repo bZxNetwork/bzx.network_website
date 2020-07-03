@@ -15,7 +15,7 @@ In February the protocol experienced downtime for traders and a deficit of free 
 
 ### Making Traders Whole
 
-We’ve allocated 2,060,000 vesting BZRX (0.2% total supply) to a fund for traders impacted by the downtime. Anyone impacted by the freeze may apply to receive a share of the tokens proportional to the size of the positions open on the day the protocol was down, Feb 18, 2020.
+We’ve allocated 2,060,000 vesting BZRX to a fund for traders impacted by the downtime. Anyone impacted by the freeze may apply to receive a share of the tokens proportional to the size of the positions open on the day the protocol was down, Feb 18, 2020.
 
 ### It’s Solved
 
