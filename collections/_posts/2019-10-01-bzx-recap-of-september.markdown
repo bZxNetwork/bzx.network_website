@@ -2,7 +2,7 @@
 layout: post
 title:  "The Shipping Manifest: September 2019"
 date:   2019-10-01 20:12:46 -0700
-cover: /images/blog/shipping-september.png
+cover: /images/blog/Blog--post_september.jpg
 canonical: https://medium.com/bzxnetwork/bzx-recap-of-september-81e8dafc93a4
 author: Sawinyh
 metadescription: "We have tons of updates, but we don’t always condense it in a bite-sized form. Our community is dizzy at the pace of new updates and it can be hard to keep up, so we want to introduce you to a new format in our blog: monthly recaps."

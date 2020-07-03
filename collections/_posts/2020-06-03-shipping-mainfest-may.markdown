@@ -2,7 +2,7 @@
 layout: post
 title:  "The Shipping Manifest: May 2020"
 date:   2020-06-03 01:12:46 -0700
-cover: /images/blog/recap-may2020.png
+cover: /images/blog/Blog--post_may.jpg
 author: Sawinyh
 metadescription: "We’re grateful to you for checking out our monthly update and being a part of our community and hope you’re safe and healthy during the current turmoil"
 intro: "We’re grateful to you for checking out our monthly update and being a part of our community and hope you’re safe and healthy during the current turmoil"

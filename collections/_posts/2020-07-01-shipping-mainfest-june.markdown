@@ -2,7 +2,7 @@
 layout: post
 title:  "The Shipping Manifest: June 2020"
 date:   2020-07-01 01:12:46 -0700
-cover: /images/blog/june.png
+cover: /images/blog/Blog--post_june.jpg
 author: Sawinyh
 metadescription: "Hey bZx’ers, thanks for checking out the June edition of The Shipping Manifest! We’re grateful to you for being a part of our community and hope you’re safe and healthy during the current turmoil"
 intro: "Hey bZx’ers, thanks for checking out the June edition of The Shipping Manifest! We’re grateful to you for being a part of our community and hope you’re safe and healthy during the current turmoil"

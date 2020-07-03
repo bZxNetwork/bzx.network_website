@@ -2,7 +2,7 @@
 layout: post
 title:  "The Shipping Manifest: April 2020"
 date:   2020-05-03 01:12:46 -0700
-cover: /images/blog/april-cover.png
+cover: /images/blog/Blog--post_april.jpg
 author: Sawinyh
 metadescription: "With another month behind us we’ve got a brand new public API, an update on how we’re handling the coming SAI shutdown, and more."
 intro: "With another month behind us we’ve got a brand new public API, an update on how we’re handling the coming SAI shutdown, and more."

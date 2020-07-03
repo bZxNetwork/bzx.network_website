@@ -2,7 +2,7 @@
 layout: post
 title:  "The Shipping Manifest: March 2020"
 date:   2020-04-02 01:12:46 -0700
-cover: /images/blog/recap-march.png
+cover: /images/blog/Blog--post_march.jpg
 author: Sawinyh
 metadescription: "March has been a month of heads-down work for the bZx team, from deploying new code to communicating all of our latest updates to the community"
 intro: "March has been a month of heads-down work for the bZx team, from deploying new code to communicating all of our latest updates to the community"
