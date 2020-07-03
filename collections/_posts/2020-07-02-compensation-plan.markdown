@@ -31,7 +31,7 @@ Half of all fees collected from loans, trading, and lending will be converted to
 
 ## How to Participate
 
-We have taken a snapshot of addresses eligible for the Lender Rescue and Trader Compensation Programs. Only lenders that are already in the iETH pool will be eligible, and only traders that experienced downtown in February will be eligible.
+We have taken a snapshot of addresses eligible for the Lender Rescue and Trader Compensation Programs. Only lenders that are already in the iETH pool will be eligible, and only traders that experienced downtime in February will be eligible.
 
 We will provide a simple interface to let users participate in the programs described above. Instructions will be released in a follow-up announcement next month.
 
