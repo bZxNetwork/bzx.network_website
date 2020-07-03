@@ -11,7 +11,7 @@ In February the protocol experienced downtime for traders and a deficit of free 
 
 ## The Trader Compensation Plan
 
-![](/images/blog/Frame 14.png)
+![](/images/blog/Group 1602.png)
 
 ### Making Traders Whole
 
@@ -32,8 +32,6 @@ Half of all fees collected from loans, trading, and lending will be converted to
 ## How to Participate
 
 We have taken a snapshot of addresses eligible for the Lender Rescue and Trader Compensation Programs. Only lenders that are already in the iETH pool will be eligible, and only traders that experienced downtown in February will be eligible.
-
-![](/images/blog/Trade 2.02 Manage (1).png)
 
 We will provide a simple interface to let users participate in the programs described above. Instructions will be released in a follow-up announcement next month.
 
