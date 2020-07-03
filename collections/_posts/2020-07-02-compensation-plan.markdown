@@ -11,6 +11,8 @@ In February the protocol experienced downtime for traders and a deficit of free 
 
 ## The Trader Compensation Plan
 
+![](/images/blog/Frame 14.png)
+
 ### Making Traders Whole
 
 We’ve allocated 2,060,000 vesting BZRX (0.2% total supply) to a fund for traders impacted by the downtime. Anyone impacted by the freeze may apply to receive a share of the tokens proportional to the size of the positions open on the day the protocol was down, Feb 18, 2020.
@@ -20,6 +22,8 @@ We’ve allocated 2,060,000 vesting BZRX (0.2% total supply) to a fund for trade
 bZx v2 is structured such that you can always exit your position even if the protocol or price feed is compromised. There will be no conditions under which anyone loses the ability to exit positions in a similar manner.
 
 ### Restoring Liquidity to the iETH Pool
+
+![](/images/blog/Frame 15.png)
 
 If iETH lenders wish to leave the pool immediately, they will be given the option to purchase BZRX at a discount using their iETH. The BZRX will be locked in a 4 year vesting contract with a six month cliff. If lenders do not wish to pursue this path, we have an additional mechanism in place to restore liquidity for lenders using the iETH pool.  
 
