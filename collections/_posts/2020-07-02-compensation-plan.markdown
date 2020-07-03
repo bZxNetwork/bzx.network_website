@@ -7,7 +7,7 @@ author: Bean
 metadescription: "We’ve created a plan to compensate traders for that downtime and restore liquidity to the iETH pool"
 intro: "We’ve created a plan to compensate traders for that downtime and restore liquidity to the iETH pool"
 ---
-In February the protocol experienced downtime for traders and a deficit of free liquidity for iETH lenders. We’ve created a plan to compensate traders for that downtime and restore liquidity to the iETH pool.
+In February the protocol experienced downtime for traders and a deficit of free liquidity for iETH holders. We’ve created a plan to compensate traders for that downtime and restore liquidity to the iETH pool.
 
 ## The Trader Compensation Plan
 
@@ -19,15 +19,15 @@ We’ve allocated 2,060,000 vesting BZRX (0.2% total supply) to a fund for trade
 
 ### It’s Solved
 
-bZx v2 is structured such that you can always exit your position even if the protocol or price feed is compromised. There will be no conditions under which anyone loses the ability to exit positions in a similar manner.
+bZx v2 is structured such that you can always exit your position even if the protocol or price feed is compromised. There will be no conditions under which the ability to exit positions is disabled.
 
 ### Restoring Liquidity to the iETH Pool
 
 ![](/images/blog/Frame 15.png)
 
-If iETH lenders wish to leave the pool immediately, they will be given the option to purchase BZRX at a discount using their iETH. The BZRX will be locked in a 4 year vesting contract with a six month cliff. If lenders do not wish to pursue this path, we have an additional mechanism in place to restore liquidity for lenders using the iETH pool.  
+If iETH holders wish to leave the pool immediately, they will be given the option to purchase BZRX at a discount using their iETH. The BZRX will be locked in a 4 year vesting contract with a six month cliff. If lenders do not wish to pursue this path, we have an additional mechanism in place to restore liquidity for iETH holders.  
 
-Half of all fees collected from loans, trading, and lending will be converted to ETH on a weekly basis and applied to outstanding debt on the iETH, creating free liquidity for lenders. This will continue until such time as the outstanding debt on the pool is paid off, or the bZxDAO votes to change this state of affairs. We will shield the existing and developing free liquidity of the iETH pool by creating a separate pool from which borrowers can draw free liquidity.
+Half of all fees collected from loans, trading, and lending will be converted to ETH on a weekly basis and sent to the iETH pool, creating free liquidity for lenders. This will continue until such time as the outstanding debt on the pool is paid off, or the bZxDAO votes to change this state of affairs. We will shield the existing and developing free liquidity of the iETH pool by creating a separate pool from which borrowers can draw free liquidity.
 
 ## How to Participate
 
