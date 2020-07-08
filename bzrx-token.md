@@ -1,9 +1,9 @@
 ---
 layout: media-assets
 permalink: bzrx-token
-metadescription: 
+metadescription: BZRX Token
 featured-image:
-title: 
+title: BZRX Token
 h1title: BZRX Token
 ---
 
@@ -12,7 +12,7 @@ h1title: BZRX Token
         <div class="item-bzrx">
             <div class="icon">{% include svg/bzrx/price.svg %}</div>
             <div class="title">Price</div>
-            <div class="value"><span class="sign">$</span>0.273169</div>
+            <div class="value"><span class="sign">$</span>TBD</div>
         </div>
         <div class="item-bzrx">
             <div class="icon">{% include svg/bzrx/market-cap.svg %}</div>
