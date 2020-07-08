@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Announcing the BZRX Token Migration"
-date:   2020-07-07 01:12:46 -0700
+date:   2020-07-08 01:12:46 -0700
 cover: /images/blog/migration.png
 author: Bean
 metadescription: "BZRXv1 token holders can easily migrate to the new BZRX token using our Staking Dashboard"
@@ -22,12 +22,10 @@ Token holders will need to migrate to the new token by the time the platform rel
 BZRXv1 token holders will have 1 year from the launch of the new token on July 13, 2020, to migrate their holdings to BZRX tokens.
 
 ## The New BZRX Token
-We request that the community support our new naming convention by ensuring all references characterize the old token as BZRXv1.
 
-The official token of bZx is now the BZRX token. Here are the addresses of the token itself and the contracts used for migration:
+We request that the community support our new naming convention by ensuring all references characterize the old token as BZRXv1. The official token of bZx is now the BZRX token.
 
-- Token Address:
-- Migration Contract Address:
+![](/images/BZRX-logo.png)
 
 ## Get Your New Tokens Today!
 
