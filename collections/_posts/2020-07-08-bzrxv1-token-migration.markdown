@@ -15,8 +15,6 @@ BZRXv1 token holders can easily migrate to the new BZRX token using our Staking 
 
 Token holders will need to migrate in order to unlock their BZRX tokens.
 
-As explained in [The BZRX Token Model v3](https://bzx.network/blog/bzrx-token), 20% of the token supply will be distributed through our Protocol Disbursement Program and the new BZRX token will give holders a proportional distribution of the fees assessed by the bZx Protocol.
-
 Token holders will need to migrate to the new token by the time the platform relaunches in August to qualify for Fee Sharing.
 
 BZRXv1 token holders will have 1 year from the launch of the new token on July 13, 2020, to migrate their holdings to BZRX tokens.
