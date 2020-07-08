@@ -17,17 +17,17 @@ h1title: BZRX Token
         <div class="item-bzrx">
             <div class="icon">{% include svg/bzrx/market-cap.svg %}</div>
             <div class="title">Market Cap</div>
-            <div class="value"><span class="sign">$</span>0.273169</div>
+            <div class="value"><span class="sign">$</span>20,449,868</div>
         </div>
         <div class="item-bzrx">
             <div class="icon">{% include svg/bzrx/circulating-supply.svg %}</div>
             <div class="title">Circulating Supply</div>
-            <div class="value"><span class="sign">$</span>0.273169</div>
+            <div class="value">1,000,000,000</div>
         </div>
         <div class="item-bzrx">
             <div class="icon">{% include svg/bzrx/total-supply.svg %}</div>
             <div class="title">Total Supply</div>
-            <div class="value"><span class="sign">$</span>0.273169</div>
+            <div class="value">1,000,000,000</div>
         </div>
     </div>
 </div>
