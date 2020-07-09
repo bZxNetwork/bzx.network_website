@@ -57,6 +57,23 @@ h1title: bZx Branding
         <div class="color-circle c283049"><span class="fs-18 fs-sm-13">#283049</span></div>
     </div>
     <div class="container  container-md">
+        <h2>BZRX</h2>
+        <p>bZx, fulcrum and torque is associated with the following colors.</p>
+    </div>
+    <div class="container container-xl mt-40 mb-70 text-center">
+        <div class="bzrx-logo">
+            <div class="bzrx-item">
+                <span>vBZRX</span>
+                <div class="logo-circle vbzrx">{% include svg/part-logo-bzx.svg %}</div>
+            </div>
+            <div  class="bzrx-item">
+                <span>BZRX</span>
+                <div class="logo-circle bzrx">{% include svg/part-logo-bzx.svg %}</div>
+            </div>
+        </div>
+        <a href="#" title="download all icons BZRX" class="button button-secondary d-flex j-content-center mt-50">download all icons BZRX</a>  
+    </div>
+    <div class="container  container-md">
         <h2>iTokens Branding</h2>
     </div>
     <div class="itoken container container-xl text-center ">

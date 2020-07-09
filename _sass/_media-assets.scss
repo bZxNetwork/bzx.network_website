@@ -129,3 +129,33 @@
         }
     }
 }
+.bzrx-logo {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    .bzrx-item {
+        &:first-child {
+            margin-right: 55px;
+        }
+        span {
+            display: block;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 1.25;
+            color: #000085;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+    }
+    .logo-circle {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        &.vbzrx {
+            background-color: #5b88ff;
+        }
+        &.bzrx {
+            background: linear-gradient(315deg, #003cda 19.25%, #33dfcc 86.5%);
+        }
+    }
+}
