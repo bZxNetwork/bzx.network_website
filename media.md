@@ -1,17 +1,21 @@
 ---
 layout: media-assets
 permalink: media-assets
-metadescription: bZx Protocol Media Assets - bZx, Fulcrum and Torque logos.
+metadescription: bZx Protocol Brand Assets - bZx, Fulcrum and Torque logos.
 featured-image: /images/ogp.png
-title: Media Assets - bZx, Fulcrum and Torque logos
-h1title: bZx Branding
+title: Brand Assets - bZx, Fulcrum and Torque logos
+h1title: bZx Brand Assets
 ---
 
 <div class="post-content media-assets">
+<div class="container  container-md mb-70 post-content">
+
+<p>When using logos, keep all of its proper elements intact and do not alter them in any way. This means that distorting, stretching, changing colors, changing fonts, adding or removing any part of the logos, cobranding with another company or addition of extra effects are forbidden.
+</p>    </div>
     <div class="container  container-md mb-70 post-content">
-        <h2>bZx Branding and Media Assets</h2>
-        <p>When using the logo, keep all of its proper elements intact and do not alter them in any way. This means that distorting, stretching, changing colors, changing fonts, adding or removing any part of the logo, cobranding with another company or addition of extra effects are forbidden.
-        </p>
+    <h1>General Assets</h1>
+        <h2>bZx Brand Assets</h2>
+
     </div>
     <div class="container container-xl text-center mb-70">
         <div class="grid mb-30">
@@ -22,7 +26,7 @@ h1title: bZx Branding
         <a href="/images/bzx.zip" title="download bZx branding assets" class="button button-secondary d-flex j-content-center m-auto">download bZx branding assets</a>  
     </div>
     <div class="container  container-md">
-        <h2>Fulcrum Branding</h2>
+        <h2>Fulcrum</h2>
     </div>
     <div class="container container-xl text-center mb-70">
         <div class="grid mb-30">
@@ -33,7 +37,7 @@ h1title: bZx Branding
         <a href="/images/fulcrum.zip" title="download Fulcrum branding assets" class="button button-secondary d-flex j-content-center m-auto">download Fulcrum branding assets</a>  
     </div>
     <div class="container  container-md">
-        <h2>Torque Branding</h2>
+        <h2>Torque</h2>
     </div>
     <div class="container container-xl text-center mb-70">
         <div class="grid mb-30">
@@ -44,8 +48,8 @@ h1title: bZx Branding
         <a href="/images/torque.zip" title="download Torque branding assets" class="button button-secondary d-flex j-content-center m-auto">download Torque branding assets</a>  
     </div>
     <div class="container  container-md">
-        <h2>Colors</h2>
-        <p>bZx, fulcrum, and torque are associated with the following colors.
+        <h1>Colors</h1>
+        <p>bZx, Fulcrum, and Torque associated with the following colors:
         </p>
     </div>
     <div class="bzx-colors container container-xl mt-40 mb-70">
@@ -57,24 +61,26 @@ h1title: bZx Branding
         <div class="color-circle c283049"><span class="fs-18 fs-sm-13">#283049</span></div>
     </div>
     <div class="container  container-md">
+    <h1>Tokens Assets</h1>
+
         <h2>BZRX</h2>
-        <p>bZx, fulcrum and torque is associated with the following colors.</p>
+        <p>BZRX - regular logo, vBZRX - vested token.</p>
     </div>
     <div class="container container-xl mt-40 mb-70 text-center">
         <div class="bzrx-logo">
-            <div class="bzrx-item">
-                <span>vBZRX</span>
-                <div class="logo-circle vbzrx">{% include svg/part-logo-bzx.svg %}</div>
-            </div>
             <div  class="bzrx-item">
                 <span>BZRX</span>
                 <div class="logo-circle bzrx">{% include svg/part-logo-bzx.svg %}</div>
             </div>
+            <div class="bzrx-item">
+                <span>vBZRX</span>
+                <div class="logo-circle vbzrx">{% include svg/part-logo-bzx.svg %}</div>
+            </div>
         </div>
-        <a href="/images/bzrx.zip" title="download all icons BZRX" class="button button-secondary d-flex j-content-center mt-50">download all icons BZRX</a>  
+        <a href="/images/bzrx.zip" title="download all icons BZRX" class="button button-secondary d-flex j-content-center mt-50">download BZRX branding kit</a>  
     </div>
     <div class="container  container-md">
-        <h2>iTokens Branding</h2>
+        <h2>iTokens</h2>
     </div>
     <div class="itoken container container-xl text-center ">
         <div class="grid mb-30">
@@ -92,7 +98,7 @@ h1title: bZx Branding
         <a href="/images/iTokens.zip" title="download iTokens branding kit" class="button button-secondary d-flex j-content-center m-auto">download iTokens branding kit</a>  
     </div>
         <div class="container  container-md">
-        <h2>pTokens Branding </h2>
+        <h2>pTokens </h2>
     </div>
     <div class="ptoken container container-xl text-center ">
         <div class="grid mb-30">
