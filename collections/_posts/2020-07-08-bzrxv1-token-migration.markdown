@@ -25,7 +25,7 @@ We request that the community support our new naming convention by ensuring all 
 
 ![](/images/BZRX-logo.png)
 
-## Get Your New Tokens Today!
+## Claim Your New Tokens!
 
 Please visit the [Staking Dashboard](https://staking.bzx.network) to migrate your tokens. Token migration will be available starting on Monday, July 13th, 2020.
 
