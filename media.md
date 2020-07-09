@@ -71,7 +71,7 @@ h1title: bZx Branding
                 <div class="logo-circle bzrx">{% include svg/part-logo-bzx.svg %}</div>
             </div>
         </div>
-        <a href="#" title="download all icons BZRX" class="button button-secondary d-flex j-content-center mt-50">download all icons BZRX</a>  
+        <a href="/images/bzrx.zip" title="download all icons BZRX" class="button button-secondary d-flex j-content-center mt-50">download all icons BZRX</a>  
     </div>
     <div class="container  container-md">
         <h2>iTokens Branding</h2>
