@@ -1,8 +1,8 @@
 ---
 layout: media-assets
 permalink: bzrx-token
-metadescription: BZRX Token
-featured-image:
+metadescription: BZRX Token - could be used to govern the protocol and as a medium of exchange
+featured-image: /images/blog/bzrx-cover.png
 title: BZRX Token
 h1title: BZRX Token
 ---
