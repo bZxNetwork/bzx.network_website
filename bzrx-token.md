@@ -39,7 +39,7 @@ h1title: BZRX Token
     <h2>Locked Tokens</h2>
     <p>Many of our investors and team members have voluntarily increased their lock-ups. Locked tokens include tokens that otherwise would have been released and entered the circulating supply. This number also includes OGN that is locked up by users in  Deals.</p>
 </div>
-
+<!--
 <div class="container container-xl">
     <div class="container-locked">
         <div class="container container-md content-bzrx">
@@ -55,7 +55,7 @@ h1title: BZRX Token
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <div class="container container-md content-bzrx">
     <h2>Wallets excluded from circulating supply</h2>
     <p>Many of our investors and team members have voluntarily increased their lock-ups. Locked tokens include tokens that otherwise would have been released and entered the circulating supply. This number also includes OGN that is locked up by users in  Deals.</p>
@@ -65,40 +65,31 @@ h1title: BZRX Token
     <table class="bzrx-table">
         <tbody>
             <tr class="bzrx-row">
-                <th class="title">Foundation Reserves</th>
-                <th class="account">0x24a42fD28C976A61Df5D00D0599C34c4f90748c8</th>
-                <th class="action"><a href="/">Open</a></th>
+                <th class="title">Vesting</th>
+                <th class="account">0x95BeeC2457838108089fcD0E059659A4E60B091A</th>
+                <th class="action"><a href="https://etherscan.io/address/0x95BeeC2457838108089fcD0E059659A4E60B091A">Open</a></th>
             </tr>
             <tr class="bzrx-row">
-                <th class="title">Team Distribution</th>
-                <th class="account">0x24a42fD28C976A61Df5D00D0599C34c4f90748c8</th>
-                <th class="action"><a href="/">Open</a></th>
+                <th class="title">Team</th>
+                <th class="account">0x7a1d27e928CCFeAa2C5182031aeb6F2ECB07eA13</th>
+                <th class="action"><a href="https://etherscan.io/address/0x7a1d27e928CCFeAa2C5182031aeb6F2ECB07eA13">Open</a></th>
             </tr>
             <tr class="bzrx-row">
-                <th class="title">Investor Distribution</th>
-                <th class="account">0x24a42fD28C976A61Df5D00D0599C34c4f90748c8</th>
-                <th class="action"><a href="/">Open</a></th>
+                <th class="title">bZx Builder Fund</th>
+                <th class="account">0xe94351E6B538ceaf292fD56254A5dB5D4a0A62aF</th>
+                <th class="action"><a href="https://etherscan.io/address/0xe94351E6B538ceaf292fD56254A5dB5D4a0A62aF">Open</a></th>
             </tr>
             <tr class="bzrx-row">
-                <th class="title">Distribution Staging</th>
-                <th class="account">0x24a42fD28C976A61Df5D00D0599C34c4f90748c8</th>
-                <th class="action"><a href="/">Open</a></th>
+                <th class="title">Security and Alignment Fund</th>
+                <th class="account">0xD890834EC4B0e5d4f5dEf21F64718DDB597f4A4B</th>
+                <th class="action"><a href="https://etherscan.io/address/0xD890834EC4B0e5d4f5dEf21F64718DDB597f4A4B">Open</a></th>
             </tr>
             <tr class="bzrx-row">
-                <th class="title">Partnerships</th>
-                <th class="account">0x24a42fD28C976A61Df5D00D0599C34c4f90748c8</th>
-                <th class="action"><a href="/">Open</a></th>
+                <th class="title">Ecosystem Fund</th>
+                <th class="account">0xbdBeCB2b87b3F7ba6F71A7a45019782D6E169A48</th>
+                <th class="action"><a href="https://etherscan.io/address/0xbdBeCB2b87b3F7ba6F71A7a45019782D6E169A48">Open</a></th>
             </tr>
-            <tr class="bzrx-row">
-                <th class="title">Ecosystem Growth</th>
-                <th class="account">0x24a42fD28C976A61Df5D00D0599C34c4f90748c8</th>
-                <th class="action"><a href="/">Open</a></th>
-            </tr>
-            <tr class="bzrx-row">
-                <th class="title">Foundation Reserves</th>
-                <th class="account">0x24a42fD28C976A61Df5D00D0599C34c4f90748c8</th>
-                <th class="action"><a href="/">Open</a></th>
-            </tr>
+
         </tbody>
     </table>
 </div>
