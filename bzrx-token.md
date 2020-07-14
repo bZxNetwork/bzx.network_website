@@ -6,23 +6,44 @@ featured-image: /images/blog/bzrx-cover.png
 title: BZRX Token
 h1title: BZRX Token
 ---
+<script>
+document.addEventListener('DOMContentLoaded', function (){
 
+    function numberWithCommas(x) {
+        var parts = x.toString().split(".");
+        parts[0] = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+        return parts.join(".");
+    }
+    const circulatingSupply = 140610067;
+    document.getElementById("circulating-supply").innerHTML = numberWithCommas(circulatingSupply);
+
+    fetch("https://api.coingecko.com/api/v3/simple/price?ids=bzx-protocol&vs_currencies=usd")
+    .then(response => response.json())
+    .then(data => {
+        const bzrxPrice = data["bzx-protocol"]["usd"];
+        const marketCap = bzrxPrice * circulatingSupply
+        document.getElementById("bzrx-price").innerHTML = `<span class="sign">$</span>${numberWithCommas(bzrxPrice.toFixed(4))}`;
+        document.getElementById("market-cap").innerHTML = `<span class="sign">$</span>${numberWithCommas(marketCap.toFixed(0))}`;
+    })
+}, false);
+
+</script>
 <div class="container container-xl">
     <div class="container-bzrx">
         <div class="item-bzrx">
             <div class="icon">{% include svg/bzrx/price.svg %}</div>
             <div class="title">Price</div>
-            <div class="value"><span class="sign">$</span>TBD</div>
+            <div id="bzrx-price" class="value"><span class="sign">$</span>0.1540</div>
         </div>
         <div class="item-bzrx">
             <div class="icon">{% include svg/bzrx/market-cap.svg %}</div>
             <div class="title">Market Cap</div>
-            <div class="value"><span class="sign">$</span>TBD</div>
+            <div id="market-cap" class="value"><span class="sign">$</span>21,654,091</div>
         </div>
         <div class="item-bzrx">
             <div class="icon">{% include svg/bzrx/circulating-supply.svg %}</div>
             <div class="title">Circulating Supply</div>
-            <div class="value">140,610,067</div>
+            <div id="circulating-supply" class="value">140,610,067</div>
         </div>
         <div class="item-bzrx">
             <div class="icon">{% include svg/bzrx/total-supply.svg %}</div>
