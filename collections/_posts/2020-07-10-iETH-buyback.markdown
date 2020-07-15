@@ -8,7 +8,7 @@ metadescription: "Announcing the iETH Buyback Program: How to trade iETH for the
 intro: "Announcing the iETH Buyback Program: How to trade iETH for the vBZRX Vesting Token"
 ---
 
-Starting Saturday, July 11th, 2020, those who held iETH at the time we took our snapshot (July 2, 2020 at 7PM EST) will be able to trade their iETH for vBZRX.
+Starting Saturday, July 16h, 2020, those who held iETH at the time we took our snapshot (July 2, 2020 at 7PM EST) will be able to trade their iETH for vBZRX.
 
 ## vBZRX
 
