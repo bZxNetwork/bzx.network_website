@@ -8,7 +8,7 @@ metadescription: "Announcing the iETH Buyback Program: How to trade iETH for the
 intro: "Announcing the iETH Buyback Program: How to trade iETH for the vBZRX Vesting Token"
 ---
 
-Starting Thursday, July 16h, 2020, those who held iETH at the time we took our snapshot (July 2, 2020 at 7PM EST) will be able to trade their iETH for vBZRX.
+Starting Thursday, July 16th, 2020, those who held iETH at the time we took our snapshot (July 2, 2020 at 7PM EST) will be able to trade their iETH for vBZRX.
 
 ## vBZRX
 
@@ -25,7 +25,7 @@ vBZRX is a new token from bZx that entitles holders to the following benefits:
 3. **Voting**
 *   Vesting tokens have 50% voting power compared to BZRX
 
-Individuals who held iETH during our snapshot can visit the [Staking Dashboard](https://staking.bzx.network) to trade their iETH for vBZRX starting July 11th, 2020.
+Individuals who held iETH during our snapshot can visit the [Staking Dashboard](https://staking.bzx.network) to trade their iETH for vBZRX starting July 16th, 2020.
 
 
 ## How to Get vBZRX
@@ -36,7 +36,7 @@ The button for converting iETH to will only be visible to individuals who hold i
 
 Click the button, approve the transaction, and your iETH will be automatically swapped for vBZRX. It’s that easy!
 
-Prior to the BZRX unlocking event on Monday, July 13th, iETH can be converted to vBZRX at a rate of 0.00019 vBZRX/iETH. After this time, the price of vBZRX in this will may be updated to reflect market conditions.
+Initially, iETH can be converted to vBZRX at a rate of 0.0002 iETH per vBZRX. After this time, the price of vBZRX may be updated to reflect market conditions.
 
 
 ## Warning ⚠️
