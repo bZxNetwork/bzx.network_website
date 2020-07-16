@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Announcing the iETH Buyback Program"
-date:   2020-07-10 01:12:46 -0700
+date:   2020-07-16 01:12:46 -0700
 cover: /images/blog/buyback.png
 author: Bean
 metadescription: "Announcing the iETH Buyback Program: How to trade iETH for the vBZRX Vesting Token"
