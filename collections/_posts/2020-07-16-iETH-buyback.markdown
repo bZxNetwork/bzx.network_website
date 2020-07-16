@@ -36,7 +36,7 @@ The button for converting iETH to will only be visible to individuals who hold i
 
 Click the button, approve the transaction, and your iETH will be automatically swapped for vBZRX. It’s that easy!
 
-Initially, iETH can be converted to vBZRX at a rate of 0.0002 iETH per vBZRX. After this time, the price of vBZRX may be updated to reflect market conditions.
+Initially, iETH can be converted to vBZRX at a rate of 0.0002 iETH per vBZRX. The conversion price of vBZRX may be updated in the future to reflect current market conditions.
 
 
 ## Warning ⚠️
