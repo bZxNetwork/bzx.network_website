@@ -17,7 +17,7 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
 <section class="mt-40 bg-wave text-center">
     <div class="buttons-wrapper container container-md d-flex f-wrap j-content-sb px-65 px-xs-15">
         <a href="{{ site.data.social-icons.twitter.url }}" class="button button-primary button-lg d-flex j-content-center mb-10">Twitter</a>
-        <a href="#" class="button button-primary button-lg d-flex j-content-center mb-10 join-mailing-list">Join mailing list</a>
+        <a href="https://uniswap.info/pair/0xB9b752F7f4a4680eEb327ffe728f46666763A796" class="button button-primary button-lg d-flex j-content-center mb-10">🦄 Uniswap 🦄</a>
         <a href="{{ site.data.social-icons.telegram.url }}" class="button button-primary button-lg d-flex j-content-center mb-10">Telegram</a>
         <a href="https://docs.bzx.network/" class="button button-primary button-lg d-flex j-content-center mb-10">Read the docs</a>
         <a href="{{ site.data.social-icons.github.url }}" class="button button-primary button-lg d-flex j-content-center mb-10">GitHub</a>
@@ -290,7 +290,7 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
     <div class="p-relative mb-20 mb-xs-0 mt-r-180 mt-xs-100" id="visible-token">
             <div class="container container-xs mb-60 mb-xs-10 mt-lg-r-90 mt-xs-20 p-relative opacity-trumpet">
             <h3 class="fs-24 fs-sm-20 fw-700 lh-160 lh-xs-150 mb-30 color-tertiary">BZRX Governance Token </h3>
-            <p class="lh-160 mb-25">The BZRX token is used by relays to collect trading fees. Token holders decide how to upgrade the bZx protocol.</p>
+            <p class="lh-160 mb-25">Token holders decide how to upgrade the bZx protocol.</p>
             <a href="/blog/bzrx-token" class="button button-primary button-sm d-flex j-content-center m-auto">Read more</a>
         </div>
         <div class="token-svg-wrapper">
