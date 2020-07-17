@@ -118,8 +118,8 @@ document.addEventListener('DOMContentLoaded', function (){
 <div class="container container-md content-bzrx">
   <div class="container-chart">
 <img src="/images/blog/Table%2002.png" alt=""></div>
-</div>
 <h2>Wallets List</h2>
+</div>
 
 <div class="container container-xl overflow-x-scroll">
     <table class="bzrx-table">
