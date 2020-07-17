@@ -116,10 +116,9 @@ document.addEventListener('DOMContentLoaded', function (){
     </div>
 </div> -->
 <div class="container container-md content-bzrx">
-    <h2>Wallets excluded from circulating supply</h2>
-    <p>Many of our investors and team members have voluntarily increased their lock-ups. Locked tokens include tokens that otherwise would have been released and entered the circulating supply. This number also includes OGN that is locked up by users in  Deals.</p>
+  <div class="container-chart">
+<img src="/images/blog/Table%2002.png" alt=""></div>
 </div>
-
 <div class="container container-xl overflow-x-scroll">
     <table class="bzrx-table">
         <tbody>
