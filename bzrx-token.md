@@ -83,6 +83,8 @@ document.addEventListener('DOMContentLoaded', function (){
 
 </ul>
     <h2>Token Distribution Breakdown</h2>
+    <img src="/images/blog/Table%2002.png" alt="">
+
     <ul>
       <li><strong>Vesting tokens</strong> - These are tokens that will be allocated to strategic partners and backers.</li>
 
@@ -115,7 +117,6 @@ document.addEventListener('DOMContentLoaded', function (){
     </div>
 </div> -->
 <div class="container container-md content-bzrx">
-<img src="/images/blog/Table%2002.png" alt="">
 <h2 class="mt-0">Wallets List</h2>
 </div>
 
