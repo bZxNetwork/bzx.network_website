@@ -290,7 +290,7 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
     <div class="p-relative mb-20 mb-xs-0 mt-r-180 mt-xs-100" id="visible-token">
             <div class="container container-xs mb-60 mb-xs-10 mt-lg-r-90 mt-xs-20 p-relative opacity-trumpet">
             <h3 class="fs-24 fs-sm-20 fw-700 lh-160 lh-xs-150 mb-30 color-tertiary">BZRX Governance Token </h3>
-            <p class="lh-160 mb-25">The BZRX token is used by relays to collect trading fees. Token holders decide how to upgrade the bZx protocol.</p>
+            <p class="lh-160 mb-25">Token holders decide how to upgrade the bZx protocol.</p>
             <a href="/blog/bzrx-token" class="button button-primary button-sm d-flex j-content-center m-auto">Read more</a>
         </div>
         <div class="token-svg-wrapper">
