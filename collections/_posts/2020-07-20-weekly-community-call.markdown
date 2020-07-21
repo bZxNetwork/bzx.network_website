@@ -22,4 +22,6 @@ As we make progress, we envision these calls evolving into a powerful and influe
 ### Have something cool to promote?
 If you’re working on something relevant to the bZx ecosystem, please reach out.
 
-Help shape the future of DeFi by joining our weekly calls: [https://meet.google.com/qmm-vrpi-smj](https://meet.google.com/qmm-vrpi-smj)
+Help shape the future of DeFi by joining our weekly calls.
+
+Join us on Google Hangouts this Friday: [https://meet.google.com/qmm-vrpi-smj](https://meet.google.com/qmm-vrpi-smj)
