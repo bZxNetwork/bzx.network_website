@@ -16,12 +16,10 @@ Each week we will give updates on the current development agenda items, marketin
 - Future plans for The Governance Bootstrap Initiative
 - Community Q&A
 - Questions from Twitter
-- Synthetix spotlight (?)
 
 As we make progress, we envision these calls evolving into a powerful and influential forum for the governance of the bZx Protocol. Future representatives of the legislative branch of the bZxDAO will be able to distinguish themselves here through their contributions.
 
 ### Have something cool to promote?
 If you’re working on something relevant to the bZx ecosystem, please reach out.
 
-Help shape the future of DeFi by joining our weekly calls:
-[Zoom link]
+Help shape the future of DeFi by joining our weekly calls: [https://meet.google.com/qmm-vrpi-smj](https://meet.google.com/qmm-vrpi-smj)
