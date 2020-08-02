@@ -27,3 +27,4 @@ For press & media request send us a message at: nick@bzx.network
 - CoinDesk - [Yields of 25% to 42% Lure Lenders Back to DeFi Platform bZx](https://www.coindesk.com/yields-of-25-to-42-lure-lenders-back-to-defi-platform-bzx)
 - [Talking DeFi With bZx Co-Founder Kyle Kistner: On Fulcrum, Governance & More](https://blockonomi.com/talking-defi-bzx-cokyle-kistner/)
 - [bZx Interview with Kyle Kistner July 2020 - DeFi Nation](https://www.youtube.com/watch?time_continue=1&v=Uav4d7jVRO8&feature=emb_logo)
+- [BZX Protocol DeFi Interview - Kyle at MikoBits show](https://www.youtube.com/watch?v=5NVWpaWVVW8&fbclid=IwAR2dqHhURcKjM4Vl9wleH8hmzjaPtWVB0ufdwFBQ6dyAzJUN9zWG1u9xQGU)
