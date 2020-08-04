@@ -2,7 +2,7 @@
 layout: post
 title:  "The Shipping Manifest: July 2020"
 date:   2020-08-04 01:12:46 -0700
-cover: /images/blog/Blog--post_june.jpg
+cover: /images/blog/Blog-post_july.png
 author: Sawinyh
 metadescription: "From new programs and updates to the BZRX token to the first weekly bZx Community Call, July has been an exciting month for the bZx team!"
 intro: "From new programs and updates to the BZRX token to the first weekly bZx Community Call, July has been an exciting month for the bZx team!"
