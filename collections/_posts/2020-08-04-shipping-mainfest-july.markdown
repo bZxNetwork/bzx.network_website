@@ -56,11 +56,11 @@ Once you’ve created your positions, keeping track of them is now as simple as 
 The bZx team hosted its first **Weekly Community Call** in mid-July with over 40 people in attendance. Attendees discussed how to proceed with the iETH rescue program, plans for the Governance Bootstrap Program and bZx Builder Fund, and more!
 
 Topics we discussed:
-- White heavy check mark How to proceed with the iETH rescue program?
-- White heavy check mark The Governance Bootstrap Program, $BZRX and $vBZRX
-- White heavy check mark What to expect leading up to relaunch
-- White heavy check mark How should the bZx Builder Fund be used?
-- White heavy check mark Community AMA Microphone
+- How to proceed with the iETH rescue program?
+- The Governance Bootstrap Program, $BZRX and $vBZRX
+- What to expect leading up to relaunch
+- How should the bZx Builder Fund be used?
+- Community AMA Microphone
 
 In addition to continuing those discussions, we’ll have a special guest from 0x speaking about [Matcha](https://matcha.xyz/), their newest exchange aggregator interface. Please see [our blog](https://bzx.network/blog/governance-call-recap) for a full recap of the first Community Call.
 
