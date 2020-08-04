@@ -4,6 +4,11 @@
     const newLoansVolumeInput = document.getElementById("new-loans-volume-input");
     const openLoansVolumeInput = document.getElementById("open-loans-volume-input");
 
+    const monthlyProfitSpan = document.getElementById("monthly-profit-value");
+    const weeklyProfitSpan = document.getElementById("weekly-profit-value");
+    const dailyProfitSpan = document.getElementById("daily-profit-value");
+
+
     const circulatingSupply = 140610067;
 
     const tradingVolumeFeePercent = 0.15;
@@ -20,11 +25,11 @@
         year: 365
     }
 
-    const getProtocolCashFlowForPeriod = (dailyTradingVolume, dailyNewLoanVolume, dailyOpenLoans, period) => {
+    const getProtocolCashFlowForPeriod = (dailyTradingVolume, dailyNewLoanVolume, openLoans, period) => {
         if (!["day", "week", "month", "year"].includes(period)) return;
         return dailyTradingVolume * multiplier[period] * tradingVolumeFeePercent / 100
             + dailyNewLoanVolume * multiplier[period] * newLoanVolumeFeePercent / 100
-            + dailyOpenLoans * multiplier[period] * dailyIPYPercent * multiplier[period] / 100;
+            + openLoans * dailyIPYPercent * multiplier[period] / 100;
     }
 
     const getTokensStakedPercent = (stakedTokens) => {
@@ -44,8 +49,7 @@
         }
     }
 
-    const getProfits = () => {
-        const inputValues = getInputValues();
+    const getProfits = (inputValues) => {
         const tokensStakedPercent = getTokensStakedPercent(inputValues.bzrxInputValue);
 
         const dailyProtocolCashFlow = getProtocolCashFlowForPeriod(inputValues.tradingVolumeInputValue, inputValues.newLoansVolumeInputValue, inputValues.openLoansVolumeInputValue, "day");
@@ -58,5 +62,32 @@
         const monthlyProfit = getStakingProfit(tokensStakedPercent, monthlyProtocolCashFlow);
         const yearlyProfit = getStakingProfit(tokensStakedPercent, yearlyProtocolCashFlow);
         return {dailyProfit, weeklyProfit, monthlyProfit, yearlyProfit};
+    }
+
+    const updateProfitLabels = (profitValues) => {
+        monthlyProfitSpan.textContent = numberWithCommas(profitValues.monthlyProfit.toFixed(2));
+        weeklyProfitSpan.textContent = numberWithCommas(profitValues.weeklyProfit.toFixed(2));
+        dailyProfitSpan.textContent = numberWithCommas(profitValues.dailyProfit.toFixed(2));
+    }
+
+    const onInputChange = () => {
+
+        const inputValues = getInputValues();
+        const profitValues = getProfits(inputValues);
+        updateProfitLabels(profitValues);
+
+    }
+
+    
+    bzrxInput.addEventListener("change", onInputChange, false);
+    tradingVolumeInput.addEventListener("change", onInputChange, false);
+    newLoansVolumeInput.addEventListener("change", onInputChange, false);
+    openLoansVolumeInput.addEventListener("change", onInputChange, false);
+    onInputChange()
+    
+    function numberWithCommas(x) {
+        var parts = x.toString().split(".");
+        parts[0] = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+        return parts.join(".");
     }
 })();
