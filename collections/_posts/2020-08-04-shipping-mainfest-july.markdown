@@ -28,21 +28,21 @@ Anyone still holding BZRXv1 tokens can easily migrate to the new BZRX token usin
 
 We are pleased to report that the BZRX token is now available on the following exchanges:
 
-- [1inch](https://1inch.exchange/)
+- [Uniswap v2.0](https://uniswap.info/pair/0xb9b752f7f4a4680eeb327ffe728f46666763a796)
 - [Balancer](http://balancer.exchange)
-- [Bilaxy](https://bilaxy.com/)
+- [Kyber](http://kyberswap.com)
+- [Loopring](http://loopring.io)
+- [Poloniex](https://poloniex.com/)
 - [Coinone](https://coinone.co.kr/)
+- [Bilaxy](https://bilaxy.com/)
 - [dex.AG](http://dex.ag)
 - [dex.blue](http://dex.blue)
 - [Hotbit](https://www.hotbit.io/)
 - [IDEX](http://idex.market)
-- [Kyber](http://kyberswap.com)
-- [Loopring](http://loopring.io)
 - [MXC](https://www.mxc.com/)
 - [Paraswap](http://Paraswap.io)
-- [Poloniex](https://poloniex.com/)
 - [Totle](http://swap.totle.com)
-- [Uniswap v2.0](https://uniswap.info/pair/0xb9b752f7f4a4680eeb327ffe728f46666763a796)
+- [1inch](https://1inch.exchange/)
 
 BZRX is also available for liquidity mining on Loopring and to celebrate the listing, Loopring is running a month-long [Liquidity Mining Incentive Campaign](https://medium.com/loopring-protocol/bzrx-eth-liquidity-mining-on-loopring-exchange-7605fbc9e91d) offering $2,000 in rewards in vBZRX to any users who provide liquidity by placing resting limit orders to the BZRX-ETH orderbook.
 
