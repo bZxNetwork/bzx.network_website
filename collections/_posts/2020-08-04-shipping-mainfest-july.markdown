@@ -20,7 +20,7 @@ Torque has a freshly-updated front-end! Check out the new website updated with a
 
 The [BZRX Token Migration](https://bzx.network/blog/bzrxv1-token-migration) began with the launch of the new BZRX token on the Ethereum mainnet Monday, July 13th, 2020.
 
-Anyone still holding BZRXv1 tokens can easily migrate to the new BZRX token using our [Staking Dashboard](staking.bzx.network).
+Anyone still holding BZRXv1 tokens can easily migrate to the new BZRX token using our [Staking Dashboard](https://staking.bzx.network).
 
 ![](/images/blog/smaugust-image2.png)
 
