@@ -44,7 +44,7 @@ We are pleased to report that the BZRX token is now available on the following e
 - [Hotbit](https://www.hotbit.io/)
 - [MXC](https://www.mxc.com/)
 
-BZRX is also available for liquidity mining on Loopring and to celebrate the listing, Loopring is running a month-long [Liquidity Mining Incentive Campaign](https://medium.com/loopring-protocol/bzrx-eth-liquidity-mining-on-loopring-exchange-7605fbc9e91d) offering $2,000 in rewards in vBZRX to any users who provide liquidity by placing resting limit orders to the BZRX-ETH orderbook.
+BZRX is also available for liquidity mining on Loopring, and to celebrate the listing, Loopring is running a month-long [Liquidity Mining Incentive Campaign](https://medium.com/loopring-protocol/bzrx-eth-liquidity-mining-on-loopring-exchange-7605fbc9e91d) offering $2,000 in rewards in vBZRX to any users who provide liquidity by placing resting limit orders to the BZRX-ETH orderbook.
 
 Prefer a one-stop solution for managing your DeFi portfolio? We’re happy to share that BZRX is also [now available on Zerion](https://twitter.com/zerion_io/status/1283087946598547458). Trade, Yield Farm, and provide liquidity, all from a single dashboard. Get started at [https://app.zerion.io/](https://app.zerion.io/).
 
