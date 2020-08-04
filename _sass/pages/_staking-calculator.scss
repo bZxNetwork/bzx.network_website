@@ -1,0 +1,76 @@
+.calc-wrapper {
+  display: flex;
+
+  background-color: #e9f4ff;
+  padding: 32px 32px 48px 32px;
+  > div {
+    width: 50%;
+    &:first-child {
+      border-right: 1px solid #ffffff;
+    }
+    &:last-child {
+      padding-left: 32px;
+    }
+  }
+  .title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.6;
+    color: #000085;
+    margin-bottom: 18px;
+  }
+  label {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #003cda;
+  }
+  .sign {
+    color: #8992a4;
+    font-weight: 200;
+    margin-right: 8px;
+  }
+  .value-profit {
+    font-size: 28px;
+    line-height: 1.4;
+    font-weight: 800;
+    color: #276bfb;
+    display: flex;
+    flex-direction: column;
+    &:nth-child(1) {
+      font-size: 46px;
+    }
+  }
+  .descriptoin {
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 1.6;
+    color: #8992a4;
+  }
+}
+
+.border-quantity {
+  position: relative;
+  width: 227px;
+  margin-left: auto;
+  margin-right: auto;
+  .left-quantity,
+  .right-quantity {
+    position: absolute;
+    top: 0;
+    justify-content: space-between;
+    display: flex;
+    width: 4px;
+    height: 4px;
+    background-color: var(--secondary-bg);
+  }
+}
+.track-quantity {
+  height: 6px;
+  background-color: #33dfcc;
+  position: absolute;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  left: 0;
+  bottom: 13px;
+}
