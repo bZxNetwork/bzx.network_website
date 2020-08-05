@@ -1,9 +1,9 @@
 ---
 layout: media-assets
 permalink: calc
-metadescription: ''
-featured-image: /images/ogp.png
-title: 'Staking Calculator'
+metadescription: 'BZRX Staking Calculator for estimation purposes only'
+featured-image: /images/blog/calc.png
+title: 'BZRX Staking Calculator'
 h1title: 'Staking Calculator'
 ---
 
