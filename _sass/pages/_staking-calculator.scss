@@ -172,6 +172,10 @@
   width: 100%;
   background-color: #fff;
   color: #fff;
+  caret-color: #8992a4;
+
+  font-size: 32px;
+  font-weight: 800;
   border: none;
   outline: none;
   padding: 20px;
@@ -187,12 +191,11 @@
     display: inline-block;
     vertical-align: middle;
     pointer-events: none;
-    background-color: #fff;
     width: calc(100% - 40px);
     left: 20px;
     top: 12px;
-
     font-size: 32px;
+
     #bzrx-input-value {
       color: #000085;
       font-weight: 800;
