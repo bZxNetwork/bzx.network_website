@@ -80,7 +80,7 @@
         let valueRangeQuantity = border.querySelector(".label-quantity-value");
         valueRangeQuantity.textContent = numberWithCommas(range.value);
         trackRangeQuantity.style.width = 'calc(' + range.value / (range.max) * 100 + '% - 12px - (16px *' + (range.value - (range.max) / 2) / range.max + '))';
-        changePositionLabelValue(range);
+        //changePositionLabelValue(range);
     }
 
     const changePositionLabelValue = (range) => {
@@ -99,7 +99,7 @@
     const onChangeRange = (event) => {
         let target = event.target;
         changePositionBorderThumb(target, target);
-        changePositionLabelValue(target);
+        //changePositionLabelValue(target);
         onInputChange();
     }
 

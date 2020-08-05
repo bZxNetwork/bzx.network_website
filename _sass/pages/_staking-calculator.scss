@@ -124,7 +124,7 @@
 
 .border-quantity {
   position: relative;
-  width: 100%;
+  max-width: 430px;
   margin-left: 15px;
   @media screen and (min-width: $md) {
     padding-top: 60px;
