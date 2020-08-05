@@ -152,7 +152,9 @@
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
   left: 0;
-  bottom: 12px;
+  bottom: 13px;
+  pointer-events: none;
+
   &.red {
     background-color: #ff4f4f;
   }
