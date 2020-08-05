@@ -40,6 +40,15 @@ h1title: 'Staking Calculator'
                       <div class="track-quantity track-quantity-new-loans"></div>
                   </div>
                 </div>
+                <div>
+                    <label>Percentage staked</label>
+                     <div class="border-quantity">                            
+                      <input id="percentage-staked-input" class="quantity-tokens-staked" type="range" value="24" min="1" max="100"/>
+                      <div class="left-quantity left-quantity-tokens-staked"></div>
+                      <div class="right-quantity right-quantity-tokens-staked"></div>
+                      <div class="track-quantity track-quantity-tokens-staked"></div>
+                  </div>
+                </div>
                 <p class="descriptoin">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pellentesque in vitae tellus viverra accumsan pharetra.</p>
             </div>
             <div>

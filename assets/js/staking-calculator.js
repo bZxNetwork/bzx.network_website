@@ -3,6 +3,7 @@
     const tradingVolumeInput = document.getElementById("trading-volume-input");
     const newLoansVolumeInput = document.getElementById("new-loans-volume-input");
     const openLoansVolumeInput = document.getElementById("open-loans-volume-input");
+    const percentageStakedInput = document.getElementById("percentage-staked-input");
 
     const monthlyProfitSpan = document.getElementById("monthly-profit-value");
     const weeklyProfitSpan = document.getElementById("weekly-profit-value");
@@ -32,8 +33,8 @@
             + openLoans * dailyIPYPercent * multiplier[period] / 100;
     }
 
-    const getTokensStakedPercent = (stakedTokens) => {
-        return stakedTokens / circulatingSupply * 100;
+    const getTokensStakedPercent = (stakedTokens, percentageStaked) => {
+        return stakedTokens / (circulatingSupply * percentageStaked / 100) * 100;
     }
 
     const getStakingProfit = (protocolCashFlow, tokensStakedPercent) => {
@@ -46,11 +47,12 @@
             tradingVolumeInputValue: tradingVolumeInput.value,
             newLoansVolumeInputValue: newLoansVolumeInput.value,
             openLoansVolumeInputValue: openLoansVolumeInput.value,
+            percentageStakedInputValue: percentageStakedInput.value 
         }
     }
 
     const getProfits = (inputValues) => {
-        const tokensStakedPercent = getTokensStakedPercent(inputValues.bzrxInputValue);
+        const tokensStakedPercent = getTokensStakedPercent(inputValues.bzrxInputValue, inputValues.percentageStakedInputValue);
 
         const dailyProtocolCashFlow = getProtocolCashFlowForPeriod(inputValues.tradingVolumeInputValue, inputValues.newLoansVolumeInputValue, inputValues.openLoansVolumeInputValue, "day");
         const weeklyProtocolCashFlow = getProtocolCashFlowForPeriod(inputValues.tradingVolumeInputValue, inputValues.newLoansVolumeInputValue, inputValues.openLoansVolumeInputValue, "week");
@@ -84,6 +86,8 @@
     tradingVolumeInput.addEventListener("change", onInputChange, false);
     newLoansVolumeInput.addEventListener("change", onInputChange, false);
     openLoansVolumeInput.addEventListener("change", onInputChange, false);
+    percentageStakedInput.addEventListener("change", onInputChange, false);
+    
     onInputChange();
 
     function numberWithCommas(x) {
