@@ -5,6 +5,7 @@
     const openLoansVolumeInput = document.getElementById("open-loans-volume-input");
     const percentageStakedInput = document.getElementById("percentage-staked-input");
 
+    const bzrxInputSpan = document.getElementById("bzrx-input-value");
     const monthlyProfitSpan = document.getElementById("monthly-profit-value");
     const weeklyProfitSpan = document.getElementById("weekly-profit-value");
     const dailyProfitSpan = document.getElementById("daily-profit-value");
@@ -47,7 +48,7 @@
             tradingVolumeInputValue: tradingVolumeInput.value,
             newLoansVolumeInputValue: newLoansVolumeInput.value,
             openLoansVolumeInputValue: openLoansVolumeInput.value,
-            percentageStakedInputValue: percentageStakedInput.value 
+            percentageStakedInputValue: percentageStakedInput.value
         }
     }
 
@@ -72,48 +73,57 @@
         dailyProfitSpan.textContent = numberWithCommas(profitValues.dailyProfit.toFixed(2));
     }
     const changePositionBorderThumb = (range, current) => {
-      let border = range.closest(".border-quantity");
-      let leftRangeQuantity = border.querySelector(".left-quantity");
-      let rightRangeQuantity = border.querySelector(".right-quantity");
-      let trackRangeQuantity = border.querySelector(".track-quantity");
-      let valueRangeQuantity = border.querySelector(".label-quantity-value");
-      valueRangeQuantity.textContent = numberWithCommas(current.value);
-      leftRangeQuantity.style.left = 'calc(' + current.value / (range.max) * 100 + '% - 12px - (16px *' + (current.value - (range.max) / 2) / range.max + '))'; //12 - half of width thumb with border, 16 - width thumb without border
-      rightRangeQuantity.style.left = 'calc(' + current.value / (range.max) * 100 + '% - 12px + 20px - (16px *' + (current.value - (range.max) / 2) / range.max + '))'; //12 - half of width thumb with border, 16 - width thumb without border 
-      trackRangeQuantity.style.width = 'calc(' + current.value / (range.max) * 100 + '% - 12px - (16px *' + (current.value - (range.max) / 2) / range.max + '))';
+        let border = range.closest(".border-quantity");
+        let leftRangeQuantity = border.querySelector(".left-quantity");
+        let rightRangeQuantity = border.querySelector(".right-quantity");
+        let trackRangeQuantity = border.querySelector(".track-quantity");
+        let valueRangeQuantity = border.querySelector(".label-quantity-value");
+        valueRangeQuantity.textContent = numberWithCommas(current.value);
+        leftRangeQuantity.style.left = 'calc(' + current.value / (range.max) * 100 + '% - 12px - (16px *' + (current.value - (range.max) / 2) / range.max + '))'; //12 - half of width thumb with border, 16 - width thumb without border
+        rightRangeQuantity.style.left = 'calc(' + current.value / (range.max) * 100 + '% - 12px + 20px - (16px *' + (current.value - (range.max) / 2) / range.max + '))'; //12 - half of width thumb with border, 16 - width thumb without border 
+        trackRangeQuantity.style.width = 'calc(' + current.value / (range.max) * 100 + '% - 12px - (16px *' + (current.value - (range.max) / 2) / range.max + '))';
     }
 
     const changePositionLabelValue = (range) => {
-      let border = range.closest(".border-quantity");
-      let labelRangeQuantity = border.querySelector(".label-quantity");
-      let widthLabelRangeQuantity = labelRangeQuantity.offsetWidth;
-      labelRangeQuantity.style.left = 'calc(' + range.value / (range.max) * 100 + '% - (1px *' + (widthLabelRangeQuantity / 2) + '))';
+        let border = range.closest(".border-quantity");
+        let labelRangeQuantity = border.querySelector(".label-quantity");
+        let widthLabelRangeQuantity = labelRangeQuantity.offsetWidth;
+        labelRangeQuantity.style.left = 'calc(' + range.value / (range.max) * 100 + '% - (1px *' + (widthLabelRangeQuantity / 2) + '))';
 
+    }
+    const onInput = () => {
+        if (bzrxInput.value > 14000000) bzrxInput.value = 14000000;
+        else if (!(bzrxInput.value > 0)) bzrxInput.value = "";
+
+        bzrxInputSpan.textContent = numberWithCommas(bzrxInput.value);
     }
 
     const onInputChange = (event) => {
-      if (event) {
-        let target = event.target;
-        changePositionBorderThumb(target, target);
-        changePositionLabelValue(target)
-      }
+        if (event) {
+            let target = event.target;
+            changePositionBorderThumb(target, target);
+            changePositionLabelValue(target)
+        }
+
         const inputValues = getInputValues();
         const profitValues = getProfits(inputValues);
         updateProfitLabels(profitValues);
-
     }
 
 
+    bzrxInput.addEventListener("input", onInput, false);
     bzrxInput.addEventListener("change", onInputChange, false);
     tradingVolumeInput.addEventListener("change", onInputChange, false);
     newLoansVolumeInput.addEventListener("change", onInputChange, false);
     openLoansVolumeInput.addEventListener("change", onInputChange, false);
     percentageStakedInput.addEventListener("change", onInputChange, false);
 
+    onInput();
     onInputChange();
 
     function numberWithCommas(x) {
         const parts = x.toString().split(".");
+
         parts[0] = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",");
         return parts.join(".");
     }

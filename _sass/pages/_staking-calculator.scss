@@ -57,7 +57,7 @@
       &:nth-child(1) {
         font-size: 46px;
       }
-      label{
+      label {
         margin-top: 7px;
       }
     }
@@ -119,4 +119,51 @@
   font-size: 32px;
   padding-left: 15px;
   margin-bottom: 25px;
+}
+
+#bzrx-input {
+  height: 64px;
+  width: 100%;
+  background-color: #fff;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 20px;
+
+  margin-bottom: 25px;
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  & + label {
+    position: absolute;
+    display: inline-block;
+    vertical-align: middle;
+    pointer-events: none;
+    background-color: #fff;
+    width: calc(100% - 40px);
+    left: 20px;
+    top: 12px;
+
+    font-size: 32px;
+    #bzrx-input-value {
+      color: #000085;
+      font-weight: 800;
+    }
+    .sign {
+      color: #8992a4;
+    }
+    img {
+      position: absolute;
+      top: 2px;
+      right: 0;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+    }
+  }
+}
+.input-item {
+  position: relative;
 }
