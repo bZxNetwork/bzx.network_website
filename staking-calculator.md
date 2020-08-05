@@ -7,7 +7,7 @@ title: 'Staking Calculator'
 h1title: 'Staking Calculator'
 ---
 
-<section>
+<section class="pb-160">
     <div class="container container-xl">
         <div class="calc-wrapper"> 
             <div>
@@ -77,12 +77,6 @@ h1title: 'Staking Calculator'
 </section>
 
 
-<section class="pb-120">
-  <div class="container container-md">
-    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-    <p>Many of our investors and team members have voluntarily increased their lock-ups. Locked tokens include tokens that otherwise would have been released and entered the circulating supply. This number also includes OGN that is locked up by users in  Deals.</p>
-  </div>
-</section>
 
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript" src="/assets/js/staking-calculator.js"></script>
