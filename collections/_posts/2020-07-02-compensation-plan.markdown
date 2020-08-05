@@ -33,6 +33,17 @@ Half of all fees collected from loans, trading, and lending will be converted to
 
 We have taken a snapshot of addresses eligible for the Lender Rescue and Trader Compensation Programs. Only lenders that are already in the iETH pool will be eligible, and only traders that experienced downtime in February will be eligible.
 
-We will provide a simple interface to let users participate in the programs described above. Instructions will be released in a follow-up announcement next month.
+### Traders
+
+- You have to visit [staking.bzx.network](https://staking.bzx.network/) and opt-in for traders compensation program until September 4th, 2020.
+After the opt-in period ends, traders can revisit the staking dashboard to claim their compensation.
+
+![](/images/blog/optin.png)
+
+### Lenders
+
+- Please see [details on iETH Buyback Program here.](/blog/iETH-buyback)
+
+![](/images/blog/ieth-buyback.png)
 
 If you have any questions, please feel free to contact the team via [Telegram](https://t.me/b0xNet) or check out our [Help Center](https://help.bzx.network/en/) to answer all of your questions about bZx, Fulcrum, and Torque.
