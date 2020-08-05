@@ -90,7 +90,7 @@
         labelRangeQuantity.style.left = 'calc(' + range.value / (range.max) * 100 + '% - (1px *' + (widthLabelRangeQuantity / 2) + '))';
     }
     const onInput = () => {
-        if (bzrxInput.value > 14000000) bzrxInput.value = 14000000;
+        if (bzrxInput.value > 140000000) bzrxInput.value = 140000000;
         else if (!(bzrxInput.value > 0)) bzrxInput.value = "";
 
         bzrxInputSpan.textContent = numberWithCommas(bzrxInput.value);
