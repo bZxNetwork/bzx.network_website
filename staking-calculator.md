@@ -1,6 +1,6 @@
 ---
 layout: media-assets
-permalink: staking-calculator
+permalink: calc
 metadescription: ''
 featured-image: /images/ogp.png
 title: 'Staking Calculator'
@@ -9,7 +9,7 @@ h1title: 'Staking Calculator'
 
 <section class="pb-160">
     <div class="container container-xl">
-        <div class="calc-wrapper"> 
+        <div class="calc-wrapper">
             <div>
                 <p class="title">Your Stake:</p>
                 <div class="input-item">
@@ -56,10 +56,10 @@ h1title: 'Staking Calculator'
                       <div class="track-quantity blue"></div>
                   </div>
                 </div>
-                <p class="descriptoin">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pellentesque in vitae tellus viverra accumsan pharetra.</p>
+                <p class="descriptoin">Initially cash flows will be split evenly between the insurance fund, which makes the token asset backed, and fee sharing, which flows directly to users in the form of Balancer Pool Tokens.</p>
             </div>
             <div>
-                <p class="title">Your Profit:</p>
+                <p class="title">Cash Flows:</p>
                 <div class="wrapper-profit">
                     <div class="value-profit">
                         <div><span class="sign">$</span><span id="monthly-profit-value">100,500.30</span></div>
