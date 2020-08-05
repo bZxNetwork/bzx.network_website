@@ -188,6 +188,11 @@
     -webkit-appearance: none;
     margin: 0;
   }
+  @media screen and (max-width: $max-sm) {
+    height: 48px;
+    font-size: 24px;
+    padding: 18px;
+  }
   & + label {
     position: absolute;
     display: inline-block;
@@ -197,7 +202,11 @@
     left: 20px;
     top: 12px;
     font-size: 32px;
-
+    @media screen and (max-width: $max-sm) {
+      left: 18px;
+      top: 10px;
+      font-size: 24px;
+    }
     #bzrx-input-value {
       color: #000085;
       font-weight: 800;
@@ -212,6 +221,10 @@
       width: 36px;
       height: 36px;
       border-radius: 50%;
+      @media screen and (max-width: $max-sm) {
+        width: 24px;
+        height: 24px;
+      }
     }
   }
 }
