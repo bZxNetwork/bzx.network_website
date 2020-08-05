@@ -71,44 +71,54 @@
         weeklyProfitSpan.textContent = numberWithCommas(profitValues.weeklyProfit.toFixed(2));
         dailyProfitSpan.textContent = numberWithCommas(profitValues.dailyProfit.toFixed(2));
     }
-    const changePositionBorderThumb = (range, current) => {
-      let border = range.closest(".border-quantity");
-      let leftRangeQuantity = border.querySelector(".left-quantity");
-      let rightRangeQuantity = border.querySelector(".right-quantity");
-      let trackRangeQuantity = border.querySelector(".track-quantity");
-      let valueRangeQuantity = border.querySelector(".label-quantity-value");
-      valueRangeQuantity.textContent = numberWithCommas(current.value);
-      leftRangeQuantity.style.left = 'calc(' + current.value / (range.max) * 100 + '% - 12px - (16px *' + (current.value - (range.max) / 2) / range.max + '))'; //12 - half of width thumb with border, 16 - width thumb without border
-      rightRangeQuantity.style.left = 'calc(' + current.value / (range.max) * 100 + '% - 12px + 20px - (16px *' + (current.value - (range.max) / 2) / range.max + '))'; //12 - half of width thumb with border, 16 - width thumb without border 
-      trackRangeQuantity.style.width = 'calc(' + current.value / (range.max) * 100 + '% - 12px - (16px *' + (current.value - (range.max) / 2) / range.max + '))';
+    const changePositionBorderThumb = (range) => {
+        let border = range.closest(".border-quantity");
+        let leftRangeQuantity = border.querySelector(".left-quantity");
+        let rightRangeQuantity = border.querySelector(".right-quantity");
+        let trackRangeQuantity = border.querySelector(".track-quantity");
+        let valueRangeQuantity = border.querySelector(".label-quantity-value");
+        valueRangeQuantity.textContent = numberWithCommas(range.value);
+        trackRangeQuantity.style.width = 'calc(' + range.value / (range.max) * 100 + '% - 12px - (16px *' + (range.value - (range.max) / 2) / range.max + '))';
+        changePositionLabelValue(range);
     }
 
     const changePositionLabelValue = (range) => {
-      let border = range.closest(".border-quantity");
-      let labelRangeQuantity = border.querySelector(".label-quantity");
-      let widthLabelRangeQuantity = labelRangeQuantity.offsetWidth;
-      labelRangeQuantity.style.left = 'calc(' + range.value / (range.max) * 100 + '% - (1px *' + (widthLabelRangeQuantity / 2) + '))';
+        let border = range.closest(".border-quantity");
+        let labelRangeQuantity = border.querySelector(".label-quantity");
+        let widthLabelRangeQuantity = labelRangeQuantity.offsetWidth;
+        let getBoundingClientRectBorder = border.getBoundingClientRect();
+        let getBoundingClientRectLabel = labelRangeQuantity.getBoundingClientRect();
+        labelRangeQuantity.style.left = 'calc(' + range.value / (range.max) * 100 + '% - (1px *' + (widthLabelRangeQuantity / 2) + '))';
 
+        /*if (getBoundingClientRectBorder.x > getBoundingClientRectLabel.x) {
+            labelRangeQuantity.style.left = '0';
+        }
+        if (getBoundingClientRectBorder.y > getBoundingClientRectLabel.y) {
+            labelRangeQuantity.style.left = '100%';
+        }*/
     }
 
     const onInputChange = (event) => {
-      if (event) {
+    if (event) {
         let target = event.target;
-        changePositionBorderThumb(target, target);
-        changePositionLabelValue(target)
-      }
+        changePositionBorderThumb(target);
+    }
         const inputValues = getInputValues();
         const profitValues = getProfits(inputValues);
         updateProfitLabels(profitValues);
 
     }
 
+    bzrxInput.oninput = onInputChange;
 
-    bzrxInput.addEventListener("change", onInputChange, false);
-    tradingVolumeInput.addEventListener("change", onInputChange, false);
-    newLoansVolumeInput.addEventListener("change", onInputChange, false);
-    openLoansVolumeInput.addEventListener("change", onInputChange, false);
-    percentageStakedInput.addEventListener("change", onInputChange, false);
+    tradingVolumeInput.oninput = onInputChange;
+    changePositionBorderThumb(tradingVolumeInput);
+    newLoansVolumeInput.oninput = onInputChange;
+    changePositionBorderThumb(newLoansVolumeInput);
+    openLoansVolumeInput.oninput = onInputChange;
+    changePositionBorderThumb(openLoansVolumeInput);
+    percentageStakedInput.oninput = onInputChange;
+    changePositionBorderThumb(percentageStakedInput);
 
     onInputChange();
 
