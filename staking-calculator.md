@@ -43,32 +43,19 @@ h1title: 'Staking Calculator'
                 <p class="descriptoin">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pellentesque in vitae tellus viverra accumsan pharetra.</p>
             </div>
             <div>
+                <p class="title">Your Profit:</p>
                 <div>
-                    <p class="title">Your Profit:</p>
-                    <div>
-                        <div class="value-profit">
-                            <div><span class="sign">$</span><span id="monthly-profit-value">100,500.30</span></div>
-                            <label>Monthly</label>
-                        </div>
-                        <div class="value-profit">
-                            <div><span class="sign">$</span><span id="weekly-profit-value">100,500.30</span></div>
-                            <label>Weekly</label>
-                        </div>
-                        <div class="value-profit">
-                            <div><span class="sign">$</span><span id="daily-profit-value">100,500.30</span></div>
-                            <label>Daily</label>
-                        </div>
+                    <div class="value-profit">
+                        <div><span class="sign">$</span><span id="monthly-profit-value">100,500.30</span></div>
+                        <label>Monthly</label>
                     </div>
-                </div>
-                <div style="display: flex; flex-direction: column;">
-                    <div style="width: 33%; height: 500px;">
-                        <canvas id="bar-chart-daily" style="width: 100%;"></canvas>
+                    <div class="value-profit">
+                        <div><span class="sign">$</span><span id="weekly-profit-value">100,500.30</span></div>
+                        <label>Weekly</label>
                     </div>
-                    <div style="width: 33%; height: 500px;">
-                        <canvas id="bar-chart-weekly" style="width: 100%;"></canvas>
-                    </div>
-                    <div style="width: 33%; height: 500px;">
-                        <canvas id="bar-chart-monthly" style="width: 100%;"></canvas>
+                    <div class="value-profit">
+                        <div><span class="sign">$</span><span id="daily-profit-value">100,500.30</span></div>
+                        <label>Daily</label>
                     </div>
                 </div>
             </div>
