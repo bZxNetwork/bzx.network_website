@@ -3,9 +3,13 @@
 
   background-color: #e9f4ff;
   padding: 32px 32px 48px 32px;
+  .calc-item {
+    margin-bottom: 30px;
+  }
   > div {
     width: 50%;
     &:first-child {
+      padding-right: 32px;
       border-right: 1px solid #ffffff;
     }
     &:last-child {
@@ -24,21 +28,38 @@
     font-weight: 600;
     line-height: 1.2;
     color: #003cda;
+    &.label-quantity {
+      font-size: 28px;
+      font-weight: 800;
+      line-height: 1.4;
+      color: #276bfb;
+      position: absolute;
+      top: 8px;
+    }
   }
   .sign {
     color: #8992a4;
     font-weight: 200;
     margin-right: 8px;
   }
-  .value-profit {
-    font-size: 28px;
-    line-height: 1.4;
-    font-weight: 800;
-    color: #276bfb;
-    display: flex;
-    flex-direction: column;
-    &:nth-child(1) {
-      font-size: 46px;
+  .wrapper-profit {
+    padding-left: 45px;
+    .value-profit {
+      font-size: 28px;
+      line-height: 1.4;
+      font-weight: 800;
+      color: #276bfb;
+      display: flex;
+      flex-direction: column;
+      &:not(:last-child) {
+        margin-bottom: 30px;
+      }
+      &:nth-child(1) {
+        font-size: 46px;
+      }
+      label{
+        margin-top: 7px;
+      }
     }
   }
   .descriptoin {
@@ -51,9 +72,12 @@
 
 .border-quantity {
   position: relative;
-  width: 227px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 430px;
+  margin-left: 15px;
+  padding-top: 60px;
+  input {
+    width: 100%;
+  }
   .left-quantity,
   .right-quantity {
     position: absolute;
@@ -62,15 +86,37 @@
     display: flex;
     width: 4px;
     height: 4px;
-    background-color: var(--secondary-bg);
+    background-color: #e9f4ff;
   }
 }
 .track-quantity {
   height: 6px;
-  background-color: #33dfcc;
   position: absolute;
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
   left: 0;
-  bottom: 13px;
+  bottom: 12px;
+  &.red {
+    background-color: #ff4f4f;
+  }
+  &.green {
+    background-color: #33dfcc;
+  }
+  &.yellow {
+    background-color: #ffc700;
+  }
+  &.blue {
+    background-color: #56a9ff;
+  }
+}
+
+#bzrx-input {
+  height: 64px;
+  width: 100%;
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  font-size: 32px;
+  padding-left: 15px;
+  margin-bottom: 25px;
 }

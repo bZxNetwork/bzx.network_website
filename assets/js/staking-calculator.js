@@ -71,10 +71,32 @@
         weeklyProfitSpan.textContent = numberWithCommas(profitValues.weeklyProfit.toFixed(2));
         dailyProfitSpan.textContent = numberWithCommas(profitValues.dailyProfit.toFixed(2));
     }
+    const changePositionBorderThumb = (range, current) => {
+      let border = range.closest(".border-quantity");
+      let leftRangeQuantity = border.querySelector(".left-quantity");
+      let rightRangeQuantity = border.querySelector(".right-quantity");
+      let trackRangeQuantity = border.querySelector(".track-quantity");
+      let valueRangeQuantity = border.querySelector(".label-quantity-value");
+      valueRangeQuantity.textContent = numberWithCommas(current.value);
+      leftRangeQuantity.style.left = 'calc(' + current.value / (range.max) * 100 + '% - 12px - (16px *' + (current.value - (range.max) / 2) / range.max + '))'; //12 - half of width thumb with border, 16 - width thumb without border
+      rightRangeQuantity.style.left = 'calc(' + current.value / (range.max) * 100 + '% - 12px + 20px - (16px *' + (current.value - (range.max) / 2) / range.max + '))'; //12 - half of width thumb with border, 16 - width thumb without border 
+      trackRangeQuantity.style.width = 'calc(' + current.value / (range.max) * 100 + '% - 12px - (16px *' + (current.value - (range.max) / 2) / range.max + '))';
+    }
 
+    const changePositionLabelValue = (range) => {
+      let border = range.closest(".border-quantity");
+      let labelRangeQuantity = border.querySelector(".label-quantity");
+      let widthLabelRangeQuantity = labelRangeQuantity.offsetWidth;
+      labelRangeQuantity.style.left = 'calc(' + range.value / (range.max) * 100 + '% - (1px *' + (widthLabelRangeQuantity / 2) + '))';
 
-    const onInputChange = () => {
+    }
 
+    const onInputChange = (event) => {
+      if (event) {
+        let target = event.target;
+        changePositionBorderThumb(target, target);
+        changePositionLabelValue(target)
+      }
         const inputValues = getInputValues();
         const profitValues = getProfits(inputValues);
         updateProfitLabels(profitValues);
@@ -87,7 +109,7 @@
     newLoansVolumeInput.addEventListener("change", onInputChange, false);
     openLoansVolumeInput.addEventListener("change", onInputChange, false);
     percentageStakedInput.addEventListener("change", onInputChange, false);
-    
+
     onInputChange();
 
     function numberWithCommas(x) {

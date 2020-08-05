@@ -13,47 +13,51 @@ h1title: 'Staking Calculator'
             <div>
                 <p class="title">Your Stake:</p>
                 <input id="bzrx-input" step="any" type="number" value="100000"/>
-                <div>
+                <div class="calc-item">
                     <label>Trading Volume, Daily</label>
-                    <div class="border-quantity">                            
-                      <input id="trading-volume-input" class="quantity-trading" type="range" value="7000000" min="1" max="100000000"/>
-                      <div class="left-quantity left-quantity-trading"></div>
-                      <div class="right-quantity right-quantity-trading"></div>
-                      <div class="track-quantity track-quantity-trading"></div>
+                    <div class="border-quantity">    
+                      <label class="label-quantity"><span class="sign">$</span><span class="label-quantity-value">2,800,000</span></label>                        
+                      <input id="trading-volume-input" class="quantity-trading" type="range" value="2800000" min="1" max="14000000"/>
+                      <div id="left-trading-volume" class="left-quantity"></div>
+                      <div id="right-trading-volume" class="right-quantity"></div>
+                      <div id="right-trading-volume" class="track-quantity red"></div>
                   </div>
                 </div>
-                <div>
+                <div class="calc-item">
                     <label>New Loans Volume, Daily</label>
-                     <div class="border-quantity">                            
-                      <input id="new-loans-volume-input" class="quantity-new-loans" type="range" value="10000000" min="1" max="100000000"/>
-                      <div class="left-quantity left-quantity-new-loans"></div>
-                      <div class="right-quantity right-quantity-new-loans"></div>
-                      <div class="track-quantity track-quantity-new-loans"></div>
-                  </div>
+                    <div class="border-quantity">
+                        <label class="label-quantity"><span class="sign">$</span><span class="label-quantity-value">4,600,000</span></label>                         
+                        <input id="new-loans-volume-input" type="range" value="4600000" min="1" max="14000000"/>
+                        <div class="left-quantity"></div>
+                        <div class="right-quantity"></div>
+                        <div class="track-quantity green"></div>
+                    </div>
                 </div>
-                <div>
+                <div class="calc-item">
                     <label>Open Loans Volume</label>
                      <div class="border-quantity">                            
-                      <input id="open-loans-volume-input" class="quantity-open-loans" type="range" value="30000000" min="1" max="100000000"/>
-                      <div class="left-quantity left-quantity-new-loans"></div>
-                      <div class="right-quantity right-quantity-new-loans"></div>
-                      <div class="track-quantity track-quantity-new-loans"></div>
-                  </div>
+                      <label class="label-quantity"><span class="sign">$</span><span class="label-quantity-value">11,200,000</span></label>
+                      <input id="open-loans-volume-input" class="quantity-open-loans" type="range" value="11200000" min="1" max="14000000"/>
+                      <div class="left-quantity"></div>
+                      <div class="right-quantity"></div>
+                      <div class="track-quantity yellow"></div>
+                    </div>
                 </div>
-                <div>
+                <div class="calc-item">
                     <label>Percentage staked</label>
-                     <div class="border-quantity">                            
+                     <div class="border-quantity">   
+                      <label class="label-quantity"><span class="label-quantity-value">24</span><span class="sign">%</span></label>
                       <input id="percentage-staked-input" class="quantity-tokens-staked" type="range" value="24" min="1" max="100"/>
-                      <div class="left-quantity left-quantity-tokens-staked"></div>
-                      <div class="right-quantity right-quantity-tokens-staked"></div>
-                      <div class="track-quantity track-quantity-tokens-staked"></div>
+                      <div class="left-quantity"></div>
+                      <div class="right-quantity"></div>
+                      <div class="track-quantity blue"></div>
                   </div>
                 </div>
                 <p class="descriptoin">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pellentesque in vitae tellus viverra accumsan pharetra.</p>
             </div>
             <div>
                 <p class="title">Your Profit:</p>
-                <div>
+                <div class="wrapper-profit">
                     <div class="value-profit">
                         <div><span class="sign">$</span><span id="monthly-profit-value">100,500.30</span></div>
                         <label>Monthly</label>
