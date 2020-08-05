@@ -96,6 +96,4 @@ For more on what’s happening with bZx, you can catch interviews with Tom and K
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Uav4d7jVRO8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<p> </p>
-
 As always, please feel free to contact the team via [Telegram](https://t.me/b0xNet) or check out our [Help Center](https://help.bzx.network/en/) to answer all of your questions about bZx, Fulcrum, and Torque.
