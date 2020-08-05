@@ -5,6 +5,7 @@
     const openLoansVolumeInput = document.getElementById("open-loans-volume-input");
     const percentageStakedInput = document.getElementById("percentage-staked-input");
 
+    const bzrxInputSpan = document.getElementById("bzrx-input-value");
     const monthlyProfitSpan = document.getElementById("monthly-profit-value");
     const weeklyProfitSpan = document.getElementById("weekly-profit-value");
     const dailyProfitSpan = document.getElementById("daily-profit-value");
@@ -47,7 +48,7 @@
             tradingVolumeInputValue: tradingVolumeInput.value,
             newLoansVolumeInputValue: newLoansVolumeInput.value,
             openLoansVolumeInputValue: openLoansVolumeInput.value,
-            percentageStakedInputValue: percentageStakedInput.value 
+            percentageStakedInputValue: percentageStakedInput.value
         }
     }
 
@@ -71,7 +72,7 @@
         weeklyProfitSpan.textContent = numberWithCommas(profitValues.weeklyProfit.toFixed(2));
         dailyProfitSpan.textContent = numberWithCommas(profitValues.dailyProfit.toFixed(2));
     }
-    const changePositionBorderThumb = (range) => {
+    const changePositionBorderThumb = (range,) => {
         let border = range.closest(".border-quantity");
         let leftRangeQuantity = border.querySelector(".left-quantity");
         let rightRangeQuantity = border.querySelector(".right-quantity");
@@ -86,47 +87,46 @@
         let border = range.closest(".border-quantity");
         let labelRangeQuantity = border.querySelector(".label-quantity");
         let widthLabelRangeQuantity = labelRangeQuantity.offsetWidth;
-        let getBoundingClientRectBorder = border.getBoundingClientRect();
-        let getBoundingClientRectLabel = labelRangeQuantity.getBoundingClientRect();
         labelRangeQuantity.style.left = 'calc(' + range.value / (range.max) * 100 + '% - (1px *' + (widthLabelRangeQuantity / 2) + '))';
+    }
+    const onInput = () => {
+        if (bzrxInput.value > 14000000) bzrxInput.value = 14000000;
+        else if (!(bzrxInput.value > 0)) bzrxInput.value = "";
 
-        /*if (getBoundingClientRectBorder.x > getBoundingClientRectLabel.x) {
-            labelRangeQuantity.style.left = '0';
-        }
-        if (getBoundingClientRectBorder.y > getBoundingClientRectLabel.y) {
-            labelRangeQuantity.style.left = '100%';
-        }*/
+        bzrxInputSpan.textContent = numberWithCommas(bzrxInput.value);
     }
 
-    const onInputChange = (event) => {
-    if (event) {
+    const onChangeRange = (event) => {
         let target = event.target;
-        changePositionBorderThumb(target);
+        changePositionBorderThumb(target, target);
+        changePositionLabelValue(target);
+        onInputChange();
     }
+
+    const onInputChange = () => {
         const inputValues = getInputValues();
         const profitValues = getProfits(inputValues);
         updateProfitLabels(profitValues);
-
     }
+    bzrxInput.addEventListener("input", onInput, false);
 
     bzrxInput.oninput = onInputChange;
-
-    tradingVolumeInput.oninput = onInputChange;
+    tradingVolumeInput.oninput = onChangeRange;
     changePositionBorderThumb(tradingVolumeInput);
-    newLoansVolumeInput.oninput = onInputChange;
+    newLoansVolumeInput.oninput = onChangeRange;
     changePositionBorderThumb(newLoansVolumeInput);
-    openLoansVolumeInput.oninput = onInputChange;
+    openLoansVolumeInput.oninput = onChangeRange;
     changePositionBorderThumb(openLoansVolumeInput);
-    percentageStakedInput.oninput = onInputChange;
+    percentageStakedInput.oninput = onChangeRange;
     changePositionBorderThumb(percentageStakedInput);
 
+    onInput();
     onInputChange();
 
     function numberWithCommas(x) {
         const parts = x.toString().split(".");
+
         parts[0] = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",");
         return parts.join(".");
     }
-
-
 })();

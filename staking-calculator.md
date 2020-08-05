@@ -12,7 +12,10 @@ h1title: 'Staking Calculator'
         <div class="calc-wrapper"> 
             <div>
                 <p class="title">Your Stake:</p>
-                <input id="bzrx-input" step="any" type="number" value="100000"/>
+                <div class="input-item">
+                   <input id="bzrx-input" step="any" type="number" value="100000"/>
+                   <label><span id="bzrx-input-value">100,000</span> <span class="sign">BZRX</span><img class="lazyload" data-src="/images/logo-icon.svg" alt="" /></label>
+                </div>
                 <div class="calc-item">
                     <label>Trading Volume, Daily</label>
                     <div class="border-quantity">    
