@@ -17,6 +17,8 @@ This page designed as a community-driven resource where people can learn what pr
 
 [Eidoo](https://eidoo.io/) - Fast, easy, and not only a Multicurrency Wallet: it's a hybrid exchange too. It’s Eidoo
 
+[MEET.ONE Wallet](https://meet.one/) - A multi-chain DeFi wallet allowing you to manage & trade enormous tokens, secure, easy, and convenient. 
+
 ## Exchanges
 
 [Uniswap](https://uniswap.exchange/)
