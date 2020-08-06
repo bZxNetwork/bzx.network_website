@@ -86,7 +86,7 @@
         trackRangeQuantity.style.width = `calc( 1px * ${ratio * (range.offsetWidth - thumbSize)} + 1px *${thumbSize} - 1px * ${thumbSize + 4})`;
         changePositionLabelValue(range);
 
-        const percentageStakedAmount = maxCirculatingSupply * valueRangeQuantity.textContent / 100;
+        const percentageStakedAmount = maxCirculatingSupply * percentageStakedInput.value / 100;
         percentageStakedAmountSpan.textContent = numberWithCommas(percentageStakedAmount.toFixed(0));
     }
 
