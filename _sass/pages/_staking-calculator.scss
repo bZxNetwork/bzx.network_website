@@ -1,0 +1,232 @@
+.calc-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #e9f4ff;
+  @media screen and (min-width: $md) {
+    padding: 32px 32px 48px 32px;
+  }
+  @media screen and (max-width: $max-md) {
+    padding: 16px 16px 48px 16px;
+  }
+  .calc-item {
+    margin-bottom: 30px;
+  }
+  > div {
+    width: 50%;
+    &:first-child {
+      @media screen and (max-width: $max-xl) {
+        width: 60%;
+      }
+      @media screen and (max-width: $max-lg) {
+        width: 100%;
+      }
+      @media screen and (min-width: $lg) {
+        border-right: 1px solid #ffffff;
+        padding-right: 32px;
+      }
+    }
+    &:last-child {
+      @media screen and (max-width: $max-xl) {
+        width: 40%;
+      }
+      @media screen and (max-width: $max-lg) {
+        width: 100%;
+      }
+      @media screen and (min-width: $lg) {
+        padding-left: 32px;
+      }
+    }
+  }
+  .title {
+    font-weight: 700;
+    line-height: 1.6;
+    color: #000085;
+    margin-bottom: 18px;
+    width: 100%;
+    @media screen and (min-width: $md) {
+      font-size: 24px;
+    }
+    @media screen and (max-width: $max-md) {
+      font-size: 20px;
+    }
+  }
+  label {
+    font-weight: 600;
+    line-height: 1.2;
+    color: #003cda;
+    @media screen and (min-width: $md) {
+      font-size: 16px;
+    }
+    @media screen and (max-width: $max-md) {
+      font-size: 12px;
+    }
+    &.label-quantity {
+      font-weight: 800;
+      line-height: 1.4;
+      color: #276bfb;
+      position: absolute;
+      top: 8px;
+      @media screen and (min-width: $md) {
+        font-size: 28px;
+      }
+      @media screen and (max-width: $max-md) {
+        font-size: 20px;
+      }
+    }
+  }
+  .sign {
+    color: #8992a4;
+    font-weight: 200;
+    margin-right: 8px;
+  }
+  .percent {
+    font-weight: 200;
+  }
+  .wrapper-profit {
+    @media screen and (min-width: $md) {
+      padding-left: 45px;
+    }
+    @media screen and (max-width: $max-md) {
+      padding-left: 35px;
+    }
+    .value-profit {
+      font-size: 28px;
+      line-height: 1.4;
+      font-weight: 800;
+      color: #276bfb;
+      display: flex;
+      flex-direction: column;
+        margin-bottom: 30px;
+      &:nth-child(1) {
+        @media screen and (min-width: $md) {
+          font-size: 46px;
+        }
+        @media screen and (max-width: $max-md) {
+          font-size: 40px;
+        }
+      }
+      label {
+        margin-top: 7px;
+      }
+    }
+  }
+  .descriptoin {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #8992a4;
+    @media screen and (max-width: $max-lg) {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.border-quantity {
+  position: relative;
+  margin-left: 15px;
+  @media screen and (min-width: $md) {
+    padding-top: 60px;
+  }
+  @media screen and (max-width: $max-md) {
+    padding-top: 48px;
+  }
+  input[type="range"] {
+    width: 100%;
+  }
+  .left-quantity,
+  .right-quantity {
+    position: absolute;
+    top: 0;
+    justify-content: space-between;
+    display: flex;
+    width: 4px;
+    height: 4px;
+    background-color: #e9f4ff;
+  }
+}
+.track-quantity {
+  height: 6px;
+  position: absolute;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  left: 0;
+  bottom: 13px;
+  pointer-events: none;
+
+  &.red {
+    background-color: #ff4f4f;
+  }
+  &.green {
+    background-color: #33dfcc;
+  }
+  &.yellow {
+    background-color: #ffc700;
+  }
+  &.blue {
+    background-color: #56a9ff;
+  }
+}
+
+#bzrx-input {
+  font-family: "Muli", sans-serif;
+  height: 64px;
+  width: 100%;
+  background-color: #fff;
+  color: #fff;
+  caret-color: #8992a4;
+
+  font-size: 32px;
+  font-weight: 800;
+  border: none;
+  outline: none;
+  padding: 20px;
+
+  margin-bottom: 25px;
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  @media screen and (max-width: $max-sm) {
+    height: 48px;
+    font-size: 24px;
+    padding: 18px;
+  }
+  & + label {
+    position: absolute;
+    display: inline-block;
+    vertical-align: middle;
+    pointer-events: none;
+    width: calc(100% - 40px);
+    left: 20px;
+    top: 12px;
+    font-size: 32px;
+    @media screen and (max-width: $max-sm) {
+      left: 18px;
+      top: 10px;
+      font-size: 24px;
+    }
+    #bzrx-input-value {
+      color: #000085;
+      font-weight: 800;
+    }
+    .sign {
+      color: #8992a4;
+    }
+    img {
+      position: absolute;
+      top: 2px;
+      right: 0;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      @media screen and (max-width: $max-sm) {
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+}
+.input-item {
+  position: relative;
+}

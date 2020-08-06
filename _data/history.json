@@ -3,16 +3,16 @@
         "year": "2020",
         "events": [
             {
-                "date": "January, 2020",
-                "description": "bZx protocol reached $7.5MM TVL"
+                "date": "June, 2020",
+                "description": "The BZRX Token Model v3 Revealed"
             },
             {
                 "date": "June, 2020",
                 "description": "bZx Protocol v2 smart-contracts released and open-sourced"
             },
             {
-                "date": "June, 2020",
-                "description": "The BZRX Token Model v3 Revealed"
+                "date": "January, 2020",
+                "description": "bZx protocol reached $7.5MM TVL"
             }
         ]
     },
@@ -52,7 +52,6 @@
                 "date": "April 24, 2018",
                 "description": "bZx portal and bZx.js library initial release."
             },
-
             {
                 "date": "April 20, 2018",
                 "description": "bZx protocol debuts its fully functional smart contracts onto the Ropsten Testnet."
