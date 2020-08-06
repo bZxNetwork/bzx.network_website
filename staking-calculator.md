@@ -49,7 +49,7 @@ h1title: 'Staking Calculator'
                 <div class="calc-item">
                     <label>Percentage staked</label>
                      <div class="border-quantity">   
-                      <label class="label-quantity"><span class="label-quantity-value">24</span><span class="percent">50%</span></label>
+                      <label class="label-quantity"><span class="label-quantity-value">24</span><span class="percent">%</span></label>
                       <input id="percentage-staked-input" class="quantity-tokens-staked" type="range" value="50" min="1" max="100"/>
                       <div class="left-quantity"></div>
                       <div class="right-quantity"></div>
