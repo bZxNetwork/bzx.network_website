@@ -19,8 +19,8 @@ h1title: 'Staking Calculator'
                 <div class="calc-item">
                     <label>Trading Volume, Daily</label>
                     <div class="border-quantity">    
-                      <label class="label-quantity"><span class="sign">$</span><span class="label-quantity-value">28,000,000</span></label>                        
-                      <input id="trading-volume-input" class="quantity-trading" type="range" value="28000000" min="1" max="100000000"/>
+                      <label class="label-quantity"><span class="sign">$</span><span class="label-quantity-value">30,000,000</span></label>                        
+                      <input id="trading-volume-input" class="quantity-trading" type="range" value="30000000" min="1" max="100000000"/>
                       <div id="left-trading-volume" class="left-quantity"></div>
                       <div id="right-trading-volume" class="right-quantity"></div>
                       <div id="right-trading-volume" class="track-quantity red"></div>
@@ -29,8 +29,8 @@ h1title: 'Staking Calculator'
                 <div class="calc-item">
                     <label>New Loans Volume, Daily</label>
                     <div class="border-quantity">
-                        <label class="label-quantity"><span class="sign">$</span><span class="label-quantity-value">46,000,000</span></label>                         
-                        <input id="new-loans-volume-input" type="range" value="46000000" min="1" max="100000000"/>
+                        <label class="label-quantity"><span class="sign">$</span><span class="label-quantity-value">10,000,000</span></label>                         
+                        <input id="new-loans-volume-input" type="range" value="10000000" min="1" max="100000000"/>
                         <div class="left-quantity"></div>
                         <div class="right-quantity"></div>
                         <div class="track-quantity green"></div>
@@ -39,8 +39,8 @@ h1title: 'Staking Calculator'
                 <div class="calc-item">
                     <label>Open Loans Volume</label>
                      <div class="border-quantity">                            
-                      <label class="label-quantity"><span class="sign">$</span><span class="label-quantity-value">24,000,000</span></label>
-                      <input id="open-loans-volume-input" class="quantity-open-loans" type="range" value="24000000" min="1" max="2000000000"/>
+                      <label class="label-quantity"><span class="sign">$</span><span class="label-quantity-value">400,000,000</span></label>
+                      <input id="open-loans-volume-input" class="quantity-open-loans" type="range" value="400000000" min="1" max="2000000000"/>
                       <div class="left-quantity"></div>
                       <div class="right-quantity"></div>
                       <div class="track-quantity yellow"></div>
@@ -49,8 +49,8 @@ h1title: 'Staking Calculator'
                 <div class="calc-item">
                     <label>Percentage staked</label>
                      <div class="border-quantity">   
-                      <label class="label-quantity"><span class="label-quantity-value">24</span><span class="percent">%</span></label>
-                      <input id="percentage-staked-input" class="quantity-tokens-staked" type="range" value="24" min="1" max="100"/>
+                      <label class="label-quantity"><span class="label-quantity-value">24</span><span class="percent">50%</span></label>
+                      <input id="percentage-staked-input" class="quantity-tokens-staked" type="range" value="50" min="1" max="100"/>
                       <div class="left-quantity"></div>
                       <div class="right-quantity"></div>
                       <div class="track-quantity blue"></div>
