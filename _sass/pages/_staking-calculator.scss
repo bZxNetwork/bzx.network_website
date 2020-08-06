@@ -42,6 +42,7 @@
     line-height: 1.6;
     color: #000085;
     margin-bottom: 18px;
+    width: 100%;
     @media screen and (min-width: $md) {
       font-size: 24px;
     }
@@ -95,9 +96,7 @@
       color: #276bfb;
       display: flex;
       flex-direction: column;
-      &:not(:last-child) {
         margin-bottom: 30px;
-      }
       &:nth-child(1) {
         @media screen and (min-width: $md) {
           font-size: 46px;
@@ -112,8 +111,8 @@
     }
   }
   .descriptoin {
-    font-size: 12px;
-    font-weight: 200;
+    font-size: 14px;
+    font-weight: 400;
     line-height: 1.6;
     color: #8992a4;
     @media screen and (max-width: $max-lg) {
@@ -169,6 +168,7 @@
 }
 
 #bzrx-input {
+  font-family: "Muli", sans-serif;
   height: 64px;
   width: 100%;
   background-color: #fff;
