@@ -8,7 +8,7 @@ metadescription: "We're excited to do our next community call on Friday, August 
 intro: "We're excited to do our next community call on Friday, August 8th."
 ---
 
-We got an overwhelming response on our first '[bZx Community Call](/blog/governance-call-recap)' we did on July 26th. We're excited to do our next community call on Friday, August 7th at 9am PDT. Please join us at this link: https://zoom.us/j/97332777369. The community call will be recorded and uploaded to Youtube for you to watch at your own convenience, if you are unable to attend.
+We got an overwhelming response on our first '[bZx Community Call](/blog/governance-call-recap)' we did on July 26th. We're excited to do our next community call on Friday, August 7th at 9am PDT. Please join us at this link: [https://zoom.us/j/97332777369](https://zoom.us/j/97332777369). The community call will be recorded and uploaded to Youtube for you to watch at your own convenience, if you are unable to attend.
 
 During this call we will discuss:
 - Allocation of the Ecosystem fund: increasing liquidity mining incentives?
