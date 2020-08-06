@@ -37,7 +37,7 @@
     }
 
     const getTokensStakedPercent = (stakedTokens, percentageStaked) => {
-        return stakedTokens / (baseCirculatingSupply + ((maxCirculatingSupply - baseCirculatingSupply)* percentageStaked / 100)) * 100;
+        return stakedTokens / (maxCirculatingSupply * percentageStaked / 100) * 100;
     }
 
     const getStakingProfit = (protocolCashFlow, tokensStakedPercent) => {
@@ -74,14 +74,16 @@
         weeklyProfitSpan.textContent = numberWithCommas(profitValues.weeklyProfit.toFixed(2));
         dailyProfitSpan.textContent = numberWithCommas(profitValues.dailyProfit.toFixed(2));
     }
-    const changePositionBorderThumb = (range,) => {
+    const changePositionBorderThumb = (range, ) => {
         let border = range.closest(".border-quantity");
         let leftRangeQuantity = border.querySelector(".left-quantity");
         let rightRangeQuantity = border.querySelector(".right-quantity");
         let trackRangeQuantity = border.querySelector(".track-quantity");
         let valueRangeQuantity = border.querySelector(".label-quantity-value");
         valueRangeQuantity.textContent = numberWithCommas(range.value);
-        trackRangeQuantity.style.width = 'calc(' + range.value / (range.max) * 100 + '% - 12px - (16px *' + (range.value - (range.max) / 2) / range.max + '))';
+        const thumbSize = 16;
+        const ratio = (range.value - range.min) / (range.max - range.min)
+        trackRangeQuantity.style.width = `calc( 1px * ${ratio * (range.offsetWidth - thumbSize)} + 1px *${thumbSize} - 1px * ${thumbSize + 4})`;
         changePositionLabelValue(range);
     }
 
