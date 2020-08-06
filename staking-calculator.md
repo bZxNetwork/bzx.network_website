@@ -56,7 +56,7 @@ h1title: 'Staking Calculator'
                       <div class="track-quantity blue"></div>
                   </div>
                 </div>
-                <p class="descriptoin">Initially cash flows will be split evenly between the insurance fund, which makes the token asset backed, and fee sharing, which flows directly to users in the form of Balancer Pool Tokens.</p>
+                <div class="descriptoin">This calculator is for estimation purposes only, and should not be taken as financial advice.</div>
             </div>
             <div>
                 <p class="title">Cash Flows:</p>
@@ -74,6 +74,7 @@ h1title: 'Staking Calculator'
                         <label>Daily</label>
                     </div>
                 </div>
+                <div class="descriptoin">As per our proposed tokenomics, the cash flow figures presented here will be split evenly between the insurance fund, which makes the token asset backed, and fee sharing, which flows directly to users in the form of Balancer Pool Tokens.</div>
             </div>
         </div>
     </div>
