@@ -9,7 +9,7 @@
     const monthlyProfitSpan = document.getElementById("monthly-profit-value");
     const weeklyProfitSpan = document.getElementById("weekly-profit-value");
     const dailyProfitSpan = document.getElementById("daily-profit-value");
-
+    const percentageStakedAmountSpan = document.getElementById("percentage-staked-amount");
 
     //const baseCirculatingSupply = 140000000;
     const maxCirculatingSupply = 412000000
@@ -85,6 +85,9 @@
         const ratio = (range.value - range.min) / (range.max - range.min)
         trackRangeQuantity.style.width = `calc( 1px * ${ratio * (range.offsetWidth - thumbSize)} + 1px *${thumbSize} - 1px * ${thumbSize + 4})`;
         changePositionLabelValue(range);
+
+        const percentageStakedAmount = maxCirculatingSupply * valueRangeQuantity.textContent / 100;
+        percentageStakedAmountSpan.textContent = numberWithCommas(percentageStakedAmount.toFixed(0));
     }
 
     const changePositionLabelValue = (range) => {

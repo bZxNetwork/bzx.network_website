@@ -18,7 +18,7 @@ h1title: 'Staking Calculator'
                 </div>
                 <div class="calc-item">
                     <label>Trading Volume, Daily</label>
-                    <div class="border-quantity">    
+                    <div class="border-quantity">
                       <label class="label-quantity"><span class="sign">$</span><span class="label-quantity-value">30,000,000</span></label>                        
                       <input id="trading-volume-input" class="quantity-trading" type="range" value="30000000" min="1" max="100000000"/>
                       <div id="left-trading-volume" class="left-quantity"></div>
@@ -38,7 +38,7 @@ h1title: 'Staking Calculator'
                 </div>
                 <div class="calc-item">
                     <label>Open Loans Volume</label>
-                     <div class="border-quantity">                            
+                     <div class="border-quantity">
                       <label class="label-quantity"><span class="sign">$</span><span class="label-quantity-value">400,000,000</span></label>
                       <input id="open-loans-volume-input" class="quantity-open-loans" type="range" value="400000000" min="1" max="2000000000"/>
                       <div class="left-quantity"></div>
@@ -48,15 +48,16 @@ h1title: 'Staking Calculator'
                 </div>
                 <div class="calc-item">
                     <label>Percentage staked</label>
-                     <div class="border-quantity">   
+                    <div class="border-quantity">
                       <label class="label-quantity"><span class="label-quantity-value">24</span><span class="percent">%</span></label>
                       <input id="percentage-staked-input" class="quantity-tokens-staked" type="range" value="50" min="1" max="100"/>
                       <div class="left-quantity"></div>
                       <div class="right-quantity"></div>
                       <div class="track-quantity blue"></div>
-                  </div>
+                    </div>
+                    <span id="percentage-staked-amount">412,000,000</span>
                 </div>
-                <div class="descriptoin">This calculator is for estimation purposes only, and should not be taken as financial advice.</div>
+                <div class="description">This calculator is for estimation purposes only, and should not be taken as financial advice.</div>
             </div>
             <div>
                 <p class="title">Cash Flows:</p>
@@ -74,7 +75,7 @@ h1title: 'Staking Calculator'
                         <label>Daily</label>
                     </div>
                 </div>
-                <div class="descriptoin">As per our proposed tokenomics, the cash flow figures presented here will be split evenly between the insurance fund, which makes the token asset backed, and fee sharing, which flows directly to users in the form of Balancer Pool Tokens.</div>
+                <div class="description">As per our proposed tokenomics, the cash flow figures presented here will be split evenly between the insurance fund, which makes the token asset backed, and fee sharing, which flows directly to users in the form of Balancer Pool Tokens.</div>
             </div>
         </div>
     </div>

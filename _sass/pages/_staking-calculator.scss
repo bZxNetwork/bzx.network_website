@@ -110,11 +110,21 @@
       }
     }
   }
-  .descriptoin {
+  .description {
     font-size: 14px;
     font-weight: 400;
     line-height: 1.6;
     color: #8992a4;
+    @media screen and (max-width: $max-lg) {
+      margin-bottom: 30px;
+    }
+  }
+  #percentage-staked-amount {
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 1.4;
+    color: #276bfb;
+    float: right;
     @media screen and (max-width: $max-lg) {
       margin-bottom: 30px;
     }
