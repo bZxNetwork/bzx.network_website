@@ -12,7 +12,7 @@
 
 
     const baseCirculatingSupply = 140000000;
-    const circulatingSupplyRange = 272000000
+    const maxCirculatingSupply = 412000000
 
 
     const tradingVolumeFeePercent = 0.15;
@@ -37,7 +37,7 @@
     }
 
     const getTokensStakedPercent = (stakedTokens, percentageStaked) => {
-        return stakedTokens / (baseCirculatingSupply + (circulatingSupplyRange * percentageStaked / 100)) * 100;
+        return stakedTokens / (baseCirculatingSupply + ((maxCirculatingSupply - baseCirculatingSupply)* percentageStaked / 100)) * 100;
     }
 
     const getStakingProfit = (protocolCashFlow, tokensStakedPercent) => {
