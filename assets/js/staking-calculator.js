@@ -37,7 +37,7 @@
     }
 
     const getTokensStakedPercent = (stakedTokens, percentageStaked) => {
-        return stakedTokens / (baseCirculatingSupply + ((maxCirculatingSupply - baseCirculatingSupply) * percentageStaked / 100)) * 100;
+        return stakedTokens / (maxCirculatingSupply * percentageStaked / 100) * 100;
     }
 
     const getStakingProfit = (protocolCashFlow, tokensStakedPercent) => {
