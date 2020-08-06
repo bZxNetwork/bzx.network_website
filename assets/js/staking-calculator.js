@@ -82,14 +82,24 @@
         let valueRangeQuantity = border.querySelector(".label-quantity-value");
         valueRangeQuantity.textContent = numberWithCommas(range.value);
         trackRangeQuantity.style.width = 'calc(' + range.value / (range.max) * 100 + '% - 12px - (16px *' + (range.value - (range.max) / 2) / range.max + '))';
-        //changePositionLabelValue(range);
+        changePositionLabelValue(range);
     }
 
     const changePositionLabelValue = (range) => {
         let border = range.closest(".border-quantity");
         let labelRangeQuantity = border.querySelector(".label-quantity");
-        let widthLabelRangeQuantity = labelRangeQuantity.offsetWidth;
-        labelRangeQuantity.style.left = 'calc(' + range.value / (range.max) * 100 + '% - (1px *' + (widthLabelRangeQuantity / 2) + '))';
+        let getBoundingClientRectBorder = border.getBoundingClientRect();
+        let getBoundingClientRectLabel = labelRangeQuantity.getBoundingClientRect();
+
+        let getPositionTrack = getBoundingClientRectBorder.width * range.value / range.max + 16 * (range.value - range.max / 2) / range.max;
+
+        if (getPositionTrack < getBoundingClientRectLabel.width / 2) {
+            labelRangeQuantity.style.left = '0';
+        } else if (getBoundingClientRectBorder.width - getPositionTrack < getBoundingClientRectLabel.width / 2) {
+            labelRangeQuantity.style.left = 'calc(100% - 1px*' + getBoundingClientRectLabel.width + ')';
+        } else {
+            labelRangeQuantity.style.left = 'calc(' + range.value / (range.max) * 100 + '% - (1px *' + (getBoundingClientRectLabel.width / 2) + '))';
+        }
     }
     const onInput = () => {
         if (bzrxInput.value > 140000000) bzrxInput.value = 140000000;
@@ -101,7 +111,7 @@
     const onChangeRange = (event) => {
         let target = event.target;
         changePositionBorderThumb(target, target);
-        //changePositionLabelValue(target);
+        changePositionLabelValue(target);
         onInputChange();
     }
 
