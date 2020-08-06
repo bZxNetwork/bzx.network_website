@@ -11,7 +11,9 @@
     const dailyProfitSpan = document.getElementById("daily-profit-value");
 
 
-    const circulatingSupply = 140610067;
+    const baseCirculatingSupply = 140000000;
+    const circulatingSupplyRange = 272000000
+
 
     const tradingVolumeFeePercent = 0.15;
     const newLoanVolumeFeePercent = 0.09;
@@ -35,7 +37,7 @@
     }
 
     const getTokensStakedPercent = (stakedTokens, percentageStaked) => {
-        return stakedTokens / (circulatingSupply * percentageStaked / 100) * 100;
+        return stakedTokens / (baseCirculatingSupply + (circulatingSupplyRange * percentageStaked / 100)) * 100;
     }
 
     const getStakingProfit = (protocolCashFlow, tokensStakedPercent) => {
