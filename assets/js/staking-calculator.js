@@ -11,7 +11,7 @@
     const dailyProfitSpan = document.getElementById("daily-profit-value");
 
 
-    const baseCirculatingSupply = 140000000;
+    //const baseCirculatingSupply = 140000000;
     const maxCirculatingSupply = 412000000
 
 
@@ -104,7 +104,7 @@
         }
     }
     const onInput = () => {
-        if (bzrxInput.value > 140000000) bzrxInput.value = 140000000;
+        if (bzrxInput.value > maxCirculatingSupply) bzrxInput.value = maxCirculatingSupply;
         else if (!(bzrxInput.value > 0)) bzrxInput.value = "";
 
         bzrxInputSpan.textContent = numberWithCommas(bzrxInput.value);
