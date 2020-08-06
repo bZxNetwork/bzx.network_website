@@ -40,7 +40,7 @@ h1title: 'Staking Calculator'
                     <label>Open Loans Volume</label>
                      <div class="border-quantity">                            
                       <label class="label-quantity"><span class="sign">$</span><span class="label-quantity-value">112,000,000</span></label>
-                      <input id="open-loans-volume-input" class="quantity-open-loans" type="range" value="112000000" min="1" max="100000000"/>
+                      <input id="open-loans-volume-input" class="quantity-open-loans" type="range" value="24000000" min="1" max="100000000"/>
                       <div class="left-quantity"></div>
                       <div class="right-quantity"></div>
                       <div class="track-quantity yellow"></div>
