@@ -44,4 +44,5 @@ Amir Bandeali, CTO @ 0x, presented their latest product, Matcha, a decentralized
 
 **The next governance call is scheduled for August 21st, 2020 at 9am PDT.**
 
-[Watch the call on YouTube](https://www.youtube.com/watch?v=a3P6_NGqPYY)
+Watch the call: 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/a3P6_NGqPYY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
