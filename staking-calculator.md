@@ -19,7 +19,7 @@ h1title: 'Staking Calculator'
                 <div class="calc-item">
                     <label>Trading Volume, Daily</label>
                     <div class="border-quantity">
-                      <label class="label-quantity"><span class="sign">$</span><span class="label-quantity-value">30,000,000</span></label>                        
+                      <label class="label-quantity"><span class="sign">$</span><span class="label-quantity-value">100,000,000</span></label>                        
                       <input id="trading-volume-input" class="quantity-trading" type="range" value="100000000" min="1" max="1000000000"/>
                       <div id="left-trading-volume" class="left-quantity"></div>
                       <div id="right-trading-volume" class="right-quantity"></div>
@@ -29,7 +29,7 @@ h1title: 'Staking Calculator'
                 <div class="calc-item">
                     <label>New Loans Volume, Daily</label>
                     <div class="border-quantity">
-                        <label class="label-quantity"><span class="sign">$</span><span class="label-quantity-value">10,000,000</span></label>                         
+                        <label class="label-quantity"><span class="sign">$</span><span class="label-quantity-value">100,000,000</span></label>                         
                         <input id="new-loans-volume-input" type="range" value="100000000" min="1" max="1000000000"/>
                         <div class="left-quantity"></div>
                         <div class="right-quantity"></div>
@@ -39,7 +39,7 @@ h1title: 'Staking Calculator'
                 <div class="calc-item">
                     <label>Open Loans Volume</label>
                      <div class="border-quantity">
-                      <label class="label-quantity"><span class="sign">$</span><span class="label-quantity-value">400,000,000</span></label>
+                      <label class="label-quantity"><span class="sign">$</span><span class="label-quantity-value">500,000,000</span></label>
                       <input id="open-loans-volume-input" class="quantity-open-loans" type="range" value="500000000" min="1" max="5000000000"/>
                       <div class="left-quantity"></div>
                       <div class="right-quantity"></div>
