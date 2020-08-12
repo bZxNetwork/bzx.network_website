@@ -40,7 +40,7 @@ It is proposed that fees be generated from user interaction with the protocol. T
 
 ## Earning BZRX
 
-The BZRX token has been released in the midst of a “Liquidity Mining” and “Yield Farming” craze. The concept allows crypto holders to earn rewards by passively parking their tokens in different protocols. The bZx protocol is taking a slightly different approach by directing rewards toward active users. Borrowers who pay fees to the bZx protocol will get 50% of their fees returned to them in the form of BZRX tokens. A full 20% of the total BZRX token supply will be allocated to these active protocol users with earlier users receiving higher rewards. The goal is to create a virtuous cycle where users get rewarded for adding value to the protocol and taking risks.
+The BZRX token has been released in the midst of a “Liquidity Mining” and “Yield Farming” craze. The concept allows crypto holders to earn rewards by passively parking their tokens in different protocols. The bZx protocol is taking a slightly different approach by directing rewards toward active users. Borrowers who pay fees to the bZx protocol will get 50% of their fees returned to them in the form of BZRX tokens. Additionally, during the first month, 0.5% of the BZRX token supply will be disbursed each week to users based on the quantity of fees generated during that week, with further disbursements determined by governance. This is intended to bootstrap activity on the protocol by compensating early adopters for the risks they bear.
 
 **This means that anyone who executes a trade, opens a loan, or keeps a loan open, will begin to accrue ownership of the protocol.**
 
