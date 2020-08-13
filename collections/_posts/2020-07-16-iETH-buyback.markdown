@@ -42,7 +42,7 @@ Initially, iETH can be converted to vBZRX at a rate of 0.0002 iETH per vBZRX. Th
 
 The Buy Back program is updated to offer a price of 0.00023 iETH per vBZRX to whitelisted people and 0.0003 iETH per vBZRX to non-whitelisted people.
 
-This means people can mint iETH with ETH on [Fulcrum](https://app.fulcrum.trade/#/lend), and then use the iETH to swap for vBZRX. 
+This means people can mint iETH with ETH on [Fulcrum](https://app.fulcrum.trade/#/lend), and then use the iETH to swap for vBZRX. Please use up any whitelisted balance first before attempting to swap more at the non-whitelisted rate.
 
 ## Warning ⚠️
 
