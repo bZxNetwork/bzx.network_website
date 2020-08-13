@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Staking With BZRX"
-date:   2020-08-12 01:12:46 -0700
+date:   2020-08-13 01:12:46 -0700
 cover: /images/blog/staking.png
 author: Kistner
 metadescription: "Staking is an integral part of the governance process of the bZxDAO"
