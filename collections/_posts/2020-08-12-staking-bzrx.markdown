@@ -335,3 +335,5 @@ There are three ways to stake and all three ways can be accessed via the Staking
 
 
 The currently elected representatives will be displayed by default. Simply select which representative you want to support, click “Stake”, and confirm your transaction. If you are satisfied with the performance of one of the existing representatives, that’s all you have to do.
+
+If you wish to stake to a representative that isn't visible, simply click 'add representative' and paste their wallet address.
