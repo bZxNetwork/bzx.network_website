@@ -14,7 +14,7 @@ Starting Thursday, July 16th, 2020, those who held iETH at the time we took our 
 
 ![](/images/blog/VBZRX.png)
 
-vBZRX is a new token from bZx that entitles holders to the following benefits:
+[vBZRX](/bzrx-token) is a new token from bZx that entitles holders to the following benefits:
 
 1. **Vesting**
 *   Holders accrue BZRX internally as they vest and can claim anytime
@@ -38,6 +38,11 @@ Click the button, approve the transaction, and your iETH will be automatically s
 
 Initially, iETH can be converted to vBZRX at a rate of 0.0002 iETH per vBZRX. The conversion price of vBZRX may be updated in the future to reflect current market conditions.
 
+*Updated 08-12-2020:*
+
+The Buy Back program is updated to offer a price of 0.00023 iETH per vBZRX to whitelisted people and 0.0003 iETH per vBZRX to non-whitelisted people.
+
+This means people can mint iETH with ETH on [Fulcrum](https://app.fulcrum.trade/#/lend), and then use the iETH to swap for vBZRX. Please use up any whitelisted balance first before attempting to swap more at the non-whitelisted rate.
 
 ## Warning ⚠️
 
