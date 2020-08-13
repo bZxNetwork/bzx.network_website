@@ -34,8 +34,8 @@ As the underlying BZRX is claimed from inside the vesting contract, the value of
 
 It is proposed that fees be generated from user interaction with the protocol. These include origination fees, trading fees, and fees collected on interest. Half of these fees will initially go toward the insurance fund until the DAO decides otherwise. To ease the friction of the fees, it is also proposed that generating fees also disburses half the value of BZRX to the generator of the fees. This compensation scheme requires a robust price oracle to prevent the system from being gamed. Without one, the price of BZRX could be artificially manipulated upwards in order to earn rewards in excess of the fees generated, making the system unsustainable. This is why we will use a [Chainlink Price Reference Data feed](https://feeds.chain.link/) to price BZRX and the rebates. Chainlink’s decentralized oracle infrastructure, high quality data, and security-reviewed node operators fetch and aggregate market data from numerous premium data aggregators. This provides the bZx protocol extensive volume adjusted market coverage across all DEX and CEX trading environments, ultimately arriving at a price feed that is highly available, accurate, and tamper resistant.
 
-
-
+[![](/images/blog/calc-image.jpg)](https://bzx.network/calc)
+_Click to get started calculating_
 
 
 ## Earning BZRX
