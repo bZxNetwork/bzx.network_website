@@ -126,15 +126,15 @@ footer {
 
     @media (min-width: 768px) and (max-width: 1023px) {
         .navigation {
-            width: calc(100% / 5 * 3);
+            width: calc(100% / 12 * 8);
 
             display: grid;
-            grid-template-columns: repeat(6, 1fr);
+            grid-template-columns: repeat(6, 2fr);
             grid-template-areas: "network network product product company company";
         }
 
         .social-wrapper {
-            width: calc(100% / 5 * 2);
+            width: calc(100% / 12 * 4);
             .social-icons {
                 display: flex;
                 justify-content: space-between;
