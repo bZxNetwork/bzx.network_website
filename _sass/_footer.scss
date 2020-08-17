@@ -11,8 +11,8 @@ footer {
         width: calc(100% / 3 * 2);
 
         display: grid;
-        grid-template-columns: repeat(8, 1fr);
-        grid-template-areas: "empty network network product product company company empty-end";
+        grid-template-columns: 3fr repeat(3, 7fr);
+        grid-template-areas: "empty network product company";
 
         .network {
             grid-area: network;
