@@ -19,7 +19,7 @@ Join our public test phase to help us identify any bugs or major issues to addre
 
 The bZx team has deployed "mock" versions of possible mainnet assets and iTokens on the Kovan testnet (you can find the list in iTokenList.js).
 
-We've removed the dependence on Kyber so we don't have liquidity issues, swaps should be enabled, and liquidity is unlimited since it does a combination of mints and burns when you trade.
+For our testing environment we've removed the dependence on Kyber so we don't have liquidity issues, and liquidity is unlimited since it does a combination of mints and burns when you trade.
 
 For testing, please visit:
 
