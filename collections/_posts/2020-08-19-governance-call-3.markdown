@@ -8,13 +8,13 @@ metadescription: "We're excited to do our next community call on Friday, August 
 intro: "We're excited to do our next community call on Friday, August 21st."
 ---
 
-We’re happy to host the next community call this Friday, August 21st. We got a huge response for the first two community calls. As we gear up for the relaunch, we want to share some of the updates with you and have you involved in it.
+We’re happy to host the next community call this Friday, August 21st. We got a huge response for the first two community calls. We have been consistently getting great feedback from the community. As we gear up for the relaunch, we want to share some of the updates with you and have you involved in it.
 
 During this call we will discuss:
 
-- Paying down the debt
 - Security audit progress
 - Community testing
+- Paying down the debt
 - Yield farming program
 - Pitch by [Manuel Garcia](https://www.linkedin.com/in/mgarciap/) from Protofire
 
