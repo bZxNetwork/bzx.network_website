@@ -2,7 +2,7 @@
 layout: post
 title:  "bZx Community Call # 3"
 date:   2020-08-19 09:40:46 -0700
-cover: images/blog/bzx community call3.png
+cover: /images/blog/bzx community call3.png
 author: Kistner
 metadescription: "We're excited to do our next community call on Friday, August 21st."
 intro: "We're excited to do our next community call on Friday, August 21st."
@@ -16,7 +16,7 @@ During this call we will discuss:
 - Security audit progress
 - Community testing
 - Yield farming program
-- Pitch by [Manuel Garcia] (https://www.linkedin.com/in/mgarciap/)from Protofire
+- Pitch by [Manuel Garcia](https://www.linkedin.com/in/mgarciap/) from Protofire
 
 
 The community call will be recorded and uploaded to Youtube for you to watch at your own convenience. You can check the previous community call [here](https://youtu.be/a3P6_NGqPYY). Subscribe to our YouTube channel to get notified as we make the calls live.
