@@ -74,8 +74,8 @@ footer {
             flex-direction: column;
             .navigation {
                 width: 100%;
-                grid-template-columns: repeat(3, 1fr);
-                grid-template-areas: "network product company";
+                text-align: left;
+                display: block;
 
                 .network {
                     display: flex;
@@ -96,10 +96,20 @@ footer {
                     flex: 1;
                 }
                 ul {
+                    display: grid;
+                    width: 100%;
+                    grid-template-columns: repeat(2, 1fr);
+                    padding: 10px 15px 20px;
+
                     li {
-                        font-size: 16px;
+                        font-size: 14px;
+                        margin-bottom: 15px;
                         &:first-child {
+                            display: grid;
+                            grid-column-start: 1;
+                            grid-column-end: 3;
                             font-size: 18px;
+                            line-height: 23px;
                         }
                     }
                 }
