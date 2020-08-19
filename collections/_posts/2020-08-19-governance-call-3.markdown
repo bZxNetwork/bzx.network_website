@@ -8,7 +8,7 @@ metadescription: "We're excited to do our next community call on Friday, August 
 intro: "We’re happy to host the next community call on Friday, August 21st."
 ---
 
-We’re happy to host the next community call on Friday, August 21st. We got a huge response for the first two community calls. We have been consistently getting great feedback from the community. As we gear up for the relaunch, we want to share more updates with you and involve you in it.
+We’re happy to host the next community call on Friday, August 21st. We got a huge response for the first two community calls. We have been consistently getting great feedback from the community. As we gear up for the relaunch, we want to share more updates with you and get your feedback.
 
 During this call we will discuss:
 
