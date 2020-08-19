@@ -5,10 +5,10 @@ date:   2020-08-19 09:40:46 -0700
 cover: /images/blog/bzx community call3.png
 author: Kistner
 metadescription: "We're excited to do our next community call on Friday, August 21st."
-intro: "We're excited to do our next community call on Friday, August 21st."
+intro: "We’re happy to host the next community call on Friday, August 21st."
 ---
 
-We’re happy to host the next community call this Friday, August 21st. We got a huge response for the first two community calls. We have been consistently getting great feedback from the community. As we gear up for the relaunch, we want to share some of the updates with you and have you involved in it.
+We’re happy to host the next community call on Friday, August 21st. We got a huge response for the first two community calls. We have been consistently getting great feedback from the community. As we gear up for the relaunch, we want to share more updates with you and involve you in it.
 
 During this call we will discuss:
 
