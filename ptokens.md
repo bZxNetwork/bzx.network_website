@@ -52,7 +52,7 @@ h1title: What are pTokens?
             <thead>
                 <tr>
                     <td class="thead-ticker">Ticker</td>
-                    <td class="thead-address">Adress</td>
+                    <td class="thead-address">Address</td>
                     <td class="thead-description">Description</td>
                     <td class="thead-icon">Icon</td>
                 </tr>
