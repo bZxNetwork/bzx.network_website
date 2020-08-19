@@ -17,9 +17,9 @@ Join our public test phase to help us identify any bugs or major issues to addre
 
 ## Testing The New Fulcrum
 
-The bZx team has deployed "mock" versions of possible mainnet assets and iTokens on the Kovan testnet (you can find the list in iTokenList.js).
+The bZx team has deployed "mock" versions of possible mainnet assets and iTokens on the Kovan testnet (you can find the list in [iTokenList.js](https://github.com/bZxNetwork/fulcrum_ui/blob/kovan_build/packages/fulcrum/src/assets/artifacts/kovan/iTokenList.js).
 
-For our testing environment we've removed the dependence on Kyber so we don't have liquidity issues, and liquidity is unlimited since it does a combination of mints and burns when you trade.
+In our testing environment, swap liquidity is unlimited as long the loan pools have enough assets to borrow. Below are instructions for acquiring assets to deposit to loan pools.
 
 For testing, please visit:
 
@@ -33,13 +33,15 @@ To test the Liquidation feature, simply connect your wallet, scroll down to the 
 
 If you come across any bugs or major problems, please create an issue in the [GitHub repo here](https://github.com/bZxNetwork/fulcrum_ui/issues).
 
+## Where to get Kovan ETH
+
+All Ethereum transcation require gas, so you'll need to obtain some Kovan ETH to interact with the blockchain on Kovan. This faucet can be used: https://faucet.kovan.network
 
 ## Where to get Kovan fWETH
 
-To test the platform, you’ll need to obtain some fWETH. Wrapped Ether (WETH) has been rebranded to fWETH to indicate it's a fake version of Ether (ETH).
+To test the platform, you’ll need to obtain some fWETH. This is a fake version of Wrapped Ether (WETH).
 
 Here’s a step-by-step guide to obtaining fWETH on the Kovan Test Network.
-
 
 ### Step 1: Connect to Kovan
 
@@ -60,7 +62,6 @@ Click “Connect to Web3” and select your Web3 Wallet from the options provide
 ![](/images/blog/kovan/image2.png)
 
 The contract will ask to connect to your wallet. Click “Connect” to interact with the smart contracts for fWETH tokens on the Kovan Test Network.
-
 
 ### Step 3: Mint fWETH
 
