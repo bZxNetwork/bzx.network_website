@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Announcing Community Testing for New Fulcrum UI"
+title:  "Announcing Community Testing for the New Fulcrum UI"
 date:   2020-08-20 01:12:46 -0700
 cover: /images/blog/testing.png
 author: Sawinyh
