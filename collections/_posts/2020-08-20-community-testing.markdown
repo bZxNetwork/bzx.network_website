@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Announcing Community Testing for New Fulcrum UI"
-date:   2020-08-18 01:12:46 -0700
+date:   2020-08-20 01:12:46 -0700
 cover: /images/blog/testing.png
 author: Sawinyh
 metadescription: "bZx is releasing its latest version of Fulcrum for beta testing on the Kovan Test Network"
@@ -23,9 +23,10 @@ In our testing environment, swap liquidity is unlimited as long the loan pools h
 
 For testing, please visit:
 
-*   [Fulcrum Lend/Unlend Page](https://bzx-fulcrum-kovan.netlify.app/lend)
-*   [Fulcrum Trade Page](https://bzx-fulcrum-kovan.netlify.app/trade)
-*   [Protocol Explorer and Liquidations Page](https://bzx-protocol-explorer.netlify.app/liquidations)
+*   [Fulcrum Lend/Unlend Page](https://kovan.fulcrum.trade/lend)
+*   [Fulcrum Trade Page](https://kovan.fulcrum.trade/trade)
+*   [Torque](https://kovan.torque.loans)
+*   [Protocol Explorer and Liquidations Page](https://kovan-explorer.bzx.network/liquidations)
 
 Try out our UI for trading and lending and join us on [Telegram](https://t.me/b0xNet) to let us know how your testing goes! Please be aware that token prices may not match exactly with mainnet due to the complexity of the system.
 
