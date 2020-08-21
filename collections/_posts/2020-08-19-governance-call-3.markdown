@@ -32,6 +32,6 @@ If you’re working on something relevant to the bZx ecosystem, please reach out
 
 We would love to have you speak on how you're contributing to the ecosystem.
 
-Join us on Zoom this Friday! (Link to be shared soon)
+Join us on [Zoom](https://zoom.us/j/97332777369) this Friday!
 
 Follow us on [Twitter](https://twitter.com/bzxHQ) or join our [Discord](https://bzx.network/discord) to be notified of upcoming calls.
