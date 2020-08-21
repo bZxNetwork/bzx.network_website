@@ -17,7 +17,7 @@ Join our public test phase to help us identify any bugs or major issues to addre
 
 ## Testing The New Fulcrum
 
-The bZx team has deployed "mock" versions of possible mainnet assets and iTokens on the Kovan testnet (you can find the list in [iTokenList.js](https://github.com/bZxNetwork/fulcrum_ui/blob/kovan_build/packages/fulcrum/src/assets/artifacts/kovan/iTokenList.js).
+The bZx team has deployed "mock" versions of possible mainnet assets and iTokens on the Kovan testnet (you can find the list in [iTokenList.js](https://github.com/bZxNetwork/fulcrum_ui/blob/kovan_build/packages/fulcrum/src/assets/artifacts/kovan/iTokenList.js)).
 
 In our testing environment, swap liquidity is unlimited as long as the loan pools have enough assets to borrow. Below are instructions for acquiring assets to deposit to loan pools.
 
