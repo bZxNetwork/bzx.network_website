@@ -10,3 +10,7 @@ Bean:
     name: Tom Bean
     bio: Founder and CEO @ bZx.
     image: https://bzx.network/images/team/tom-bean.jpg
+Gandhi:
+    name: Pratik Gandhi
+    bio: Growth Lead @ bZx.
+    image: /images/authors/Pratik.jpg
