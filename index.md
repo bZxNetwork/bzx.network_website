@@ -640,8 +640,8 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
             </a>
         </div>
         <div class="item-partners">
-            <a href="https://rigoblock.com/">
-            {% include svg/rigoblock.svg %}
+            <a href="https://www.hashed.com/">
+            {% include svg/hashed.svg %}
             </a>
         </div>
         <div class="item-partners">
