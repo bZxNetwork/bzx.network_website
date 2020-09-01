@@ -72,6 +72,14 @@
     linkedin: https://www.linkedin.com/in/parisfotis/
     mail: paris@bzx.network
 
+-   name: Roman Iftodi
+    bio: "Software Engineer"
+    image: /images/team/roman.jpg
+    info: "Roman has over 10 year experience in software engineering. He worked as a contractor for one of the one of the biggest retail brokers(TD Ameritrade) and financial service company(Raymond James). Roman has master degree in math and computer science. He has patience for data processing and analisiz."
+    github: https://github.com/RomanHiden
+    linkedin: https://www.linkedin.com/in/roman-iftodi-2739a3b/
+    mail: roman@bzx.network
+
 -   name: Manish Singh
     bio: "bZx Advisor, CIO at Crossbridge Capital"
     image: /images/team/manish-singh.jpg
@@ -85,11 +93,3 @@
     info: "Project manager at district0x and co-founder of Sourcerers, Alexander is a lifelong technologist with an imagination for decentralized organizations. After studying physics at the University of Michigan, he spent two years at Coinbase working on quality assurance and payment operations, leaving in 2017 to found sourcerers."
     linkedin: https://www.linkedin.com/in/alexander-khoriaty-3752868a
     mail: alexander@district0x.io
-
--   name: Roman Iftodi
-    bio: "bZx Engineer"
-    image: /images/team/TODO.jpg
-    info: "Roman has over 10 year experience in software engineering. He worked as a contractor for one of the one of the biggest retail brokers(TD Ameritrade) and financial service company(Raymond James). Roman has master degree in math and computer science. He has patience for data processing and analisiz."
-    github: https://github.com/RomanHiden
-    linkedin: https://www.linkedin.com/in/roman-iftodi-2739a3b/
-    mail: roman@bzx.network
