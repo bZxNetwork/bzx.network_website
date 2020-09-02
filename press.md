@@ -29,3 +29,4 @@ For press & media request send us a message at: nick@bzx.network
 - [bZx Interview with Kyle Kistner July 2020 - DeFi Nation](https://www.youtube.com/watch?time_continue=1&v=Uav4d7jVRO8&feature=emb_logo)
 - [BZX Protocol DeFi Interview - Kyle at MikoBits show](https://www.youtube.com/watch?v=5NVWpaWVVW8&fbclid=IwAR2dqHhURcKjM4Vl9wleH8hmzjaPtWVB0ufdwFBQ6dyAzJUN9zWG1u9xQGU)
 - [BZX and Chainlink Video Q&A](https://youtu.be/wTiOmRp3AFc)
+- [The FTX Podcast - Kyle Kistner Co-Founder of BZRX](https://open.spotify.com/episode/6VGfNckPAxqrhnjRZ87k1r?si=0F7Ny_yqQ0SNvwezQbAbxg)
