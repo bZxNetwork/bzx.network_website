@@ -108,7 +108,7 @@ The funds under management by lending protocols have exceeded billions. Managing
 The industry standard liquidation system auctions off collateral at a discount using a price feed to value the collateral. This system is necessary in an ecosystem where liquidity is fragmented between centralized and decentralized exchanges. If all liquidity was located on DEXs, directly liquidating via DEXs would have major efficiency advantages with few downsides compared to a collateral auction. As we have been increasingly seeing, liquidity is shifting from CEXs to DEXs, increasing the viability of liquidating directly on DEXs at larger and larger scales.  
 
 ![](/images/blog/bzxisback/image14.png)
-_Better than CEX_
+<center>_Better than CEX_</center>
 
 The new liquidation engine is a two-tiered system designed to maximally capitalize on the efficiency of DEX liquidations, keeping dollars in the hands of users rather than miners and capital intensive liquidation bots.
 
