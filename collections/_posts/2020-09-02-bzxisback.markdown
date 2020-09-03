@@ -186,7 +186,7 @@ Determining risk on the basis of trading pairs allows less risky pairs to have m
 ![](/images/blog/bzxisback/image11.png)
 The asset risk parameters for Torque
 
-Initially we will be bucketing the trading pairs into categories with similar liquidity and volatility. We believe this already represents a massive leap forward in risk assessment relative to simply assessing on a per-collateral basis. As we move forward, we will take a data-driven approach to optimizing each risk parameter for every trading pair, and we have this approach economically audited.   
+Initially we will be bucketing the trading pairs into categories with similar liquidity and volatility. We believe this already represents a massive leap forward in risk assessment relative to simply assessing on a per-collateral basis. As we move forward, we will take a data-driven approach to optimizing each risk parameter for every trading pair.  
 
 
 ### Integration Risk Assessment
