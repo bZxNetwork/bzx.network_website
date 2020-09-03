@@ -228,7 +228,7 @@ We believe that addressing the long tail of assets is a critical function still 
 
 ## Conclusion
 
-This has been the most interesting year of our lives. We’ve persevered through one the most daunting gauntlet of challenges any team has faced. On the other side, we’ve come out even stronger and more resilient. Our community, forged in the crucible of adversity, is united together by a bond that few other projects can boast. As we head into the next chapter, we are excited to hand over the protocol to the community and build as one. What we’ve built here is not just a protocol, but a family, that we believe will stand the test of time. We ask you to keep up with us on [Telegram](t.me/b0xnet), [Discord](https://discord.gg/sp4cvy), [Twitter](https://twitter.com/bzxhq?lang=en), our community calls, and the [forum](forum.bzx.network).
+This has been the most interesting year of our lives. We’ve persevered through one the most daunting gauntlet of challenges any team has faced. On the other side, we’ve come out even stronger and more resilient. Our community, forged in the crucible of adversity, is united together by a bond that few other projects can boast. As we head into the next chapter, we are excited to hand over the protocol to the community and build as one. What we’ve built here is not just a protocol, but a family, that we believe will stand the test of time. We ask you to keep up with us on [Telegram](https://t.me/b0xnet), [Discord](https://discord.gg/5HYyUJb), [Twitter](https://twitter.com/bzxhq?lang=en), our community calls, and the [forum](forum.bzx.network).
 
 - **Lend & Trade**: [https://app.fulcrum.trade/](https://fulcrum.trade/)
 - **Borrow**: [https://app.torque.loans/](https://torque.loans/)
