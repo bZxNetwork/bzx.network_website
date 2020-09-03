@@ -163,6 +163,19 @@ section.bg-wave {
   @media (max-width: 579px) {
     padding: 7px;
   }
+  &.security-dots{
+    .container-dots {
+      @media (min-width: 580px) {
+        width: 580px;
+      }
+      @media (max-width: 579px) {
+        width: 180px;
+      }
+    }
+    .hidden-security{
+      display: none;
+    }
+  }
   .container-dots {
     margin: auto;
     justify-content: space-between;

@@ -1,5 +1,5 @@
 ---
-layout: itokens
+layout: page-wide-container
 permalink: ptokens
 metadescription: "Fulcrum trading interface allows you to purchase pTokens, ERC-20 assets which give you exposure to a desired short or leveraged position. "
 featured-image: /images/pTokens_cover.png
