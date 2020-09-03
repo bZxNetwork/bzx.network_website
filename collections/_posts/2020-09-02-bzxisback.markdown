@@ -80,7 +80,7 @@ Fees are deposited into Balancer pools which earn trading fees and while mining 
 ![](/images/blog/bzxisback/image13.png)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Stake with only three clicks_
 
-Staking has already started! You can stake your BZRX or BZRX LP token at our [staking portal](staking.bzx.network).
+Staking has already started! You can stake your BZRX or BZRX LP token at our [staking portal](https://staking.bzx.network/).
 
 Initially, the LP token eligible for staking will be [this](https://pools.balancer.exchange/#/pool/0xe26a220a341eaca116bda64cf9d5638a935ae629/) 80/20 BZRX-ETH Balancer pool. The pool address can be modified by governance in the future.
 
