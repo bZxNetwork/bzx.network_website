@@ -27,12 +27,17 @@ Here’s how we keep our platform safe:
                 <h5>Audits</h5>
                 <p>We hire reputable security auditors to ensure our code is free from unexpected vulnerabilities.</p>
                 <ul>
+
+                    <li><a href="https://bzx.network/pdfs/peckshield-audit-report-bZxV2-v1.0rc1.pdf">September, 2020 – PeckShield Protocol V2 Audit</a></li>
+                    <li><a href="https://bzx.network/pdfs/BZRX_vBZRX_CertiK_Verification_Report_1_07_11_2020.pdf">July, 2020 – Certik BZRX abd vBZRX Formal Verification</a></li>
+                    <li><a href="https://bzx.network/pdfs/BZRX_vBZRX_CertiK_Report_1_07_11_2020.pdf">July, 2020 – Certik BZRX abd vBZRX Audit</a></li>
                     <li><a href="https://bzx.network/pdfs/CertiK%20Verification%20Report%20for%20bZx.pdf">March, 2020 – Certik Audit</a></li>
                     <li><a href="https://bzx.network/pdfs/CertiK%20Verification%20Report%20for%20bZx.pdf">February, 2020 – Certik Flash Loans Audit</a></li>
                     <li><a href="https://github.com/mattdf/audits/blob/master/bZx/bzx-audit.pdf">September, 2018 – ZK Labs bZx Protocol Audit</a></li>
                 </ul>
             </div>
         </div>
+        <!--
         <div class="item-list-security">
             <div class="icon icon-list-security">
                 {% include svg/security/icon-verification.svg %}
@@ -59,7 +64,7 @@ Here’s how we keep our platform safe:
                     <li><a href="#">Dui semper tincidunt velit lacus sed mauris</a></li>
                 </ul>
             </div>
-        </div>
+        </div>-->
         <div class="item-list-security">
             <div class="icon icon-list-security">
                 {% include svg/security/icon-oracles.svg %}
@@ -70,7 +75,7 @@ Here’s how we keep our platform safe:
                 <ul>
                     <li><a href="/blog/choosing-oracle">Choosing a Reliable Solution for bZx’s Oracle</a></li>
                     <li><a href="/blog/chainlink-oracles">bZx Integrates with Chainlink to Prevent Future Price Oracle Exploits</a></li>
-                    
+
                 </ul>
             </div>
         </div>
@@ -80,11 +85,19 @@ Here’s how we keep our platform safe:
             </div>
             <div class="description description-list-security">
                 <h5>Bug Bounty</h5>
-                <p>We value the work of white hat hackers who help us maintain the security of our platform.</p>
+                <p>We value the work of white hat hackers who help us maintain the security of our platform. As the TVL of the protocol scales, we will scale these figures upward. It is our goal to have the most favorable bug bounty to asset locked ratio in the industry.
+
+</p>
                 <ul>
-                    <li><a href="#">Semper tincidunt velit</a></li>
-                    <li><a href="#">Lacus sed mauris</a></li>
+                <li>🚨Critical: $350,000.</li>
+  <li>High: Up to $50,000 USD</li>
+  <li>Medium: Up to $1,000 USD</li>
+  <li>Low: Up to $500 USD</li>
+  <li>Note: Up to $100 USD</li>
                 </ul>
+                <a href="/blog/bzxisback">        <button class="button button-secondary button-md d-flex j-content-center a-items-center button-grid {{include.buttonClass}}">
+                    Read more
+                        </button></a>
             </div>
         </div>
     </div>
@@ -97,8 +110,11 @@ Here’s how we keep our platform safe:
         <h2 class="fs-32 fw-800 lh-120 mb-30 mb-sm-15 color-white">Admin keys</h2>
     </div>
     <div class="container container-md">
-        <p class="fs-18 fs-sm-13 lh-160 fw-200 mb-15">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In massa nec condimentum sed. Id nec mi viverra tincidunt vel. Convallis aliquam ut volutpat dui aliquam tortor, tellus ac vestibulum. Dui semper tincidunt velit lacus sed mauris ullamcorper egestas eleifend. Mauris arcu at suscipit netus feugiat. </p>
-        <p class="fs-18 fs-sm-13 lh-160 fw-200 mb-15">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In massa nec condimentum sed. Id nec mi viverra tincidunt vel. Convallis aliquam ut volutpat dui aliquam tortor, tellus ac vestibulum. Dui semper tincidunt velit lacus sed mauris ullamcorper egestas eleifend. Mauris arcu at suscipit netus feugiat. </p>
+        <p class="fs-18 fs-sm-13 lh-160 fw-200 mb-15">On the first day of launch, the protocol will be custodial with a fully functional administrative key. We will rapidly transition to a 48 hour time locked administrator key. The timeline for this transition is within 48 hours to 96 hours, depending on community feedback and protocol conditions. Within the next month, we will install the governance and staking modules, moving to a full-fledged DAO.
+</p>
+<a href="/blog/bzxisback">        <button class="button button-secondary button-md d-flex j-content-center a-items-center button-grid {{include.buttonClass}}">
+    Read more
+        </button></a>
     </div>
 </section>
 
@@ -109,9 +125,12 @@ Here’s how we keep our platform safe:
         <h2 class="fs-32 fw-800 lh-120 mb-30 mb-sm-15 color-white">Risk management</h2>
     </div>
     <div class="container container-md">
-        <p class="fs-18 fs-sm-13 lh-160 fw-200 mb-15">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p class="fs-18 fs-sm-13 lh-160 fw-200 mb-15">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In massa nec condimentum sed. Id nec mi viverra tincidunt vel. Convallis aliquam ut volutpat dui aliquam tortor, tellus ac vestibulum. Dui semper tincidunt velit lacus sed mauris ullamcorper egestas eleifend. Mauris arcu at suscipit netus feugiat.</p>
-        <p class="fs-18 fs-sm-13 lh-160 fw-200 mb-15">Taking a long position involves a simple swapping of one asset for another. For example, you could swap DAI </p>
+        <p class="fs-18 fs-sm-13 lh-160 fw-200 mb-15">Many leading lending protocols have poorly optimized risk parameters that are based solely on the collateral being liquidated. This has resulted in massive capital inefficiency since many loans are overcollateralized far in excess of the actual risks at play. Instead of setting risk parameters on the basis of collateral, the protocol sets risk parameters on the basis of trading pairs.
+
+</p>
+<a href="/blog/bzxisback">        <button class="button button-secondary button-md d-flex j-content-center a-items-center button-grid {{include.buttonClass}}">
+    Read more
+        </button></a>
     </div>
 </section>
 
