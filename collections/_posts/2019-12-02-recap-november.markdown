@@ -2,7 +2,7 @@
 layout: post
 title:  "The Shipping Manifest: November 2019"
 date:   2019-11-05 10:12:46 -0700
-cover: /images/blog/shipping-november.png
+cover: /images/blog/Blog--post_november.jpg
 author: Sawinyh
 metadescription: "We had a very busy November at bZx, so here is our monthly newsletter “The Shipping Manifest” with key takeaways"
 intro: "We had a very busy November at bZx, so here is our monthly newsletter “The Shipping Manifest” with key takeaways"

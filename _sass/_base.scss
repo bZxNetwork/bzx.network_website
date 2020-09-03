@@ -221,3 +221,9 @@ a {
 .d-block {
   display: block;
 }
+.overflow-x-scroll {
+  overflow-x: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}

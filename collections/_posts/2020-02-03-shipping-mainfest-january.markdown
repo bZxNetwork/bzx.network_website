@@ -2,7 +2,7 @@
 layout: post
 title:  "The Shipping Manifest: January 2020"
 date:   2020-02-03 01:12:46 -0700
-cover: /images/blog/Blog_january_manifest.png
+cover: /images/blog/Blog--post_january.jpg
 author: Sawinyh
 metadescription: "As we look forward to ETHDenver and the upcoming mountain retreat in Breckenridge, the bZx team reflects on a productive start for 2020"
 intro: "As we look forward to ETHDenver and the upcoming mountain retreat in Breckenridge, the bZx team reflects on a productive start for 2020"

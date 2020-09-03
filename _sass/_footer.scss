@@ -11,8 +11,8 @@ footer {
         width: calc(100% / 3 * 2);
 
         display: grid;
-        grid-template-columns: repeat(8, 1fr);
-        grid-template-areas: "empty network network product product company company empty-end";
+        grid-template-columns: 3fr repeat(3, 7fr);
+        grid-template-areas: "empty network product company";
 
         .network {
             grid-area: network;
@@ -74,8 +74,8 @@ footer {
             flex-direction: column;
             .navigation {
                 width: 100%;
-                grid-template-columns: repeat(3, 1fr);
-                grid-template-areas: "network product company";
+                text-align: left;
+                display: block;
 
                 .network {
                     display: flex;
@@ -96,10 +96,20 @@ footer {
                     flex: 1;
                 }
                 ul {
+                    display: grid;
+                    width: 100%;
+                    grid-template-columns: repeat(2, 1fr);
+                    padding: 10px 15px 20px;
+
                     li {
-                        font-size: 16px;
+                        font-size: 14px;
+                        margin-bottom: 15px;
                         &:first-child {
+                            display: grid;
+                            grid-column-start: 1;
+                            grid-column-end: 3;
                             font-size: 18px;
+                            line-height: 23px;
                         }
                     }
                 }
@@ -126,15 +136,15 @@ footer {
 
     @media (min-width: 768px) and (max-width: 1023px) {
         .navigation {
-            width: calc(100% / 5 * 3);
+            width: calc(100% / 12 * 7);
 
             display: grid;
-            grid-template-columns: repeat(6, 1fr);
+            grid-template-columns: repeat(5, 3fr) 2fr;
             grid-template-areas: "network network product product company company";
         }
 
         .social-wrapper {
-            width: calc(100% / 5 * 2);
+            width: calc(100% / 12 * 5);
             .social-icons {
                 display: flex;
                 justify-content: space-between;

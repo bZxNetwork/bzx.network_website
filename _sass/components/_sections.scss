@@ -274,22 +274,33 @@ section.bg-wave {
   .container-team {
     background-color: #dcebff;
     border: 2px solid $primary-color;
-    padding: 0 30px;
-    flex-wrap: wrap;
+    padding: 30px;
+    display: grid;
+    grid-gap: 40px 30px;
     @media (min-width: 1220px) {
       width: 1170px;
     }
-    @media (max-width: 579px) {
-      padding: 0 0 0 20px;
+    
+    @media (min-width: 992px) {
+      grid-template-columns: repeat(4, 1fr);
     }
+    
+    @media (max-width: 991px) and (min-width: 768px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    
+    @media (max-width: 767px) and (min-width: 580px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media (max-width: 579px) {
+      padding: 30px 0 0 20px;
+      grid-template-columns: repeat(1, 1fr);
+    }
+    
     .item-team {
       color: #8080c2;
-      margin-top: 30px;
       position: relative;
-      margin-bottom: 40px;
       @media (min-width: 992px) {
-        width: calc(100% / 4 - 30px);
-
         &:nth-child(4n + 1) {
           &::before {
             content: "";
@@ -304,7 +315,6 @@ section.bg-wave {
         }
       }
       @media (max-width: 991px) and (min-width: 768px) {
-        width: calc(100% / 3 - 30px);
         &:nth-child(3n + 1) {
           &::before {
             content: "";
@@ -319,7 +329,6 @@ section.bg-wave {
         }
       }
       @media (max-width: 767px) and (min-width: 580px) {
-        width: calc(100% / 2 - 30px);
         &:nth-child(3),
         &:nth-child(9) {
           &::before {
@@ -335,7 +344,6 @@ section.bg-wave {
         }
       }
       @media (max-width: 579px) {
-        width: 100%;
         margin-bottom: 0;
 
         &:nth-child(2),
@@ -368,6 +376,7 @@ section.bg-wave {
         background: #ffffff;
         position: relative;
         margin-bottom: 22px;
+        max-width: 245px;
 
         @media (min-width: 580px) {
           border-left: 2px solid $primary-color;

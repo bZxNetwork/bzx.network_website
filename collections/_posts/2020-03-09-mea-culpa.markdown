@@ -159,7 +159,7 @@ The subsequent phases are tenatative and subject to additional research:
 
 This design “fails closed”. If something goes wrong, everything stops. If one of the oracles fail or becomes malicious, this has the capacity to censor the protocol, disallowing further trades, and potentially putting funds at risk by halting liquidations. In order to mitigate these risks, governance will have the emergency ability to switch to a single primary oracle for a period of time. This will allow all the benefits of using multiple oracles while severely limiting the downsides.
 
-Even more tentatively and subject to additional research: 
+Even more tentatively and subject to additional research:
 
 #### Phase 2: Chainlink + Band + Uniswap v 2.0
 
