@@ -2,7 +2,8 @@
 layout: page-wide-container
 permalink: security
 featured-image: /images/ogp.png
-metadescription: "Security Is Our Priority"
+metadescription: "Security Is Our Priority. bZx is committed to ensuring the security of user funds.
+Here’s how we keep our platform safe"
 title: Security Is Our Priority
 ---
 
