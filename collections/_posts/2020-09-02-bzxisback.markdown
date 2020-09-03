@@ -2,7 +2,7 @@
 layout: post
 title:  "We Have Returned: bZx Is Back "
 date:   2020-09-02 09:40:46 -0700
-cover: /images/blog/bzxisback.png
+cover: /images/blog/bzxisback.jpg
 author: Kistner
 metadescription: "For six months, the team worked diligently to refactor, refine, and revamp the protocol from the ground up."
 intro: "For six months, the team worked diligently to refactor, refine, and revamp the protocol from the ground up"
