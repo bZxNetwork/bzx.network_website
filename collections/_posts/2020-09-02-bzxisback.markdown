@@ -78,7 +78,7 @@ BZRX token holders can immediately stake their token via the [Staking Portal](st
 Fees are deposited into Balancer pools which earn trading fees and while mining BPT. In the beginning there will be two Balancer pools: an impermanent loss free stablecoin pool and an ETH+ERC20 pool for more volatile assets. By grouping assets with similar volatility together, impermanent loss can be minimized. The trading fee on each of the pools will initially be set according to the square of the historical volatility of the assets within the pool, the best known method for no-arbitrage parameterization.
 
 ![](/images/blog/bzxisback/image13.png)
-_Stake with only three clicks_
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Stake with only three clicks_
 
 Staking has already started! You can stake your BZRX or BZRX LP token at our [staking portal](staking.bzx.network).
 
@@ -108,7 +108,7 @@ The funds under management by lending protocols have exceeded billions. Managing
 The industry standard liquidation system auctions off collateral at a discount using a price feed to value the collateral. This system is necessary in an ecosystem where liquidity is fragmented between centralized and decentralized exchanges. If all liquidity was located on DEXs, directly liquidating via DEXs would have major efficiency advantages with few downsides compared to a collateral auction. As we have been increasingly seeing, liquidity is shifting from CEXs to DEXs, increasing the viability of liquidating directly on DEXs at larger and larger scales.  
 
 ![](/images/blog/bzxisback/image14.png)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Better than CEX_
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Better than CEX_
 
 The new liquidation engine is a two-tiered system designed to maximally capitalize on the efficiency of DEX liquidations, keeping dollars in the hands of users rather than miners and capital intensive liquidation bots.
 
