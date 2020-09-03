@@ -167,7 +167,7 @@ Most protocol attacks we have seen leverage a significant amount of capital via 
 
 ### Transparency
 
-*   All of our contracts are [open-source](github.com/bzxnetwork) with permissive licenses.
+*   All of our contracts are [open-source](https://github.com/bzxnetwork) with permissive licenses.
 *   We’ve released extensive information on our [token distribution and metrics](https://bzx.network/bzrx-token).
 *   Smart contract [audits](https://bzx.network/pdfs/BZRX_vBZRX_CertiK_Report_1_07_11_2020.pdf) and [formal verification](https://bzx.network/pdfs/BZRX_vBZRX_CertiK_Verification_Report_1_07_11_2020.pdf) for both the BZRX and vBZRX tokens are publicly hosted on our website for the general public.
 *   We have [published a standardized template](https://github.com/bZxNetwork/bzips) for submitting BZX Improvement Proposals (BZIPS) to our public Github.
