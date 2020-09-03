@@ -29,8 +29,8 @@ Here’s how we keep our platform safe:
                 <ul>
 
                     <li><a href="https://bzx.network/pdfs/peckshield-audit-report-bZxV2-v1.0rc1.pdf">September, 2020 – PeckShield Protocol V2 Audit</a></li>
-                    <li><a href="https://bzx.network/pdfs/BZRX_vBZRX_CertiK_Verification_Report_1_07_11_2020.pdf">July, 2020 – Certik BZRX abd vBZRX Formal Verification</a></li>
-                    <li><a href="https://bzx.network/pdfs/BZRX_vBZRX_CertiK_Report_1_07_11_2020.pdf">July, 2020 – Certik BZRX abd vBZRX Audit</a></li>
+                    <li><a href="https://bzx.network/pdfs/BZRX_vBZRX_CertiK_Verification_Report_1_07_11_2020.pdf">July, 2020 – Certik BZRX and vBZRX Formal Verification</a></li>
+                    <li><a href="https://bzx.network/pdfs/BZRX_vBZRX_CertiK_Report_1_07_11_2020.pdf">July, 2020 – Certik BZRX and vBZRX Audit</a></li>
                     <li><a href="https://bzx.network/pdfs/CertiK%20Verification%20Report%20for%20bZx.pdf">March, 2020 – Certik Audit</a></li>
                     <li><a href="https://bzx.network/pdfs/CertiK%20Verification%20Report%20for%20bZx.pdf">February, 2020 – Certik Flash Loans Audit</a></li>
                     <li><a href="https://github.com/mattdf/audits/blob/master/bZx/bzx-audit.pdf">September, 2018 – ZK Labs bZx Protocol Audit</a></li>
