@@ -184,6 +184,7 @@ Many leading lending protocols have poorly optimized risk parameters that are ba
 Determining risk on the basis of trading pairs allows less risky pairs to have more permissive parameters. It is more difficult to turn wBTC collateral into KNC than ETH. Hence, borrowing KNC against wBTC should have heightened risk parameters relative to borrowing ETH. We believe that there is a significant amount of data that can be brought to bear on the problem of optimizing risk parameters on the basis of trading pairs. Delving deeply into this will be the subject of our asset risk  framework.
 
 ![](/images/blog/bzxisback/image11.png)
+The asset risk parameters for Torque
 
 Initially we will be bucketing the trading pairs into categories with similar liquidity and volatility. We believe this already represents a massive leap forward in risk assessment relative to simply assessing on a per-collateral basis. As we move forward, we will take a data-driven approach to optimizing each risk parameter for every trading pair, and we have this approach economically audited.   
 
@@ -198,6 +199,9 @@ We used the Trail of Bits [token integration checklist](https://github.com/cryti
 
 **The team will not be staking their tokens for fees in the first month.** 100% of all fees will go to stakers. This means that staking revenues will be tripled during the first month relative to initial expectations.  
 
+## What to Expect: Sticker Shock
+
+Since Torque rates are fixed, it is important that we are able to find the equilibrium rate in the presence of yield farming incentives. This rate could be quite high due to the effective subsidy borrowers receive. We will be conducting a dutch auction of the lending liquidity, slowly lowering the rate until the pools achieve a high utilization rate. 
 
 ## Coming Soon
 
