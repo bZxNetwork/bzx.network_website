@@ -36,7 +36,7 @@ Chainlink oracles are used at three critical junctures in the protocol: opening 
 
 ### ⛽️ Refactoring and Gas Cost Optimization
 
-The protocol has been stripped down and rebuilt from the ground up, allowing us to draw on our years of building to create the most optimized, elegant, and mature lending protocol yet. We’ve reachitected and reduced the number of contracts used. There is no longer an external vault contract or external swaps connector. Swaps and storage of escrowed assets occur directly from the main protocol contract. Functionality from much earlier in our development cycle such as 0x-style off-chain peer-to-peer order objects have also been excised from the code, leading to less complexity and surface area. We have also removed ENS loans from the system to further this goal. Lastly, Chi token has been natively integrated into the platform.
+The protocol has been stripped down and rebuilt from the ground up, allowing us to draw on our years of building to create the most optimized, elegant, and mature lending protocol yet. We’ve rearchitected and reduced the number of contracts used. There is no longer an external vault contract or external swaps connector. Swaps and storage of escrowed assets occur directly from the main protocol contract. Functionality from much earlier in our development cycle such as 0x-style off-chain peer-to-peer order objects have also been excised from the code, leading to less complexity and surface area. We have also removed ENS loans from the system to further this goal. Lastly, Chi token has been natively integrated into the platform.
 
 
 ### 🌊 Liquidation Management
