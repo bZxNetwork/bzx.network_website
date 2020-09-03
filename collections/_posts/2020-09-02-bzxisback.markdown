@@ -78,7 +78,7 @@ BZRX token holders can immediately stake their token via the [Staking Portal](st
 Fees are deposited into Balancer pools which earn trading fees and while mining BPT. In the beginning there will be two Balancer pools: an impermanent loss free stablecoin pool and an ETH+ERC20 pool for more volatile assets. By grouping assets with similar volatility together, impermanent loss can be minimized. The trading fee on each of the pools will initially be set according to the square of the historical volatility of the assets within the pool, the best known method for no-arbitrage parameterization.
 
 ![](/images/blog/bzxisback/image13.png)
-_Stake with only three clicks_
+_Stake with only three clicks_ {: style="text-align: center"}
 
 Staking has already started! You can stake your BZRX or BZRX LP token at our [staking portal](staking.bzx.network).
 
