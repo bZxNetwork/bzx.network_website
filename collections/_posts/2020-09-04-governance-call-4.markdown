@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "bZx Community Call # 4"
-date:   2020-09-04 09:40:46 -0700
+date:   2020-09-04 02:30:46 -0700
 cover: /images/blog/community call-4.png
 author: Kistner
 metadescription: "We're happy to do our first community call post-relaunch on Friday, September 4th."
