@@ -16,8 +16,8 @@ On this call, we will discuss:
 - What to expect? (Dutch auction progress, BZRX trading, more assets, etc.)
 - Priorities fixing bugs and issues
 - Meme Farming Contest + Marketing update
-- A talk by Johann Eid from ChainLink
-- Q & A 
+- A talk by [Johann Eid](https://twitter.com/EidJohann) from ChainLink
+- Q & A
 
 
 This community call will be recorded and uploaded to Youtube for you to watch at your own convenience. You can check the previous community call [here](https://youtu.be/zsBbfJrDO-s). Subscribe to our YouTube channel to get notified as we make the calls live.
