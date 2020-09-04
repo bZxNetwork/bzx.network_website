@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "bZx Community Call # 3"
+title:  "bZx Community Call # 4"
 date:   2020-09-04 09:40:46 -0700
 cover: /images/blog/community call-4.png
 author: Kistner
