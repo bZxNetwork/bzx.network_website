@@ -64,8 +64,7 @@ bZx received extensive coverage this month, including being featured at #2 in Cr
 
 In a statement from Hashed, Tronweekly notes:
 
-
-    “_When bZx struggled through the aftermath of the attack, Hashed supported the team along the process. Indeed, we could actually witness how this team solved the unprecedented DeFi incident. We believe the team showed integrity.”
+“When bZx struggled through the aftermath of the attack, Hashed supported the team along the process. Indeed, we could actually witness how this team solved the unprecedented DeFi incident. We believe the team showed integrity."
 
 ![](/images/blog/hashed-tweet.png)
 
