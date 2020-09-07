@@ -28,7 +28,7 @@ Here’s how we keep our platform safe:
                 <h5>Audits</h5>
                 <p>We hire reputable security auditors to ensure our code is free from unexpected vulnerabilities.</p>
                 <ul>
-
+                    <li><a href="https://bzx.network/pdfs/bZx_v2_Audit–Report_CertiK.pdf">September, 2020 – Certik Protocol V2 Audit</a></li>
                     <li><a href="https://bzx.network/pdfs/peckshield-audit-report-bZxV2-v1.0rc1.pdf">September, 2020 – PeckShield Protocol V2 Audit</a></li>
                     <li><a href="https://bzx.network/pdfs/BZRX_vBZRX_CertiK_Verification_Report_1_07_11_2020.pdf">July, 2020 – Certik BZRX and vBZRX Formal Verification</a></li>
                     <li><a href="https://bzx.network/pdfs/BZRX_vBZRX_CertiK_Report_1_07_11_2020.pdf">July, 2020 – Certik BZRX and vBZRX Audit</a></li>
