@@ -82,7 +82,6 @@ For more on what’s happening with bZx, please check out these videos:
 
 *   Aug 5th: [bZx and Chainlink: bZx 2.0, Decentralized Oracles, and Yield Farming](https://www.youtube.com/watch?v=wTiOmRp3AFc)
 *   Aug 13th: [Tipping Point at the Institutional Buy-in in DeFi at Global DeFi Summit](https://www.youtube.com/watch?v=7ChPo7ulX9A)
-*   From the Global DeFi summit, hosted by Shailee Adinolfi
 *   Aug 21st: [bZx Governance Call #3](https://www.youtube.com/watch?v=zsBbfJrDO-s)
 *   Sept 1: [The FTX Podcast - Kyle Kistner Co-Founder of BZRX](https://www.youtube.com/watch?v=8HRwmBBCNfI)
 
