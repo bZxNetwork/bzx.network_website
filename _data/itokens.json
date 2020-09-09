@@ -56,6 +56,28 @@
                 "address": "0x1cC9567EA2eB740824a45F8026cCF8e46973234D",
                 "ticker": "iKNC"
             }
+        ],
+        "mainnetprotocoldetails": [
+            {
+                "description": "bZx Protocol",
+                "address": "0xd8ee69652e4e4838f2531732a46d1f7f584f0b7f",
+                "ticker": ""
+            },
+            {
+                "description": "BZRX token",
+                "address": "0x56d811088235F11C8920698a204A5010a788f4b3",
+                "ticker": "BZRX"
+            },
+            {
+                "description": "vBZRX token",
+                "address": "0xB72B31907C1C95F3650b64b2469e08EdACeE5e8F",
+                "ticker": "vBZRX"
+            },
+            {
+                "description": "Staking",
+                "address": "0x576773CD0B51294997Ec4E4ff96c93d5E3AE9038",
+                "ticker": ""
+            }
         ]
     },
     {
@@ -74,6 +96,28 @@
                 "description": "bZx DAI iToken",
                 "address": "0x6c1e2b0f67e00c06c8e2be7dc681ab785163ff4d",
                 "ticker": "iDAI"
+            }
+        ],
+        "kovanprotocoldetails": [
+            {
+                "description": "bZx Protocol",
+                "address": "0xAbd9372723C735D426D0a760D047206Fe115ee6d",
+                "ticker": ""
+            },
+            {
+                "description": "BZRX token",
+                "address": "0xB54Fc2F2ea17d798Ad5C7Aba2491055BCeb7C6b2",
+                "ticker": "BZRX"
+            },
+            {
+                "description": "vBZRX token",
+                "address": "0x6F8304039f34fd6A6acDd511988DCf5f62128a32",
+                "ticker": "vBZRX"
+            },
+            {
+                "description": "Staking",
+                "address": "0xe5E888586Da6B5D05071ff387c646Ce6F907b293",
+                "ticker": ""
             }
         ]
     }
