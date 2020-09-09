@@ -64,7 +64,7 @@ bZx received extensive coverage in August,
 
 ![](/images/blog/peckshield-tweet.png)
 
-![](images/blog/certik-tweet1.png)
+![](/images/blog/certik-tweet1.png)
 
 
 For more on what’s happening with bZx, please check out these videos:
