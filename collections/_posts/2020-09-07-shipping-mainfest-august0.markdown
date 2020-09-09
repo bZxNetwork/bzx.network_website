@@ -16,10 +16,12 @@ Read on for all of the latest updates from bZx.
 
 ![](/images/blog/bzxisback1.png)
 
-The month of August saw the relaunch of the bZx Protocol. Read the detailed post by Kyle on [#bZxIsBack](https://bzx.network/blog/bzxisback). Fulcrum 2.0 is leaner, more elegant, and more than twice as gas efficient.
+The month of August saw the relaunch of the bZx Protocol. Read the detailed post by Kyle on [#bZxIsBack](https://bzx.network/blog/bzxisback). Fulcrum 2.0 is leaner, more elegant, and more than twice as gas efficient. Experience the new Fulcrum UI [here](https://app.fulcrum.trade/trade).
+
+![](/images/blog/fulcrum Trade.png)
 
 
-Prior to the relaunch, the bZx team announced the release of its latest version of [Fulcrum](https://fulcrum.trade/) for beta testing on the Kovan Test Network.
+Prior to the relaunch, the bZx team announced the release of its latest version of Fulcrum for [beta testing on the Kovan Test Network](https://bzx.network/blog/community-testing).
 
 
 ## A Primer on Staking
@@ -62,7 +64,7 @@ bZx received extensive coverage in August,
 
 ![](/images/blog/peckshield-tweet.png)
 
-![](/images/blog/certik-tweet.png)
+![](images/blog/certik-tweet1.png)
 
 
 For more on what’s happening with bZx, please check out these videos:
@@ -72,8 +74,5 @@ For more on what’s happening with bZx, please check out these videos:
 *   Aug 13th: [Tipping Point at the Institutional Buy-in in DeFi, Global DeFi Summit](https://www.youtube.com/watch?v=7ChPo7ulX9A)
 *   Aug 21st: [bZx Governance Call #3](https://www.youtube.com/watch?v=zsBbfJrDO-s)
 *   Sept 1: [The FTX Podcast - Kyle Kistner Co-Founder of BZRX](https://www.youtube.com/watch?v=8HRwmBBCNfI)
-
-As always, please feel free to contact the team via [Telegram](https://t.me/b0xNet) or check out our [Help Center](https://help.bzx.network/en/) to answer all of your questions about bZx, Fulcrum, and Torque.
-
 
 As always, please feel free to contact the team via [Telegram](https://t.me/b0xNet) or check out our [Help Center](https://help.bzx.network/en/) to answer all of your questions about bZx, Fulcrum, and Torque.
