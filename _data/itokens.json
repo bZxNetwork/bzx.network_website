@@ -3,57 +3,57 @@
         "mainnet": [
             {
                 "description": "ETH iToken",
-                "address": "0x77f973FCaF871459aa58cd81881Ce453759281bC",
+                "address": "0xb983e01458529665007ff7e0cddecdb74b967eb6",
                 "ticker": "iETH"
             },
             {
-                "description": "SAI iToken",
-                "address": "0x14094949152EDDBFcd073717200DA82fEd8dC960",
-                "ticker": "iSAI"
+                "description": "MKR iToken",
+                "address": "0x9189c499727f88f8ecc7dc4eea22c828e6aac015",
+                "ticker": "iMKR"
             },
             {
                 "description": "DAI iToken",
-                "address": "0x493c57c4763932315a328269e1adad09653b9081",
+                "address": "0x6b093998d36f2c7f0cc359441fbb24cc629d5ff0",
                 "ticker": "iDAI"
             },
             {
                 "description": "USDC iToken",
-                "address": "0xF013406A0B1d544238083DF0B93ad0d2cBE0f65f",
+                "address": "0x32e4c68b3a4a813b710595aeba7f6b7604ab9c15",
                 "ticker": "iUSDC"
             },
             {
                 "description": "USDT iToken",
-                "address": "0x8326645f3aa6de6420102fdb7da9e3a91855045b",
+                "address": "0x7e9997a38a439b2be7ed9c9c4628391d3e055d48",
                 "ticker": "iUSDT"
             },
             {
-                "description": "sUSD iToken",
-                "address": "0x49f4592e641820e928f9919ef4abd92a719b4b49",
-                "ticker": "iSUSD"
+                "description": "YFI iToken",
+                "address": "0x7f3fe9d492a9a60aebb06d82cba23c6f32cad10b",
+                "ticker": "iYFI"
             },
             {
                 "description": "WBTC iToken",
-                "address": "0xBA9262578EFef8b3aFf7F60Cd629d6CC8859C8b5",
+                "address": "0x2ffa85f655752fb2acb210287c60b9ef335f5b6e",
                 "ticker": "iWBTC"
             },
             {
                 "description": "LINK iToken",
-                "address": "0x1D496da96caf6b518b133736beca85D5C4F9cBc5",
+                "address": "0x463538705e7d22aa7f03ebf8ab09b067e1001b54",
                 "ticker": "iLINK"
             },
             {
-                "description": "ZRX iToken",
-                "address": "0xA7Eb2bc82df18013ecC2A6C533fc29446442EDEe",
-                "ticker": "iZRX"
+                "description": "LEND iToken",
+                "address": "0xab45bf58c6482b87da85d6688c4d9640e093be98",
+                "ticker": "iLEND"
             },
             {
-                "description": "REP iToken",
-                "address": "0xBd56E9477Fc6997609Cf45F84795eFbDAC642Ff1",
-                "ticker": "iREP"
+                "description": "BZRX iToken",
+                "address": "0x18240bd9c07fa6156ce3f3f61921cc82b2619157",
+                "ticker": "iBZRX"
             },
             {
                 "description": "KNC iToken",
-                "address": "0x1cC9567EA2eB740824a45F8026cCF8e46973234D",
+                "address": "0x687642347a9282be8fd809d8309910a3f984ac5a",
                 "ticker": "iKNC"
             }
         ],
@@ -83,20 +83,67 @@
     {
         "kovan" : [
             {
-                "description": "bZx ETH iToken",
-                "address": "0x54BE07007C680bA087B3fcD8e675d1c929B6aAF5",
-                "ticker": "iETH"
+                "description": "Fulcrum fWETH iToken",
+                "address": "0x9D2015Dd5306C08bDd8530605137d26c04DEDBD8",
+                "ticker": "ifWETH"
             },
             {
-                "description": "bZx SAI iToken",
-                "address": "0xA1e58F3B1927743393b25f261471E1f2D3D9f0F6",
-                "ticker": "iSAI"
+                "description": "Fulcrum USDC iToken",
+                "address": "0xaaC9822F31e5Aefb32bC228DcF259F23B49B9855",
+                "ticker": "iUSDC"
             },
             {
-                "description": "bZx DAI iToken",
-                "address": "0x6c1e2b0f67e00c06c8e2be7dc681ab785163ff4d",
+                "description": "Fulcrum WBTC iToken",
+                "address": "0x73D4b4AB88Eab2A1e6cE495dE85C2B04c2918B69",
+                "ticker": "iWBTC"
+            },
+            {
+                "description": "Fulcrum MKR iToken",
+                "address": "0x3e72500122C3afD64AfE0306D7fbc7b8bd82b7d2",
+                "ticker": "iMKR"
+            },
+            {
+                "description": "Fulcrum KNC iToken",
+                "address": "0xdE7a60c3581F0D8C8723a71c28579131984A410c",
+                "ticker": "iKNC"
+            },
+            {
+                "description": "Fulcrum REP iToken",
+                "address": "0x8638B468BF02BDB8fc8C5b33dCA8c2D16c3fD67B",
+                "ticker": "iREP"
+            },
+            {
+                "description": "Fulcrum BAT iToken",
+                "address": "0xb59659564012fA337BB8b9E626b7964b5349f047",
+                "ticker": "iBAT"
+            },
+            {
+                "description": "Fulcrum iZRX iToken",
+                "address": "0xbac711d9963F0DB23613F3C338A7a1aF151C0696",
+                "ticker": "iZRX"
+            },
+            {
+                "description": "Fulcrum LINK iToken",
+                "address": "0x76754C763A23e9202CC721584Fbaf6012ecd8FbA",
+                "ticker": "iLINK"
+            },
+            {
+                "description": "Fulcrum SUSD iToken",
+                "address": "0x1CAc31ECC90912EEa18cCAdfab15fD9c0e77cbab",
+                "ticker": "iSUSD"
+            },
+            {
+                "description": "Fulcrum DAI iToken",
+                "address": "0x73d0B4834Ba4ADa053d8282c02305eCdAC2304f0",
                 "ticker": "iDAI"
-            }
+            },
+            {
+                "description": "Fulcrum USDT iToken",
+                "address": "0x6b9F03e05423cC8D00617497890C0872FF33d4E8",
+                "ticker": "iUSDT"
+            },
+  
+  
         ],
         "kovanprotocoldetails": [
             {
