@@ -1,0 +1,92 @@
+---
+layout: post
+title:  "iToken Duplication Incident Report"
+date:   2020-09-13 02:30:46 -0700
+cover: /images/blog/idupreport.png
+author: Kistner
+metadescription: "No funds are at risk. Due to a token duplication incident, the protocol insurance fund has transiently accrued a debt"
+intro: "No funds are at risk. Due to a token duplication incident, the protocol insurance fund has transiently accrued a debt"
+---
+
+**No funds are at risk**. Due to a token duplication incident, the protocol insurance fund has transiently accrued a debt. The insurance fund is backstopped by both the token treasury in addition to protocol cash flows. As we have demonstrated before, the system is capable of absorbing black swan events that would otherwise negatively impact lender assets. Thanks to a protocol design that anticipates and accounts for tail events, this incident is surmountable. The debt will be wiped clean and the protocol will move forward unimpeded.
+
+
+## Timeline  
+
+
+*   The team noticed a strange movement in the protocol TVL.
+*   Identified anomalous behavior with the _internalTransferFrom() function on the iToken contract.
+*   Minting and burning of iTokens was paused as the fix was identified.
+    *   Borrowing and trading was not impacted.  
+*   A new version of the affected iToken contracts were deployed with the balances corrected for duplications.
+*   The patched code was sent to Peckshield and Certik for review.
+*   Minting and burning of iTokens was unpaused.
+
+
+## Technical Details
+
+Every ERC20 token has a transferFrom() function that is responsible for transferring tokens. It was possible to call this function to create and transfer an iToken to yourself, allowing you to artificially increase your balance.
+
+Here is what happened:
+
+1. Transfer function was called with same **_from** and **_to** address
+2. Immediately _internalTransferFrom was called with the same arguments
+3. The following lines of code are at fault:
+
+    ```
+    uint256 _balancesFrom = balances[_from];
+    uint256 _balancesTo = balances[_to];
+
+    ```
+
+At this point having _from and _to the same address will result in _balancesFrom _balancesTo being equal.
+
+Then
+
+
+```
+    uint256 _balancesFromNew = _balancesFrom
+       .sub(_value, "16");
+    balances[_from] = _balancesFromNew;
+
+    uint256 _balancesToNew = _balancesTo
+       .add(_value);
+    balances[_to] = _balancesToNew;
+```
+
+Above decreases the balance of _balancesFrom and increases balance of _balancesTo and lastly the most important part is storing _balancesFromNew and _balancesToNew. The user was effectively  able to increase his balance artificially.
+
+**The Patch**
+
+```
+    uint256 _balancesFrom = balances[_from];
+    uint256 _balancesFromNew = _balancesFrom
+       .sub(_value, "16");
+    balances[_from] = _balancesFromNew;
+
+    uint256 _balancesTo = balances[_to];
+    uint256 _balancesToNew = _balancesTo
+       .add(_value);
+    balances[_to] = _balancesToNew;
+```
+
+
+The fix saw the move of balancesTo being set after the deduction from balances[_from]. This prevents a user from inflating their balance.
+
+The patched code was sent to Peckshield and Certik for review.
+
+**Insurance Fund Debt**
+
+The following debts have been added to the insurance fund:
+
+- 219,199.66 LINK
+- 4,502.70 ETH
+- 1,756,351.27 USDT
+- 1,412,048.48 USDC
+- 667,988.62 DAI
+
+**Precautions**
+
+The protocol was heavily audited by top security firms Peckshield and Certik. The [Peckshield audit](https://bzx.network/pdfs/peckshield-audit-report-bZxV2-v1.0rc1.pdf) was 12 person weeks. This is the same amount of time that Peckshield audited the Multi-collateral DAI (MCD) contracts for MakerDAO. The [Certik audit](https://bzx.network/pdfs/bZx_v2_Audit%E2%80%93Report_CertiK.pdf) was 7 person weeks. Additionally, we performed extensive automated testing. Unfortunately, audits are not silver bullets. Our protocol is the most powerful, fully functioned lending protocol in the space, and this means that there is a lot of code to cover. It is partly its scope and ambitions that makes it more difficult to secure than many other projects. As disclosed on our [security page](https://bzx.network/security), we kept control of the administrative key for the protocol initially to be able to address any incidents as they arose in the initial days of the relaunch.
+
+Much like MakerDAO backstops system debt with the value of the token, so too does our system. We are grateful that our precautions and system design are capable of resolving incidents like this without issue.  
