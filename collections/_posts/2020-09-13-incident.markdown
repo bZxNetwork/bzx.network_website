@@ -33,7 +33,7 @@ Here is what happened:
 2. Immediately _internalTransferFrom was called with the same arguments
 3. The following lines of code are at fault:
 
-    ~~~js
+    ~~~ js
     uint256 _balancesFrom = balances[_from];
     uint256 _balancesTo = balances[_to];
     ~~~
@@ -43,7 +43,7 @@ At this point having _from and _to the same address will result in _balancesFrom
 Then
 
 
-```js
+~~~ js
     uint256 _balancesFromNew = _balancesFrom
        .sub(_value, "16");
     balances[_from] = _balancesFromNew;
@@ -51,13 +51,13 @@ Then
     uint256 _balancesToNew = _balancesTo
        .add(_value);
     balances[_to] = _balancesToNew;
-```
+~~~
 
 Above decreases the balance of _balancesFrom and increases balance of _balancesTo and lastly the most important part is storing _balancesFromNew and _balancesToNew. The user was effectively  able to increase his balance artificially.
 
 **The Patch**
 
-```
+~~~ js
     uint256 _balancesFrom = balances[_from];
     uint256 _balancesFromNew = _balancesFrom
        .sub(_value, "16");
@@ -67,7 +67,7 @@ Above decreases the balance of _balancesFrom and increases balance of _balancesT
     uint256 _balancesToNew = _balancesTo
        .add(_value);
     balances[_to] = _balancesToNew;
-```
+~~~
 
 
 The fix saw the move of balancesTo being set after the deduction from balances[_from]. This prevents a user from inflating their balance.
