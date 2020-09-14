@@ -9,7 +9,24 @@ h1title: What are iTokens?
 <div class="container container-md post-content">
     <h1 class="fw-800 fs-46 lh-120 color-black text-center mb-20 mt-70 mt-sm-30 fs-sm-32">{{page.h1title}}</h1>
     <p>iTokens, such as iDAI or iUSDC, are interest accumulating tokens that continuously go up in value as you hold them. They represent a share in a lending pool that grows in size as borrowers pay interest into them. iTokens can be traded, used as collateral, composed by developers into structured products, or sent to cold storage for safety.</p>
-    <img src="/images/itokens.png" alt="iTokens" title="iTokens">
+    <div class="itokens-page itoken">
+      <div class="grid mb-30">
+          <div class="itoken-wrapper"><div class="itoken-gradient"><div class="itoken-white">{% include svg/itokens/iBAT.svg %}</div></div></div>
+          <div class="itoken-wrapper"><div class="itoken-gradient"><div class="itoken-white">{% include svg/itokens/iDAI.svg %}</div></div></div>
+          <div class="itoken-wrapper"><div class="itoken-gradient"><div class="itoken-white">{% include svg/itokens/iETH.svg %}</div></div></div>
+          <div class="itoken-wrapper"><div class="itoken-gradient"><div class="itoken-white">{% include svg/itokens/iKNC.svg %}</div></div></div>
+          <div class="itoken-wrapper"><div class="itoken-gradient"><div class="itoken-white">{% include svg/itokens/iLINK.svg %}</div></div></div>
+          <div class="itoken-wrapper"><div class="itoken-gradient"><div class="itoken-white">{% include svg/itokens/iREP.svg %}</div></div></div>
+          <div class="itoken-wrapper"><div class="itoken-gradient"><div class="itoken-white">{% include svg/itokens/iUSDC.svg %}</div></div></div>
+          <div class="itoken-wrapper"><div class="itoken-gradient"><div class="itoken-white">{% include svg/itokens/iWBTC.svg %}</div></div></div>
+          <div class="itoken-wrapper"><div class="itoken-gradient"><div class="itoken-white">{% include svg/itokens/iZRX.svg %}</div></div></div>
+          <div class="itoken-wrapper"><div class="itoken-gradient"><div class="itoken-white">{% include svg/itokens/iSUSD.svg %}</div></div></div>
+          <div class="itoken-wrapper"><div class="itoken-gradient"><div class="itoken-white">{% include svg/itokens/iYFI.svg %}</div></div></div>
+          <div class="itoken-wrapper"><div class="itoken-gradient"><div class="itoken-white">{% include svg/itokens/ifWETH.svg %}</div></div></div>
+          <div class="itoken-wrapper"><div class="itoken-gradient"><div class="itoken-white">{% include svg/itokens/iMKR.svg %}</div></div></div>
+          <div class="itoken-wrapper"><div class="itoken-gradient"><div class="itoken-white">{% include svg/itokens/iBZRX.svg %}</div></div></div>
+      </div>
+    </div>
     <p>iTokens constantly accrue value and increase in price because its underlying assets are loaned out to borrowers. Two notable features of iTokens are that they compounds each second (as opposed to per block) and that their exchange rate is capable of falling if the underlying pool suffers a loss. This makes them well suited for risk management derivatives to be built on top.</p>
     <h3>Minting an iToken</h3>
     <p>When the iToken contract for an asset is first deployed, it creates on-chain base protocol order objects corresponding to each level of leverage. The initial margin of the order object defines the level of leverage, and each order object has margin maintenance set at 15%. The length of the loan in the order object is defined as 28 days. When a lender wants to create a loan, they invoke the function mintWithEther when loaning ETH, or if loaning an ERC20, approve a token allowance and invoke the function mint.</p>
@@ -41,7 +58,7 @@ h1title: What are iTokens?
                         <td class="ticker">{{mainnet.ticker}}</td>
                         <td class="address"><a href="https://etherscan.io/address/{{ mainnet.address }}" target="_blank">{{mainnet.address}}</a></td>
                         <td class="description">{{mainnet.description}}</td>
-                        <td class="icon"><div class="bg-gradient">{% include svg/itokens/{{mainnet.ticker}}.svg %}</div></td>
+                        <td class="icon"><div class="itoken-gradient"><div class="itoken-white">{% include svg/itokens/{{mainnet.ticker}}.svg %}</div></div></td>
                     </tr>
                 {% endfor %}
                 {% for mainnet in site.data.itokens[0].mainnetprotocoldetails %}
@@ -49,7 +66,7 @@ h1title: What are iTokens?
                         <td class="ticker">{{mainnet.ticker}}</td>
                         <td class="address"><a href="https://etherscan.io/address/{{ mainnet.address }}" target="_blank">{{mainnet.address}}</a></td>
                         <td class="description">{{mainnet.description}}</td>
-                        <td class="icon"><div class="bg-gradient">{% include svg/BZRX.svg %}</div></td>
+                        <td class="icon"><div class="itoken-gradient"><div class="itoken-white"><div class="svg-gradient">{% include svg/BZRX.svg %}</div></div></div></td>
                     </tr>
                 {% endfor %}
             </tbody>
@@ -71,15 +88,15 @@ h1title: What are iTokens?
                         <td class="ticker">{{kovan.ticker}}</td>
                         <td class="address"><a href="https://kovan.etherscan.io/address/{{ kovan.address }}" target="_blank">{{kovan.address}}</a></td>
                         <td class="description">{{kovan.description}}</td>
-                        <td class="icon"><div class="bg-gradient">{% include svg/itokens/{{kovan.ticker}}.svg %}</div></td>
+                        <td class="icon"><div class="itoken-gradient"><div class="itoken-white">{% include svg/itokens/{{kovan.ticker}}.svg %}</div></div></td>
                     </tr>
                 {% endfor %}
-                {% for kovan in site.data.itokens[1].kovan %}
+                {% for kovan in site.data.itokens[1].kovanprotocoldetails %}
                     <tr>
                         <td class="ticker">{{kovan.ticker}}</td>
                         <td class="address"><a href="https://kovan.etherscan.io/address/{{ kovan.address }}" target="_blank">{{kovan.address}}</a></td>
                         <td class="description">{{kovan.description}}</td>
-                        <td class="icon"><div class="bg-gradient">{% include svg/BZRX.svg %}</div></td>
+                        <td class="icon"><div class="itoken-gradient"><div class="itoken-white"><div class="svg-gradient">{% include svg/BZRX.svg %}</div></div></div></td>
                     </tr>
                 {% endfor %}
             </tbody>
