@@ -33,11 +33,10 @@ Here is what happened:
 2. Immediately _internalTransferFrom was called with the same arguments
 3. The following lines of code are at fault:
 
-    ```js
+    ~~~js
     uint256 _balancesFrom = balances[_from];
     uint256 _balancesTo = balances[_to];
-
-    ```
+    ~~~
 
 At this point having _from and _to the same address will result in _balancesFrom _balancesTo being equal.
 
