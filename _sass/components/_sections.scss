@@ -109,7 +109,7 @@
     }
   }
   @media (max-width: 991px) {
-    &:nth-child(10){
+    &:nth-child(10) {
       &:after {
         background-image: url(/images/icons/item-integration.svg);
       }
@@ -117,7 +117,7 @@
   }
   @media (max-width: 767px) {
     width: 100%;
-    &:nth-child(11){
+    &:nth-child(11) {
       &:after {
         background-image: url(/images/icons/item-integration.svg);
       }
@@ -131,12 +131,12 @@
   }
 }
 
-.container-integrations{
+.container-integrations {
   display: flex;
   flex-wrap: wrap;
-    @media(max-width: 991px){
-        text-align: center;
-    }
+  @media (max-width: 991px) {
+    text-align: center;
+  }
 }
 section.bg-wave {
   .buttons-wrapper {
@@ -163,7 +163,7 @@ section.bg-wave {
   @media (max-width: 579px) {
     padding: 7px;
   }
-  &.security-dots{
+  &.security-dots {
     .container-dots {
       @media (min-width: 580px) {
         width: 580px;
@@ -172,7 +172,7 @@ section.bg-wave {
         width: 180px;
       }
     }
-    .hidden-security{
+    .hidden-security {
       display: none;
     }
   }
@@ -280,15 +280,15 @@ section.bg-wave {
     @media (min-width: 1220px) {
       width: 1170px;
     }
-    
+
     @media (min-width: 992px) {
       grid-template-columns: repeat(4, 1fr);
     }
-    
+
     @media (max-width: 991px) and (min-width: 768px) {
       grid-template-columns: repeat(3, 1fr);
     }
-    
+
     @media (max-width: 767px) and (min-width: 580px) {
       grid-template-columns: repeat(2, 1fr);
     }
@@ -590,14 +590,17 @@ section.bg-wave {
         }
       }
       .icon {
-        .bg-gradient {
-          @include svg-tokens;
+        .svg-gradient {
+          background: linear-gradient(315deg, #003cda 19.25%, #33dfcc 86.5%);
+          display: flex;
+          align-items: center;
+          width: 100%;
+          height: auto;
+          border-radius: 50%;
           svg {
-            @include svg-tokens;
+            width: 100%;
+            height: auto;
           }
-        }
-        svg {
-          @include svg-tokens;
         }
       }
       .address {
@@ -613,8 +616,10 @@ section.bg-wave {
             content: "Address";
           }
         }
-        a, a:hover, a:visited{
-          color: #276BFB;
+        a,
+        a:hover,
+        a:visited {
+          color: #276bfb;
         }
       }
       .description {
@@ -723,8 +728,32 @@ section.bg-wave {
     display: block;
   }
 }
-.bg-gradient {
+.itokens {
   border-radius: 50%;
   display: flex;
-  background: linear-gradient(315deg, #003cda 19.25%, #33dfcc 86.5%);
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background-color: #ffffff;
+  padding: 3px;
+  @media screen and(max-width: 767px) {
+    width: 26px;
+    height: 26px;
+  }
+}
+.itokens-page {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    grid-column-gap: 5px;
+    @media screen and(max-width: 767px) {
+      grid-template-columns: repeat(5, 1fr) !important;
+    }
+    .itoken-wrapper {
+      display: flex;
+      width: 45px;
+      height: 45px;
+    }
+  }
 }
