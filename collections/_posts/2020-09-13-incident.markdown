@@ -51,7 +51,7 @@ Above decreases the balance of _balancesFrom and increases balance of _balancesT
 
 The fix saw the move of balancesTo being set after the deduction from balances[_from]. This prevents a user from inflating their balance.
 
-The patched code was sent to Peckshield and Certik for review.
+The patched code was sent to Peckshield and Certik for review. Both Certik and Peckshield have approved the changes. 
 
 **Insurance Fund Debt**
 
