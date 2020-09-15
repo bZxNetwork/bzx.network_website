@@ -8,21 +8,18 @@ metadescription: "No funds are at risk. Due to a token duplication incident, the
 intro: "UPDATE: All Funds are SAFU."
 ---
 
-## UPDATE: (Sep 15th, 2020) ALL FUNDS ARE SAFU!
+## UPDATE: (Sep 15th, 2020) ALL FUNDS ARE RECOVERED!
+
+All funds have been recovered from the attacker. We are restoring the system. Yesterday, we did an open live-stream with both the Co-founders Tom Bean and Kyle Kistner addressing the issue. You can watch the video[ here](https://youtu.be/765UWyMEbHc).
 
 
-Yesterday, we did an open live-stream with both the Co-founders Tom Bean and Kyle Kistner addressing the issue. You can watch the video[ here](https://youtu.be/765UWyMEbHc).
+## Highlights from the Call and The Double Dipping Problem:
 
+The team stayed up for 36 hours and recovered the funds through decisive action. The funds are now in the team wallet and being used to restore the lending pools.
 
-## Highlights from the call and more updates:
+A bug bounty was paid out to Marc Thalen for the amount of $45,000. As per our bug bounty policy, we polled three security experts in the space to determine whether a bug bounty was applicable and how much it should pay. The experts gave wildly differing opinions ranging from $2,500 to $30,000, all of them noting a potential "double dip" problem allowing attackers to execute an exploit and subsequently claim the bounty. They cited this as an issue with issuing a top level payout, as Marc had only reported the issue when the attack had mostly concluded. Security expert Nick Johnson [weighed in on Twitter](https://twitter.com/wekabot/status/1305592689971191808), leading to the conclusion that pro-rating the bounty in proportion to the amount of funds saved would solve the Double Dipping problem. 
 
-We took the action to make things right and get it resolved quickly. While the investigation is ongoing with law enforcement we have the funds back. They are in the team wallet. The pools are currently being restored.
-
-On the bug bounty, we polled three experts, they gave some strongly differing numbers, all having different rationales. Security experts like Nick Johnson also weighed in on Twitter, also with differing numbers and rationales. Obviously with any hack or exploitation, there will be [varying opinions with high degrees of controversy.](https://twitter.com/wekabot/status/1305592689971191808)
-
-The bounty program has a gap when it comes to saving assets by reporting an attack in progress and that we now award the bounty based on the % of assets saved as a result of the report, allowing the top payout only if you prevent an attack completely. This solves the “double dipping problem.” If you give bug bounties to people when the bugs are already being exploited, it means they can both exploit the bug and claim a bounty. By scaling the bounty to the amount of money saved, it prevents double dipping.
-
-It was decided we pay the bounty to Marc Thalen. Marc agreed to the $45,000 bounty which [he found reasonable](https://twitter.com/MarcThalen/status/1305760804877135873). We're thankful to Marc for noticing what was happening and reaching out to us.
+Marc agreed to the $45,000 bounty which [he found reasonable](https://twitter.com/MarcThalen/status/1305760804877135873). We're thankful to Marc for noticing what was happening and reaching out to us.
 
 On the product side, Lend is now enabled for all the assets on [Fulcrum](https://app.fulcrum.trade/lend).
 
