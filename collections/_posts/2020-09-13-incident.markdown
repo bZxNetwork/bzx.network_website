@@ -1,14 +1,36 @@
 ---
 layout: post
 title:  "iToken Duplication Incident Report"
-date:   2020-09-13 02:30:46 -0700
+date:   2020-09-15 11:30:46 -0700
 cover: /images/blog/idupreport.png
 author: Kistner
 metadescription: "No funds are at risk. Due to a token duplication incident, the protocol insurance fund has transiently accrued a debt"
-intro: "No funds are at risk. Due to a token duplication incident, the protocol insurance fund has transiently accrued a debt"
+intro: "UPDATE: Funds are SAFU."
 ---
 
 **No funds are at risk**. Due to a token duplication incident, the protocol insurance fund has transiently accrued a debt. The insurance fund is backstopped by both the token treasury in addition to protocol cash flows. As we have demonstrated before, the system is capable of absorbing black swan events that would otherwise negatively impact lender assets. Thanks to a protocol design that anticipates and accounts for tail events, this incident is surmountable. The debt will be wiped clean and the protocol will move forward unimpeded.
+
+
+##UPDATE: (September 15th, 2020) ALL FUNDS ARE SAFU!
+
+
+We did an open live stream with both the Co-founders Tom Bean and Kyle Kistner addressing the issue. You can watch the video[ here](https://youtu.be/765UWyMEbHc).
+
+
+# Highlights from the call and more updates:
+
+We took the action on it to make things right and get it resolved quickly. The funds are back.
+
+We went and polled three experts, they gave some strongly differing numbers, all having different rationales. Security experts like [Nick Johnson also weighed in on Twitter](https://twitter.com/wekabot/status/1305592689971191808), also with differing numbers and rationales
+
+It was decided we pay the bounty to Marc Thalen. Marc agreed to the $45,000 bounty which [he found reasonable](https://twitter.com/MarcThalen/status/1305760804877135873). We're thankful to Marc for noticing what was happening and reaching out to us.
+
+The bounty program has a gap when it comes to saving assets by reporting an attack in progress and that we now award the bounty based on the % of assets saved as a result of the report, allowing the top payout only if you prevent an attack completely.
+
+And while the investigation is ongoing with law enforcement we have the funds back. They are in the team wallet. The pools are currently being restored.
+
+On the product side, Lend is now enabled for all the assets on [Fulcrum](https://app.fulcrum.trade/lend).
+
 
 
 ## Timeline  
@@ -51,7 +73,7 @@ Above decreases the balance of _balancesFrom and increases balance of _balancesT
 
 The fix saw the move of balancesTo being set after the deduction from balances[_from]. This prevents a user from inflating their balance.
 
-The patched code was sent to Peckshield and Certik for review. Both Certik and Peckshield have approved the changes. 
+The patched code was sent to Peckshield and Certik for review. Both Certik and Peckshield have approved the changes.
 
 **Insurance Fund Debt**
 
