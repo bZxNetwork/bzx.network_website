@@ -5,19 +5,16 @@ date:   2020-09-15 11:30:46 -0700
 cover: /images/blog/idupreport.png
 author: Kistner
 metadescription: "No funds are at risk. Due to a token duplication incident, the protocol insurance fund has transiently accrued a debt"
-intro: "UPDATE: Funds are SAFU."
+intro: "UPDATE: All Funds are SAFU."
 ---
 
-**No funds are at risk**. Due to a token duplication incident, the protocol insurance fund has transiently accrued a debt. The insurance fund is backstopped by both the token treasury in addition to protocol cash flows. As we have demonstrated before, the system is capable of absorbing black swan events that would otherwise negatively impact lender assets. Thanks to a protocol design that anticipates and accounts for tail events, this incident is surmountable. The debt will be wiped clean and the protocol will move forward unimpeded.
-
-
-##UPDATE: (September 15th, 2020) ALL FUNDS ARE SAFU!
+## UPDATE: (September 15th, 2020) ALL FUNDS ARE SAFU!
 
 
 We did an open live stream with both the Co-founders Tom Bean and Kyle Kistner addressing the issue. You can watch the video[ here](https://youtu.be/765UWyMEbHc).
 
 
-# Highlights from the call and more updates:
+ Highlights from the call and more updates:
 
 We took the action on it to make things right and get it resolved quickly. The funds are back.
 
