@@ -16,20 +16,17 @@ Yesterday, we did an open live-stream with both the Co-founders Tom Bean and Kyl
 
 ## Highlights from the call and more updates:
 
-We took the action to make things right and get it resolved quickly. The funds are back.
+We took the action to make things right and get it resolved quickly. While the investigation is ongoing with law enforcement we have the funds back. They are in the team wallet. The pools are currently being restored.
 
-We went and polled three experts, they gave some strongly differing numbers, all having different rationales. Security experts like [Nick Johnson also weighed in on Twitter](https://twitter.com/wekabot/status/1305592689971191808), also with differing numbers and rationales
-
-It was decided we pay the bounty to Marc Thalen. Marc agreed to the $45,000 bounty which [he found reasonable](https://twitter.com/MarcThalen/status/1305760804877135873). We're thankful to Marc for noticing what was happening and reaching out to us.
+On the bug bounty, we polled three experts, they gave some strongly differing numbers, all having different rationales. Security experts like Nick Johnson also weighed in on Twitter, also with differing numbers and rationales.[Obviously with any hack or exploitation, there will be varying opinions with high degre  es of controversy.](https://twitter.com/wekabot/status/1305592689971191808)
 
 The bounty program has a gap when it comes to saving assets by reporting an attack in progress and that we now award the bounty based on the % of assets saved as a result of the report, allowing the top payout only if you prevent an attack completely. This solves the “double dipping problem.” If you give bug bounties to people when the bugs are already being exploited, it means they can both exploit the bug and claim a bounty. By scaling the bounty to the amount of money saved, it prevents double dipping.
 
-And while the investigation is ongoing with law enforcement we have the funds back. They are in the team wallet. The pools are currently being restored.
+It was decided we pay the bounty to Marc Thalen. Marc agreed to the $45,000 bounty which [he found reasonable](https://twitter.com/MarcThalen/status/1305760804877135873). We're thankful to Marc for noticing what was happening and reaching out to us.
 
 On the product side, Lend is now enabled for all the assets on [Fulcrum](https://app.fulcrum.trade/lend).
 
 PeckShield just issued [a letter to the bZx community](https://bzx.network/pdfs/PeckShield%20Letter%20to%20bZx%20community.pdf). We'd like to thank PeckShield for all the support and confidence they've shown in us.
-
 
 
 ## Previous update
