@@ -18,7 +18,7 @@ Yesterday, we did an open live-stream with both the Co-founders Tom Bean and Kyl
 
 We took the action to make things right and get it resolved quickly. While the investigation is ongoing with law enforcement we have the funds back. They are in the team wallet. The pools are currently being restored.
 
-On the bug bounty, we polled three experts, they gave some strongly differing numbers, all having different rationales. Security experts like Nick Johnson also weighed in on Twitter, also with differing numbers and rationales.[Obviously with any hack or exploitation, there will be varying opinions with high degre  es of controversy.](https://twitter.com/wekabot/status/1305592689971191808)
+On the bug bounty, we polled three experts, they gave some strongly differing numbers, all having different rationales. Security experts like Nick Johnson also weighed in on Twitter, also with differing numbers and rationales. Obviously with any hack or exploitation, there will be [varying opinions with high degrees of controversy.](https://twitter.com/wekabot/status/1305592689971191808)
 
 The bounty program has a gap when it comes to saving assets by reporting an attack in progress and that we now award the bounty based on the % of assets saved as a result of the report, allowing the top payout only if you prevent an attack completely. This solves the “double dipping problem.” If you give bug bounties to people when the bugs are already being exploited, it means they can both exploit the bug and claim a bounty. By scaling the bounty to the amount of money saved, it prevents double dipping.
 
