@@ -1,5 +1,9 @@
 [
     {
+        "mainnetabi": {
+            "name": "ABI",
+            "link": "https://github.com/bZxNetwork/fulcrum_ui/blob/development/packages/fulcrum/src/assets/artifacts/mainnet/iToken.json"
+        },
         "mainnet": [
             {
                 "description": "ETH iToken",
@@ -81,7 +85,11 @@
         ]
     },
     {
-        "kovan" : [
+        "kovanabi": {
+            "name": "ABI",
+            "link": "https://github.com/bZxNetwork/fulcrum_ui/blob/development/packages/fulcrum/src/assets/artifacts/kovan/iToken.json"
+        },
+        "kovan": [
             {
                 "description": "Fulcrum fWETH iToken",
                 "address": "0x9D2015Dd5306C08bDd8530605137d26c04DEDBD8",
