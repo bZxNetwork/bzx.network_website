@@ -1,0 +1,26 @@
+.itoken-gradient{
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(315deg, #003cda 19.25%, #33dfcc 86.5%);
+  padding: 5px;
+  .table-itokens & {
+    width: 40px;
+    height: 40px;
+  }
+  .itoken-white {
+    display: flex;
+    padding: 3px;
+    background: #ffffff;
+    border-radius: 50%;
+    .table-itokens & {
+      width: 32px;
+      height: 32px;
+    }
+    svg{
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

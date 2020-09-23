@@ -141,9 +141,7 @@
                 "description": "Fulcrum USDT iToken",
                 "address": "0x6b9F03e05423cC8D00617497890C0872FF33d4E8",
                 "ticker": "iUSDT"
-            },
-  
-  
+            }
         ],
         "kovanprotocoldetails": [
             {

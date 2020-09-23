@@ -3,11 +3,11 @@ layout: page
 permalink: ecosystem
 metadescription: 'This page designed as a community-driven resource where people can learn what products and use cases are made possible with bZx, Fulcrum, and Torque.'
 featured-image: /images/ogp.png
-title: 'The Ecosystem Collection: Everything Built on bZx'
-h1title: 'The Ecosystem Collection: Everything Built on bZx'
+title: 'The Ecosystem Collection'
+h1title: 'The Ecosystem Collection'
 ---
 
-This page designed as a community-driven resource where people can learn what products and use cases are made possible with bZx, Fulcrum, and Torque. Feel free to [contribute on GitHub](https://github.com/bZxNetwork/jekyll_site/blob/master/ecosystem.md).
+This page designed as a community-driven resource where people can learn about products and use cases in the DeFi ecosystem. Feel free to [contribute on GitHub](https://github.com/bZxNetwork/jekyll_site/blob/master/ecosystem.md).
 
 ## Wallets
 
@@ -17,7 +17,7 @@ This page designed as a community-driven resource where people can learn what pr
 
 [Eidoo](https://eidoo.io/) - Fast, easy, and not only a Multicurrency Wallet: it's a hybrid exchange too. It’s Eidoo
 
-[MEET.ONE Wallet](https://meet.one/) - A multi-chain DeFi wallet allowing you to manage & trade enormous tokens, secure, easy, and convenient. 
+[MEET.ONE Wallet](https://meet.one/) - A multi-chain DeFi wallet allowing you to manage & trade enormous tokens, secure, easy, and convenient.
 
 ## Exchanges
 

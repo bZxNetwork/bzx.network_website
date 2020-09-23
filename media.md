@@ -15,7 +15,6 @@ h1title: bZx Brand Assets
     <div class="container  container-md mb-70 post-content">
     <h1>General Assets</h1>
         <h2>bZx Brand Assets</h2>
-
     </div>
     <div class="container container-xl text-center mb-70">
         <div class="grid mb-30">
@@ -62,7 +61,6 @@ h1title: bZx Brand Assets
     </div>
     <div class="container  container-md">
     <h1>Tokens Assets</h1>
-
         <h2>BZRX</h2>
         <p>BZRX - regular logo, vBZRX - vested token.</p>
     </div>
@@ -84,16 +82,20 @@ h1title: bZx Brand Assets
     </div>
     <div class="itoken container container-xl text-center ">
         <div class="grid mb-30">
-            <div class="itoken-wrapper"><div class="bg-gradient">{% include svg/itokens/iBAT.svg %}</div></div>
-            <div class="itoken-wrapper"><div class="bg-gradient">{% include svg/itokens/iDAI.svg %}</div></div>
-            <div class="itoken-wrapper"><div class="bg-gradient">{% include svg/itokens/iETH.svg %}</div></div>
-            <div class="itoken-wrapper"><div class="bg-gradient">{% include svg/itokens/iKNC.svg %}</div></div>
-            <div class="itoken-wrapper"><div class="bg-gradient">{% include svg/itokens/iLINK.svg %}</div></div>
-            <div class="itoken-wrapper"><div class="bg-gradient">{% include svg/itokens/iREP.svg %}</div></div>
-            <div class="itoken-wrapper"><div class="bg-gradient">{% include svg/itokens/iUSDC.svg %}</div></div>
-            <div class="itoken-wrapper"><div class="bg-gradient">{% include svg/itokens/iWBTC.svg %}</div></div>
-            <div class="itoken-wrapper"><div class="bg-gradient">{% include svg/itokens/iZRX.svg %}</div></div>
-            <div class="itoken-wrapper"><div class="bg-gradient">{% include svg/itokens/iSUSD.svg %}</div></div>
+            <div class="itoken-wrapper"><div class="itoken-gradient"><div class="itoken-white">{% include svg/itokens/iBAT.svg %}</div></div></div>
+            <div class="itoken-wrapper"><div class="itoken-gradient"><div class="itoken-white">{% include svg/itokens/iDAI.svg %}</div></div></div>
+            <div class="itoken-wrapper"><div class="itoken-gradient"><div class="itoken-white">{% include svg/itokens/iETH.svg %}</div></div></div>
+            <div class="itoken-wrapper"><div class="itoken-gradient"><div class="itoken-white">{% include svg/itokens/iKNC.svg %}</div></div></div>
+            <div class="itoken-wrapper"><div class="itoken-gradient"><div class="itoken-white">{% include svg/itokens/iLINK.svg %}</div></div></div>
+            <div class="itoken-wrapper"><div class="itoken-gradient"><div class="itoken-white">{% include svg/itokens/iREP.svg %}</div></div></div>
+            <div class="itoken-wrapper"><div class="itoken-gradient"><div class="itoken-white">{% include svg/itokens/iUSDC.svg %}</div></div></div>
+            <div class="itoken-wrapper"><div class="itoken-gradient"><div class="itoken-white">{% include svg/itokens/iWBTC.svg %}</div></div></div>
+            <div class="itoken-wrapper"><div class="itoken-gradient"><div class="itoken-white">{% include svg/itokens/iZRX.svg %}</div></div></div>
+            <div class="itoken-wrapper"><div class="itoken-gradient"><div class="itoken-white">{% include svg/itokens/iSUSD.svg %}</div></div></div>
+            <div class="itoken-wrapper"><div class="itoken-gradient"><div class="itoken-white">{% include svg/itokens/iYFI.svg %}</div></div></div>
+            <div class="itoken-wrapper"><div class="itoken-gradient"><div class="itoken-white">{% include svg/itokens/ifWETH.svg %}</div></div></div>
+            <div class="itoken-wrapper"><div class="itoken-gradient"><div class="itoken-white">{% include svg/itokens/iMKR.svg %}</div></div></div>
+            <div class="itoken-wrapper"><div class="itoken-gradient"><div class="itoken-white">{% include svg/itokens/iBZRX.svg %}</div></div></div>
         </div>
         <a href="/images/iTokens.zip" title="download iTokens branding kit" class="button button-secondary d-flex j-content-center m-auto">download iTokens branding kit</a>  
     </div>
