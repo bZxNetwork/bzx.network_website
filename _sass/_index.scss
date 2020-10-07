@@ -1,0 +1,9 @@
+.header-button-icon {
+  width: 15px;
+  height: 15px;
+
+  @media (max-width: 579px) {
+    width: 13px;
+    height: 13px;
+  }
+}
