@@ -17,7 +17,7 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
 <section class="mt-40 bg-wave text-center">
     <div class="buttons-wrapper container container-md d-flex f-wrap j-content-sb px-65 px-xs-15">
         <a href="{{ site.data.social-icons.twitter.url }}" class="button button-primary button-lg d-flex j-content-center mb-10">Twitter</a>
-        <a href="https://uniswap.info/pair/0xB9b752F7f4a4680eEb327ffe728f46666763A796" class="button button-primary button-lg d-flex j-content-center mb-10">🦄 Uniswap 🦄</a>
+        <a href="https://www.coingecko.com/en/coins/bzx-protocol" class="button button-primary button-lg d-flex j-content-center mb-10">Coingecko&nbsp;<img class="p-absolute" width="15" height="15" src="images/icons/coingecko.png" alt="Coingecko Logo"/></a>
         <a href="{{ site.data.social-icons.telegram.url }}" class="button button-primary button-lg d-flex j-content-center mb-10">Telegram</a>
         <a href="https://docs.bzx.network/" class="button button-primary button-lg d-flex j-content-center mb-10">Read the docs</a>
         <a href="{{ site.data.social-icons.github.url }}" class="button button-primary button-lg d-flex j-content-center mb-10">GitHub</a>
