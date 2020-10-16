@@ -12,7 +12,7 @@ W're excited to host our next community call that will happen on Friday, October
 
 ## Agenda for Community Call # 7:
 
-- Change in Interest Rates on Fulcrum and Torque
+- Change in interest rates on Fulcrum and Torque
 - Yield farming program updates
 - Governance/Staking module progress
 - Our security rating (via [DeFiSafety](https://defisafety.com/bzx-v2-process-quality-review/))
