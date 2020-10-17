@@ -2,7 +2,7 @@
 layout: post
 title:  "bZx Community Call # 7"
 date:   2020-10-16 03:50:46 -0700
-cover: /images/community call-6.png
+cover: /images/blog/bzx community call-7.png
 author: Gandhi
 metadescription: "On Friday, October 16th, we're hosting our next Community Call."
 intro: "On Friday, October 16th, we're hosting our next Community Call."
