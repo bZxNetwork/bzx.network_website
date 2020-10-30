@@ -1,0 +1,97 @@
+<div class="container container-xl">
+
+    <div class="buttons-tabs-itokens">
+        <button class="tablinks-itokens active" data-itokens="itokens-mainnet">Mainnet</button>
+        <button class="tablinks-itokens" data-itokens="itokens-kovan">Kovan</button>
+    </div>
+    <div id="itokens-mainnet" class="tabcontent-itokens active">
+        <table class="table-itokens">
+            <thead>
+                <tr>
+                    <td class="thead-ticker">Ticker</td>
+                    <td class="thead-address">Address</td>
+                    <td class="thead-description">Description</td>
+                    <td class="thead-abi">ABI</td>
+                    <td class="thead-icon">Icon</td>
+                </tr>
+            </thead>
+            <tbody>
+                {% for mainnet in site.data.itokens[0].mainnet %}
+                <tr>
+                    <td class="ticker">{{mainnet.ticker}}</td>
+                    <td class="address"><a href="https://etherscan.io/address/{{ mainnet.address }}"
+                            target="_blank" rel="noopener noreferrer">{{mainnet.address}}</a></td>
+                    <td class="description">{{mainnet.description}}</td>
+                    <td class="abi"> <a href="{{mainnet.abi}}" target="_blank" rel="noopener noreferrer">ABI</a></td>
+                    <td class="icon">
+                        <div class="itoken-gradient">
+                            <div class="itoken-white">{% include svg/itokens/{{mainnet.ticker}}.svg %}</div>
+                        </div>
+                    </td>
+                </tr>
+                {% endfor %}
+                {% for mainnet in site.data.itokens[0].mainnetprotocoldetails %}
+                <tr>
+                    <td class="ticker">{{mainnet.ticker}}</td>
+                    <td class="address"><a href="https://etherscan.io/address/{{ mainnet.address }}"
+                            target="_blank" rel="noopener noreferrer">{{mainnet.address}}</a></td>
+                    <td class="description">{{mainnet.description}}</td>
+                    <td class="abi"><a href="{{mainnet.abi}}" target=" _blank" rel="noopener noreferrer">ABI</a></td>
+                    <td class="icon">
+                        <div class="itoken-gradient">
+                            <div class="itoken-white">
+                                <div class="svg-gradient">{% include svg/BZRX.svg %}</div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <div id="itokens-kovan" class="tabcontent-itokens">
+        <table class="table-itokens">
+            <thead>
+                <tr>
+                    <td class="thead-ticker">Ticker</td>
+                    <td class="thead-address">Address</td>
+                    <td class="thead-description">Description</td>
+                    <td class="thead-abi">ABI</td>
+                    <td class="thead-icon">Icon</td>
+                </tr>
+            </thead>
+            <tbody>
+                {% for kovan in site.data.itokens[1].kovan %}
+                <tr>
+                    <td class="ticker">{{kovan.ticker}}</td>
+                    <td class="address"><a href="https://kovan.etherscan.io/address/{{ kovan.address }}"
+                            target="_blank" rel="noopener noreferrer">{{kovan.address}}</a></td>
+                    <td class="description">{{kovan.description}}</td>
+                    <td class="abi"><a href="{{kovan.abi}}" target="_blank" rel="noopener noreferrer">ABI</a></td>
+                    <td class="icon">
+                        <div class="itoken-gradient">
+                            <div class="itoken-white">{% include svg/itokens/{{kovan.ticker}}.svg %}</div>
+                        </div>
+                    </td>
+                </tr>
+                {% endfor %}
+                {% for kovan in site.data.itokens[1].kovanprotocoldetails %}
+                <tr>
+                    <td class="ticker">{{kovan.ticker}}</td>
+                    <td class="address"><a href="https://kovan.etherscan.io/address/{{ kovan.address }}"
+                            target="_blank" rel="noopener noreferrer">{{kovan.address}}</a></td>
+                    <td class="description">{{kovan.description}}</td>
+                    <td class="abi"><a href="{{kovan.abi}}" target="_blank" rel="noopener noreferrer">ABI</a></td>
+                    <td class="icon">
+                        <div class="itoken-gradient">
+                            <div class="itoken-white">
+                                <div class="svg-gradient">{% include svg/BZRX.svg %}</div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>

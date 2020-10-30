@@ -3,143 +3,170 @@
         "mainnet": [
             {
                 "description": "ETH iToken",
-                "address": "0xb983e01458529665007ff7e0cddecdb74b967eb6",
+                "address": "0xB983E01458529665007fF7E0CDdeCDB74B967Eb6",
+                "abi": "/abi/iToken.json",
                 "ticker": "iETH"
             },
             {
                 "description": "MKR iToken",
-                "address": "0x9189c499727f88f8ecc7dc4eea22c828e6aac015",
+                "address": "0x9189c499727f88F8eCC7dC4EEA22c828E6AaC015",
+                "abi": "/abi/iToken.json",
                 "ticker": "iMKR"
             },
             {
                 "description": "DAI iToken",
-                "address": "0x6b093998d36f2c7f0cc359441fbb24cc629d5ff0",
+                "address": "0x6b093998D36f2C7F0cc359441FBB24CC629D5FF0",
+                "abi": "/abi/iToken.json",
                 "ticker": "iDAI"
             },
             {
                 "description": "USDC iToken",
-                "address": "0x32e4c68b3a4a813b710595aeba7f6b7604ab9c15",
+                "address": "0x32E4c68B3A4a813b710595AebA7f6B7604Ab9c15",
+                "abi": "/abi/iToken.json",
                 "ticker": "iUSDC"
             },
             {
                 "description": "USDT iToken",
-                "address": "0x7e9997a38a439b2be7ed9c9c4628391d3e055d48",
+                "address": "0x7e9997a38A439b2be7ed9c9C4628391d3e055D48",
+                "abi": "/abi/iToken.json",
                 "ticker": "iUSDT"
             },
             {
                 "description": "YFI iToken",
-                "address": "0x7f3fe9d492a9a60aebb06d82cba23c6f32cad10b",
+                "address": "0x7F3Fe9D492A9a60aEBb06d82cBa23c6F32CAd10b",
+                "abi": "/abi/iToken.json",
                 "ticker": "iYFI"
             },
             {
                 "description": "WBTC iToken",
-                "address": "0x2ffa85f655752fb2acb210287c60b9ef335f5b6e",
+                "address": "0x2ffa85f655752fB2aCB210287c60b9ef335f5b6E",
+                "abi": "/abi/iToken.json",
                 "ticker": "iWBTC"
             },
             {
                 "description": "LINK iToken",
-                "address": "0x463538705e7d22aa7f03ebf8ab09b067e1001b54",
+                "address": "0x463538705E7d22aA7f03Ebf8ab09B067e1001B54",
+                "abi": "/abi/iToken.json",
                 "ticker": "iLINK"
             },
             {
                 "description": "LEND iToken",
-                "address": "0xab45bf58c6482b87da85d6688c4d9640e093be98",
+                "address": "0xaB45Bf58c6482b87DA85D6688C4d9640E093BE98",
+                "abi": "/abi/iToken.json",
                 "ticker": "iLEND"
             },
             {
                 "description": "BZRX iToken",
-                "address": "0x18240bd9c07fa6156ce3f3f61921cc82b2619157",
+                "address": "0x18240BD9C07fA6156Ce3F3f61921cC82b2619157",
+                "abi": "/abi/iToken.json",
                 "ticker": "iBZRX"
             },
             {
                 "description": "KNC iToken",
-                "address": "0x687642347a9282be8fd809d8309910a3f984ac5a",
+                "address": "0x687642347a9282Be8FD809d8309910A3f984Ac5a",
+                "abi": "/abi/iToken.json",
                 "ticker": "iKNC"
             }
         ],
         "mainnetprotocoldetails": [
             {
                 "description": "bZx Protocol",
-                "address": "0xd8ee69652e4e4838f2531732a46d1f7f584f0b7f",
+                "address": "0xD8Ee69652E4e4838f2531732a46d1f7F584F0b7f",
+                "abi": "/abi/bZxProtocol.json",
                 "ticker": ""
             },
             {
                 "description": "BZRX token",
                 "address": "0x56d811088235F11C8920698a204A5010a788f4b3",
+                "abi": "/abi/BZRXToken.json",
                 "ticker": "BZRX"
             },
             {
                 "description": "vBZRX token",
                 "address": "0xB72B31907C1C95F3650b64b2469e08EdACeE5e8F",
+                "abi": "/abi/BZRXVestingToken.json",
                 "ticker": "vBZRX"
             },
             {
                 "description": "Staking",
                 "address": "0x576773CD0B51294997Ec4E4ff96c93d5E3AE9038",
+                "abi": "/abi/Staking.json",
                 "ticker": ""
             }
         ]
     },
     {
-        "kovan" : [
+        "kovan": [
             {
                 "description": "Fulcrum fWETH iToken",
                 "address": "0x9D2015Dd5306C08bDd8530605137d26c04DEDBD8",
+                "abi": "/abi/iToken.json",
                 "ticker": "ifWETH"
             },
             {
                 "description": "Fulcrum USDC iToken",
                 "address": "0xaaC9822F31e5Aefb32bC228DcF259F23B49B9855",
+                "abi": "/abi/iToken.json",
                 "ticker": "iUSDC"
             },
             {
                 "description": "Fulcrum WBTC iToken",
                 "address": "0x73D4b4AB88Eab2A1e6cE495dE85C2B04c2918B69",
+                "abi": "/abi/iToken.json",
                 "ticker": "iWBTC"
             },
             {
                 "description": "Fulcrum MKR iToken",
                 "address": "0x3e72500122C3afD64AfE0306D7fbc7b8bd82b7d2",
+                "abi": "/abi/iToken.json",
                 "ticker": "iMKR"
             },
             {
                 "description": "Fulcrum KNC iToken",
                 "address": "0xdE7a60c3581F0D8C8723a71c28579131984A410c",
+                "abi": "/abi/iToken.json",
                 "ticker": "iKNC"
             },
             {
                 "description": "Fulcrum REP iToken",
                 "address": "0x8638B468BF02BDB8fc8C5b33dCA8c2D16c3fD67B",
+                "abi": "/abi/iToken.json",
                 "ticker": "iREP"
             },
             {
                 "description": "Fulcrum BAT iToken",
                 "address": "0xb59659564012fA337BB8b9E626b7964b5349f047",
+                "abi": "/abi/iToken.json",
                 "ticker": "iBAT"
             },
             {
                 "description": "Fulcrum iZRX iToken",
                 "address": "0xbac711d9963F0DB23613F3C338A7a1aF151C0696",
+                "abi": "/abi/iToken.json",
                 "ticker": "iZRX"
             },
             {
                 "description": "Fulcrum LINK iToken",
                 "address": "0x76754C763A23e9202CC721584Fbaf6012ecd8FbA",
+                "abi": "/abi/iToken.json",
                 "ticker": "iLINK"
             },
             {
                 "description": "Fulcrum SUSD iToken",
                 "address": "0x1CAc31ECC90912EEa18cCAdfab15fD9c0e77cbab",
+                "abi": "/abi/iToken.json",
                 "ticker": "iSUSD"
             },
             {
                 "description": "Fulcrum DAI iToken",
                 "address": "0x73d0B4834Ba4ADa053d8282c02305eCdAC2304f0",
+                "abi": "/abi/iToken.json",
                 "ticker": "iDAI"
             },
             {
                 "description": "Fulcrum USDT iToken",
                 "address": "0x6b9F03e05423cC8D00617497890C0872FF33d4E8",
+                "abi": "/abi/iToken.json",
                 "ticker": "iUSDT"
             }
         ],
@@ -147,21 +174,25 @@
             {
                 "description": "bZx Protocol",
                 "address": "0xAbd9372723C735D426D0a760D047206Fe115ee6d",
+                "abi": "/abi/bZxProtocol.json",
                 "ticker": ""
             },
             {
                 "description": "BZRX token",
                 "address": "0xB54Fc2F2ea17d798Ad5C7Aba2491055BCeb7C6b2",
+                "abi": "/abi/BZRXToken.json",
                 "ticker": "BZRX"
             },
             {
                 "description": "vBZRX token",
                 "address": "0x6F8304039f34fd6A6acDd511988DCf5f62128a32",
+                "abi": "/abi/BZRXVestingToken.json",
                 "ticker": "vBZRX"
             },
             {
                 "description": "Staking",
                 "address": "0xe5E888586Da6B5D05071ff387c646Ce6F907b293",
+                "abi": "/abi/Staking.json",
                 "ticker": ""
             }
         ]
