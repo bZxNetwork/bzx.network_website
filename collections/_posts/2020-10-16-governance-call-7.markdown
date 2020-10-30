@@ -8,7 +8,7 @@ metadescription: "On Friday, October 16th, we're hosting our next Community Call
 intro: "On Friday, October 16th, we're hosting our next Community Call."
 ---
 
-W're excited to host our next community call that will happen on Friday, October 16th at 11am PST/2pm EST (18:00 UTC)
+We're excited to host our next community call that will happen on Friday, October 16th at 11am PST/2pm EST (18:00 UTC)
 
 ## Agenda for Community Call # 7:
 
