@@ -17,7 +17,7 @@ The next community call will happen on Friday, October 30th at 11am PST/2pm EST 
 - Update on the rewards program
 - Tech update
 - Flash Loans walkthrough
-- Guest — [DeFiDad](https://twitter.com/DeFi_Dad) from [Zapper])(https://zapper.fi/)
+- Guest — [DeFiDad](https://twitter.com/DeFi_Dad) from [Zapper](https://zapper.fi/)
 
 
 This community call will be recorded and uploaded to Youtube for you to watch at your own convenience. You can check the previous community call [here](https://youtu.be/rKBK_xfy3ro). Subscribe to our [YouTube](https://www.youtube.com/channel/UCc9PZUDy2IMs5j0DcOq3egQ) channel to get notified as we make the calls live.
