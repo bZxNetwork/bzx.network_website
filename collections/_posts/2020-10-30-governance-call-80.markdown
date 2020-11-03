@@ -38,7 +38,7 @@ Today, we're starting with our first bi-weekly dev update. These updates will co
 
 
 
-On the community call that concluded on Friday, Oct 30th, Roman from our team also explained about Flash Loans. You can check the sample mentioned on the call [here](https://github.com/bZxNetwork/flashloan-sample).
+On the [community call that concluded on Friday, Oct 30th](https://youtu.be/1lOSOoEdg-Q), Roman from our team also explained about Flash Loans. You can check the sample mentioned on the call [here](https://github.com/bZxNetwork/flashloan-sample).
 
 Apart from the above updates, we've also made several tweaks and improvements under the hood to make the experience smoother.
 
