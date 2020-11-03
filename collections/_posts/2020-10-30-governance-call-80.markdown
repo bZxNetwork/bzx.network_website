@@ -10,7 +10,7 @@ intro: "We're excited to share our first bZx bi-weekly dev update. Follow us for
 
 We're always working on making the protocol better and more stable. As we work on these updates, we would love to share the information with the community.
 
-Today, we're starting with our first bi-weekly dev update. The update will consist of the latest information, releases, and insights from the dev team at bZx.
+Today, we're starting with our first bi-weekly dev update. These updates will consist of the latest information, releases, and insights from the dev team at bZx.
 
 
 ## Updates:
