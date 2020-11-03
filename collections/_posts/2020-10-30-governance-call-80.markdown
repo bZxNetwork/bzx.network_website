@@ -18,7 +18,7 @@ Today, we're starting with our first bi-weekly dev update. The update will consi
 
 1. **Explorer Liquidations Page**
 
-    We've improved on the page loading speed for the [explorer page](https://explorer.bzx.network/), Fulcrum stats page(https://app.fulcrum.trade/stats), and the [Fulcrum trade page](https://app.fulcrum.trade/trade).
+    We've improved on the page loading speed for the [explorer page](https://explorer.bzx.network/), [Fulcrum stats page](https://app.fulcrum.trade/stats), and the [Fulcrum trade page](https://app.fulcrum.trade/trade).
 
 2. **Initial Collateralization Percentage**
 
