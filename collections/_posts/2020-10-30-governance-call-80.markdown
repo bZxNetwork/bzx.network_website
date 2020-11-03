@@ -16,15 +16,13 @@ Today, we're starting with our first bi-weekly dev update. The update will consi
 ## Updates:
 
 
-
-
 1. **Explorer Liquidations Page**
 
-    We've improved on the page loading speed for the explorer page, Fulcrum stats page, and the Fulcrum trade page.
+    We've improved on the page loading speed for the [explorer page](https://explorer.bzx.network/), Fulcrum stats page(https://app.fulcrum.trade/stats), and the [Fulcrum trade page](https://app.fulcrum.trade/trade).
 
 2. **Initial Collateralization Percentage**
 
-    For borrowing on Torque you can now choose the initial collateralization percentage. 
+    For borrowing on [Torque](https://torque.loans/) you can now choose the initial collateralization percentage.
 
 3. **CHI Token support for the Explorer**
 
@@ -42,7 +40,7 @@ Today, we're starting with our first bi-weekly dev update. The update will consi
 
 On the community call that concluded on Friday, Oct 30th, Roman from our team also explained about Flash Loans. You can check the sample mentioned on the call [here](https://github.com/bZxNetwork/flashloan-sample).
 
-Apart from the above updates, we've also made several tweaks and improvements under the hood to make the experience even smoother.
+Apart from the above updates, we've also made several tweaks and improvements under the hood to make the experience smoother.
 
 You can also follow us on [GitHub](http://github.com/bZxNetwork). Pull requests and ideas are always welcome!
 
