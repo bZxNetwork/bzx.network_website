@@ -15,16 +15,29 @@ Today, we're starting with our first bi-weekly dev update. The update will consi
 
 ## Updates:
 
-*1. Explorer Liquidations Page*
-We've improved on the page loading speed for the explorer page, Fulcrum stats page, and the Fulcrum trade page.
-*2. Initial Collateralization Percentage*
-You can now choose the initial collateralization percentage for borrowing on Torque.
-*3. CHI Token support for Explorer*
-You can use the gas token when you want to liquidate the loan. We've also added a transaction indicator for liquidations.
-*4. AAVE and UNI tokens*
-You can now use the newly listed tokens on Fulcrum and Torque for trading, lending, and borrowing.
-*5. Fulcrum Price Formula Update*
-We updated the price formula for Fulcrum based on the maintenance margin/liquidity.
+
+
+
+1. **Explorer Liquidations Page**
+
+    We've improved on the page loading speed for the explorer page, Fulcrum stats page, and the Fulcrum trade page.
+
+2. **Initial Collateralization Percentage**
+
+    For borrowing on Torque you can now choose the initial collateralization percentage. 
+
+3. **CHI Token support for the Explorer**
+
+    You can use the gas token when you want to liquidate the loan. We've also added a transaction indicator for liquidations.
+
+4. **AAVE and UNI tokens**
+
+    You can now use the newly listed tokens on Fulcrum and Torque for trading, lending, and borrowing.
+
+5. **Fulcrum Price Formula Update**
+
+    We updated the price formula for Fulcrum based on the maintenance margin/liquidity.
+
 
 
 On the community call that concluded on Friday, Oct 30th, Roman from our team also explained about Flash Loans. You can check the sample mentioned on the call [here](https://github.com/bZxNetwork/flashloan-sample).
