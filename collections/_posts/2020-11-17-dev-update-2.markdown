@@ -33,7 +33,7 @@ We've been hard at work on building some of the key aspects of the protocol to m
     We fixed the default initial collateralization on Torque Borrow. For example when you change collateral to BZRX, the default collateralization will be 280% instead of 150% for the most of assets.
 
 
-Apart from the above updates, we've also made worked on smaller bug fixes and improvements along with minor stability issues.
+Apart from the above updates, we've also worked on smaller bug fixes and improvements along with minor stability issues.
 
 You can also follow us on [GitHub](http://github.com/bZxNetwork). Pull requests and ideas are always welcome!
 
