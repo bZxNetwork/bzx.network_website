@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "bZx bi-weekly Dev Update # 2"
+date:   2020-11-17 08:45:46 -0700
+cover: /images/blog/Dev Update 2.jpg
+author: Bean
+metadescription: "We're happy to share the dev update for what we've worked in the past two weeks."
+intro: "We've been hard at work on building some of the key aspects of the protocol to make sure everything is running as smooth as possible."
+---
+
+We've been hard at work on building some of the key aspects of the protocol to make sure everything is running as smooth as possible. It is important to us to invest in making sure your experience with our products is better.
+
+
+## Updates:
+1. **Fully refactored Lend page**
+
+    This will no longer experience issues with not loaded positions and lents. The experience now is much faster and the UX is updated with new animation render flow.
+
+2. **Liquidation Form for the Explorer**
+
+All users now have the ability to liquidate loans partially if they want.
+
+3. **Updated Tabs Interface for the Trade page**
+
+    We have an updated tabs interface on the Fulcrum Trade page. You can easily switch back to charts by clicking the appropriate tab. And we are now storing the latest active pair so you can always enter your opened position pair immediately.
+
+4. **Tooltips**
+
+    We will be adding tooltips everywhere as an integrated FAQ. This will allow users to know more about what they are doing while using the product. The first tooltip is for the Mid. Market Price. We are going to add some for Profit, Liquidity Price, Trade Price, and other fields to make these metrics/values clearer for the users.
+
+5. **Initial collateralization on Torque**
+
+    We fixed the default initial collateralization on Torque Borrow. For example when you change collateral to BZRX, the default collateralization will be 280% instead of 150% for the most of assets.
+
+
+Apart from the above updates, we've also made worked on smaller bug fixes and improvements along with minor stability issues.
+
+You can also follow us on [GitHub](http://github.com/bZxNetwork). Pull requests and ideas are always welcome!
+
+As always, please feel free to connect with the team via [Telegram](https://t.me/b0xNet) or [Discord](https://discord.com/invite/DKEq6FV). Check out our [Help Center](https://help.bzx.network/en/) to answer all of your questions about bZx, Fulcrum, and Torque.
