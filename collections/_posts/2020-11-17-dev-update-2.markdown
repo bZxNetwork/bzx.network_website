@@ -8,7 +8,7 @@ metadescription: "We're happy to share the dev update for what we've worked in t
 intro: "We've been hard at work on building some of the key aspects of the protocol to make sure everything is running as smooth as possible."
 ---
 
-We've been hard at work on building some of the key aspects of the protocol to make sure everything is running as smooth as possible. It is important to us to invest in making sure your experience with our products is better.
+We've been hard at work on building some of the key aspects of the protocol to make sure everything is running as smooth as possible. It is important for us to invest in making sure your experience with the products is better.
 
 
 ## Updates:
