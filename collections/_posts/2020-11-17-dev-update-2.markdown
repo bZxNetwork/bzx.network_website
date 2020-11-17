@@ -18,7 +18,7 @@ We've been hard at work on building some of the key aspects of the protocol to m
 
 2. **Liquidation Form for the Explorer**
 
-All users now have the ability to liquidate loans partially if they want.
+    All users now have the ability to liquidate loans partially if they want.
 
 3. **Updated Tabs Interface for the Trade page**
 
