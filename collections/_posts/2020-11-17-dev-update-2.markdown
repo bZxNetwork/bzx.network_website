@@ -15,10 +15,13 @@ We've been hard at work on building some of the key aspects of the protocol to m
 1. **Fully refactored Lend page**
 
     Users should no longer experience issues with positions and lents being loaded. The experience now is much faster and the UX is updated with new animation render flow.
+
 2. **Profit Calculations**
+
     We got a few users reporting about the profit calculations not working properly. This issue has now been fixed.
 
 3. **Slippage Indicator**
+
     Users can now see a slippage rate indicator on Fulcrum Trade.
 
 4. **Liquidation form for the Explorer**
