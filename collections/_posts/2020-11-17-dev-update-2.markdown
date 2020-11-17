@@ -14,7 +14,7 @@ We've been hard at work on building some of the key aspects of the protocol to m
 ## Updates:
 1. **Fully refactored Lend page**
 
-    This will no longer experience issues with not loaded positions and lents. The experience now is much faster and the UX is updated with new animation render flow.
+    Users should no longer experience issues with positions and lents being loaded. The experience now is much faster and the UX is updated with new animation render flow.
 
 2. **Liquidation Form for the Explorer**
 
