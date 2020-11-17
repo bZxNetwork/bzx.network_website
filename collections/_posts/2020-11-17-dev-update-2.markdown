@@ -15,25 +15,31 @@ We've been hard at work on building some of the key aspects of the protocol to m
 1. **Fully refactored Lend page**
 
     Users should no longer experience issues with positions and lents being loaded. The experience now is much faster and the UX is updated with new animation render flow.
+2. **Profit Calculations**
+    We got a few users reporting about the profit calculations not working properly. This issue has now been fixed.
 
-2. **Liquidation form for the Explorer**
+3. **Slippage Indicator**
+    Users can now see a slippage rate indicator on Fulcrum Trade.
+
+4. **Liquidation form for the Explorer**
 
     All users now have the ability to liquidate loans partially if they want. Previously, they could liquidate only 100% of the loan's `maxLiquidatable` property.
 
-3. **Updated Tabs Interface for the Trade page**
+5. **Updated Tabs Interface for the Trade page**
 
     We have an updated tabs interface on the Fulcrum Trade page. You can easily switch back to charts by clicking the appropriate tab. And we are now storing the latest active pair so you can always enter your opened position pair immediately.
 
-4. **Tooltips**
+6. **Tooltips**
 
     We will be adding tooltips everywhere as an integrated FAQ. This will allow users to know more about what they are doing while using the product. The first tooltip is for the Mid. Market Price. We are going to add some for Profit, Liquidity Price, Trade Price, and other fields to make these metrics/values clearer for the users.
 
-5. **Initial collateralization on Torque**
+7. **Initial collateralization on Torque**
 
     We fixed the default initial collateralization on Torque Borrow. For example when you change collateral to BZRX, the default collateralization will be 280% instead of 150% for the most of assets.
 
 
-Apart from the above updates, we've also worked on smaller bug fixes and improvements along with minor stability issues.
+
+Apart from the above updates, we've also worked on smaller bug fixes and performance improvements along with minor stability issues.
 
 You can also follow us on [GitHub](http://github.com/bZxNetwork). Pull requests and ideas are always welcome!
 
