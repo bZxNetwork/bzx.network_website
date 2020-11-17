@@ -16,9 +16,9 @@ We've been hard at work on building some of the key aspects of the protocol to m
 
     Users should no longer experience issues with positions and lents being loaded. The experience now is much faster and the UX is updated with new animation render flow.
 
-2. **Liquidation Form for the Explorer**
+2. **Liquidation form for the Explorer**
 
-    All users now have the ability to liquidate loans partially if they want.
+    All users now have the ability to liquidate loans partially if they want. Previously, they could liquidate only 100% of the loan's `maxLiquidatable` property.
 
 3. **Updated Tabs Interface for the Trade page**
 
