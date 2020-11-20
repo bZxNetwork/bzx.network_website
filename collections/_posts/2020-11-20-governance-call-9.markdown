@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "bZx Community Call # 8"
+title:  "bZx Community Call # 9"
 date:   2020-11-20 03:45:46 -0700
 cover: /images/blog/bzx community call-9.png
 author: Gandhi
