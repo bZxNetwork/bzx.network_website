@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "bZx bi-weekly Dev Update # 2"
+title:  "bZx Biweekly Dev Update # 2"
 date:   2020-11-17 08:45:46 -0700
-cover: /images/blog/Dev Update 2.jpg
+cover: /images/blog/Dev update2.jpg
 author: Bean
 metadescription: "We're happy to share the dev update for what we've worked in the past two weeks."
 intro: "We've been hard at work on building some of the key aspects of the protocol to make sure everything is running as smooth as possible."
