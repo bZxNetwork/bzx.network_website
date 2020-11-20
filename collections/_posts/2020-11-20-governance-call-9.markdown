@@ -8,8 +8,9 @@ metadescription: "On Friday, Nov 30th, we're hosting our next Community Call."
 intro: "On Friday, Nov 30th, we're hosting our next Community Call."
 ---
 
-Last week [we missed the doing the governance call](https://twitter.com/bZxHQ/status/1327288982401474562) but we're back and are excited to host it this week on Friday, November 20, 2020, at 9 am PST/12 pm EST (17:00 UTC)
+Last week [we missed doing the governance call](https://twitter.com/bZxHQ/status/1327288982401474562) but we're back this week and are excited to host it for you! We will keep following the regular biweekly pattern for the community calls starting this week.
 
+The call will happen on Friday, November 20, 2020, at 9 am PST/12 pm EST (17:00 UTC)
 
 ## Agenda for Community Call # 9:
 
