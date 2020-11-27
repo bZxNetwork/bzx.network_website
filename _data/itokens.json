@@ -69,13 +69,13 @@
       },
       {
         "description": "COMP iToken",
-        "address": "",
+        "address": "0x6d29903BC2c4318b59B35d97Ab98ab9eC08Ed70D",
         "abi": "/abi/iToken.json",
         "ticker": "iCOMP"
       },
       {
         "description": "LRC iToken",
-        "address": "",
+        "address": "0x3dA0e01472Dee3746b4D324a65D7EdFaECa9Aa4f",
         "abi": "/abi/iToken.json",
         "ticker": "iLRC"
       }
