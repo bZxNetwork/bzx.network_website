@@ -139,6 +139,32 @@
         "abi": "/abi/iToken.json",
         "ticker": "iWBTC"
       }
+    ],
+    "kovanprotocoldetails": [
+      {
+        "description": "bZx Protocol",
+        "address": "0xAbd9372723C735D426D0a760D047206Fe115ee6d",
+        "abi": "/abi/bZxProtocol.json",
+        "ticker": ""
+      },
+      {
+        "description": "BZRX token",
+        "address": "0xB54Fc2F2ea17d798Ad5C7Aba2491055BCeb7C6b2",
+        "abi": "/abi/BZRXToken.json",
+        "ticker": "BZRX"
+      },
+      {
+        "description": "vBZRX token",
+        "address": "0x6F8304039f34fd6A6acDd511988DCf5f62128a32",
+        "abi": "/abi/BZRXVestingToken.json",
+        "ticker": "vBZRX"
+      },
+      {
+        "description": "Staking",
+        "address": "0xe5E888586Da6B5D05071ff387c646Ce6F907b293",
+        "abi": "/abi/Staking.json",
+        "ticker": ""
+      }
     ]
   }
 ]
