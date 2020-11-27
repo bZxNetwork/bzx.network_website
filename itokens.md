@@ -23,6 +23,8 @@ h1title: What are iTokens?
           <div class="itoken-wrapper"><div class="itoken-gradient"><div class="itoken-white">{% include svg/itokens/iLEND.svg %}</div></div></div>
           <div class="itoken-wrapper"><div class="itoken-gradient"><div class="itoken-white">{% include svg/itokens/iBZRX.svg %}</div></div></div>
           <div class="itoken-wrapper"><div class="itoken-gradient"><div class="itoken-white">{% include svg/itokens/iKNC.svg %}</div></div></div>
+          <div class="itoken-wrapper"><div class="itoken-gradient"><div class="itoken-white">{% include svg/itokens/iAAVE.svg %}</div></div></div>
+          <div class="itoken-wrapper"><div class="itoken-gradient"><div class="itoken-white">{% include svg/itokens/iUNI.svg %}</div></div></div>
           <div class="itoken-wrapper"><div class="itoken-gradient"><div class="itoken-white">{% include svg/itokens/iCOMP.svg %}</div></div></div>
           <div class="itoken-wrapper"><div class="itoken-gradient"><div class="itoken-white">{% include svg/itokens/iLRC.svg %}</div></div></div>
       </div>

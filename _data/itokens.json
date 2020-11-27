@@ -68,6 +68,18 @@
         "ticker": "iKNC"
       },
       {
+        "description": "AAVE iToken",
+        "address": "0x0cae8d91E0b1b7Bd00D906E990C3625b2c220db1",
+        "abi": "/abi/iToken.json",
+        "ticker": "iAAVE"
+      },
+      {
+        "description": "UNI iToken",
+        "address": "0x0a625FceC657053Fe2D9FFFdeb1DBb4e412Cf8A8",
+        "abi": "/abi/iToken.json",
+        "ticker": "iUNI"
+      },
+      {
         "description": "COMP iToken",
         "address": "0x6d29903BC2c4318b59B35d97Ab98ab9eC08Ed70D",
         "abi": "/abi/iToken.json",
