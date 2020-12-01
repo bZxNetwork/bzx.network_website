@@ -5,7 +5,7 @@ date:   2020-12-01 06:45:46 -0700
 cover: /images/blog/Dev Update 3.jpg
 author: Bean
 metadescription: "We're almost closing in on 2020, but still a handful of new product updates and improvements are being added to the protocol."
-intro: "We're almost closing in on 2020, but still a handful of new product updates and improvements are being added to the protocol. Here’s a look at all the new and improved features that released in the last two weeks."
+intro: "We're almost closing in on 2020, but still a handful of new product updates and improvements are being added to the protocol."
 ---
 
 We're almost closing in on 2020, but still a handful of new product updates and improvements are being added to the protocol. Here’s a look at all the new and improved features that we released in the last two weeks.
@@ -19,7 +19,7 @@ We're almost closing in on 2020, but still a handful of new product updates and 
 
 2. **PR reviews update**
 
-    When it comes to pull-requests, we now have more eyes available to do code reviews on the frontend. You can now expect us to work on the PRs with a better process in place helping us improve the overall user-experience more efficiently. 
+    When it comes to pull-requests, we now have more eyes available to do code reviews on the frontend. You can now expect us to work on the PRs with a better process in place helping us improve the overall user-experience more efficiently.
 
 3. **Indicator for insufficient token balance**
 
