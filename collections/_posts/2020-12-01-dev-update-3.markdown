@@ -1,0 +1,46 @@
+---
+layout: post
+title:  "bZx Biweekly Dev Update # 3"
+date:   2020-12-01 06:45:46 -0700
+cover: /images/blog/Dev Update 3.jpg
+author: Bean
+metadescription: "We're almost closing in on 2020, but still a handful of new product updates and improvements are being added to the protocol."
+intro: "We're almost closing in on 2020, but still a handful of new product updates and improvements are being added to the protocol. Here’s a look at all the new and improved features that released in the last two weeks."
+---
+
+We're almost closing in on 2020, but still a handful of new product updates and improvements are being added to the protocol. Here’s a look at all the new and improved features that released in the last two weeks.
+
+
+## Updates:
+
+1. **LRC and COMP tokens**
+
+    You can now use the newly listed tokens -- LRC and COMP on Fulcrum and Torque for trading, lending, and borrowing.
+
+2. **PR reviews update**
+
+    When it comes to pull-requests, we now have more eyes available to do code reviews in the frontend. You can now expect  increased quality and less bugs on the platform.
+
+3. **Indicator for insufficient token balance**
+
+    As a user, you will now be getting a message indicator on the liquidation form for insufficient wallet balance. The message will now save time for the user.
+
+5. **Updated ‘manage positions’ tab**
+
+    We have updated the manage positions tab by adding headers to each position row to show which token denomination has the value.
+
+6. **vBZRX Count in TVL**
+
+    The total value locked (TVL) calculations previously on the explore page did not show the count of the vBZRX tokens. We have updated the calculations for you to see the correct TVL in the protocol. The values on our [explorer](http://explorer.bzx.network/) and [Defipulse](https://defipulse.com/bzx) now match.
+
+7. **Rollovers on Fulcrum and Torque**
+
+    We have now added rollovers on Fulcrum and Torque. Instead of liquidating the loan, the users will be able to rollover the loans to new loans on. (This update will be deployed soon).
+
+
+
+We have also worked on minor bug fixes and overall performance improvements to ensure seamless experience across the protocol.
+
+You can also follow us on [GitHub](http://github.com/bZxNetwork). Pull requests and ideas are always welcome!
+
+As always, please feel free to connect with the team via [Telegram](https://t.me/b0xNet) or [Discord](https://discord.com/invite/DKEq6FV). Check out our [Help Center](https://help.bzx.network/en/) to answer all of your questions about bZx, Fulcrum, and Torque.
