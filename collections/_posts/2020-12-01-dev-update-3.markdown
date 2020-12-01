@@ -4,8 +4,8 @@ title:  "bZx Biweekly Dev Update # 3"
 date:   2020-12-01 06:45:46 -0700
 cover: /images/blog/Dev Update 3.jpg
 author: Bean
-metadescription: "We're almost closing in on 2020, but still a handful of new product updates and improvements are being added to the protocol."
-intro: "We're almost closing in on 2020, but still a handful of new product updates and improvements are being added to the protocol."
+metadescription: "We're almost closing in on 2021, but still a handful of new product updates and improvements are being added to the protocol."
+intro: "We're almost closing in on 2021, but still a handful of new product updates and improvements are being added to the protocol."
 ---
 
 We're almost closing in on 2021, but still a handful of new product updates and improvements are being added to the protocol. Here’s a look at all the new and improved features that we released in the last two weeks.
