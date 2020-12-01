@@ -54,7 +54,7 @@ Log in to your MetaMask, Fortmatic, or Portis wallet and connect to the Kovan Te
 
 Go to the Etherscan page for Kovan fWETH tokens
 
-[https://kovan.etherscan.io/address/0xe65d99a06d0ded0d318e31db3ae5d77629c625fc#writeContract](https://kovan.etherscan.io/address/0xe65d99a06d0ded0d318e31db3ae5d77629c625fc#writeContract)
+[https://kovan.etherscan.io/address/0xfBE16bA4e8029B759D3c5ef8844124893f3ae470#writeContract](https://kovan.etherscan.io/address/0xfBE16bA4e8029B759D3c5ef8844124893f3ae470#writeContract)
 
 ![](/images/blog/kovan/image7.png)
 
