@@ -8,7 +8,7 @@ metadescription: "We're almost closing in on 2020, but still a handful of new pr
 intro: "We're almost closing in on 2020, but still a handful of new product updates and improvements are being added to the protocol. Here’s a look at all the new and improved features that released in the last two weeks."
 ---
 
-We're almost closing in on 2020, but still a handful of new product updates and improvements are being added to the protocol. Here’s a look at all the new and improved features that released in the last two weeks.
+We're almost closing in on 2020, but still a handful of new product updates and improvements are being added to the protocol. Here’s a look at all the new and improved features that we released in the last two weeks.
 
 
 ## Updates:
@@ -19,7 +19,7 @@ We're almost closing in on 2020, but still a handful of new product updates and 
 
 2. **PR reviews update**
 
-    When it comes to pull-requests, we now have more eyes available to do code reviews in the frontend. You can now expect  increased quality and less bugs on the platform.
+    When it comes to pull-requests, we now have more eyes available to do code reviews on the frontend. You can now expect us to work on the PRs with a better process in place helping us improve the overall user-experience more efficiently. 
 
 3. **Indicator for insufficient token balance**
 
@@ -35,7 +35,7 @@ We're almost closing in on 2020, but still a handful of new product updates and 
 
 7. **Rollovers on Fulcrum and Torque**
 
-    We have now added rollovers on Fulcrum and Torque. Instead of liquidating the loan, the users will be able to rollover the loans to new loans on. (This update will be deployed soon).
+    We have now added rollovers on Fulcrum and Torque. Instead of liquidating the loan, the users will be able to rollover their existing loans to new loans. (This update will be deployed soon).
 
 
 
