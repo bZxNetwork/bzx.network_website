@@ -1,16 +1,16 @@
 ---
 layout: post
-title:  "bZx bi-weekly Dev Update # 1"
+title:  "bZx Biweekly Dev Update # 1"
 date:   2020-11-03 08:45:46 -0700
-cover: /images/blog/Dev Update 1.jpg
+cover: /images/blog/Dev Update1.1.jpg
 author: Bean
-metadescription: "We're excited to share our first bZx bi-weekly dev update."
-intro: "We're excited to share our first bZx bi-weekly dev update. Follow us for all the latest devlopments, releases, and insights from the bZx dev team."
+metadescription: "We're excited to share our first bZx biweekly dev update."
+intro: "We're excited to share our first bZx biweekly dev update. Follow us for all the latest devlopments, releases, and insights from the bZx dev team."
 ---
 
 We're always working on making the protocol better and more stable. As we work on these updates, we would love to share the information with the community.
 
-Today, we're starting with our first bi-weekly dev update. These updates will consist of the latest information, releases, and insights from the dev team at bZx.
+Today, we're starting with our first biweekly dev update. These updates will consist of the latest information, releases, and insights from the dev team at bZx.
 
 
 ## Updates:
