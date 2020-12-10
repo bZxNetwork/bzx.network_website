@@ -13,14 +13,6 @@
     linkedin: https://www.linkedin.com/in/kyleb0x
     mail: kyle@bzx.network
 
--   name: Nick Sawinyh
-    bio: Head of Marketing
-    image: /images/team/nick-sawinyh.jpg
-    info: "Growth focused Product Manager with more than ten years of experience in the software industry, and a proven passion for developing innovative solutions that combine cutting-edge technology with a deep understanding of customers’ needs. Nick has an extensive background in both digital marketing and agile development of customer-facing web apps."
-    github: https://github.com/sneg55
-    linkedin: https://www.linkedin.com/in/sawinyh/
-    mail: nick@bzx.network
-
 -   name: Chris Brennan
     bio: Lead Community Manager
     image: /images/team/chris-brennan.jpg
@@ -50,13 +42,6 @@
     info: "Genka has over a decade of experience in UX / UI design and identity development for digital products, services, and companies. He is diving into business processes, ask the hard questions, and design lightweight interfaces to solve the most complex problems."
     linkedin: https://www.linkedin.com/in/omyshev/
 
--   name: Casey Fallon
-    bio: Senior Designer
-    image: /images/team/casey-fallon.jpg
-    info: "Casey handles branding, design, and production. An illustrator and graphic designer by training, he maintains a consistent brand and strives to promote and communicate what bZx is and does through cutting edge design influenced by both disciplines."
-    linkedin: https://www.linkedin.com/in/cfallondesign
-    mail: casey@bzx.network
-
 -   name: Pratik Gandhi
     bio: Growth Lead
     image: /images/team/pratik_gandhi.jpg
@@ -79,6 +64,14 @@
     github: https://github.com/RomanHiden
     linkedin: https://www.linkedin.com/in/roman-iftodi-2739a3b/
     mail: roman@bzx.network
+
+-   name: Kevin Purnelle
+    bio: "Software Engineer"
+    image: /images/team/kevin.jpg
+    info: "Kevin has over 12 years of experience as a software engineer who builds products from A to Z. He has a particular interest in frontend architectures. He has worked in various industries: education, social platform, infrastructure monitoring, gaming. Recently, Bitcoin, and crypto in general, caught his eye and has built his own portfolio monitoring app and developed a Bitcoin trading tournament game."
+    github: https://github.com/AoDev
+    linkedin: https://www.linkedin.com/in/kevin-purnelle/
+    mail: kevin@bzx.network
 
 -   name: Manish Singh
     bio: "bZx Advisor, CIO at Crossbridge Capital"

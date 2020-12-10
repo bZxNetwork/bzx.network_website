@@ -7,7 +7,7 @@ title: Press about bZx
 h1title: Press about bZx
 ---
 
-For press & media request send us a message at: nick@bzx.network
+For press & media request send us a message at: pratik@bzx.network 
 
 ## Recent Press
 
