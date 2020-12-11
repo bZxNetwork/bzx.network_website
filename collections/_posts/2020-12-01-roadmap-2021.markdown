@@ -10,9 +10,11 @@ intro: "2020 has been a year that many would want to forget but has been somewha
 
 2020 has been a year that many would want to forget but has been somewhat special for us at bZx, especially these last couple of months where we have started putting together the key aspects of our protocol and have also laid down the roadmap that would make us a smoother, more functional and more stable thus improving the user experience and making it more accessible to the community. While the work we are doing is pretty exciting and getting us closer to our vision, we expect 2021 to be an exciting year for us.
 
-**The recent past: what’s kept us busy **
+**The recent past: what’s kept us busy**
 
-The last two months have been really busy for us where we have strived to make the protocol more smoother and friendlier by tying in open loops so the foundation for a formidable roadmap can be set. While we have done some significant updates to improve the user experience and fix certain aspects of the UX for both the Fulcrum and Torque platforms and also fixed up a few pages on them, we have continued to expand our reach and have added AAVE and UNI tokens on both platforms thus enabling trading, lending, and borrowing with them. Intending to improve adoption and educate the customer about the platform, we have integrated tooltips everywhere as an integrated FAQ. This will give the user a chance to know more about what they are doing while using the product thus creating a stickiness among them toward the bZx protocol.
+The last two months have been really busy for us where we have strived to make the protocol more smoother and friendlier by tying in open loops so the foundation for a formidable roadmap can be set. While we have done some significant updates to improve the user experience and fix certain aspects of the UX for both the Fulcrum and Torque platforms and also fixed up a few pages on them, we have continued to expand our reach and have added AAVE and UNI tokens on both platforms thus enabling trading, lending, and borrowing with them.
+
+Intending to improve adoption and educate the customer about the platform, we have integrated tooltips everywhere as an integrated FAQ. This will give the user a chance to know more about what they are doing while using the product thus creating a stickiness among them toward the bZx protocol.
 
 **The near future: roadmap to coming up next for bZx**
 
@@ -44,4 +46,4 @@ Along with the rebrand, we are also keenly looking into gamification but not lim
 
 We’re excited to bring these changes and developments to you and overall enrich your experience of being in a decentralized and tokenized world thus achieving our ultimate vision of tokenizing everything.
 
-s always, please feel free to connect with the team via [Telegram](https://t.me/b0xNet) or [Discord](https://discord.com/invite/DKEq6FV). Check out our [Help Center](https://help.bzx.network/en/) to answer all of your questions about bZx, Fulcrum, and Torque.
+As always, please feel free to connect with the team via [Telegram](https://t.me/b0xNet) or [Discord](https://discord.com/invite/DKEq6FV). Check out our [Help Center](https://help.bzx.network/en/) to answer all of your questions about bZx, Fulcrum, and Torque.
