@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "bZx Roadmap- En Route To “Tokenizing Everything”"
+title:  "En Route To “Tokenizing Everything”"
 date:   2020-12-11 07:34:46 -0700
 cover: /images/blog/Roadmap Banner 2021.png
 author: Gandhi
-metadescription: "bZx Roadmap for 2021"
+metadescription: "bZx Roadmap for 2021: En Route To “Tokenizing Everything”"
 intro: "2020 has been a year that many would want to forget but has been somewhat special for us at bZx."
 ---
 
