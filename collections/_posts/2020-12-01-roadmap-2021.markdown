@@ -8,14 +8,13 @@ metadescription: "bZx Roadmap for 2021: En Route To “Tokenizing Everything”"
 intro: "2020 has been a year that many would want to forget but has been somewhat special for us at bZx."
 ---
 
-2020 has been a year that many would want to forget. Still, it has been somewhat special for us at bZx, especially these last couple of months in which we have begun putting together the key aspects of our protocol. We have also established our roadmap to a smoother, stabler, and more functional protocol with the aim of vastly improving the user experience and making the protocol more accessible to the community. The work we are doing is pretty exciting and is taking us closer to our vision of what bZx should be. We expect 2021 to be an exciting year for us and are glad to have you all along for the ride.
-
+2020 has been a year that many would want to forget. Still, it has been somewhat special for us at bZx, especially these last couple of months in which we have begun putting together the key aspects of our protocol. We have also established our roadmap to a smoother, stabler, and more functional protocol to vastly improve the user experience and make the protocol more accessible to the community. The work we are doing is pretty exciting and is taking us closer to our vision of what bZx should be. We expect 2021 to be an exciting year for us and are glad to have you all along for the ride.
 
 **The recent past: what’s kept us busy**
 
 The last two months have been hectic for us as we strived to make the protocol smoother and friendlier by tying in open loops so the foundation for a formidable roadmap can be set. While we have done some significant updates to improve the user experience and refine aspects of the UX for both the Fulcrum and Torque platforms, we have continued expanding our asset coverage. We have recently added AAVE and UNI on both of our platforms, enabling our users to trade, lend, and borrow them at will. 
 
-To improve adoption and educate users about the platform, we have integrated tooltips at key points through out the UI as an integrated FAQ. This will allow users to learn more about how things work while using the product, thus creating stickiness toward the bZx protocol.
+To improve adoption and educate users about the platform, we have integrated tooltips at key points throughout the UI as an integrated FAQ. This will allow users to familiarize themselves with our product, thus creating stickiness toward the bZx protocol.
 
 **The near future: an upcoming roadmap for bZx**
 
@@ -23,7 +22,7 @@ While our rearview mirror is clean, our windscreen is as clear as ever now as we
 
 
 
-1. **Governance:** While rewarding good governance and providing incentives to stakers is an integral part of the bZx protocol and BZRX tokens, the first step on our way forward is to give our staking module a face lift by implementing a much improved version with more functionality and a smoother UI. This will be a big boost for our governance as it will reduce the friction users experience when attempting to stake and participate in the DAO.
+1. Governance: While rewarding good governance and providing incentives to stakers is an integral part of the bZx protocol and BZRX tokens, the first step on our way forward is to give our staking module a facelift by implementing a much-improved version with more functionality and a smoother UI. This will be a big boost for our governance as it will reduce the friction users experience when attempting to stake and participate in the DAO.
 
 2. **Working on Scripts under Testnet Development:** While we work on new features and releases, we will be making them available on Testnet for the community to experience and share feedback. As the Testnet environment comes with embedded advantages of superior speed and better resilience and infrastructure, creating and working on scripts here would provide the process more agility once the DAO is introduced.
 
