@@ -17,19 +17,19 @@ Here’s a look at some of the work we have done on the dev side in the past two
 
 1. **Rollover grid to explorer**
 
-    We have added the rollover grid to the explorer. With this, users can roll over their loans just like the liquidation.
+    We have added the rollover grid to the explorer page. With this update, users can now rollover their loans just like the liquidations.
 
 2. **Liquidity to Fulcrum Lend and Torque Borrow tiles**
 
-    We have enabled seeing how much liquidity is available on both Fulcrum and Torque pages. This will allow users to see the availability liquidity during the time.
+     We have enabled seeing how much liquidity is available on both Fulcrum and Torque pages. The update will allow users to see the available liquidity during the time.
 
-3. **Alchemy badge on bZx Homepage**
+3. **Alchemy badge on the bZx Homepage**
 
-    We recently added the Alchemy referral badge to the bZx homepage. You can see it at the bottom of the page [here.](https://bzx.network/)
+    Alchemy supports our blockchain infrastructure. We recently added the Alchemy referral badge to the bZx homepage. You can see it at the bottom of the page [here.](https://bzx.network/)
 
-5. **Torque borrow page performance**
+5. **Torque page performance**
 
-    We’ve improved the overall page performance of the Torque Borrow page. The tiles within the borrow page are now loading faster.
+    We have improved the overall page performance of the [Torque Borrow](https://app.torque.loans/borrow) page. The tiles within the borrow page are now loading faster.
 
 6. **Front-interest bug fixed**
 
@@ -37,7 +37,7 @@ Here’s a look at some of the work we have done on the dev side in the past two
 
 7. **Color coding to the front end values**
 
-    This text under the percentage value are now color-coded. It will show green if it's up and  red if it's down.
+    The text under the percentage value on Fulcrum are now color-coded. It will show green if it's up and  red if it's down.
 
 
 
