@@ -27,21 +27,22 @@ Here’s a look at some of the work we have done on the dev side in the past two
 
       Alchemy supports our blockchain infrastructure. We recently added the Alchemy referral badge to the bZx homepage. You can view it at the bottom of the page [here.](https://bzx.network/)
 
-5. **Torque page performance**
+4. **Torque page performance**
 
     We have improved the overall page performance of the Torque Borrow (https://app.torque.loans/borrow) page. The tiles within the borrow page now load faster.
 
-6. **Front-interest bug fixed**
+5. **Front-interest bug fixed**
 
     Previously, when attempting to front more interest, the UI showed the action failing. We have now fixed this bug.
 
-7. **Color coding to the front end values**
+6. **Color coding to the front end values**
 
     The text beneath the percentage value on Fulcrum is now color-coded. It will show green if positive and red if negative.
 
-8. **Disappearing Positions Info Fixed**
+7. **Disappearing Positions Info Fixed**
 
     We got feedback from users about their position information on Fulcrum not getting displayed on the first load. The problem is now fixed.
+
 
 
 
