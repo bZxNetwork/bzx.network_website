@@ -29,7 +29,7 @@ Here’s a look at some of the work we have done on the dev side in the past two
 
 4. **Torque page performance**
 
-    We have improved the overall page performance of the Torque Borrow (https://app.torque.loans/borrow) page. The tiles within the borrow page now load faster.
+    We have improved the overall page performance of the [Torque Borrow](https://app.torque.loans/borrow) page. The tiles within the borrow page now load faster.
 
 5. **Front-interest bug fixed**
 
