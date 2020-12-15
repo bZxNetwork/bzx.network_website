@@ -21,24 +21,27 @@ Here’s a look at some of the work we have done on the dev side in the past two
 
 2. **Liquidity to Fulcrum Lend and Torque Borrow tiles**
 
-     We have enabled seeing how much liquidity is available on both Fulcrum and Torque pages. The update will allow users to see the available liquidity during the time.
+     We have enabled the ability to see how much liquidity is available on both Fulcrum and Torque pages.
 
-3. **Alchemy badge on the bZx Homepage**
+3. **Alchemy badge on the bZx Homepage**.
 
-    Alchemy supports our blockchain infrastructure. We recently added the Alchemy referral badge to the bZx homepage. You can see it at the bottom of the page [here.](https://bzx.network/)
+      Alchemy supports our blockchain infrastructure. We recently added the Alchemy referral badge to the bZx homepage. You can view it at the bottom of the page [here.](https://bzx.network/)
 
 5. **Torque page performance**
 
-    We have improved the overall page performance of the [Torque Borrow](https://app.torque.loans/borrow) page. The tiles within the borrow page are now loading faster.
+    We have improved the overall page performance of the Torque Borrow (https://app.torque.loans/borrow) page. The tiles within the borrow page now load faster.
 
 6. **Front-interest bug fixed**
 
-    Previously, when attempting to front more interest, the UI showed that the action failed. We have fixed this big and now users will be able to front more interest in Torque.
+    Previously, when attempting to front more interest, the UI showed the action failing. We have now fixed this bug.
 
 7. **Color coding to the front end values**
 
-    The text under the percentage value on Fulcrum are now color-coded. It will show green if it's up and  red if it's down.
+    The text beneath the percentage value on Fulcrum is now color-coded. It will show green if positive and red if negative.
 
+8. **Disappearing Positions Info Fixed**
+
+    We got feedback from users about their position information on Fulcrum not getting displayed on the first load. The problem is now fixed.
 
 
 
