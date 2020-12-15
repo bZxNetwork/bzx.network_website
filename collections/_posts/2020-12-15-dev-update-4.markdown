@@ -1,0 +1,53 @@
+---
+layout: post
+title:  "bZx Biweekly Dev Update # 4"
+date:   2020-12-15 06:45:46 -0700
+cover: /images/blog/Dev update 4.jpg
+author: Bean
+metadescription: "We're always working on improving your experience on bZx through our new features and improvements across the protocol."
+intro: "We're always working on improving your experience on bZx through our new features and improvements across the protocol."
+---
+
+We're always working on improving your experience on Fulcrum and Torque through new features and enhancements to overall strengthening the protocol.
+
+Here’s a look at some of the work we have done on the dev side in the past two weeks.
+
+
+## Updates:
+
+1. **Rollover grid to explorer**
+
+    We have added the rollover grid to the explorer page. With this update, users can now rollover their loans just like the liquidations.
+
+2. **Liquidity to Fulcrum Lend and Torque Borrow tiles**
+
+     We have enabled the ability to see how much liquidity is available on both Fulcrum and Torque pages.
+
+3. **Alchemy badge on the bZx Homepage**.
+
+      Alchemy supports our blockchain infrastructure. We recently added the Alchemy referral badge to the bZx homepage. You can view it at the bottom of the page [here.](https://bzx.network/)
+
+4. **Torque page performance**
+
+    We have improved the overall page performance of the [Torque Borrow](https://app.torque.loans/borrow) page. The tiles within the borrow page now load faster.
+
+5. **Front-interest bug fixed**
+
+    Previously, when attempting to front more interest, the UI showed the action failing. We have now fixed this bug.
+
+6. **Color coding to the front end values**
+
+    The text beneath the percentage value on Fulcrum is now color-coded. It will show green if positive and red if negative.
+
+7. **Disappearing Positions Info Fixed**
+
+    We got feedback from users about their position information on Fulcrum not getting displayed on the first load. The problem is now fixed.
+
+
+
+
+Apart from the above updates, we have added stability tweaks and other performance enhancements to make sure everything's running as smooth as possible.
+
+You can also follow us on [GitHub](http://github.com/bZxNetwork). Pull requests and ideas are always welcome!
+
+As always, please feel free to connect with the team via [Telegram](https://t.me/b0xNet) or [Discord](https://discord.com/invite/DKEq6FV). Check out our [Help Center](https://help.bzx.network/en/) to answer all of your questions about bZx, Fulcrum, and Torque.
