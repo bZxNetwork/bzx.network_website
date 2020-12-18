@@ -18,7 +18,7 @@ This week, we are excited to host the governance call for you as we have some si
 - Staking Update and Guidelines
 - [Developer Update](https://bzx.network/blog/dev-update-4)
 - AAVE critical bug analysis
-- Guest: Chad Lui, Tidal Finance
+- Guest: Chad Liu, Tidal Finance
 - Q & A
 
 
