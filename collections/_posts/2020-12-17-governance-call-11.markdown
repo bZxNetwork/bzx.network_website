@@ -17,7 +17,6 @@ This week, we are excited to host the governance call for you as we have some si
 - Using the insurance fund to act as an ETH-BZRX LP
 - Staking Update and Guidelines
 - [Developer Update](https://bzx.network/blog/dev-update-4)
-- AAVE critical bug analysis
 - Guest: Chad Liu, [Tidal Finance](https://tidal.finance/)
 - Q & A
 
