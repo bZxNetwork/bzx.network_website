@@ -8,7 +8,7 @@ metadescription: "The last couple of weeks have been busy for us as we released 
 intro: "The last couple of weeks have been busy for us as we released number of updates, our roadmap, and recently announced one month to our vBZRX six-month cliff"
 ---
 
-The last couple of weeks have been busy for us as we released number of updates, our roadmap, and recently announced [one month to our vBZRX six-month cliff.](https://bzx.network/blog/an-update-on-vbzrx-holdings)
+The last couple of weeks have been busy for us as we released number of updates, [our tech roadmap for 2021,](https://bzx.network/blog/roadmap-2021) and recently announced [one month to our vBZRX six-month cliff.](https://bzx.network/blog/an-update-on-vbzrx-holdings)
 
 This week, we are excited to host the governance call for you as we have some significant new updates to discuss. The call will happen on Friday, December 18, 2020, at 9 am PST/12 pm EST (17:00 UTC)
 
