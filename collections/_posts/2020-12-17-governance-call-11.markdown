@@ -18,11 +18,14 @@ This week, we are excited to host the governance call for you as we have some si
 - Staking Update and Guidelines
 - [Developer Update](https://bzx.network/blog/dev-update-4)
 - AAVE critical bug analysis
-- Guest: Chad Liu, Tidal Finance
+- Guest: Chad Liu, [Tidal Finance](https://tidal.finance/)
 - Q & A
 
 
+
 This community call will be recorded and uploaded to Youtube for you to watch at your own convenience. You can check the previous community call [here](https://youtu.be/ugfKn5Bu9IU). Subscribe to our [YouTube](https://www.youtube.com/channel/UCc9PZUDy2IMs5j0DcOq3egQ) channel to get notified as we make the calls live.
+
+
 
 
 
