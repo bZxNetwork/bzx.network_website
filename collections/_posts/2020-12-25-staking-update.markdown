@@ -17,7 +17,7 @@ We have been criticized for releasing products previously that haven't met expec
 
 There were improvements we wanted to make, additional tests we wanted to undertake and feedback we received, which we simply couldn’t ignore. On the bright side, the staking platform will be better than ever once it is fully live and our community will benefit from it.  
 
-Meanwhile we would love to hear your thoughts and questions relating to the staking platform in our [forum.](https://forum.bzx.network/) We will publish the contribution forum guidelines in a separate post.
+Meanwhile we would love to hear your thoughts and questions relating to the staking platform in our [forum.](https://forum.bzx.network/)
 
 We appreciate everyone’s patience and please stay tuned!
 
