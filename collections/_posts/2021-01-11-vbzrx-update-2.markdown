@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Attention vBZRX holders: The cliff is ~ 24 hours away"
+title:  "Attention vBZRX holders: The cliff is a few hours away"
 date:   2021-01-11 10:01:46 -0700
 cover: /images/blog/vBZRX Holdings banner-021.jpg
 author: Bean
@@ -8,7 +8,7 @@ metadescription: "Reminder: An update on your vBZRX holdings"
 intro: "Reminder: An update on your vBZRX holdings"
 ---
 
-It has been six months since we launched our vesting token (vBZRX), and with the vesting cliff a few days away, we are sharing the following small reminder to all our vBZRX. The cliff ends on January 12th, 2 am UTC. While we have already [released a detailed blog post](https://bzx.network/blog/an-update-on-vbzrx-holdings), we just thought of sounding you a holler as it's time for you to take action.
+It has been six months since we launched our vesting token (vBZRX), and with the vesting cliff a few hours away, we are sharing the following small reminder to all our vBZRX holders. The cliff ends on January 12th, 2 am UTC. While we have already [released a detailed blog post](https://bzx.network/blog/an-update-on-vbzrx-holdings), we just thought of sounding you a holler as it's time for you to take action.
 
 As we had mentioned earlier, that as per our design, vBZRX itself could not be staked as it does not have any governance rights, nor can it participate in sharing fees. The holders of vBZRX stake the underlying BZRX that is enfolded inside our vesting contract wrapper (vBZRX) and has a vesting period of four years with a 6-month cliff.
 
