@@ -18,7 +18,7 @@ We will be sharing the product and dev updates, integrations, rebranding progres
 - New pair: ETH/WBTC
 - How rollovers work
 - Dev Update
-- Guest: Leart Ulaj, [Ava Labs](https://www.avalabs.org/)
+- Guest: Leart Ulaj, Product Manager at [Ava Labs](https://www.avalabs.org/)
 - Q & A
 
 
