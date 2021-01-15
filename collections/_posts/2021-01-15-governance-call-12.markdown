@@ -8,7 +8,7 @@ metadescription: "We're excited to kickoff the first community call of 2021 this
 intro: "We're excited to kickoff the first community call of 2021 this Friday."
 ---
 
-We're excited to kickoff the first community call of 2021 this Friday, January 15, 2021, at 9 am PST/12 pm EST (17:00 UTC) We will follow the regular biweekly pattern for the community calls starting this week.
+We're excited to kickoff the first community call of 2021 this Friday, January 15, 2021, at 9 am PST/12 pm EST (17:00 UTC). We will follow the regular biweekly pattern for the community calls starting this week.
 
 We will be sharing the product and dev updates, integrations, rebranding progress, partnerships, and more.
 
