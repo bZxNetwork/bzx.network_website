@@ -16,6 +16,7 @@ It has been a busy January month for us working on the key areas of the protocol
 - Fulcrum Update
 - Update on Staking
 - Staking dashboard walkthrough
+- Thoughts on Synthetix on Fulcrum.Trade
 - Dev Update
 - Hiring
 - Q & A
