@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "bZx Community Call # 14"
-date:   2021-2-12 05:24:46 -0700
+date:   2021-2-12 03:24:46 -0700
 cover: /images/blog/bZx Community Call 14.jpg
 author: Gandhi
 metadescription: "On Friday, Feb 12th, we're hosting our next Community Call."
