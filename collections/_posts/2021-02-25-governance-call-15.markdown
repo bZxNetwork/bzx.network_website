@@ -8,7 +8,7 @@ metadescription: "On Friday, Feb 26th, we're hosting our next Community Call."
 intro: "On Friday, Feb 26th, we're hosting our next Community Call."
 ---
 
-While we are working on the necessary updates for the rebrand, we have been improving the backend architecture and are working on extending to a new Layer 1 network. We will talk about these exciting updates and more on the next governance call happening this Friday, February 26th, at 9am PST/12 pm EST (17:00 UTC)
+While we are working on the necessary updates for the rebrand, we have been improving the backend architecture and are working on extending our support to a new Layer 1 network. We will talk about these exciting updates and more on the next governance call happening this Friday, February 26th, at 9am PST/12 pm EST (17:00 UTC)
 
 
 ## Agenda for Community Call # 15:
