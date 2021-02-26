@@ -17,8 +17,8 @@ While we are working on the necessary updates for the rebrand, we have been impr
 - L1 Update
 - Architecture improvements
 - Rebranding (dev) update
-- Guest: Jayden Antonio, COO at [Konomi Network](konomi.network)
 - Hiring
+- Guest: Jayden Antonio, COO at [Konomi Network](konomi.network)
 - Q & A
 
 
